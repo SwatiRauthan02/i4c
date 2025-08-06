@@ -16,9 +16,10 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
 
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        $status = $_POST['status'] ?? '';
-        $expiry_option = $_POST['expiry_option'] ?? '';
-        $custom_expiry = $_POST['custom_expiry'] ?? '';
+        $status = isset($_POST['status']) ? $_POST['status'] : '';
+        $expiry_option = isset($_POST['expiry_option']) ? $_POST['expiry_option'] : '';
+        $custom_expiry = isset($_POST['custom_expiry']) ? $_POST['custom_expiry'] : '';
+
 
         $expiry_date = null;
         $now = new DateTime();
