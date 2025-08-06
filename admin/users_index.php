@@ -23,21 +23,28 @@ if (!empty($search)) {
 }
 
 // Count total rows for pagination
-$totalQuery = "SELECT COUNT(*) AS total FROM users WHERE is_deleted = 0 and role!='admin' $searchSql";
-// $totalQuery = "SELECT COUNT(*) AS total FROM membership_users WHERE role!='admin' $searchSql";
+// $totalQuery = "SELECT COUNT(*) AS total FROM users WHERE is_deleted = 0 and role!='admin' $searchSql";
+$totalQuery = "SELECT COUNT(*) AS total FROM membership_users WHERE role!='admin' $searchSql";
 $totalResult = $conn->query($totalQuery);
 $totalRows = $totalResult->fetch_assoc()['total'];
 $totalPages = ceil($totalRows / $pageSize);
 
 // Fetch paginated data
 // $query = "SELECT * FROM users WHERE is_deleted = 0 $searchSql ORDER BY created_date DESC LIMIT $offset, $pageSize";
-$query = "SELECT users.*, countries.name AS country_name
-          FROM users
-          LEFT JOIN countries ON users.country = countries.code
-          WHERE users.is_deleted = 0 and role!='admin' $searchSql
-          ORDER BY users.created_date DESC
+$query = "SELECT membership_users.*, countries.name AS country_name
+          FROM membership_users
+          LEFT JOIN countries ON membership_users.country_code = countries.code
+          WHERE membership_users.is_deleted = 0 and role!='admin' $searchSql
+          ORDER BY membership_users.created_at DESC
           LIMIT $offset, $pageSize";
 $result = $conn->query($query);
+// $query = "SELECT users.*, countries.name AS country_name
+//           FROM users
+//           LEFT JOIN countries ON users.country = countries.code
+//           WHERE users.is_deleted = 0 and role!='admin' $searchSql
+//           ORDER BY users.created_date DESC
+//           LIMIT $offset, $pageSize";
+// $result = $conn->query($query);
 
 
 if ($result === false) {
