@@ -1,0 +1,221 @@
+{"ideas":[{"idea":{
+	"Symbol": "MCB.TO",
+	"Name": "-1",
+	"Sortino": 91.1248,
+	"Beta": 100,
+	"BullishVolume": 67.082,
+	"PriceUp": 41.43921,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 77.17458,
+	"AggregateScore": 82.403
+}},{"idea":{
+	"Symbol": "CGG.TO",
+	"Name": "China Gold International Resources Corp. Ltd",
+	"Sortino": 94.8139,
+	"Beta": 89.85,
+	"BullishVolume": 70.15,
+	"PriceUp": 51.00671,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 66.88737,
+	"AggregateScore": 81.815
+}},{"idea":{
+	"Symbol": "TXG.TO",
+	"Name": "TOREX GOLD RESOURCES INC",
+	"Sortino": 90.2283,
+	"Beta": 100,
+	"BullishVolume": 60.73,
+	"PriceUp": 46.88889,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 62.88662,
+	"AggregateScore": 80.105
+}},{"idea":{
+	"Symbol": "OGC.TO",
+	"Name": "OCEANAGOLD CORPORATION",
+	"Sortino": 81.9426,
+	"Beta": 100,
+	"BullishVolume": 60.859,
+	"PriceUp": 47.55556,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 59.03423,
+	"AggregateScore": 78.484
+}},{"idea":{
+	"Symbol": "WPM.TO",
+	"Name": "WHEATON PRECIOUS METALS CORP",
+	"Sortino": 78.6067,
+	"Beta": 94.1,
+	"BullishVolume": 53.142,
+	"PriceUp": 48.44444,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 63.09614,
+	"AggregateScore": 76.77
+}},{"idea":{
+	"Symbol": "WTE.TO",
+	"Name": "Westshore Terminals Investment Corporation",
+	"Sortino": 85.2971,
+	"Beta": 73.5,
+	"BullishVolume": 55.482,
+	"PriceUp": 52.44444,
+	"TDI": 99.06806,
+	"TII": 100,
+	"MFI": 55.27496,
+	"AggregateScore": 74.305
+}},{"idea":{
+	"Symbol": "AGI.TO",
+	"Name": "Alamos Gold Inc",
+	"Sortino": 93.0391,
+	"Beta": 50,
+	"BullishVolume": 56.671,
+	"PriceUp": 51.55556,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 66.70341,
+	"AggregateScore": 73.996
+}},{"idea":{
+	"Symbol": "HPS-A.TO",
+	"Name": "Hammond Power Solutions Inc",
+	"Sortino": 99.8,
+	"Beta": 59.8,
+	"BullishVolume": 74.1,
+	"PriceUp": 51.91011,
+	"TDI": 75.15181,
+	"TII": 100,
+	"MFI": 76.47579,
+	"AggregateScore": 73.199
+}},{"idea":{
+	"Symbol": "OR.TO",
+	"Name": "OSISKO GOLD ROYALTIES ORD",
+	"Sortino": 83.1755,
+	"Beta": 50,
+	"BullishVolume": 59.252,
+	"PriceUp": 48.44444,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 70.0705,
+	"AggregateScore": 72.992
+}},{"idea":{
+	"Symbol": "VMD.TO",
+	"Name": "Viemed Healthcare, Inc",
+	"Sortino": 84.0805,
+	"Beta": 100,
+	"BullishVolume": 56.467,
+	"PriceUp": 51.33333,
+	"TDI": 80.685875,
+	"TII": 100,
+	"MFI": 57.40035,
+	"AggregateScore": 72.95
+}},{"idea":{
+	"Symbol": "IMG.TO",
+	"Name": "-1",
+	"Sortino": 75.6243,
+	"Beta": 65.45,
+	"BullishVolume": 57.725,
+	"PriceUp": 50,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 59.19741,
+	"AggregateScore": 72.571
+}},{"idea":{
+	"Symbol": "CSU.TO",
+	"Name": "CONSTELLATION SOFTWARE INC.",
+	"Sortino": 83.634,
+	"Beta": 53.95,
+	"BullishVolume": 50.911,
+	"PriceUp": 53.33333,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 64.7742,
+	"AggregateScore": 72.372
+}},{"idea":{
+	"Symbol": "LUG.TO",
+	"Name": "-1",
+	"Sortino": 89.4681,
+	"Beta": 36.75,
+	"BullishVolume": 56.379,
+	"PriceUp": 51.77778,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 70.73259,
+	"AggregateScore": 72.158
+}},{"idea":{
+	"Symbol": "ELD.TO",
+	"Name": "Eldorado Gold Corporation",
+	"Sortino": 80.8378,
+	"Beta": 50,
+	"BullishVolume": 59.503,
+	"PriceUp": 48.22222,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 65.13627,
+	"AggregateScore": 71.957
+}},{"idea":{
+	"Symbol": "K.TO",
+	"Name": "-1",
+	"Sortino": 66.8474,
+	"Beta": 78.65,
+	"BullishVolume": 52.419,
+	"PriceUp": 46.88889,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 56.39008,
+	"AggregateScore": 71.599
+}},{"idea":{
+	"Symbol": "PAAS.TO",
+	"Name": "PAN AMERICAN SILVER CORP",
+	"Sortino": 59.0879,
+	"Beta": 100,
+	"BullishVolume": 48.513,
+	"PriceUp": 46.44444,
+	"TDI": 93.829995,
+	"TII": 99.56234,
+	"MFI": 56.43346,
+	"AggregateScore": 71.1
+}},{"idea":{
+	"Symbol": "SEA.TO",
+	"Name": "-1",
+	"Sortino": 68.7984,
+	"Beta": 73.9,
+	"BullishVolume": 53.344,
+	"PriceUp": 45.11111,
+	"TDI": 100,
+	"TII": 99.85885,
+	"MFI": 53.76517,
+	"AggregateScore": 70.683
+}},{"idea":{
+	"Symbol": "MNT.TO",
+	"Name": "Royal Canadian Mint - Canadian Gold Reserves",
+	"Sortino": 79.673,
+	"Beta": 50,
+	"BullishVolume": 51.263,
+	"PriceUp": 49.33333,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 63.31431,
+	"AggregateScore": 70.512
+}},{"idea":{
+	"Symbol": "CMMC.TO",
+	"Name": "Copper Mountain Mining Corporation",
+	"Sortino": 68.6309,
+	"Beta": 100,
+	"BullishVolume": 54.073,
+	"PriceUp": 44.66667,
+	"TDI": 88.74864,
+	"TII": 92.66396,
+	"MFI": 55.81708,
+	"AggregateScore": 70.478
+}},{"idea":{
+	"Symbol": "AEM.TO",
+	"Name": "AGNICO EAGLE MINES LIMITED",
+	"Sortino": 70.5708,
+	"Beta": 75.9,
+	"BullishVolume": 54.88,
+	"PriceUp": 47.55556,
+	"TDI": 95.779785,
+	"TII": 99.78752,
+	"MFI": 51.5495,
+	"AggregateScore": 70.258
+}}]}

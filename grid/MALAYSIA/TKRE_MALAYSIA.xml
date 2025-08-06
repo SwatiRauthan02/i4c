@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ticker>
+<header><api version='1'></api></header>
+<CountryCode>MALAYSIA</CountryCode>
+<list count='10' type='element'>
+<element>
+<symbol>6012</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 74%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 14%, 80%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(120, 42%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 84%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(120, 78%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 90%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 22%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(0, 34%, 50%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(120, 62%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 46%, 50%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 64%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>Price action strength has been developing over the past 10 to 15 sessions.  Bullish volume weighted sessions more than doubled those trading bearish in the last 10 sessions.  The last session close was an outlier to the upside. </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,11.3 2,12 3,15.5 4,16.6 5,15.8 6,14.7 7,12.4 8,12.8 9,12 10,14.3 11,12 12,10.5 13,12.8 14,12.4 15,10.5 16,8.2 17,12.8 18,9.7 19,11.3 20,11.6 21,9.3 22,12.4 23,9 24,13.6 25,12.8 26,12.4 27,15.9 28,15.5 29,15.5 30,16.2 31,11.3 32,13.2 33,17.4 34,18.2 35,12.8 36,13.2 37,10.9 38,12.4 39,13.2 40,9.7 41,13.2 42,13.6 43,17.4 44,15.9 45,17.8 46,17.4 47,14.7 48,15.1 49,17 50,15.9 51,17.4 52,22 53,20.5 54,18.5 55,17 56,13.6 57,8.6 58,2.8 59,6.7 60,7 61,6.7 62,6.7 63,9 64,6.7 65,9.3 66,12.4 67,10.1 68,9.7 69,10.5 70,8.2 71,8.2 72,12.1 73,16.7 74,15.1 75,15.9 76,11.3 77,13.2 78,13.2 79,11.7 80,12.8 81,12.1 82,10.9 83,10.9 84,9.3 85,9 86,9.3 87,12.4 88,10.9 89,10.1 90,10.1 91,10.9 92,10.1 93,10.9 94,8.2 95,10.9 96,10.1 97,7 98,10.5 99,2 100,5.1 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='57' cy='8.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='58' cy='2.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='99' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 8%, 80%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 92%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 82%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>5208</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(120, 10%, 80%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 96%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 58%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 42%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 8%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 2%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 30%, 50%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 16%, 80%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 10%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 78%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 44%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bearishness.  Longer term directional characteristics indicate bullishness.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,22 2,22 3,21.6 4,21.6 5,21.1 6,21.3 7,21.1 8,21.1 9,20.5 10,19.8 11,19.1 12,19.1 13,19.2 14,19.6 15,19.2 16,19.6 17,19.6 18,20.2 19,20.2 20,19.6 21,20.4 22,19.8 23,20.5 24,20.9 25,20.9 26,20.9 27,20.9 28,20.9 29,20.9 30,20.5 31,20.5 32,20.5 33,20.7 34,20.5 35,20.9 36,20.9 37,20.9 38,20.9 39,20.7 40,20.9 41,20.9 42,21.1 43,21.1 44,20.9 45,20.9 46,20.7 47,21.1 48,21.1 49,21.1 50,21.1 51,21.3 52,21.5 53,21.5 54,20.7 55,20.9 56,20.7 57,20.5 58,20.5 59,21.1 60,20.7 61,20.9 62,20.5 63,19.8 64,18.5 65,18.5 66,10.9 67,11.1 68,11.7 69,12.3 70,12.1 71,11.3 72,11.3 73,10.4 74,8.3 75,7.9 76,8.3 77,8.5 78,8.7 79,8.7 80,8.7 81,7.9 82,8.3 83,8.1 84,7.7 85,5.8 86,6 87,6.4 88,7.7 89,7.7 90,7 91,6.2 92,5.8 93,5.6 94,5.4 95,2 96,3 97,2.8 98,2.2 99,3.3 100,4.3 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='11' cy='19.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='63' cy='19.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='64' cy='18.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='66' cy='10.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='67' cy='11.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='74' cy='8.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='85' cy='5.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='88' cy='7.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='89' cy='7.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='92' cy='5.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='95' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='100' cy='4.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' >  <animate attributeType='CSS' attributeName='opacity' from='1' to='0' dur='1s' repeatCount='indefinite' /> </circle> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 24%, 80%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 32%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 8%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>5140</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 30%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(120, 8%, 80%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 50%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 62%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 32%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 36%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 10%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 22%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 8%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(120, 16%, 80%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 90%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>Bullish volume weighted sessions more than doubled those trading bearish in the last 10 sessions.  Prices have been successively closing down, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,22 2,22 3,21.9 4,21.9 5,21.9 6,21.8 7,21.7 8,21.7 9,20.8 10,20.3 11,19.7 12,17.9 13,16.7 14,16.8 15,17.5 16,17.4 17,17.2 18,16.5 19,15.9 20,16.6 21,16.2 22,16.9 23,16.8 24,17.4 25,17.7 26,17.5 27,18.1 28,17.6 29,16.8 30,16.6 31,16.8 32,16.7 33,16.9 34,16.2 35,16.2 36,14.9 37,14.4 38,13.6 39,12.2 40,12.9 41,13.3 42,12.7 43,12.2 44,11 45,11.5 46,11 47,11.1 48,9.1 49,10.3 50,9.7 51,10 52,10.5 53,10.1 54,10.5 55,10.4 56,9.7 57,8.9 58,7.5 59,7.8 60,7.4 61,7.4 62,7.8 63,8.1 64,5 65,5.3 66,5.7 67,6.2 68,4.9 69,5.4 70,5.7 71,5.7 72,6 73,5.2 74,4.9 75,5.1 76,5.3 77,6.7 78,7.8 79,4.7 80,4.1 81,2 82,2.4 83,3.3 84,3.2 85,3.7 86,4.5 87,4.8 88,5 89,5.5 90,5 91,4.9 92,2.3 93,2.4 94,2.8 95,2.7 96,2.4 97,3.1 98,3.7 99,3.6 100,3.7 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='7' cy='21.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='9' cy='20.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='10' cy='20.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='12' cy='17.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='13' cy='16.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='19' cy='15.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='21' cy='16.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='22' cy='16.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='23' cy='16.8' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='24' cy='17.4' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='29' cy='16.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='30' cy='16.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='34' cy='16.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='35' cy='16.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='36' cy='14.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='39' cy='12.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='40' cy='12.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='44' cy='11' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='46' cy='11' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='48' cy='9.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='52' cy='10.5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='57' cy='8.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='58' cy='7.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='59' cy='7.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='64' cy='5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='74' cy='4.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='79' cy='4.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='80' cy='4.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='81' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='85' cy='3.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='87' cy='4.8' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='92' cy='2.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 90%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 54%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 20%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>4588</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(120, 36%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 28%, 80%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 42%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 44%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 54%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 70%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 20%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(0, 56%, 50%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 34%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 6%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 84%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>Price action weakness has been developing over the past 10 to 15 sessions.  Longer term directional characteristics indicate bullishness.  Bullish volume weighted sessions more than doubled those trading bearish in the last 10 sessions.  Prices have been successively closing down, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,16.2 2,17.5 3,17.2 4,17 5,16.9 6,16.2 7,16.5 8,16 9,16 10,16.2 11,16.3 12,16.5 13,16.6 14,17.2 15,16.9 16,16.5 17,16.8 18,16.3 19,17 20,17.6 21,16.8 22,16.5 23,17.3 24,16.9 25,16.6 26,17.5 27,17.6 28,17.2 29,17.5 30,17.3 31,17.5 32,17.9 33,18.3 34,19 35,19.3 36,19.6 37,20.4 38,19.2 39,19.7 40,20 41,19.4 42,19.6 43,19.9 44,19.9 45,19.7 46,20 47,19.4 48,19.4 49,20 50,20.9 51,21.3 52,21.9 53,22 54,21 55,20.2 56,19.3 57,18.7 58,20.2 59,17.6 60,18 61,16.5 62,16.3 63,15.3 64,14.8 65,15.6 66,15.3 67,15 68,15.2 69,14.8 70,15 71,13.6 72,13.3 73,10.7 74,11.5 75,9.8 76,9.8 77,6.3 78,7 79,2 80,4.7 81,4.7 82,5 83,6.4 84,5.5 85,4 86,4 87,4 88,4.6 89,5.8 90,6.1 91,6.8 92,7.2 93,4.8 94,4.3 95,4.8 96,4.3 97,5.1 98,5 99,5.7 100,6 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='34' cy='19' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='35' cy='19.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='36' cy='19.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='53' cy='22' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='56' cy='19.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='59' cy='17.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='61' cy='16.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='63' cy='15.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='64' cy='14.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='71' cy='13.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='77' cy='6.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='79' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='83' cy='6.4' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='85' cy='4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='91' cy='6.8' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='92' cy='7.2' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='94' cy='4.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 88%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 86%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 26%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>0205</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 26%, 80%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 50%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 68%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 8%, 80%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(0, 76%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 6%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(0, 4%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 8%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 70%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 20%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 34%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(0, 56%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bearishness.  Bearish volume weighted sessions more than doubled those trading bullish in the last 10 sessions.  Average session trading value has been increasing.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,22 2,22 3,20.7 4,20 5,20 6,18.7 7,20 8,18.1 9,17.4 10,18.1 11,19.4 12,19.4 13,20 14,20.7 15,18.7 16,20 17,20 18,22 19,21.3 20,20.7 21,21.3 22,21.3 23,20.7 24,20.7 25,20.7 26,22 27,21.3 28,18.7 29,16.1 30,16.1 31,18.7 32,18.7 33,18.7 34,10.2 35,13.5 36,9.5 37,10.2 38,9.9 39,12.6 40,11.9 41,11.9 42,12.6 43,10.6 44,10.6 45,10.6 46,10.6 47,11.3 48,11.9 49,12.6 50,12.6 51,12.6 52,13.2 53,14.6 54,13.2 55,13.2 56,11.9 57,10.6 58,9.9 59,10.6 60,11.3 61,7.9 62,7.3 63,6.6 64,7.9 65,7.3 66,7.3 67,6.6 68,4.6 69,6.6 70,7.3 71,7.3 72,6.6 73,6.6 74,2 75,3.3 76,4.6 77,5.3 78,7.3 79,9.9 80,9.3 81,9.9 82,10.6 83,11.3 84,10.6 85,9.9 86,8.6 87,6.6 88,7.9 89,9.3 90,9.3 91,9.3 92,9.3 93,8.6 94,7.9 95,9.3 96,8.6 97,4.6 98,6.6 99,6 100,8.6 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='8' cy='18.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='11' cy='19.4' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='13' cy='20' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='14' cy='20.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='15' cy='18.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='28' cy='18.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='29' cy='16.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='32' cy='18.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='33' cy='18.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='34' cy='10.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='35' cy='13.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='37' cy='10.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='39' cy='12.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='40' cy='11.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='50' cy='12.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='56' cy='11.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='57' cy='10.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='61' cy='7.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='62' cy='7.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='63' cy='6.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='68' cy='4.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='74' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='75' cy='3.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='77' cy='5.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='78' cy='7.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='80' cy='9.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='81' cy='9.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='82' cy='10.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='83' cy='11.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='87' cy='6.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='88' cy='7.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='89' cy='9.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='90' cy='9.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='91' cy='9.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='97' cy='4.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='98' cy='6.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 4%, 80%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 62%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 90%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>7246</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 70%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 26%, 80%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 52%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(0, 52%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 38%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 10%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 38%, 50%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 12%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(0, 90%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bearishness.  Longer term technical characteristics indicate bullishness.  Bearish volume weighted sessions more than doubled those trading bullish in the last 10 sessions.  Prices have been successively closing down, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,21.6 2,21.6 3,21.3 4,21.3 5,19.5 6,21.3 7,20.6 8,20.9 9,20.6 10,20.6 11,20.6 12,20.6 13,19.8 14,20.9 15,20.2 16,17.7 17,19.8 18,20.9 19,20.2 20,19.1 21,19.8 22,20.6 23,20.2 24,20.2 25,20.2 26,20.6 27,21.3 28,20.9 29,20.9 30,20.9 31,20.9 32,21.3 33,21.6 34,21.6 35,21.6 36,20.9 37,21.6 38,21.3 39,21.3 40,20.2 41,19.5 42,18.4 43,20.2 44,19.5 45,20.6 46,20.6 47,20.2 48,20.9 49,21.3 50,20.9 51,20.9 52,22 53,22 54,19.8 55,20.2 56,19.8 57,20.2 58,19.5 59,19.1 60,18.8 61,19.1 62,19.5 63,20.2 64,20.2 65,19.8 66,19.5 67,19.5 68,18 69,16.2 70,16.2 71,15.9 72,16.2 73,15.9 74,13.7 75,13 76,13.7 77,14.1 78,14.4 79,15.5 80,15.2 81,14.7 82,15.5 83,15.5 84,15.5 85,13.6 86,13.2 87,13.6 88,13.2 89,14 90,11.7 91,9.5 92,5.7 93,2 94,4.2 95,3.5 96,2 97,3.5 98,5 99,6.1 100,9.1 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='13' cy='19.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='16' cy='17.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='18' cy='20.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='27' cy='21.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='40' cy='20.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='45' cy='20.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='46' cy='20.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='48' cy='20.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='53' cy='22' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='55' cy='20.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='59' cy='19.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='63' cy='20.2' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='68' cy='18' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='69' cy='16.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='74' cy='13.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='75' cy='13' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='78' cy='14.4' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='85' cy='13.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='86' cy='13.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='87' cy='13.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='91' cy='9.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='92' cy='5.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='93' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='98' cy='5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='99' cy='6.1' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 18%, 80%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 60%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 28%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>5293</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 40%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 60%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(0, 60%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 18%, 80%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 4%, 80%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 14%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 58%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 10%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(0, 8%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(0, 8%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 32%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 40%, 50%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(120, 14%, 80%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 78%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>Prices have been successively closing down, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,22 2,22 3,21.5 4,20.8 5,17 6,16.8 7,17.5 8,17 9,17 10,16.5 11,16.3 12,16.8 13,15.3 14,15.1 15,14.6 16,14.9 17,14.6 18,15.1 19,15.8 20,14.9 21,14.9 22,14.6 23,14.6 24,14.6 25,14.9 26,16.3 27,16.3 28,16.3 29,15.3 30,15.1 31,14.9 32,14.4 33,14.4 34,14.1 35,14.4 36,15.3 37,15.1 38,14.1 39,13.9 40,13.4 41,12.7 42,10.3 43,10.6 44,12 45,11 46,10.6 47,10.6 48,11.8 49,10.8 50,10.8 51,11 52,12.7 53,11.3 54,10.8 55,10.6 56,10.1 57,10.6 58,10.3 59,10.6 60,10.8 61,10.6 62,9.9 63,9.1 64,9.4 65,8 66,7.7 67,6.3 68,7.2 69,6.8 70,6 71,5.8 72,6.5 73,6.8 74,6.3 75,6.5 76,6.5 77,6 78,6 79,6 80,6 81,7.2 82,7.7 83,8.9 84,8 85,7.7 86,7.7 87,7.5 88,7.5 89,7.7 90,6 91,3.7 92,2.2 93,2 94,2 95,2 96,5.6 97,6.8 98,7.7 99,6.8 100,7.2 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='13' cy='15.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='27' cy='16.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='41' cy='12.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='42' cy='10.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='52' cy='12.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='56' cy='10.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='63' cy='9.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='65' cy='8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='82' cy='7.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='83' cy='8.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='91' cy='3.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='93' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='98' cy='7.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 50%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 10%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 38%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 64%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>0059</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 62%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 40%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 32%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 38%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(0, 98%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 14%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 30%, 50%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 10%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 26%, 80%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 30%, 50%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(120, 20%, 80%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 42%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>Longer term technical characteristics indicate bullishness.  Bearish volume weighted sessions more than doubled those trading bullish in the last 10 sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,20.5 2,20.5 3,18.9 4,17.4 5,8.9 6,9.7 7,13.5 8,11.2 9,13.5 10,12 11,10.5 12,12 13,16.6 14,17.4 15,16.6 16,17.4 17,16.6 18,19.7 19,20.5 20,19.7 21,20.5 22,20.5 23,20.5 24,20.5 25,20.5 26,21.2 27,20.5 28,21.2 29,20.5 30,22 31,21.2 32,21.2 33,21.2 34,22 35,22 36,18.9 37,18.2 38,19.7 39,18.9 40,19.7 41,19.7 42,19.7 43,19.7 44,17.4 45,17.4 46,16.6 47,16.6 48,18.9 49,18.2 50,20.5 51,20.5 52,20.5 53,19.7 54,20.5 55,20.5 56,18.9 57,19.7 58,18.2 59,17.4 60,16.6 61,16.6 62,15.8 63,16.6 64,18.2 65,18.2 66,18.2 67,16.6 68,17.4 69,18.9 70,18.9 71,17.4 72,18.2 73,18.2 74,15.8 75,15.8 76,15.8 77,15.8 78,16.6 79,16.6 80,16.6 81,17.4 82,15.8 83,16.6 84,15.8 85,14.3 86,15.1 87,15.8 88,16.6 89,17.4 90,16.6 91,16.6 92,16.6 93,14.3 94,2 95,8.2 96,12 97,12 98,13.5 99,13.5 100,14.3 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='9' cy='13.5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='14' cy='17.4' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='15' cy='16.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='19' cy='20.5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='26' cy='21.2' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='36' cy='18.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='37' cy='18.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='40' cy='19.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='44' cy='17.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='46' cy='16.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='47' cy='16.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='48' cy='18.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='49' cy='18.2' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='50' cy='20.5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='51' cy='20.5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='58' cy='18.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='60' cy='16.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='61' cy='16.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='62' cy='15.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='64' cy='18.2' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='65' cy='18.2' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='67' cy='16.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='69' cy='18.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='70' cy='18.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='74' cy='15.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='75' cy='15.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='78' cy='16.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='81' cy='17.4' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='82' cy='15.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='85' cy='14.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='88' cy='16.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='89' cy='17.4' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='93' cy='14.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='94' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='95' cy='8.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='96' cy='12' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='97' cy='12' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='98' cy='13.5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='99' cy='13.5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='100' cy='14.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' >  <animate attributeType='CSS' attributeName='opacity' from='1' to='0' dur='1s' repeatCount='indefinite' /> </circle> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 10%, 80%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 70%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 78%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 94%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>7207</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 34%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 66%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 56%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 48%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 6%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 16%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 14%, 80%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 20%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 68%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 12%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bearishness.  Price action weakness has been developing over the past 10 to 15 sessions.  Bearish volume weighted sessions more than doubled those trading bullish in the last 10 sessions.  Average session trading value has been increasing.  Prices have been successively closing down, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,19.2 2,19.2 3,18.8 4,19.2 5,18.4 6,17.2 7,18.8 8,18 9,17.6 10,18.4 11,18 12,18 13,18.4 14,18.4 15,19.2 16,19.2 17,19.2 18,20 19,19.6 20,19.2 21,18.4 22,18.8 23,19.2 24,19.2 25,19.2 26,19.2 27,19.2 28,18.8 29,19.2 30,19.2 31,19.2 32,19.6 33,20 34,20 35,20.4 36,19.6 37,19.2 38,19.2 39,19.6 40,19.6 41,19.6 42,19.6 43,18.8 44,19.6 45,20 46,20 47,19.6 48,20 49,20.4 50,20 51,20 52,21.6 53,21.6 54,22 55,20.4 56,20.4 57,20 58,20 59,18.4 60,18.4 61,17.2 62,17.2 63,17.2 64,16.3 65,14.7 66,13.5 67,13.1 68,12.3 69,15.1 70,9.8 71,9.8 72,9 73,7.7 74,6.1 75,6.5 76,7.7 77,7.7 78,6.5 79,6.5 80,7.3 81,7.3 82,7.7 83,9.4 84,9.4 85,9.4 86,9 87,9.4 88,10.6 89,11.4 90,10.2 91,10.6 92,9.8 93,7.7 94,5.3 95,2.4 96,2 97,4.1 98,5.7 99,7.7 100,9.8 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='59' cy='18.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='61' cy='17.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='62' cy='17.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='65' cy='14.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='66' cy='13.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='70' cy='9.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='84' cy='9.4' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='94' cy='5.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='95' cy='2.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='98' cy='5.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='99' cy='7.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 60%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 50%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 34%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>0126</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 50%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 42%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(0, 44%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 16%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 6%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 4%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 28%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 18%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(0, 22%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bearishness.  Longer term technical characteristics indicate bullishness.  Bearish volume weighted sessions more than doubled those trading bullish in the last 10 sessions.  Average session trading value has been increasing.  Prices have been successively closing down, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,14.8 2,15.4 3,14.8 4,14.3 5,15.1 6,14.6 7,16.4 8,17.5 9,16.2 10,17 11,17.5 12,18 13,17.5 14,18 15,19.3 16,20.1 17,20.7 18,20.7 19,20.4 20,20.1 21,19.9 22,19.3 23,19.3 24,18.3 25,18.5 26,22 27,22 28,19.6 29,19.3 30,18.8 31,18.5 32,18 33,18 34,17.7 35,17.5 36,17.7 37,17.2 38,16.7 39,17 40,16.4 41,16.2 42,15.9 43,15.4 44,15.4 45,15.4 46,15.1 47,15.4 48,16.7 49,15.9 50,15.6 51,15.4 52,16.4 53,17 54,16.4 55,16.2 56,15.9 57,15.6 58,15.4 59,15.9 60,15.9 61,16.2 62,16.7 63,17 64,16.7 65,17 66,16.4 67,16.7 68,16.2 69,17.2 70,16.7 71,16.4 72,15.9 73,16.2 74,16.2 75,15.6 76,15.4 77,14.8 78,14.6 79,14.8 80,15.1 81,14.8 82,9.2 83,8.7 84,8.1 85,7.1 86,5.5 87,5.2 88,4.1 89,5.5 90,7.6 91,6 92,6.5 93,7.1 94,4.7 95,3.3 96,2 97,2.8 98,3.9 99,5.2 100,8.1 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='17' cy='20.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='27' cy='22' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='31' cy='18.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='82' cy='9.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='87' cy='5.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='94' cy='4.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='99' cy='5.2' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 12%, 80%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 76%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 32%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+</list>
+</ticker>

@@ -1,0 +1,14 @@
+﻿{
+ "countrycode":"AUSTRALIA",
+ "date":"2025-07-30",
+ "export_time":"02:25:10",
+ "buy_count":1,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"ABB",
+   "name":"ABB.AX",
+   "recordnumber":2376159
+  }
+ ]
+}

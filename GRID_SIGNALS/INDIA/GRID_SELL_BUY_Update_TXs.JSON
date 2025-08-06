@@ -1,0 +1,70 @@
+﻿{
+ "countrycode":"INDIA",
+ "date":"2025-07-30",
+ "export_time":"07:41:55",
+ "sell_count":2,
+ "buy_count":4,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"GODREJAGRO",
+   "name":"GODREJ AGROVET LTD",
+   "numshares":400,
+   "weightednumshares":400,
+   "NOVInumshares":400,
+   "tsid":"",
+   "recordnumber":6919
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"SHARDACROP",
+   "name":"SHARDA CROPCHEM",
+   "numshares":400,
+   "weightednumshares":400,
+   "NOVInumshares":400,
+   "tsid":"",
+   "recordnumber":6957
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"MOLDTKPAC",
+   "name":"MOLD-TEK PACKAGING",
+   "numshares":500,
+   "weightednumshares":500,
+   "NOVInumshares":500,
+   "tsid":"",
+   "recordnumber":8119
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"OMAXAUTO",
+   "name":"Omax Autos Ltd",
+   "numshares":2800,
+   "weightednumshares":2800,
+   "NOVInumshares":2800,
+   "tsid":"",
+   "recordnumber":8120
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"EIDPARRY",
+   "name":"E.I.D.- Parry (India) Limited",
+   "numshares":300,
+   "weightednumshares":300,
+   "NOVInumshares":300,
+   "tsid":"",
+   "recordnumber":8121
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"SUDARSCHEM",
+   "name":"SUDARSHAN CHEMICAL",
+   "numshares":300,
+   "weightednumshares":300,
+   "NOVInumshares":300,
+   "tsid":"",
+   "recordnumber":8122
+  }
+ ]
+}

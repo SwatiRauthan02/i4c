@@ -1,0 +1,38 @@
+﻿{
+ "countrycode":"New Zealand",
+ "date":"2020-10-30",
+ "sell_count":0,
+ "buy_count":6,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"FSF",
+   "numshares":1200
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"MPG",
+   "numshares":15300
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"GMT",
+   "numshares":2300
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"AMP",
+   "numshares":3500
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"HLG",
+   "numshares":900
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"AWF",
+   "numshares":3800
+  }
+ ]
+}

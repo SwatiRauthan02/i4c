@@ -1,0 +1,254 @@
+﻿{
+ "countrycode":"US",
+ "date":"2025-07-29",
+ "export_time":"13:37:00",
+ "buy_count":41,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"AWI",
+   "name":"Armstrong World Industries Inc",
+   "recordnumber":2371999
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"CLS",
+   "name":"Celestica Inc.",
+   "recordnumber":2372023
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"NUE",
+   "name":"Nucor Corp",
+   "recordnumber":2372144
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"SSD",
+   "name":"Simpson Manufacturing Company Inc",
+   "recordnumber":2372194
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"AMKR",
+   "name":"Amkor Technology Inc",
+   "recordnumber":2372510
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"ASPN",
+   "name":"Aspen Aerogels Inc",
+   "recordnumber":2372616
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"AUDC",
+   "name":"AudioCodes Ltd",
+   "recordnumber":2372650
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"BWEN",
+   "name":"Broadwind Energy Inc",
+   "recordnumber":2372866
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"CBRE",
+   "name":"CBRE Group Inc Class A",
+   "recordnumber":2372912
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"CECO",
+   "name":"CECO Environmental Corp.",
+   "recordnumber":2372939
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"CELC",
+   "name":"Celcuity LLC",
+   "recordnumber":2372941
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"CIGI",
+   "name":"Colliers International Group Inc Bats",
+   "recordnumber":2372980
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"COSM",
+   "name":"Cosmos Health Inc.",
+   "recordnumber":2373073
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"CSGP",
+   "name":"CoStar Group Inc",
+   "recordnumber":2373118
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"CSTM",
+   "name":"Constellium Nv",
+   "recordnumber":2373124
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"DALN",
+   "name":"Dallasnews Corp",
+   "recordnumber":2373188
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"DOOO",
+   "name":"BRP Inc",
+   "recordnumber":2373252
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"ENLV",
+   "name":"Enlivex Therapeutics Ltd",
+   "recordnumber":2373354
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"GLW",
+   "name":"Corning Incorporated",
+   "recordnumber":2373608
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"GTLS",
+   "name":"Chart Industries Inc",
+   "recordnumber":2373660
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"HCM",
+   "name":"HUTCHMED  DRC",
+   "recordnumber":2373684
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"INCY",
+   "name":"Incyte Corporation",
+   "recordnumber":2373823
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"IRWD",
+   "name":"Ironwood Pharmaceuticals Inc",
+   "recordnumber":2373870
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"ITW",
+   "name":"Illinois Tool Works Inc",
+   "recordnumber":2373880
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"J",
+   "name":"Jacobs Solutions Inc.",
+   "recordnumber":2373888
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"LASR",
+   "name":"nLIGHT Inc",
+   "recordnumber":2373990
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"MCVT",
+   "name":"Mill City Ventures III Ltd",
+   "recordnumber":2374129
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"MOD",
+   "name":"Modine Manufacturing Company",
+   "recordnumber":2374213
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"NEGG",
+   "name":"Newegg Commerce Inc",
+   "recordnumber":2374303
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"NMRK",
+   "name":"Newmark Group Inc",
+   "recordnumber":2374333
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"NOVA",
+   "name":"Sunnova Energy International Inc",
+   "recordnumber":2374348
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"OLO",
+   "name":"Olo Inc",
+   "recordnumber":2374455
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"PII",
+   "name":"Polaris Industries Inc",
+   "recordnumber":2374580
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"RF",
+   "name":"Regions Financial Corporation",
+   "recordnumber":2374744
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"RMBS",
+   "name":"Rambus Inc",
+   "recordnumber":2374773
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"ROCK",
+   "name":"Gibraltar Industries Inc",
+   "recordnumber":2374785
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"SIFY",
+   "name":"Sify Technologies Limited",
+   "recordnumber":2374905
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"SRDX",
+   "name":"SurModics Inc",
+   "recordnumber":2375012
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"XGN",
+   "name":"Exagen Inc",
+   "recordnumber":2375477
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"XPON",
+   "name":"Expion360 Inc",
+   "recordnumber":2375490
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"ZIMV",
+   "name":"ZimVie Inc",
+   "recordnumber":2375521
+  }
+ ]
+}

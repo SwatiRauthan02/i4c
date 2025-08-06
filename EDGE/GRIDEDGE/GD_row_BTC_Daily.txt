@@ -1,0 +1,37 @@
+<TR><TD>Daily</TD>
+
+<TD class='item' title='Score: 39'><svg width='32' height='20'>
+<polygon points="20,15 9,14.8 9.1,13.7 9.3,12.6 9.6,11.5 10,10.4 10.5,9.4 11.2,8.4 11.9,7.5 12.7,6.7 13.6,6 14.6,5.4 15.6,4.9 20,15" style="fill:hsl(0, 22%, 80%); fill-opacity='0.9'; stroke:black; stroke-width:0.5" />
+Sorry, your browser does not support inline SVG.
+</svg>
+</TD><TD class='item' title='Price action weakness has been developing over the past 10 to 15 sessions.  Longer term relative strength characteristics indicate bearishness.  There is decreasing volume and price, with volatility diminishing.  Bearish volume weighted sessions more than doubled those trading bullish in the last 10 sessions.  '><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 38%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 12%, 80%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 2%, 80%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 56%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 4%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 80%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 20%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(0, 14%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(0, 46%, 50%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 46%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 88%, 50%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(120, 80%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 4%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></TD>
+<TD class='item' title='Last 100 Daily price bars'><svg width='100' height='25'>
+<polyline points="1,40.6 2,22 3,19.3 4,21 5,20.3 6,21.5 7,20.4 8,20.1 9,17.2 10,17.1 11,17.2 12,18.6 13,16 14,15 15,15.3 16,15 17,16.5 18,17 19,18.4 20,16.4 21,16.3 22,15.4 23,14.9 24,15.1 25,14.6 26,15 27,12.8 28,13.4 29,12.7 30,13 31,14.6 32,14.6 33,14.5 34,14.7 35,14.6 36,15.5 37,13.7 38,14 39,13.1 40,13.6 41,14.7 42,14.7 43,13.6 44,12.3 45,12.2 46,12.1 47,11.5 48,11.2 49,11.3 50,7.4 51,7.9 52,7.2 53,6.6 54,6.9 55,7 56,6.5 57,6 58,2.8 59,3.5 60,4.5 61,7.6 62,8.2 63,7.3 64,5.4 65,3.6 66,5.4 67,5.1 68,4 69,3.8 70,3.6 71,4.7 72,6.4 73,5.9 74,5.9 75,7.6 76,6.9 77,7.2 78,5.8 79,4.4 80,5 81,3.9 82,4.9 83,2 84,4.6 85,4.1 86,3.6 87,4.2 88,4 89,3.7 90,3.6 91,3.6 92,3.2 93,5.6 94,4.8 95,4.8 96,5.3 97,5 98,4.6 99,4.8 100,5.1 101,5.4 102,5.2 103,5.5 104,4 105,4.2 106,5.5 107,5.5 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='12' cy='18.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='17' cy='16.5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='19' cy='18.4' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='23' cy='14.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='27' cy='12.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='28' cy='13.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='32' cy='14.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='37' cy='13.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='44' cy='12.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='50' cy='7.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='51' cy='7.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='58' cy='2.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='63' cy='7.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='73' cy='5.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='79' cy='4.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='83' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='104' cy='4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></TD>
+<TD class='item' align='center' title='Prices have been successively closing down, especially in recent sessions.  There is decreased volume.  Sortino Ratio indicates lowered risk. (1.14)  '><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 62%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 36%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 56%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></TD>
+
+</TR>

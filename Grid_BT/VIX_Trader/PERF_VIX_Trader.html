@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>I4CFinancial Performance Report</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/bootstrap.min.css">
+  <script type="text/javascript" src="../../Grid_HTML/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../../Grid_HTML/js/bootstrap.min.js"></script>
+
+  <!-- custom style sheet -->
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/style.css">
+
+  <!-- map loader -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    google.charts.load('current', {
+    packages: ['corechart', 'line']
+  });
+  google.charts.setOnLoadCallback(drawBackgroundColor);
+
+  function drawBackgroundColor() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'Closed');
+    data.addColumn('number', 'Total');
+    data.addColumn('number', 'Baseline(^GSPC)');
+    
+
+    data.addRows([
+                    [ new Date(2020, 0, 6), 99138, 99138, 100000], 
+         [ new Date(2020, 0, 7), 99138, 99138, 99720], 
+         [ new Date(2020, 0, 8), 99572, 99572, 100209], 
+         [ new Date(2020, 0, 9), 99572, 99572, 100875], 
+         [ new Date(2020, 0, 10), 99572, 99572, 100587], 
+         [ new Date(2020, 0, 13), 99572, 99572, 101289], 
+         [ new Date(2020, 0, 14), 99572, 99572, 101136], 
+         [ new Date(2020, 0, 15), 99572, 99572, 101325], 
+         [ new Date(2020, 0, 16), 99572, 99572, 102173], 
+         [ new Date(2020, 0, 17), 99572, 99572, 102567], 
+         [ new Date(2020, 0, 21), 99572, 99572, 102295], 
+         [ new Date(2020, 0, 22), 99572, 99572, 102325], 
+         [ new Date(2020, 0, 23), 99572, 99572, 102442], 
+         [ new Date(2020, 0, 24), 99572, 99572, 101515], 
+         [ new Date(2020, 0, 27), 99678, 99678, 99918], 
+         [ new Date(2020, 0, 28), 99678, 99678, 100923], 
+         [ new Date(2020, 0, 29), 99678, 99678, 100835], 
+         [ new Date(2020, 0, 30), 98862, 98862, 101151], 
+         [ new Date(2020, 0, 31), 100566, 100566, 99360], 
+         [ new Date(2020, 1, 3), 100566, 100566, 100081], 
+         [ new Date(2020, 1, 4), 100566, 100566, 101581], 
+         [ new Date(2020, 1, 5), 100566, 100566, 102723], 
+         [ new Date(2020, 1, 6), 100566, 100566, 103065], 
+         [ new Date(2020, 1, 7), 100801, 100801, 102508], 
+         [ new Date(2020, 1, 10), 99786, 99786, 103259], 
+         [ new Date(2020, 1, 11), 99786, 99786, 103434], 
+         [ new Date(2020, 1, 12), 99786, 99786, 104102], 
+         [ new Date(2020, 1, 13), 99786, 99786, 103933], 
+         [ new Date(2020, 1, 14), 99786, 99786, 104124], 
+         [ new Date(2020, 1, 18), 99786, 99786, 103820], 
+         [ new Date(2020, 1, 19), 99786, 99786, 104309], 
+         [ new Date(2020, 1, 20), 99786, 99786, 103911], 
+         [ new Date(2020, 1, 21), 100469, 100469, 102818], 
+         [ new Date(2020, 1, 24), 101421, 101421, 99372], 
+         [ new Date(2020, 1, 25), 101421, 101421, 96363], 
+         [ new Date(2020, 1, 26), 101421, 101421, 95999], 
+         [ new Date(2020, 1, 27), 103934, 103934, 91759], 
+         [ new Date(2020, 1, 28), 102814, 102814, 91003], 
+         [ new Date(2020, 2, 2), 102814, 102814, 95193], 
+         [ new Date(2020, 2, 3), 102814, 102814, 92517], 
+         [ new Date(2020, 2, 4), 102814, 102814, 96422], 
+         [ new Date(2020, 2, 5), 104367, 104367, 93151], 
+         [ new Date(2020, 2, 6), 103822, 103822, 91562], 
+         [ new Date(2020, 2, 9), 107342, 107342, 84606], 
+         [ new Date(2020, 2, 10), 107342, 107342, 88786], 
+         [ new Date(2020, 2, 11), 110711, 110711, 84447], 
+         [ new Date(2020, 2, 12), 116720, 116720, 76415], 
+         [ new Date(2020, 2, 13), 116720, 116720, 83512], 
+         [ new Date(2020, 2, 16), 121618, 121618, 73504], 
+         [ new Date(2020, 2, 17), 121618, 121618, 77910], 
+         [ new Date(2020, 2, 18), 123154, 123154, 73872], 
+         [ new Date(2020, 2, 19), 122518, 122518, 74220], 
+         [ new Date(2020, 2, 20), 122518, 122518, 71002], 
+         [ new Date(2020, 2, 23), 124650, 124650, 68922], 
+         [ new Date(2020, 2, 24), 124650, 124650, 75389], 
+         [ new Date(2020, 2, 25), 124350, 124350, 76258], 
+         [ new Date(2020, 2, 26), 124450, 124450, 81018], 
+         [ new Date(2020, 2, 27), 125750, 125750, 78289], 
+         [ new Date(2020, 2, 30), 129750, 129750, 80913], 
+         [ new Date(2020, 2, 31), 129950, 129950, 79617], 
+         [ new Date(2020, 3, 1), 130950, 130950, 76102], 
+         [ new Date(2020, 3, 2), 130950, 130950, 77840], 
+         [ new Date(2020, 3, 3), 130950, 130950, 76662], 
+         [ new Date(2020, 3, 6), 130950, 130950, 82053], 
+         [ new Date(2020, 3, 7), 130950, 130950, 81922], 
+         [ new Date(2020, 3, 8), 130950, 130950, 84712], 
+         [ new Date(2020, 3, 9), 128898, 128898, 85939], 
+         [ new Date(2020, 3, 13), 128898, 128898, 85071], 
+         [ new Date(2020, 3, 14), 128898, 128898, 87671], 
+         [ new Date(2020, 3, 15), 128898, 128898, 85740], 
+         [ new Date(2020, 3, 16), 128898, 128898, 86239], 
+         [ new Date(2020, 3, 17), 128898, 128898, 88549], 
+         [ new Date(2020, 3, 20), 128898, 128898, 86966], 
+         [ new Date(2020, 3, 21), 128898, 128898, 84298], 
+         [ new Date(2020, 3, 22), 128898, 128898, 86231], 
+         [ new Date(2020, 3, 23), 513242, 513242, 86185], 
+         [ new Date(2020, 3, 24), 513242, 513242, 87384], 
+         [ new Date(2020, 3, 27), 513242, 513242, 88670], 
+         [ new Date(2020, 3, 28), 513242, 513242, 88205], 
+         [ new Date(2020, 3, 29), 513242, 513242, 90550], 
+         [ new Date(2020, 3, 30), 513242, 513242, 89716], 
+         [ new Date(2020, 4, 1), 512849, 512849, 87199], 
+         [ new Date(2020, 4, 4), 512849, 512849, 87569], 
+         [ new Date(2020, 4, 5), 512849, 512849, 87569]
+    ]);
+
+    var options = {
+      title:'Historical Performance (Closed & Total Positions) - VIX Trader',
+      legend: {position: 'bottom'},
+      hAxis: {
+        title: 'From inception'
+      },
+      vAxis: {
+        title: 'Equity Curve'
+      },
+      backgroundColor: '#f1f8e9',
+      series: {
+            0: { color: '#99B731' },
+            1: { color: '#2471A3' },
+            2: { color: '#999' },
+            
+            }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+    }
+  </script>
+  <div class="container-fluid logo_container">
+    <div class="container text-right logo">
+      <a href="#"><img src="../../Grid_HTML/images/i4cfinancial_Logo.png"></a>
+    </div>
+  </div>
+  <div class="container header_container">
+    <h2 class="report_name">Performance Report - VIX Trader</h2>
+    <h4 class="report_description">Quantitative Opportunistic Volatility </h4>
+    <h4 class="report_description">The strategy actively monitors the main equity and volatility indices, taking positions in index proxies based on a proprietary technical evaluation of daily expectation. The system is effective in active bullish and bearish markets, and remains in cash otherwise.</h4>
+    <h4 class="report_description">Forward test from inception 2020/01/06 to 2020/05/05</h4>
+  </div>
+  <div class="container chart_container">
+    <div id="chart_div" class="chart"></div>
+  </div>
+  <div class="container overview_container">
+    <h2 class="report_sub_head">Overview</h2>
+    <div class="overview_tab">
+   <table class="overview_table">
+        <tr>
+          <td>Annualized Returns:</td>
+          <td>2,135.85%</td>
+          <td>Average Win Size:</td>
+          <td>30,642.27</td>
+        <tr>
+        </tr>
+          <td>Maximum Drawdown:</td>
+          <td>1.57%</td>
+          <td>Average Loss Size:</td>
+          <td>1,322.19</td>
+       <tr>
+        </tr>
+           <td>Return over Maximum Drawdown:</td>
+          <td>1,360.41</td>
+          <td>Win/Loss Size Ratio:</td>
+          <td>23.18</td>
+        <tr>
+        </tr>
+          <td>Sharpe Ratio (Annualized):</td>
+          <td>1.81</td>
+          <td>Number of Closed and Open Positions:</td>
+          <td>39</td>
+        <tr>
+        </tr>
+          <td>Sortino Ratio (Annualized):</td>
+          <td>214.61</td>
+          <td>Average Trade Size:</td>
+          <td>87,079.23</td>
+        <tr>
+        </tr>
+          <td>Number of Wins:</td>
+          <td>25</td>
+          <td>Average Closed Trade Duration:</td>
+          <td>1 days</td>
+        <tr>
+        </tr>
+          <td>Number of Losses:</td>
+          <td>14</td>
+          <td>Last Session Move:</td>
+          <td>0.00 (0.00%), Baseline move: (0.00%)</td>
+        <tr>
+        </tr>
+          <td>Win/Loss Count Ratio:</td>
+          <td>1.79  (64% winners)</td>
+          <td>Cash holdings of 512,848.90</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="container monthly_container">
+    <h2 class="report_sub_head">Monthly Absolute Returns:</h2>
+    <div class="monthly_table">
+      <Table width="70%"><TR><TH style=width:"11%"><FONT STYLE="text-align:center">&nbsp;</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jan</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Feb</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Mar</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Apr</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">May </FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jun</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jul</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Aug</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Sep</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Oct</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Nov</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Dec</FONT></TH><TH style="border: 1px solid black" width:"11%"><FONT STYLE="text-align:center">Total</FONT></TH></TR><TR><TD><strong><font style="text-align:right">2020</strong></TD><TD style="text-align:center"><font style="color:green">0.6</font></TD><TD style="text-align:center"><font style="color:green">2.2</font></TD><TD style="text-align:center"><font style="color:green">27.1</font></TD><TD style="text-align:center"><font style="color:green">383.3</font></TD><TD style="text-align:center"><font style="color:red">-0.4</font></TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center"><font style="color:green">412.8</font></TD></TR></Table>
+    </div>
+  </div>
+  <div class="container position_container">
+    <h2 class="report_sub_head"><!OpenPositionsHeader></h2>
+    <div class="position_table">
+      <!PortfolioList>
+    </div>
+  </div>
+  <div class="container sold_container">
+    <h2 class="report_sub_head inner_head"><!SoldTodayHeader></h2>
+    <div class="sold_table">
+      <p><!SoldTodayList><p>
+    </div>
+    <h2 class="report_sub_head inner_head"><!PendingBuysHeader></h2>
+
+    <div class="buys_table">
+      <p><!PendingBuysList><p>
+    </div>
+
+    <h2 class="report_sub_head inner_head">Notes:</h2>
+    <ul>
+      <li>Annualized returns reflect compounded daily excess returns above risk-free rate, assuming 240 trading days per year.</li>
+      <li>No leverage, equally weighted allocations.</li>
+      <li>Exits on target achieved or dynamic proprietary trailing stop posted.  These trailing stops, combined with minimum rank entry rules lead to the imposition of 'go-to-cash' and 'stay-in-cash' rules if there is a broad market bearish turn.</li>
+      
+    </ul>
+    <div class="notes_table">
+      <p>The performance data quoted represents past performance. Past performance does not guarantee future results. The investment return and principal value of an investment will fluctuate so that an investor's position, when redeemed, may be worth more or less than the original cost. Current performance may be lower or higher than the performance data quoted. Investors should consider the investment objectives, risks, and charges and expenses of the above system carefully before investing.<p>
+    </div>
+    <p class="session">Last Session Date: 2020/05/05</p>
+  </div>
+</body>
+</html>

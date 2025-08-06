@@ -1,0 +1,250 @@
+﻿{
+ "countrycode":"PHILIPPINES",
+ "date":"2022-11-04",
+ "export_time":"19:48:23",
+ "sell_count":19,
+ "buy_count":5,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"PLC",
+   "name":"Premium Leisure Corp.",
+   "numshares":568000,
+   "weightednumshares":568000,
+   "NOVInumshares":574600,
+   "tsid":"",
+   "recordnumber":4038
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"MM",
+   "name":"MerryMart Consumer Corp.",
+   "numshares":142800,
+   "weightednumshares":142800,
+   "NOVInumshares":147000,
+   "tsid":"",
+   "recordnumber":4383
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"SSI",
+   "name":"SSI Group, Inc.",
+   "numshares":129800,
+   "weightednumshares":129800,
+   "NOVInumshares":127300,
+   "tsid":"",
+   "recordnumber":4385
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"ALLDY",
+   "name":"AllDay Marts Inc",
+   "numshares":388700,
+   "weightednumshares":388700,
+   "NOVInumshares":388800,
+   "tsid":"",
+   "recordnumber":4654
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"JFC",
+   "name":"Jollibee Foods Corporation",
+   "numshares":400,
+   "weightednumshares":400,
+   "NOVInumshares":400,
+   "tsid":"",
+   "recordnumber":4693
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"SHLPH",
+   "name":"Pilipinas Shell Petroleum Corporation",
+   "numshares":9400,
+   "weightednumshares":9400,
+   "NOVInumshares":9500,
+   "tsid":"",
+   "recordnumber":4861
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"MAC",
+   "name":"MacroAsia Corporation",
+   "numshares":40300,
+   "weightednumshares":40300,
+   "NOVInumshares":39200,
+   "tsid":"",
+   "recordnumber":4949
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"FGEN",
+   "name":"First Gen Corporation",
+   "numshares":10200,
+   "weightednumshares":10200,
+   "NOVInumshares":10300,
+   "tsid":"",
+   "recordnumber":5078
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"PHES",
+   "name":"Philippine Estates Corporation",
+   "numshares":476000,
+   "weightednumshares":476000,
+   "NOVInumshares":481800,
+   "tsid":"",
+   "recordnumber":5112
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"SGP",
+   "name":"Synergy Grid & Development Phils., Inc.",
+   "numshares":7500,
+   "weightednumshares":7500,
+   "NOVInumshares":7500,
+   "tsid":"",
+   "recordnumber":5396
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"BRN",
+   "name":"A Brown Company, Inc.",
+   "numshares":164600,
+   "weightednumshares":164600,
+   "NOVInumshares":162700,
+   "tsid":"",
+   "recordnumber":5397
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"APL",
+   "name":"Apollo Global Capital, Inc.",
+   "numshares":3498900,
+   "weightednumshares":3498900,
+   "NOVInumshares":3414300,
+   "tsid":"",
+   "recordnumber":5433
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"BC",
+   "name":"Benguet Corporation",
+   "numshares":24400,
+   "weightednumshares":24400,
+   "NOVInumshares":24600,
+   "tsid":"",
+   "recordnumber":5541
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"ROCK",
+   "name":"Rockwell Land Corporation",
+   "numshares":68000,
+   "weightednumshares":68000,
+   "NOVInumshares":69900,
+   "tsid":"",
+   "recordnumber":5577
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"VUL",
+   "name":"Vulcan Industrial & Mining Corporation",
+   "numshares":214900,
+   "weightednumshares":214900,
+   "NOVInumshares":217300,
+   "tsid":"",
+   "recordnumber":5658
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"LAND",
+   "name":"City & Land Developers, Incorporated",
+   "numshares":210400,
+   "weightednumshares":210400,
+   "NOVInumshares":199900,
+   "tsid":"",
+   "recordnumber":5688
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"CHP",
+   "name":"Cemex Holdings Philippines, Inc.",
+   "numshares":246800,
+   "weightednumshares":246800,
+   "NOVInumshares":246800,
+   "tsid":"",
+   "recordnumber":6086
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"PHR",
+   "name":"PH Resorts Group Holdings, Inc.",
+   "numshares":181700,
+   "weightednumshares":181700,
+   "NOVInumshares":183400,
+   "tsid":"",
+   "recordnumber":6205
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"EEI",
+   "name":"EEI Corporation",
+   "numshares":39400,
+   "weightednumshares":39400,
+   "NOVInumshares":37500,
+   "tsid":"",
+   "recordnumber":6798
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"URC",
+   "name":"Universal Robina Corporation",
+   "numshares":1500,
+   "weightednumshares":1500,
+   "NOVInumshares":1500,
+   "tsid":"",
+   "recordnumber":33520
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"WLCON",
+   "name":"Wilcon Depot, Inc.",
+   "numshares":6600,
+   "weightednumshares":6600,
+   "NOVInumshares":6600,
+   "tsid":"",
+   "recordnumber":33558
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"LR",
+   "name":"Leisure & Resorts World Corporation",
+   "numshares":68900,
+   "weightednumshares":68900,
+   "NOVInumshares":68900,
+   "tsid":"",
+   "recordnumber":33778
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"MEDIC",
+   "name":"Medilines Distributors Inc",
+   "numshares":235200,
+   "weightednumshares":235200,
+   "NOVInumshares":235200,
+   "tsid":"",
+   "recordnumber":33851
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"EAGLE",
+   "name":"Eagle Cement Corporation",
+   "numshares":9400,
+   "weightednumshares":9400,
+   "NOVInumshares":9400,
+   "tsid":"",
+   "recordnumber":33970
+  }
+ ]
+}

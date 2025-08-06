@@ -1,0 +1,14 @@
+﻿{
+ "countrycode":"TORONTO",
+ "date":"2023-04-17",
+ "export_time":"14:01:51",
+ "buy_count":1,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"FM",
+   "name":"First Quantum Minerals Ltd.",
+   "recordnumber":276190
+  }
+ ]
+}

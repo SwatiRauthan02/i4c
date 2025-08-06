@@ -1,0 +1,221 @@
+{"ideas":[{"idea":{
+	"Symbol": "DV8.BK",
+	"Name": "DV8 PCL",
+	"Sortino": 72.4085,
+	"Beta": 94.6,
+	"BullishVolume": 82.39,
+	"PriceUp": 31.5508,
+	"TDI": 100,
+	"TII": 98.80174,
+	"MFI": 81.72503,
+	"AggregateScore": 80.211
+}},{"idea":{
+	"Symbol": "CCET.BK",
+	"Name": "CAL-COMP ELECTRONICS (THAILAND) PCL.",
+	"Sortino": 99.8,
+	"Beta": 57.65,
+	"BullishVolume": 80.361,
+	"PriceUp": 41.29353,
+	"TDI": 100,
+	"TII": 99.9804,
+	"MFI": 79.02239,
+	"AggregateScore": 79.73
+}},{"idea":{
+	"Symbol": "MCOT.BK",
+	"Name": "MCOT PCL",
+	"Sortino": 79.3215,
+	"Beta": 100,
+	"BullishVolume": 70.181,
+	"PriceUp": 34.76071,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 62.55167,
+	"AggregateScore": 78.116
+}},{"idea":{
+	"Symbol": "NDR.BK",
+	"Name": "N.D. Rubber PCL",
+	"Sortino": 75.7219,
+	"Beta": 89.8,
+	"BullishVolume": 59.336,
+	"PriceUp": 41.66667,
+	"TDI": 100,
+	"TII": 99.87856,
+	"MFI": 55.4556,
+	"AggregateScore": 74.551
+}},{"idea":{
+	"Symbol": "MFC.BK",
+	"Name": "MFC ASSET MANAGEMENT PCL",
+	"Sortino": 70.1668,
+	"Beta": 34.6,
+	"BullishVolume": 91.952,
+	"PriceUp": 32.42574,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 84.30068,
+	"AggregateScore": 73.349
+}},{"idea":{
+	"Symbol": "CPI.BK",
+	"Name": "Chumporn Palm Oil Industry PCL",
+	"Sortino": 68.8625,
+	"Beta": 58.9,
+	"BullishVolume": 65.625,
+	"PriceUp": 32.5,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 84.79604,
+	"AggregateScore": 72.955
+}},{"idea":{
+	"Symbol": "SDC.BK",
+	"Name": "SAMART DIGITAL PCL",
+	"Sortino": 91.0933,
+	"Beta": 100,
+	"BullishVolume": 56.663,
+	"PriceUp": 19.11111,
+	"TDI": 100,
+	"TII": 87.72167,
+	"MFI": 47.09299,
+	"AggregateScore": 71.669
+}},{"idea":{
+	"Symbol": "APP.BK",
+	"Name": "APPLICAD PCL",
+	"Sortino": 53.0735,
+	"Beta": 94.15,
+	"BullishVolume": 66.799,
+	"PriceUp": 34.49074,
+	"TDI": 88.941475,
+	"TII": 99.96734,
+	"MFI": 75.14976,
+	"AggregateScore": 71.645
+}},{"idea":{
+	"Symbol": "MDX.BK",
+	"Name": "M.D.X. PCL",
+	"Sortino": 66.9945,
+	"Beta": 23.5,
+	"BullishVolume": 90.142,
+	"PriceUp": 37.7451,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 76.27939,
+	"AggregateScore": 70.666
+}},{"idea":{
+	"Symbol": "SAMTEL.BK",
+	"Name": "SAMTEL_SAMART TELCOMS",
+	"Sortino": 70.7382,
+	"Beta": 38.9,
+	"BullishVolume": 65.886,
+	"PriceUp": 38.09524,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 79.14351,
+	"AggregateScore": 70.395
+}},{"idea":{
+	"Symbol": "ACC.BK",
+	"Name": "ADVANCED CONNECTION CORPORATION PCL",
+	"Sortino": 69.2275,
+	"Beta": 57.8,
+	"BullishVolume": 51.394,
+	"PriceUp": 37.65586,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 71.41338,
+	"AggregateScore": 69.642
+}},{"idea":{
+	"Symbol": "AF.BK",
+	"Name": "AIRA Factoring PCL",
+	"Sortino": 56.7293,
+	"Beta": 100,
+	"BullishVolume": 60.958,
+	"PriceUp": 28.82206,
+	"TDI": 93.09631,
+	"TII": 97.30795,
+	"MFI": 57.38466,
+	"AggregateScore": 69.628
+}},{"idea":{
+	"Symbol": "INTUCH.BK",
+	"Name": "Intouch Holdings PCL",
+	"Sortino": 83.5997,
+	"Beta": 28.2,
+	"BullishVolume": 63.036,
+	"PriceUp": 43.97906,
+	"TDI": 99.57695,
+	"TII": 100,
+	"MFI": 66.17874,
+	"AggregateScore": 69.164
+}},{"idea":{
+	"Symbol": "THCOM.BK",
+	"Name": "Thaicom PCL",
+	"Sortino": 67.4682,
+	"Beta": 57.15,
+	"BullishVolume": 52.988,
+	"PriceUp": 44.08867,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 60.07202,
+	"AggregateScore": 68.824
+}},{"idea":{
+	"Symbol": "K.BK",
+	"Name": "KINGSMEN C.M.T.I. PCL",
+	"Sortino": 67.6458,
+	"Beta": 35.1,
+	"BullishVolume": 80.667,
+	"PriceUp": 36.85446,
+	"TDI": 86.57447,
+	"TII": 99.13649,
+	"MFI": 84.42833,
+	"AggregateScore": 68.14
+}},{"idea":{
+	"Symbol": "ML.BK",
+	"Name": "MIDA LEASING PCL.",
+	"Sortino": 55.2202,
+	"Beta": 100,
+	"BullishVolume": 35.893,
+	"PriceUp": 33.83085,
+	"TDI": 87.01261,
+	"TII": 100,
+	"MFI": 72.98237,
+	"AggregateScore": 67.422
+}},{"idea":{
+	"Symbol": "KWI.BK",
+	"Name": "KWI PCL",
+	"Sortino": 46.2785,
+	"Beta": 54.55,
+	"BullishVolume": 76.765,
+	"PriceUp": 29.92701,
+	"TDI": 94.13458,
+	"TII": 97.97489,
+	"MFI": 76.63698,
+	"AggregateScore": 67.2
+}},{"idea":{
+	"Symbol": "CIG.BK",
+	"Name": "C.I.GROUP PCL",
+	"Sortino": 60.0701,
+	"Beta": 100,
+	"BullishVolume": 53.164,
+	"PriceUp": 24.75248,
+	"TDI": 86.666665,
+	"TII": 95.65214,
+	"MFI": 63.15986,
+	"AggregateScore": 67.162
+}},{"idea":{
+	"Symbol": "PIN.BK",
+	"Name": "PINTHONG INDUSTRIAL PARK PCL",
+	"Sortino": 96.5783,
+	"Beta": 40.6,
+	"BullishVolume": 75.261,
+	"PriceUp": 36.9515,
+	"TDI": 81.21751,
+	"TII": 100,
+	"MFI": 57.01417,
+	"AggregateScore": 66.977
+}},{"idea":{
+	"Symbol": "WHAUP.BK",
+	"Name": "WHA Utilities and Power PCL",
+	"Sortino": 80.284,
+	"Beta": 26.5,
+	"BullishVolume": 54.67,
+	"PriceUp": 40.18692,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 65.54575,
+	"AggregateScore": 66.741
+}}]}

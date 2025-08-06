@@ -1,0 +1,168 @@
+  <link rel="icon" type="image/x-icon" href="../assets/images/i4cfinancial_Logo_only.ico">
+  <link rel="stylesheet" type="text/css" href="../GRID_HTML/css/bootstrap.min.css?a=1">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style_site.css">
+  <link rel="stylesheet" type="text/css" href="../Grid_Ticker/css/tooltipster.bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="../Grid_Ticker/css/tooltipster-sideTip-borderless.min.css" />
+  <script type="text/javascript" src="../Grid_Ticker/js/tooltipster.bundle.min.js"></script>
+  <script type="text/javascript" src="../GRID_HTML/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../GRID_HTML/js/bootstrap.min.js"></script>
+<style type="text/css"> 
+    .elements_table{margin-top: 40px !important;}
+    .opportunities_container{padding: 0;}
+    .graph_table{width: 100% !important;}
+    .graph_table {display: table;border-collapse: separate;border-spacing: 5px;border-color: grey;}
+    .graph_table .top th {text-align:center;padding:10px;border:1px solid #000;font-family: PoppinsMedium; color: #333;font-size: 14px;text-align: center;}
+    .graph_table .top td {padding: 15px;text-align: center;width: 60px;height: 90px;}
+    .empty_head{border: none !important;}
+    .graph_table td {font-family: RobotoRegular;color: #333;font-size: 14px;padding: 0px;}
+
+    .term_1,.term_2,.term_3,.term_5{background-color: #00FF00;}
+    .term_4{background-color: #FA0505;}
+    .term_6{background-color: #4FB04F;}
+    .term_7,.term_8,.term_15,.term_16{background-color: #1EE11E;}
+    .term_9{background-color: #05FA05;}
+    .term_10{background-color: #cccccc;}
+    .term_11{background-color: #42BD42;}
+    .term_12{background-color: #38C738;}
+    .term_13{background-color: #14EB14;}
+    .term_14{background-color: #C5D3C5;}
+    .trade_1{background-color: #FF0000;}
+    .trade_2,.trade_4{background-color: #00FF00;}
+    .trade_3{background-color: #CBCDCB;}
+
+    @media (min-width:993px) and (max-width:1199px){
+      .graph_table .top td {width: 60px !important;height: 75px !important;}
+    }
+    @media (min-width:768px) and (max-width:992px){
+      .graph_table .top td {width: 60px !important;height: 60px !important;}
+    }
+    @media (min-width:631px) and (max-width:767px){
+      .graph_table .top td {width: 50px !important;height: 50px !important;}
+      .elements_table{overflow-x: auto !important;min-width: 100% !important;overflow-y: hidden;}
+      .graph_table .top th,.graph_table .bottom th{font-size: 12px !important;}
+      .graph_table td{font-size: 12px !important;}
+    }
+    @media (min-width:451px) and (max-width:630px){
+      .graph_table .top td {width: 50px !important;height: 40px !important;}
+      .elements_table{overflow-x: auto !important;min-width: 100% !important;overflow-y: hidden;}
+      .graph_table .top th,.graph_table .bottom th{font-size: 11px !important;}
+      .graph_table td, .detail_table th{font-size: 11px !important;}
+    }
+    @media (min-width:320px) and (max-width:450px){
+      .graph_table .top td {width: 50px !important;height: 40px !important;}
+      .elements_table{overflow-x: auto !important;min-width: 100% !important;overflow-y: hidden;}
+      .graph_table .top th,.graph_table .bottom th{font-size: 11px !important;}
+      .graph_table td, .detail_table th{font-size: 11px !important;}
+    }
+  </style>
+
+  <!-- <div class="container-fluid logo_container">
+    <div class="container text-right logo">
+      <a href="#"><img src="grid/images/i4cfinancial_Logo.png"></a>
+    </div>
+  </div> -->
+
+  <!-- <div class="container opportunities_container">
+    <h2 class="report_sub_head"></h2> -->
+    <div class="elements_table">
+      <table class="graph_table">
+        <tbody>
+          <tr class="top">
+            <th colspan="3" align="center">Long term</th>
+            <th colspan="3" align="center">Intermediate term</th>
+            <th colspan="2" align="center">Short term</th>
+            <th align="center" class="empty_head">&nbsp;</th>
+            <th colspan="2" align="center">Tradability</th>
+          </tr>
+          <tr class="top">
+            <td class="term_1">1</td>
+            <td class="term_2">2</td>
+            <td class="term_3">3</td>
+            <td class="term_4">4</td>
+            <td class="term_5">5</td>
+            <td class="term_6">6</td>
+            <td class="term_7">7</td>
+            <td class="term_8">8</td>
+            <td class="empty_row_elem">&nbsp;</td>
+            <!-- <td class="empty_row_elem">&nbsp;</td> -->
+            <td class="trade_1">1</td>
+            <td class="trade_2">2</td>
+          </tr>
+          <tr class="top">
+            <td class="term_9">9</td>
+            <td class="term_10">10</td>
+            <td class="term_11">11</td>
+            <td class="term_12">12</td>
+            <td class="term_13">13</td>
+            <td class="term_14">14</td>
+            <td class="term_15">15</td>
+            <td class="term_16">16</td>
+            <!-- <td class="empty_row_elem">&nbsp;</td> -->
+            <td class="empty_row_elem">&nbsp;</td>
+            <td class="trade_3">3</td>
+            <td class="trade_4">4</td>
+          </tr>
+        <!-- </tbody>
+      </table>
+      <table  class="detail_table">
+        <tbody> -->
+          <tr class="bottom">
+            <th colspan="3">&nbsp;</th>
+            <th colspan="3">&nbsp;</th>
+            <th colspan="2">&nbsp;</th>
+            <th>&nbsp;</th>
+            <th colspan="2"></th>
+          </tr>
+          <tr class="bottom">
+            <th colspan="3" align="left">Long term:</th>
+            <th colspan="3" align="left">Intermediate term:</th>
+            <th colspan="2" align="left">Short term:</th>
+            <th align="center" class="empty_head">&nbsp;</th>
+            <th colspan="2" align="left">Tradability:</th>
+          </tr>
+          <tr class="bottom">
+            <td colspan="3">1) Trend indication</td>
+            <td colspan="3">4) Momentum</td>
+            <td colspan="2">7) Buy-sell pressure</td>
+            <td></td>
+            <td colspan="2">1) Trading value</td>
+          </tr>
+          <tr class="bottom">
+            <td colspan="3">2) Trend direction</td>
+            <td colspan="3">5) Trend indication</td>
+            <td colspan="2">8) Last day move</td>
+            <td></td>
+            <td colspan="2">2) Healthy volume</td>
+          </tr>
+          <tr class="bottom">
+            <td colspan="3">3) Directional strength</td>
+            <td colspan="3">6) Trend to noise</td>
+            <td colspan="2">15) Last day range</td>
+            <td></td>
+            <td colspan="2">3) Prices ascending</td>
+          </tr>
+          <tr class="bottom">
+            <td colspan="3">9) Volatility</td>
+            <td colspan="3">12) Money Flow</td>
+            <td colspan="2">16) Last day change</td>
+            <td></td>
+            <td colspan="2">9) Last bar outlier</td>
+          </tr>
+          <tr class="bottom">
+            <td colspan="3">10) Statistical variance</td>
+            <td colspan="3">13) Stochastic movement</td>
+            <td colspan="2"></td>
+            <td></td>
+            <td colspan="2"></td>
+          </tr>
+          <tr class="bottom">
+            <td colspan="3">11) Relative Strength</td>
+            <td colspan="3">14) Volume support</td>
+            <td colspan="2"></td>
+            <td></td>
+            <td colspan="2"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  <!-- </div> -->

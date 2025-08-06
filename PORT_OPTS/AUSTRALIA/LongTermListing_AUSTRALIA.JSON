@@ -1,0 +1,221 @@
+{"ideas":[{"idea":{
+	"Symbol": "FND.AX",
+	"Name": "FINDILIM FPO [FND]",
+	"Sortino": 99.8,
+	"Beta": 77.05,
+	"BullishVolume": 62.047,
+	"PriceUp": 42.27053,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 59.91991,
+	"AggregateScore": 77.298
+}},{"idea":{
+	"Symbol": "HLI.AX",
+	"Name": "HELIA GRP FPO [HLI]",
+	"Sortino": 78.1764,
+	"Beta": 36.7,
+	"BullishVolume": 48.077,
+	"PriceUp": 50.22222,
+	"TDI": 98.711795,
+	"TII": 99.4951,
+	"MFI": 66.31471,
+	"AggregateScore": 68.058
+}},{"idea":{
+	"Symbol": "AGX1.AX",
+	"Name": "AT GBL SHR TMF UNITS",
+	"Sortino": 88.6993,
+	"Beta": 31.7,
+	"BullishVolume": 44.384,
+	"PriceUp": 48.77506,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 56.17733,
+	"AggregateScore": 67.105
+}},{"idea":{
+	"Symbol": "KYP.AX",
+	"Name": "KINATICO FPO [KYP]",
+	"Sortino": 74.9833,
+	"Beta": 62.55,
+	"BullishVolume": 49.932,
+	"PriceUp": 30.50847,
+	"TDI": 90.423475,
+	"TII": 100,
+	"MFI": 69.07893,
+	"AggregateScore": 66.843
+}},{"idea":{
+	"Symbol": "RG8.AX",
+	"Name": "REGALASIAN FPO [RG8]",
+	"Sortino": 69.5056,
+	"Beta": 37.85,
+	"BullishVolume": 62.457,
+	"PriceUp": 41.33333,
+	"TDI": 96.867055,
+	"TII": 99.6566,
+	"MFI": 58.89085,
+	"AggregateScore": 66.204
+}},{"idea":{
+	"Symbol": "LLI.AX",
+	"Name": "LOYALLITH FPO [LLI]",
+	"Sortino": 59.6757,
+	"Beta": 100,
+	"BullishVolume": 58.009,
+	"PriceUp": 37.53501,
+	"TDI": 72.071945,
+	"TII": 77.94136,
+	"MFI": 59.48657,
+	"AggregateScore": 62.399
+}},{"idea":{
+	"Symbol": "AXN.AX",
+	"Name": "ALLI NCKL FPO [AXN]",
+	"Sortino": 66.2797,
+	"Beta": -21.4,
+	"BullishVolume": 75.5,
+	"PriceUp": 34.04255,
+	"TDI": 93.68932,
+	"TII": 98.63527,
+	"MFI": 54.95562,
+	"AggregateScore": 56.485
+}},{"idea":{
+	"Symbol": "HYT.AX",
+	"Name": "HYTERRA FPO [HYT]",
+	"Sortino": 93.7529,
+	"Beta": 24.2,
+	"BullishVolume": 48.672,
+	"PriceUp": 31.65829,
+	"TDI": 69.42338,
+	"TII": 98.36608,
+	"MFI": 57.97721,
+	"AggregateScore": 56.21
+}},{"idea":{
+	"Symbol": "EEL.AX",
+	"Name": "ENRGELELTD FPO [EEL]",
+	"Sortino": 73.8066,
+	"Beta": 100,
+	"BullishVolume": 66.316,
+	"PriceUp": 23.46939,
+	"TDI": 34.30497,
+	"TII": 32.17409,
+	"MFI": 54.85142,
+	"AggregateScore": 54.573
+}},{"idea":{
+	"Symbol": "USL.AX",
+	"Name": "UNICOSILVE FPO [USL]",
+	"Sortino": 85.7601,
+	"Beta": -48,
+	"BullishVolume": 50.46,
+	"PriceUp": 36.64303,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 57.03635,
+	"AggregateScore": 54.557
+}},{"idea":{
+	"Symbol": "PVT.AX",
+	"Name": "PVTMETALS FPO [PVT]",
+	"Sortino": 65.2586,
+	"Beta": 100,
+	"BullishVolume": 63.936,
+	"PriceUp": 31.81818,
+	"TDI": 27.287315,
+	"TII": 0.01675,
+	"MFI": 74.20611,
+	"AggregateScore": 54.38
+}},{"idea":{
+	"Symbol": "EMMG.AX",
+	"Name": "BETAMCEMMG TMF UNITS",
+	"Sortino": 77.4181,
+	"Beta": 7.55,
+	"BullishVolume": 19.034,
+	"PriceUp": 47.33333,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 13.80523,
+	"AggregateScore": 52.163
+}},{"idea":{
+	"Symbol": "MOM.AX",
+	"Name": "MOABMIN FPO [MOM]",
+	"Sortino": 76.5129,
+	"Beta": 45.25,
+	"BullishVolume": 66.488,
+	"PriceUp": 18.125,
+	"TDI": 18.609845,
+	"TII": 18.14271,
+	"MFI": 59.04656,
+	"AggregateScore": 49.478
+}},{"idea":{
+	"Symbol": "IMPQ.AX",
+	"Name": "EIVST IMPQ TMF UNITS",
+	"Sortino": 67.7562,
+	"Beta": 17.9,
+	"BullishVolume": 54.364,
+	"PriceUp": 46,
+	"TDI": 56.73278,
+	"TII": 83.24745,
+	"MFI": 61.95236,
+	"AggregateScore": 49.241
+}},{"idea":{
+	"Symbol": "EINC.AX",
+	"Name": "BETAMCEINC TMF UNITS",
+	"Sortino": 68.6816,
+	"Beta": 48.4,
+	"BullishVolume": 52.6,
+	"PriceUp": 49.23469,
+	"TDI": 50,
+	"TII": 62.80075,
+	"MFI": 62.83346,
+	"AggregateScore": 49.222
+}},{"idea":{
+	"Symbol": "RINC.AX",
+	"Name": "BETAMCRINC TMF UNITS",
+	"Sortino": 64.0843,
+	"Beta": 38.35,
+	"BullishVolume": 46.148,
+	"PriceUp": 45.75893,
+	"TDI": 50,
+	"TII": 93.32007,
+	"MFI": 55.67474,
+	"AggregateScore": 49.048
+}},{"idea":{
+	"Symbol": "SVR.AX",
+	"Name": "Solvar Limited",
+	"Sortino": 60.3199,
+	"Beta": 47.1,
+	"BullishVolume": 25.202,
+	"PriceUp": 46.44444,
+	"TDI": 50,
+	"TII": 98.6327,
+	"MFI": 64.46627,
+	"AggregateScore": 48.881
+}},{"idea":{
+	"Symbol": "TVN.AX",
+	"Name": "TIVAN LTD FPO [TVN]",
+	"Sortino": 62.6915,
+	"Beta": 100,
+	"BullishVolume": 47.638,
+	"PriceUp": 35.49884,
+	"TDI": 58.46079,
+	"TII": 39.29613,
+	"MFI": 36.61512,
+	"AggregateScore": 48.38
+}},{"idea":{
+	"Symbol": "FPR.AX",
+	"Name": "FleetPartners Group Limited",
+	"Sortino": 86.5338,
+	"Beta": 84.25,
+	"BullishVolume": 60.616,
+	"PriceUp": 49.11111,
+	"TDI": 50,
+	"TII": 2.27805,
+	"MFI": 50.83231,
+	"AggregateScore": 47.66
+}},{"idea":{
+	"Symbol": "ETM.AX",
+	"Name": "ETRANSMIN FPO [ETM]",
+	"Sortino": 59.9982,
+	"Beta": 29.9,
+	"BullishVolume": 44.853,
+	"PriceUp": 32.65766,
+	"TDI": 74.05537,
+	"TII": 63.09904,
+	"MFI": 47.42259,
+	"AggregateScore": 46.577
+}}]}

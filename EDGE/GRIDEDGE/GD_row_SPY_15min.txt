@@ -1,0 +1,37 @@
+<TR><TD>15 minute</TD>
+
+<TD class='item' title='Score: 72.6'><svg width='32' height='20'>
+<polygon points="20,15 9,14.8 9.1,13.7 9.3,12.6 9.6,11.5 10,10.4 10.5,9.4 11.2,8.4 11.9,7.5 12.7,6.7 13.6,6 14.6,5.4 15.6,4.9 16.7,4.5 17.8,4.2 18.9,4.1 20.1,4 21.2,4.1 22.3,4.3 23.5,4.6 24.5,5 25.5,5.5 26.5,6.1 20,15" style="fill:hsl(120, 44%, 50%); fill-opacity='0.9'; stroke:black; stroke-width:0.5" />
+Sorry, your browser does not support inline SVG.
+</svg>
+</TD><TD class='item' title='The last 2 bars exhibit short-term trader bearishness.  Price action strength has been developing strongly over the past 10 to 15 bars.  Longer term technical characteristics indicate bullishness.  Bullish volume weighted bars more than doubled those trading bearish in the last 10 bars.  '><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 80%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(120, 92%, 50%)' />
+<rect x='25' y='0' width='7' height='7' style='fill:hsl(120, 44%, 50%)' />
+<rect x='33' y='0' width='7' height='7' style='fill:hsl(120, 92%, 50%)' />
+<rect x='41' y='0' width='7' height='7' style='fill:hsl(120, 88%, 50%)' />
+<rect x='49' y='0' width='7' height='7' style='fill:hsl(0, 96%, 50%)' />
+<rect x='57' y='0' width='7' height='7' style='fill:hsl(0, 16%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 98%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 40%, 50%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 24%, 80%)' />
+<rect x='25' y='8' width='7' height='7' style='fill:hsl(120, 52%, 50%)' />
+<rect x='33' y='8' width='7' height='7' style='fill:hsl(120, 4%, 80%)' />
+<rect x='41' y='8' width='7' height='7' style='fill:hsl(120, 62%, 50%)' />
+<rect x='49' y='8' width='7' height='7' style='fill:hsl(0, 72%, 50%)' />
+<rect x='57' y='8' width='7' height='7' style='fill:hsl(0, 16%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></TD>
+<TD class='item' title='Last 100 15 minute price bars'><svg width='100' height='25'>
+<polyline points="1,13.4 2,13 3,12.6 4,11.7 5,10.7 6,10.8 7,10.3 8,11.1 9,11.9 10,12 11,12.4 12,11.7 13,11.4 14,11.1 15,10.2 16,10.4 17,11.3 18,9.9 19,10.5 20,15 21,16.4 22,17.3 23,14.3 24,16.9 25,19.1 26,16.7 27,14.9 28,15 29,16.1 30,16.9 31,17.5 32,17.5 33,17.8 34,16.6 35,16.6 36,16.3 37,16.8 38,16.1 39,15.2 40,15.4 41,17.6 42,17.8 43,16.7 44,17.2 45,17.2 46,17.6 47,19.7 48,22 49,11.8 50,11.4 51,14.1 52,12.9 53,12 54,13.8 55,12 56,11.7 57,9.6 58,9.5 59,9.6 60,9.4 61,10.4 62,9.9 63,9.3 64,10.6 65,10.4 66,10.9 67,10.9 68,12.2 69,13.1 70,12.8 71,13 72,13.2 73,14.5 74,13.7 75,6.9 76,6.1 77,5.1 78,5.4 79,6.4 80,6 81,5.2 82,4.4 83,3.7 84,3.8 85,3.8 86,4 87,3.3 88,3.3 89,3.9 90,4.5 91,5.2 92,5.3 93,4.6 94,4.3 95,4.5 96,4 97,3.9 98,3.3 99,2 100,2 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='24' cy='16.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='25' cy='19.1' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='32' cy='17.5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='33' cy='17.8' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='49' cy='11.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='55' cy='12' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='57' cy='9.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='61' cy='10.4' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='69' cy='13.1' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='75' cy='6.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='99' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='100' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' >  <animate attributeType='CSS' attributeName='opacity' from='1' to='0' dur='1s' repeatCount='indefinite' /> </circle> Sorry, your browser does not support inline SVG.
+</svg></TD>
+<TD class='item' align='center' title='Average bar trading value has been increasing.  Prices have been successively closing up, especially in recent bars.  There is substantially increased volume.  Recent volume is bullish.  Sortino Ratio indicates lowered risk. (6.48)  '><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 76%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 90%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 58%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></TD>
+
+</TR>

@@ -1,0 +1,1 @@
+[Stock_List]SymbolExchange	sortino_ratio_raw	sortino_ratio_normalised	ta_score	risk_score	combo_score	CQR	BetaVST	3.108	99.8	61.69	73.11	67.25	5	2.72TSM	5.238	99.8	59.12	64.06	63.65	5	1.59

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>I4CFinancial Performance Report</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+
+  <!-- custom style sheet -->
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  <!-- map loader -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    google.charts.load('current', {
+    packages: ['corechart', 'line']
+  });
+  google.charts.setOnLoadCallback(drawBackgroundColor);
+
+  function drawBackgroundColor() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'Closed');
+    data.addColumn('number', 'Total');
+
+    data.addRows([
+                    [ new Date(2017, 4, 5), 100000, 139356], 
+         [ new Date(2017, 4, 8), 100000, 139356], 
+         [ new Date(2017, 4, 9), 100000, 139356], 
+         [ new Date(2017, 4, 10), 100000, 139356], 
+         [ new Date(2017, 4, 11), 100000, 139356], 
+         [ new Date(2017, 4, 12), 100000, 139356], 
+         [ new Date(2017, 4, 15), 100000, 139356], 
+         [ new Date(2017, 4, 16), 100000, 139356], 
+         [ new Date(2017, 4, 17), 100000, 139356], 
+         [ new Date(2017, 4, 18), 100000, 139356], 
+         [ new Date(2017, 4, 19), 100000, 139356], 
+         [ new Date(2017, 4, 22), 100000, 139356], 
+         [ new Date(2017, 4, 23), 100000, 139356], 
+         [ new Date(2017, 4, 24), 100000, 139356], 
+         [ new Date(2017, 4, 25), 100000, 139356], 
+         [ new Date(2017, 4, 26), 100000, 139575], 
+         [ new Date(2017, 4, 30), 100000, 139575], 
+         [ new Date(2017, 4, 31), 100000, 136255], 
+         [ new Date(2017, 5, 1), 100000, 136505], 
+         [ new Date(2017, 5, 2), 100000, 136676], 
+         [ new Date(2017, 5, 5), 100000, 136664], 
+         [ new Date(2017, 5, 6), 100000, 143147], 
+         [ new Date(2017, 5, 7), 100000, 143147], 
+         [ new Date(2017, 5, 8), 100000, 143147], 
+         [ new Date(2017, 5, 9), 100000, 143147], 
+         [ new Date(2017, 5, 12), 100000, 133279], 
+         [ new Date(2017, 5, 13), 100000, 133386], 
+         [ new Date(2017, 5, 14), 100000, 143535], 
+         [ new Date(2017, 5, 15), 100000, 143307], 
+         [ new Date(2017, 5, 16), 100000, 137520], 
+         [ new Date(2017, 5, 19), 100000, 137757], 
+         [ new Date(2017, 5, 20), 100000, 137757], 
+         [ new Date(2017, 5, 21), 100000, 130996], 
+         [ new Date(2017, 5, 22), 100000, 130960], 
+         [ new Date(2017, 5, 23), 100000, 139772], 
+         [ new Date(2017, 5, 26), 100000, 139867], 
+         [ new Date(2017, 5, 27), 100000, 129665], 
+         [ new Date(2017, 5, 28), 100000, 129825], 
+         [ new Date(2017, 5, 29), 100000, 139730], 
+         [ new Date(2017, 5, 30), 100000, 130262], 
+         [ new Date(2017, 6, 3), 100000, 134439], 
+         [ new Date(2017, 6, 5), 100000, 134338], 
+         [ new Date(2017, 6, 6), 100000, 126473], 
+         [ new Date(2017, 6, 7), 100000, 123345], 
+         [ new Date(2017, 6, 10), 100000, 136494], 
+         [ new Date(2017, 6, 11), 100000, 139637], 
+         [ new Date(2017, 6, 12), 100000, 139936], 
+         [ new Date(2017, 6, 13), 100000, 139990], 
+         [ new Date(2017, 6, 14), 100000, 140177], 
+         [ new Date(2017, 6, 17), 100000, 140200], 
+         [ new Date(2017, 6, 18), 100000, 140177], 
+         [ new Date(2017, 6, 19), 100000, 140388], 
+         [ new Date(2017, 6, 20), 100000, 140412], 
+         [ new Date(2017, 6, 21), 100000, 140319], 
+         [ new Date(2017, 6, 24), 100000, 140312], 
+         [ new Date(2017, 6, 25), 100000, 140528], 
+         [ new Date(2017, 6, 26), 100000, 140512], 
+         [ new Date(2017, 6, 27), 100000, 140541], 
+         [ new Date(2017, 6, 28), 100000, 131441], 
+         [ new Date(2017, 6, 31), 100000, 125889], 
+         [ new Date(2017, 7, 1), 100000, 129011], 
+         [ new Date(2017, 7, 2), 100000, 134455], 
+         [ new Date(2017, 7, 3), 100000, 137820], 
+         [ new Date(2017, 7, 4), 100000, 137830], 
+         [ new Date(2017, 7, 7), 100000, 137870], 
+         [ new Date(2017, 7, 8), 100000, 137830], 
+         [ new Date(2017, 7, 9), 100000, 137736], 
+         [ new Date(2017, 7, 10), 100000, 114135], 
+         [ new Date(2017, 7, 11), 100000, 105524], 
+         [ new Date(2017, 7, 14), 100000, 131497], 
+         [ new Date(2017, 7, 15), 100000, 131497], 
+         [ new Date(2017, 7, 16), 100000, 140248], 
+         [ new Date(2017, 7, 17), 100000, 123480], 
+         [ new Date(2017, 7, 18), 100000, 113686], 
+         [ new Date(2017, 7, 21), 100000, 129983], 
+         [ new Date(2017, 7, 22), 100000, 139961], 
+         [ new Date(2017, 7, 23), 100000, 139899], 
+         [ new Date(2017, 7, 24), 100000, 134356], 
+         [ new Date(2017, 7, 25), 100000, 134434], 
+         [ new Date(2017, 7, 28), 100000, 139869], 
+         [ new Date(2017, 7, 29), 100000, 139841], 
+         [ new Date(2017, 7, 30), 100000, 140030], 
+         [ new Date(2017, 7, 31), 100000, 140254], 
+         [ new Date(2017, 8, 1), 100000, 140396], 
+         [ new Date(2017, 8, 5), 100000, 135337], 
+         [ new Date(2017, 8, 6), 100000, 135407], 
+         [ new Date(2017, 8, 7), 100000, 140323], 
+         [ new Date(2017, 8, 8), 100000, 140248], 
+         [ new Date(2017, 8, 11), 100000, 140611], 
+         [ new Date(2017, 8, 12), 100000, 140786], 
+         [ new Date(2017, 8, 13), 100000, 140817], 
+         [ new Date(2017, 8, 14), 100000, 140864], 
+         [ new Date(2017, 8, 15), 100000, 140667], 
+         [ new Date(2017, 8, 18), 100000, 140794], 
+         [ new Date(2017, 8, 19), 100000, 137561], 
+         [ new Date(2017, 8, 20), 100000, 132122], 
+         [ new Date(2017, 8, 21), 100000, 132091], 
+         [ new Date(2017, 8, 22), 100000, 132073], 
+         [ new Date(2017, 8, 25), 100000, 122184], 
+         [ new Date(2017, 8, 26), 100000, 127623], 
+         [ new Date(2017, 8, 27), 100000, 127688], 
+         [ new Date(2017, 8, 28), 100000, 133580], 
+         [ new Date(2017, 8, 29), 100000, 136879], 
+         [ new Date(2017, 9, 2), 100000, 141157], 
+         [ new Date(2017, 9, 3), 100000, 141231], 
+         [ new Date(2017, 9, 4), 100000, 141314], 
+         [ new Date(2017, 9, 5), 100000, 141526], 
+         [ new Date(2017, 9, 6), 100000, 124071], 
+         [ new Date(2017, 9, 9), 100000, 118666], 
+         [ new Date(2017, 9, 10), 100000, 132670], 
+         [ new Date(2017, 9, 11), 100000, 138106], 
+         [ new Date(2017, 9, 12), 100000, 138136], 
+         [ new Date(2017, 9, 13), 100000, 141631], 
+         [ new Date(2017, 9, 16), 100000, 141658], 
+         [ new Date(2017, 9, 17), 100000, 141640], 
+         [ new Date(2017, 9, 18), 100000, 141647], 
+         [ new Date(2017, 9, 19), 100000, 141598], 
+         [ new Date(2017, 9, 20), 100000, 141796], 
+         [ new Date(2017, 9, 23), 100000, 136443], 
+         [ new Date(2017, 9, 24), 100000, 131015], 
+         [ new Date(2017, 9, 25), 100000, 126966], 
+         [ new Date(2017, 9, 26), 100000, 122918], 
+         [ new Date(2017, 9, 27), 100000, 123110], 
+         [ new Date(2017, 9, 30), 100000, 123069], 
+         [ new Date(2017, 9, 31), 100000, 131439], 
+         [ new Date(2017, 10, 1), 100000, 134847], 
+         [ new Date(2017, 10, 2), 100000, 134798], 
+         [ new Date(2017, 10, 3), 100000, 138435], 
+         [ new Date(2017, 10, 6), 100000, 138683], 
+         [ new Date(2017, 10, 7), 100000, 138689], 
+         [ new Date(2017, 10, 8), 100000, 144047], 
+         [ new Date(2017, 10, 9), 100000, 137748], 
+         [ new Date(2017, 10, 10), 100000, 131938], 
+         [ new Date(2017, 10, 13), 100000, 125627], 
+         [ new Date(2017, 10, 14), 100000, 125526], 
+         [ new Date(2017, 10, 15), 100000, 122540], 
+         [ new Date(2017, 10, 16), 100000, 125311], 
+         [ new Date(2017, 10, 17), 100000, 125287], 
+         [ new Date(2017, 10, 20), 100000, 131134], 
+         [ new Date(2017, 10, 21), 100000, 131301], 
+         [ new Date(2017, 10, 22), 100000, 134848], 
+         [ new Date(2017, 10, 24), 100000, 134910], 
+         [ new Date(2017, 10, 27), 100000, 134910], 
+         [ new Date(2017, 10, 28), 100000, 134910], 
+         [ new Date(2017, 10, 29), 100000, 134910], 
+         [ new Date(2017, 10, 30), 100000, 134910], 
+         [ new Date(2017, 11, 1), 100000, 134910], 
+         [ new Date(2017, 11, 4), 100000, 134910], 
+         [ new Date(2017, 11, 5), 100000, 134830], 
+         [ new Date(2017, 11, 6), 100000, 134830], 
+         [ new Date(2017, 11, 7), 100000, 134830], 
+         [ new Date(2017, 11, 8), 100000, 134938]
+    ]);
+
+    var options = {
+      title:'Historical Performance (Closed & Total Positions) - USSectors',
+      legend: {position: 'bottom'},
+      hAxis: {
+        title: 'From inception'
+      },
+      vAxis: {
+        title: 'Equity Curve'
+      },
+      backgroundColor: '#f1f8e9',
+      series: {
+            0: { color: '#999' },
+            1: { color: '#99B731' },
+          }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+    }
+  </script>
+  <div class="container-fluid logo_container">
+    <div class=" container text-right logo">
+      <a href="#"><img src="../images/i4cfinancial_Logo.png"></a>
+    </div>
+  </div>
+  <div class="container header_container">
+    <h2 class="report_name">I4CFinancial Performance Report - USSectors</h2>
+    <h4 class="report_description">System Type: EH Quantitative Directional Long</h4>
+    <h4 class="report_description">Forward test from inception 2017/05/05 to 2017/12/08</h4>
+  </div>
+  <div class="container chart_container">
+    <div id="chart_div" class="chart"></div>
+  </div>
+  <div class="container overview_container">
+    <h2 class="report_sub_head">Overview</h2>
+    <div class="overview_tab">
+   <table class="overview_table">
+        <tr>
+          <td>Annualized Returns:</td>
+          <td>55.12%</td>
+          <td>Average Win Size:</td>
+          <td>520.99</td>
+        <tr>
+        </tr>
+          <td>Maximum Drawdown:</td>
+          <td>26.48%</td>
+          <td>Average Loss Size:</td>
+          <td>0.00</td>
+       <tr>
+        </tr>
+           <td>Return over Maximum Drawdown:</td>
+          <td>2.08</td>
+          <td>Win/Loss Size Ratio:</td>
+          <td>.00</td>
+        <tr>
+        </tr>
+          <td>Sharpes Ratio (Annualised):</td>
+          <td>0.93</td>
+          <td>Number of Closed and Open Positions:</td>
+          <td>67</td>
+        <tr>
+        </tr>
+          <td>Sortino Ratio (Annualised):</td>
+          <td>1.50</td>
+          <td>Average Trade Size:</td>
+          <td>4,249.72</td>
+        <tr>
+        </tr>
+          <td>Number of Wins:</td>
+          <td>67</td>
+          <td>Average Closed Trade Duration:</td>
+          <td>27.0 days</td>
+        <tr>
+        </tr>
+          <td>Number of Losses:</td>
+          <td>0</td>
+          <td>Last Session Move:</td>
+          <td>107.94 (0.08%)</td>
+        <tr>
+        </tr>
+          <td>Win/Loss Count Ratio:</td>
+          <td>0.00  (100% winners)</td>
+          <td>Includes 10 open positions</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="container monthly_container">
+    <h2 class="report_sub_head">Monthly Absolute Returns:</h2>
+    <div class="monthly_table">
+      <Table width="70%"><TR><TH style=width:"11%"><FONT STYLE="text-align:center">&nbsp;</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jan</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Feb</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Mar</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Apr</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">May </FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jun</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jul</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Aug</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Sep</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Oct</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Nov</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Dec</FONT></TH>
+<TH style="border: 1px solid black" width:"11%"><FONT STYLE="text-align:center">Total</FONT></TH>
+</TR>
+<TR><TD><strong><font style="text-align:right">2017</strong></TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center"><font style="color:green">37.1</font></TD>
+<TD style="text-align:center"><font style="color:red">-2.6</font></TD>
+<TD style="text-align:center"><font style="color:red">-2.3</font></TD>
+<TD style="text-align:center"><font style="color:green">18.2</font></TD>
+<TD style="text-align:center"><font style="color:red">-1.7</font></TD>
+<TD style="text-align:center"><font style="color:red">-1.8</font></TD>
+<TD style="text-align:center"><font style="color:green">3.3</font></TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center"><font style="color:green">50.2</font></TD>
+</TR>
+</Table>
+
+    </div>
+  </div>
+  <div class="container position_container">
+    <h2 class="report_sub_head">Open Positions:</h2>
+    <div class="position_table">
+      <Table>
+
+<strong><TR><TD> Symbol </TD><TD> Name </TD><TD> Entry Date </TD><TD align='right'> Number of Shares</TD><TD align='right'> Entry Price </TD><TD align='right'> Present Price </TD><TD align='right'> Trailing Stop </TD><TD align='right'> Profit </TD><TD align='right'> Annualized </TD></TR></strong>
+
+<TR><TD>^GSPC</TD><TD>S&P 500 Index</TD><TD>10/31/2017</TD><TD align='right'>1</TD><TD align='right'>2,575.99</TD><TD align='right'>2,651.50</TD><TD align='right'>2,596.10</TD><TD align='right'>2,651.50</TD><TD align='right'>0.00%</TD></TR>
+
+<TR><TD>XLE</TD><TD>Energy Select Sector SPDR Fund</TD><TD>10/31/2017</TD><TD align='right'>50</TD><TD align='right'>67.72</TD><TD align='right'>69.28</TD><TD align='right'>67.42</TD><TD align='right'>3,464.00</TD><TD align='right'>0.00%</TD></TR>
+
+<TR><TD>XLRE</TD><TD>Real Estate Select Sector SPDR Fund</TD><TD>11/01/2017</TD><TD align='right'>100</TD><TD align='right'>32.55</TD><TD align='right'>33.20</TD><TD align='right'>33.13</TD><TD align='right'>3,320.00</TD><TD align='right'>0.00%</TD></TR>
+
+<TR><TD>XLP</TD><TD>Cinsumer Staples Select Sector SPDR Fund</TD><TD>11/08/2017</TD><TD align='right'>100</TD><TD align='right'>53.32</TD><TD align='right'>56.59</TD><TD align='right'>55.33</TD><TD align='right'>5,659.00</TD><TD align='right'>0.00%</TD></TR>
+
+<TR><TD>XLK</TD><TD>Technology Select Sector SPDR Fund</TD><TD>11/15/2017</TD><TD align='right'>50</TD><TD align='right'>63.04</TD><TD align='right'>63.60</TD><TD align='right'>63.49</TD><TD align='right'>3,180.00</TD><TD align='right'>0.00%</TD></TR>
+
+<TR><TD>XLF</TD><TD>Financial Select Sector SPDR Fund</TD><TD>11/16/2017</TD><TD align='right'>100</TD><TD align='right'>26.30</TD><TD align='right'>28.01</TD><TD align='right'>26.83</TD><TD align='right'>2,801.00</TD><TD align='right'>0.00%</TD></TR>
+
+<TR><TD>XLB</TD><TD>Materials Select Sector SPDR Fund</TD><TD>11/20/2017</TD><TD align='right'>100</TD><TD align='right'>58.26</TD><TD align='right'>59.43</TD><TD align='right'>57.85</TD><TD align='right'>5,943.00</TD><TD align='right'>0.00%</TD></TR>
+
+<TR><TD>XLI</TD><TD>Industrial Select Sector SPDR Fund</TD><TD>11/22/2017</TD><TD align='right'>50</TD><TD align='right'>71.38</TD><TD align='right'>74.69</TD><TD align='right'>72.34</TD><TD align='right'>3,734.50</TD><TD align='right'>0.00%</TD></TR>
+
+<TR><TD>XLV</TD><TD>Health Care Select Sector SPDR Fund</TD><TD>11/27/2017</TD><TD align='right'>50</TD><TD align='right'>82.33</TD><TD align='right'>83.01</TD><TD align='right'>80.69</TD><TD align='right'>4,150.50</TD><TD align='right'>0.00%</TD></TR>
+
+<TR><TD>XLY</TD><TD>Consumer Discretionary Select Sector SPD</TD><TD>12/06/2017</TD><TD align='right'>50</TD><TD align='right'>97.06</TD><TD align='right'>97.25</TD><TD align='right'>94.76</TD><TD align='right'>3.01</TD><TD align='right'>7.43%</TD></TR>
+
+<TR><TD> </TD><TD> </TD><TD> </TD><TD align='right' colspan='2'> Total Value of Open Positions:</TD><TD align='right'>39,766.00</TD><TD> </TD><TD align='right'>34,906.51</TD><TD align='right'>55.12%</TD></TR>
+
+</Table>
+
+
+    </div>
+  </div>
+  <div class="container sold_container">
+    <h2 class="report_sub_head inner_head">Sold Today:</h2>
+    <div class="sold_table">
+      <p><p>
+    </div>
+    <h2 class="report_sub_head inner_head">Pending Buys:</h2>
+
+    <div class="buys_table">
+      <p><p>
+    </div>
+
+    <h2 class="report_sub_head inner_head">Notes:</h2>
+    <ul>
+      <li>No leverage, equally weighted allocations.</li>
+      <li>Exits on target achieved or dynamic proprietary trailing stop posted.</li>
+      <li>Slippage and commissions applied to all transactions.</li>
+    </ul>
+    <div class="notes_table">
+      <p>The performance data quoted represents past performance. Past performance does not guarantee future results. The investment return and principal value of an investment will fluctuate so that an investor's position, when redeemed, may be worth more or less than the original cost. Current performance may be lower or higher than the performance data quoted. Investors should consider the investment objectives, risks, and charges and expenses of the above system carefully before investing.<p>
+    </div>
+    <p class="session">Last Session Date: 2017/12/08</p>
+  </div>
+</body>
+</html>

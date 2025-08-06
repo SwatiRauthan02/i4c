@@ -1,0 +1,221 @@
+{"ideas":[{"idea":{
+	"Symbol": "IFT.NZ",
+	"Name": "Infratil Ltd",
+	"Sortino": 80.3178,
+	"Beta": 25.65,
+	"BullishVolume": 53.745,
+	"PriceUp": 47.11111,
+	"TDI": 100,
+	"TII": 97.9868,
+	"MFI": 56.12357,
+	"AggregateScore": 65.848
+}},{"idea":{
+	"Symbol": "THL.NZ",
+	"Name": "Tourism Holdings Ltd",
+	"Sortino": 92.9425,
+	"Beta": 14.5,
+	"BullishVolume": 72.997,
+	"PriceUp": 45.87973,
+	"TDI": 77.20544,
+	"TII": 100,
+	"MFI": 74.49233,
+	"AggregateScore": 65.032
+}},{"idea":{
+	"Symbol": "FPH.NZ",
+	"Name": "Fisher & Paykel Healthcare Corp Ltd",
+	"Sortino": 62.1008,
+	"Beta": 89.85,
+	"BullishVolume": 56.696,
+	"PriceUp": 47.55556,
+	"TDI": 59.27813,
+	"TII": 99.84341,
+	"MFI": 61.58399,
+	"AggregateScore": 62.312
+}},{"idea":{
+	"Symbol": "HLG.NZ",
+	"Name": "Hallenstein Glassons Holdings Ltd",
+	"Sortino": 63.5168,
+	"Beta": -3.75,
+	"BullishVolume": 55.836,
+	"PriceUp": 45.55556,
+	"TDI": 100,
+	"TII": 91.76357,
+	"MFI": 73.30287,
+	"AggregateScore": 60.889
+}},{"idea":{
+	"Symbol": "CNU.NZ",
+	"Name": "Chorus Ltd",
+	"Sortino": 89.4168,
+	"Beta": 14.85,
+	"BullishVolume": 67.857,
+	"PriceUp": 48.22222,
+	"TDI": 79.723395,
+	"TII": 82.67821,
+	"MFI": 56.93897,
+	"AggregateScore": 59.916
+}},{"idea":{
+	"Symbol": "RBD.NZ",
+	"Name": "Restaurant Brands NZ Ltd",
+	"Sortino": 36.9096,
+	"Beta": 27.05,
+	"BullishVolume": 41.345,
+	"PriceUp": 40.22222,
+	"TDI": 97.045925,
+	"TII": 100,
+	"MFI": 77.3046,
+	"AggregateScore": 59.56
+}},{"idea":{
+	"Symbol": "FSF.NZ",
+	"Name": "Fonterra Shareholders Fund",
+	"Sortino": 66.7833,
+	"Beta": -12,
+	"BullishVolume": 57.867,
+	"PriceUp": 40.88889,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 62.17622,
+	"AggregateScore": 59.388
+}},{"idea":{
+	"Symbol": "GTK.NZ",
+	"Name": "Gentrack Group Ltd",
+	"Sortino": 89.3586,
+	"Beta": -24.8,
+	"BullishVolume": 78.842,
+	"PriceUp": 39.86486,
+	"TDI": 74.64824,
+	"TII": 96.45652,
+	"MFI": 83.65593,
+	"AggregateScore": 58.953
+}},{"idea":{
+	"Symbol": "ATM.NZ",
+	"Name": "The a2 Milk Co Ltd",
+	"Sortino": 60.7728,
+	"Beta": 100,
+	"BullishVolume": 49.5,
+	"PriceUp": 47.11111,
+	"TDI": 0,
+	"TII": 0,
+	"MFI": 45.30053,
+	"AggregateScore": 57.526
+}},{"idea":{
+	"Symbol": "MCY.NZ",
+	"Name": "Mercury NZ Ltd",
+	"Sortino": 66.0489,
+	"Beta": 93.3,
+	"BullishVolume": 57.616,
+	"PriceUp": 46.66667,
+	"TDI": 50,
+	"TII": 82.89871,
+	"MFI": 55.61404,
+	"AggregateScore": 57.449
+}},{"idea":{
+	"Symbol": "SPY.NZ",
+	"Name": "SmartPay Holdings Ltd",
+	"Sortino": 98.3429,
+	"Beta": 25.8,
+	"BullishVolume": 69.727,
+	"PriceUp": 36.97105,
+	"TDI": 54.988275,
+	"TII": 77.0147,
+	"MFI": 83.70077,
+	"AggregateScore": 57.362
+}},{"idea":{
+	"Symbol": "SCT.NZ",
+	"Name": "Scott Technology Ltd",
+	"Sortino": 69.8453,
+	"Beta": 50.15,
+	"BullishVolume": 57.454,
+	"PriceUp": 37.87529,
+	"TDI": 61.589705,
+	"TII": 99.16572,
+	"MFI": 59.18967,
+	"AggregateScore": 56.694
+}},{"idea":{
+	"Symbol": "GXH.NZ",
+	"Name": "Green Cross Health Ltd",
+	"Sortino": 71.4553,
+	"Beta": 8.85,
+	"BullishVolume": 65.834,
+	"PriceUp": 37.95455,
+	"TDI": 83.99014,
+	"TII": 70.92109,
+	"MFI": 73.5698,
+	"AggregateScore": 56.652
+}},{"idea":{
+	"Symbol": "MEL.NZ",
+	"Name": "Meridian Energy Ltd",
+	"Sortino": 67.6806,
+	"Beta": 100,
+	"BullishVolume": 57.158,
+	"PriceUp": 46.88889,
+	"TDI": 36.2737,
+	"TII": 32.41639,
+	"MFI": 57.61476,
+	"AggregateScore": 55.602
+}},{"idea":{
+	"Symbol": "AIA.NZ",
+	"Name": "Auckland International Airport Ltd",
+	"Sortino": 76.9431,
+	"Beta": 49.35,
+	"BullishVolume": 67.095,
+	"PriceUp": 49.77778,
+	"TDI": 50,
+	"TII": 93.51267,
+	"MFI": 49.33658,
+	"AggregateScore": 55.145
+}},{"idea":{
+	"Symbol": "EBO.NZ",
+	"Name": "Ebos Group Ltd",
+	"Sortino": 87.0154,
+	"Beta": 25.5,
+	"BullishVolume": 59.289,
+	"PriceUp": 46.7706,
+	"TDI": 74.2496,
+	"TII": 77.15436,
+	"MFI": 34.62506,
+	"AggregateScore": 54.122
+}},{"idea":{
+	"Symbol": "SKT.NZ",
+	"Name": "Sky Network Television Ltd",
+	"Sortino": 78.6291,
+	"Beta": 4.25,
+	"BullishVolume": 64.519,
+	"PriceUp": 41.70404,
+	"TDI": 59.567045,
+	"TII": 97.31523,
+	"MFI": 69.08247,
+	"AggregateScore": 53.519
+}},{"idea":{
+	"Symbol": "ALF.NZ",
+	"Name": "Allied Farmers Ltd",
+	"Sortino": 75.3601,
+	"Beta": 23.3,
+	"BullishVolume": 75.546,
+	"PriceUp": 31.61765,
+	"TDI": 0,
+	"TII": 1.39159,
+	"MFI": 62.27629,
+	"AggregateScore": 52.785
+}},{"idea":{
+	"Symbol": "CEN.NZ",
+	"Name": "Contact Energy Ltd",
+	"Sortino": 63.1069,
+	"Beta": 99.55,
+	"BullishVolume": 46.075,
+	"PriceUp": 47.11111,
+	"TDI": 57.411865,
+	"TII": 44.77599,
+	"MFI": 50.22232,
+	"AggregateScore": 52.238
+}},{"idea":{
+	"Symbol": "NZO.NZ",
+	"Name": "New Zealand Oil & Gas Ltd",
+	"Sortino": 99.8,
+	"Beta": 3.9,
+	"BullishVolume": 51.318,
+	"PriceUp": 34.02299,
+	"TDI": 0,
+	"TII": 0,
+	"MFI": 60.21579,
+	"AggregateScore": 49.894
+}}]}

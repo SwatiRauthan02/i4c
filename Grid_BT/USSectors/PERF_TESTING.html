@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>I4CFinancial Performance Report</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Old CSS and Bootstrap calls
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/bootstrap.min.css">
+  <script type="text/javascript" src="../../Grid_HTML/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../../Grid_HTML/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/style.css">
+ End of Old CSS -->
+
+<link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/i4cfinancial.css">
+
+
+
+<!-- Latest compiled and minified CSS DG 20240823 from https://www.w3schools.com/bootstrap/bootstrap_get_started.asp -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- End of Latest compiled and minified CSS -->
+
+
+  <!-- GChart loader -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    google.charts.load('current', {
+    packages: ['corechart', 'line']
+  });
+  google.charts.setOnLoadCallback(drawBackgroundColor);
+
+  function drawBackgroundColor() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'Closed');
+    data.addColumn('number', 'Total');
+    data.addColumn('number', 'Baseline(^GSPC)');
+    
+
+    data.addRows([
+                    [ new Date(2024, 5, 3), 100000, 99866, 100000], 
+         [ new Date(2024, 5, 4), 100000, 99815, 100150], 
+         [ new Date(2024, 5, 5), 100000, 100050, 101337], 
+         [ new Date(2024, 5, 6), 100000, 100040, 101317], 
+         [ new Date(2024, 5, 7), 100000, 100002, 101204], 
+         [ new Date(2024, 5, 10), 100000, 100092, 101465], 
+         [ new Date(2024, 5, 11), 100000, 99964, 101740], 
+         [ new Date(2024, 5, 12), 100000, 100235, 102605], 
+         [ new Date(2024, 5, 13), 100000, 100082, 102846], 
+         [ new Date(2024, 5, 14), 100000, 99903, 102805], 
+         [ new Date(2024, 5, 17), 100267, 100172, 103593], 
+         [ new Date(2024, 5, 18), 99912, 100145, 103854], 
+         [ new Date(2024, 5, 19), 99912, 100145, 103854], 
+         [ new Date(2024, 5, 20), 99912, 100091, 103592], 
+         [ new Date(2024, 5, 21), 99912, 100010, 103430], 
+         [ new Date(2024, 5, 24), 99785, 99794, 103113], 
+         [ new Date(2024, 5, 25), 99785, 99622, 103519], 
+         [ new Date(2024, 5, 26), 99785, 99479, 103681], 
+         [ new Date(2024, 5, 27), 99785, 99578, 103775], 
+         [ new Date(2024, 5, 28), 99785, 99875, 103352], 
+         [ new Date(2024, 6, 1), 99785, 99800, 103628], 
+         [ new Date(2024, 6, 2), 100023, 99924, 104270], 
+         [ new Date(2024, 6, 3), 100023, 100051, 104800], 
+         [ new Date(2024, 6, 5), 99716, 100089, 105371], 
+         [ new Date(2024, 6, 8), 99962, 100097, 105478], 
+         [ new Date(2024, 6, 9), 99962, 100150, 105557], 
+         [ new Date(2024, 6, 10), 99962, 100391, 106634], 
+         [ new Date(2024, 6, 11), 99962, 100197, 105700], 
+         [ new Date(2024, 6, 12), 99962, 100499, 106283], 
+         [ new Date(2024, 6, 15), 99962, 100724, 106583], 
+         [ new Date(2024, 6, 16), 99962, 101214, 107264], 
+         [ new Date(2024, 6, 17), 99962, 100922, 105770], 
+         [ new Date(2024, 6, 18), 99962, 100547, 104944], 
+         [ new Date(2024, 6, 19), 99326, 99055, 104194], 
+         [ new Date(2024, 6, 22), 99425, 99436, 105319], 
+         [ new Date(2024, 6, 23), 99425, 99407, 105155], 
+         [ new Date(2024, 6, 24), 99425, 98833, 102720], 
+         [ new Date(2024, 6, 25), 98402, 99111, 102192], 
+         [ new Date(2024, 6, 26), 98368, 98557, 103326], 
+         [ new Date(2024, 6, 29), 98594, 98458, 103410], 
+         [ new Date(2024, 6, 30), 98594, 98564, 102897], 
+         [ new Date(2024, 6, 31), 98594, 98816, 104522], 
+         [ new Date(2024, 7, 1), 100221, 100544, 103090], 
+         [ new Date(2024, 7, 2), 99924, 99773, 101195], 
+         [ new Date(2024, 7, 5), 109912, 108761, 98163], 
+         [ new Date(2024, 7, 6), 109912, 109103, 99179], 
+         [ new Date(2024, 7, 7), 109912, 108919, 98412], 
+         [ new Date(2024, 7, 8), 109228, 108405, 100680], 
+         [ new Date(2024, 7, 9), 109228, 108598, 101150], 
+         [ new Date(2024, 7, 12), 109228, 108440, 101154], 
+         [ new Date(2024, 7, 13), 108779, 108866, 102859], 
+         [ new Date(2024, 7, 14), 108779, 109025, 103252], 
+         [ new Date(2024, 7, 15), 109137, 109234, 104918], 
+         [ new Date(2024, 7, 16), 109074, 109241, 105126], 
+         [ new Date(2024, 7, 19), 109269, 109368, 106149], 
+         [ new Date(2024, 7, 20), 109269, 109471, 105938], 
+         [ new Date(2024, 7, 21), 109269, 109623, 106387], 
+         [ new Date(2024, 7, 22), 109269, 109679, 105437], 
+         [ new Date(2024, 7, 23), 109269, 109624, 106647], 
+         [ new Date(2024, 7, 26), 109558, 109750, 106311], 
+         [ new Date(2024, 7, 27), 110064, 109447, 106481], 
+         [ new Date(2024, 7, 28), 110111, 109494, 105844], 
+         [ new Date(2024, 7, 29), 110111, 109494, 105840], 
+         [ new Date(2024, 7, 30), 110111, 109494, 106908], 
+         [ new Date(2024, 8, 3), 110111, 110139, 104647], 
+         [ new Date(2024, 8, 4), 110111, 110307, 104480], 
+         [ new Date(2024, 8, 5), 110111, 110048, 104164], 
+         [ new Date(2024, 8, 6), 110111, 109671, 102366], 
+         [ new Date(2024, 8, 9), 110111, 109947, 103552], 
+         [ new Date(2024, 8, 10), 110183, 110191, 104015], 
+         [ new Date(2024, 8, 11), 110098, 110106, 105124], 
+         [ new Date(2024, 8, 12), 110098, 110112, 105912], 
+         [ new Date(2024, 8, 13), 110098, 110357, 106485]
+    ]);
+
+    var options = {
+      title:'Historical Performance (Closed & Total Positions) - USSectors',
+      legend: {position: 'bottom'},
+      hAxis: {
+        title: 'From inception'
+      },
+      vAxis: {
+        title: 'Equity Curve'
+      },
+      backgroundColor: '#f1f8e9',
+      series: {
+            0: { color: '#99B731' },
+            1: { color: '#2471A3' },
+            2: { color: '#999' },
+            
+            }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+    }
+  </script>
+  <div class="container-fluid logo_container">
+    <div class="container logo-left">
+      <a href="#"><img src="../../Grid_HTML/images/i4cfinancial_logo.svg.layer.png"></a>
+    </div>
+  </div>
+  <div class="container header_container">
+    <h2 class="report_name">Performance Report - USSectors</h2>
+    <h4 class="report_description">EH Quantitative Directional Long </h4>
+    <h4 class="report_description">The strategy actively trades a universe of profitable, well-managed companies, taking positions in stocks based on a proprietary technical ranking derived from a multi-factor analysis of market action across multiple trading horizons. Strict risk management enforces a rapid 'go-to-cash' ruleset in bearish markets.</h4>
+    <h4 class="report_description">Forward test from inception 2024/06/03 to 2024/09/13</h4>
+  </div>
+  <div class="container chart_container">
+    <div id="chart_div" class="chart"></div>
+  </div>
+  <div class="container overview_container">
+    <h2 class="report_sub_head">Overview</h2>
+    <div class="overview_table">
+   <table class="overview_table">
+        <tr>
+          <td>Annualized Returns:</td>
+          <td style="text-align:right">33.98%</td>
+          <td>Average Win Size:</td>
+          <td style="text-align:right">564.81</td>
+        </tr>
+        <tr>
+          <td>Maximum Drawdown:</td>
+          <td style="text-align:right">2.72%</td>
+          <td>Average Loss Size:</td>
+          <td style="text-align:right">304.33</td>
+        </tr>
+        <tr>
+           <td>Return over Maximum Drawdown:</td>
+          <td style="text-align:right">12.49</td>
+          <td>Win/Loss Size Ratio:</td>
+          <td style="text-align:right">1.86</td>
+        </tr>
+        <tr>
+          <td>Sharpe Ratio (Annualized):</td>
+          <td style="text-align:right">1.00</td>
+          <td>Number of Closed and Open Positions:</td>
+          <td style="text-align:right">46</td>
+        </tr>
+        <tr>
+          <td>Sortino Ratio (Annualized):</td>
+          <td style="text-align:right">3.89</td>
+          <td>Average Trade Size:</td>
+          <td style="text-align:right">10,670.32</td>
+        </tr>
+        <tr>
+          <td>Number of Wins:</td>
+          <td style="text-align:right">28</td>
+          <td>Average Closed Trade Duration:</td>
+          <td style="text-align:right">9.9 days</td>
+        </tr>
+        <tr>
+          <td>Number of Losses:</td>
+          <td style="text-align:right">18</td>
+          <td>Last Session Move:</td>
+          <td style="text-align:right">245.50 (0.22%), Baseline move: (0.54%)</td>
+        </tr>
+        <tr>
+          <td>Win/Loss Count Ratio:</td>
+          <td style="text-align:right">1.56  (61% winners)</td>
+          <td>Includes 3 open positions with cash holdings of 79,057.04</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="container monthly_container">
+    <h2 class="report_sub_head">Monthly Strategy Returns (%):</h2>
+    <div class="styled_table">
+      <Table><thead><TR><TH>&nbsp;</TH><TH style="text-align:center">Jan</TH><TH style="text-align:center">Feb</TH><TH style="text-align:center">Mar</TH><TH style="text-align:center">Apr</TH><TH style="text-align:center">May</TH><TH style="text-align:center">Jun</TH><TH style="text-align:center">Jul</TH><TH style="text-align:center">Aug</TH><TH style="text-align:center">Sep</TH><TH style="text-align:center">Oct</TH><TH style="text-align:center">Nov</TH><TH style="text-align:center">Dec</TH><TH style="text-align:center">Total</TH></TR></thead><TR><TD><strong><font style="text-align:right">2024</strong></TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center"><font style="color:red">-0.1</font></TD><TD style="text-align:center"><font style="color:red">-1</font></TD><TD style="text-align:center"><font style="color:green">10.7</font></TD><TD style="text-align:center"><font style="color:green">0.8</font></TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center; font-weight:bold"><font style="color:green">10.4</font></TD></TR></Table>
+    </div>
+  </div>
+  <div class="container position_container">
+    <h2 class="report_sub_head">Open Positions:</h2>
+    <div class="styled_table">
+      <Table>
+<thead><TR><TH> Symbol </TH><TH> Name </TH><TH> Entry Date</TH><TH align='right'> # Shares</TH><TH style='text-align:right;'> Entry Price</TH><TH style='text-align:right;'> Max Move</TH><TH style='text-align:right;'> Present Price</TH><TH style='text-align:right;'> Trailing Stop</TH><TH style='text-align:right;'> Profit</TH><TH style='text-align:right;'> Annualized</TH></TR></thead>
+<TR><TD>XLRE</TD><TD>Real Estate Select Sector SPDR Fund</TD><TD>2024-09-12</TD><TD align='right'>300</TD><TD align='right'>44.88</TD><TD align='right'>0.84%</TD><TD align='right'>45.21</TD><TD align='right'>43.655</TD><TD align='right'>99.00</TD><TD align='right'>88.24%</TD></TR>
+<TR><TD>XLU</TD><TD>SPDR Select Sector Fund - Utili</TD><TD>2024-09-13</TD><TD align='right'>100</TD><TD align='right'>77.71</TD><TD align='right'>1.09%</TD><TD align='right'>78.54</TD><TD align='right'>75.398</TD><TD align='right'>83.00</TD><TD align='right'>256.34%</TD></TR>
+<TR><TD>XLY</TD><TD>Consumer Discretionary Select Sector SPD</TD><TD>2024-09-13</TD><TD align='right'>50</TD><TD align='right'>191.35</TD><TD align='right'>0.84%</TD><TD align='right'>192.48</TD><TD align='right'>184.780</TD><TD align='right'>56.50</TD><TD align='right'>141.73%</TD></TR>
+<TR><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD align='right' colspan='2'> Total Value of Open Positions:</TD><TD align='right'>31,041.00</TD><TD> </TD><TD align='right'>238.50</TD><TD align='right'>0.78%</TD></TR>
+</Table>
+
+    </div>
+  </div>
+  <div class="container monthtodate_container">
+    <h2 class="report_sub_head">Month-To-Date Performance:</h2>
+    <div class="styled_table">
+      <Table width="100%"><thead><TR><TH> Symbol </TH><TH> Name </TH><TH style="text-align:right;"> # Shares</TH><TH style="text-align:right;"> Buy Date</TH><TH style="text-align:right;"> Buy Price</TH><TH style="text-align:right;"> Sell Date</TH><TH style="text-align:right;"> Sell Price</TH><TH style="text-align:right;"> Max Move</TH><TH style="text-align:right;"> Duration</TH><TH style="text-align:right;"> Profit</TH><TH style="text-align:right;"> ROI</TH></TR></thead><TR><TD>XLF</TD><TD>Financial Select Sector SPDR Fund</TD><TD align="right">200</TD><TD align="right">2024-09-03</TD><TD align="right">45.50</TD><TD align="right">2024-09-10</TD><TD align="right">44.83</TD><TD style="text-align:right;">0.83%</TD><TD align="right">6</TD><TD style="text-align:right;"><font style="color:red">-134.00</font></TD><TD style="text-align:right;"><font style="color:red">-1.5%</font></TD></TR></TR><TR><TD>XLRE</TD><TD>Real Estate Select Sector SPDR Fund</TD><TD align="right">200</TD><TD align="right">2024-09-04</TD><TD align="right">43.75</TD><TD align="right">2024-09-10</TD><TD align="right">44.78</TD><TD style="text-align:right;">2.76%</TD><TD align="right">5</TD><TD style="text-align:right;"><font style="color:green">206.00</font></TD><TD style="text-align:right;"><font style="color:green">2.4%</font></TD></TR></TR><TR><TD>XLP</TD><TD>Cinsumer Staples Select Sector SPDR Fund</TD><TD align="right">100</TD><TD align="right">2024-09-04</TD><TD align="right">82.94</TD><TD align="right">2024-09-11</TD><TD align="right">83.13</TD><TD style="text-align:right;">1.27%</TD><TD align="right">6</TD><TD style="text-align:right;"><font style="color:green">19.00</font></TD><TD style="text-align:right;"><font style="color:green">0.2%</font></TD></TR></TR><TR><TD>XLV</TD><TD>Health Care Select Sector SPDR Fund</TD><TD align="right">50</TD><TD align="right">2024-09-04</TD><TD align="right">156.69</TD><TD align="right">2024-09-11</TD><TD align="right">155.18</TD><TD style="text-align:right;">1.88%</TD><TD align="right">6</TD><TD style="text-align:right;"><font style="color:red">-75.50</font></TD><TD style="text-align:right;"><font style="color:red">-1%</font></TD></TR></TR><TR><TD>XLU</TD><TD>SPDR Select Sector Fund - Utili</TD><TD align="right">100</TD><TD align="right">2024-09-05</TD><TD align="right">77.41</TD><TD align="right">2024-09-11</TD><TD align="right">77.04</TD><TD style="text-align:right;">0.12%</TD><TD align="right">5</TD><TD style="text-align:right;"><font style="color:red">-37.00</font></TD><TD style="text-align:right;"><font style="color:red">-0.5%</font></TD></TR></TR><TR><TD>XLY</TD><TD>Consumer Discretionary Select Sector SPD</TD><TD align="right">50</TD><TD align="right">2024-09-06</TD><TD align="right">187.49</TD><TD align="right">2024-09-11</TD><TD align="right">187.67</TD><TD style="text-align:right;">0.97%</TD><TD align="right">4</TD><TD style="text-align:right;"><font style="color:green">9.00</font></TD><TD style="text-align:right;"><font style="color:green">0.1%</font></TD></TR></TR></Table><p><p><Table width="40%"><thead><TR><TH colspan="2" style="text-align:left;">Month-To-Date Summary:</TH></TR></thead><TR><TD>MTD Win Trades %:</TD><TD align="right">50.0%</TD></TR><TR><TD>MTD Avg # Trades per Day:</TD><TD align="right">0.6</TD></TR><TR><TD>MTD Win/Loss Size Ratio:</TD><TD align="right">0.95</TD></TR><TR><TD>MTD Avg Trade Duration:</TD><TD align="right">5.3</TD></TR><TR><TD>Sold Today:</TD><TD align="right"></TD></TR><TR><TD>Pending Buys:</TD><TD align="right">XLI</TD></TR></Table>
+    </div>
+  </div>
+  <div class="container sold_container">
+
+
+
+
+<!-- OLD
+
+
+    <h2 class="report_sub_head inner_head"><!SoldTodayHeader></h2>
+    <div class="sold_table">
+      <p><!SoldTodayList><p>
+    </div>
+    <h2 class="report_sub_head inner_head"><!PendingBuysHeader></h2>
+
+    <div class="buys_table">
+      <p><!PendingBuysList><p>
+    </div>
+
+ OLD -->
+
+
+
+
+    <h2 class="report_sub_head inner_head">Notes:</h2>
+    <ul>
+      <li>Annualized returns reflect compounded daily excess returns above risk-free rate, assuming 240 trading days per year.</li>
+      <li>No leverage, equally weighted allocations.</li>
+      <li>Exits on target achieved or dynamic proprietary trailing stop posted.  These trailing stops, combined with minimum rank entry rules lead to the imposition of 'go-to-cash' and 'stay-in-cash' rules if there is a broad market bearish turn.</li>
+      
+    </ul>
+    <div class="notes_table">
+      <p>The performance data quoted represents past performance. Past performance does not guarantee future results. The investment return and principal value of an investment will fluctuate so that an investor's position, when redeemed, may be worth more or less than the original cost. Current performance may be lower or higher than the performance data quoted. Investors should consider the investment objectives, risks, and charges and expenses of the above system carefully before investing.<p>
+    </div>
+    <p class="session">Last Session Date: 2024/09/13</p>
+  </div>
+</body>
+</html>

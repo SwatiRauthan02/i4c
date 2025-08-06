@@ -1,0 +1,56 @@
+﻿{
+ "countrycode":"HONG_KONG",
+ "date":"2021-01-13",
+ "sell_count":0,
+ "buy_count":5,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"1811",
+   "name":"Multiple [
+    stock_list
+   ]s found: Name via Record_ID 4980",
+   "numshares":17500,
+   "weightednumshares":17500,
+   "NOVInumshares":17500,
+   "recordnumber":1770
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"0182",
+   "name":"Concord New Energy Group Ltd",
+   "numshares":51300,
+   "weightednumshares":51300,
+   "NOVInumshares":51300,
+   "recordnumber":6762
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"0945",
+   "name":"Manulife Financial Corp",
+   "numshares":200,
+   "weightednumshares":200,
+   "NOVInumshares":200,
+   "recordnumber":6763
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"0018",
+   "name":"Oriental Press Group Ltd",
+   "numshares":61500,
+   "weightednumshares":61500,
+   "NOVInumshares":61500,
+   "recordnumber":6764
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"0085",
+   "name":"China Electronics Corp Holdings Co Ltd",
+   "numshares":36200,
+   "weightednumshares":36200,
+   "NOVInumshares":36200,
+   "recordnumber":6765
+  }
+ ]
+}

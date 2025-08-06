@@ -1,0 +1,20 @@
+﻿{
+ "countrycode":"MINERS",
+ "date":"2025-07-29",
+ "export_time":"14:19:46",
+ "sell_count":0,
+ "buy_count":1,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"EMX",
+   "name":"EMX ROYALTY CORPORATION",
+   "numshares":3500,
+   "weightednumshares":3500,
+   "NOVInumshares":3500,
+   "tsid":"",
+   "recordnumber":8109
+  }
+ ]
+}

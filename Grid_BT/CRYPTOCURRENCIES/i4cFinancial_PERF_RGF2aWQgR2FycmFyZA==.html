@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>I4CFinancial Performance Report</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" initial-scale=1>
+
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/bootstrap.min.css">
+  <script type="text/javascript" src="../../Grid_HTML/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../../Grid_HTML/js/bootstrap.min.js"></script>
+
+  <!-- custom style sheet -->
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/style.css">
+
+  <!-- map loader -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+  <script type="text/javascript">
+    google.charts.load('current', {packages: ['corechart', 'line']});
+  google.charts.setOnLoadCallback(drawBackgroundColor);
+
+  function drawBackgroundColor() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'Asset Net Worth');
+    data.addColumn('number', 'Baseline(BTCUSDT)');
+
+
+    data.addRows([
+                    [ new Date(2020, 11, 1), 289, 300], 
+         [ new Date(2020, 11, 2), 294, 306], 
+         [ new Date(2020, 11, 3), 300, 310], 
+         [ new Date(2020, 11, 4), 284, 298], 
+         [ new Date(2020, 11, 5), 295, 306], 
+         [ new Date(2020, 11, 6), 300, 309], 
+         [ new Date(2020, 11, 7), 303, 306], 
+         [ new Date(2020, 11, 8), 293, 292], 
+         [ new Date(2020, 11, 9), 292, 296], 
+         [ new Date(2020, 11, 10), 292, 291], 
+         [ new Date(2020, 11, 11), 298, 288], 
+         [ new Date(2020, 11, 12), 311, 300], 
+         [ new Date(2020, 11, 13), 320, 305], 
+         [ new Date(2020, 11, 14), 324, 307], 
+         [ new Date(2020, 11, 15), 328, 310], 
+         [ new Date(2020, 11, 16), 357, 340], 
+         [ new Date(2020, 11, 17), 377, 364], 
+         [ new Date(2020, 11, 18), 375, 369], 
+         [ new Date(2020, 11, 19), 383, 381], 
+         [ new Date(2020, 11, 20), 376, 375], 
+         [ new Date(2020, 11, 21), 357, 364], 
+         [ new Date(2020, 11, 22), 378, 379], 
+         [ new Date(2020, 11, 23), 288, 371], 
+         [ new Date(2020, 11, 24), 344, 379], 
+         [ new Date(2020, 11, 25), 337, 394], 
+         [ new Date(2020, 11, 26), 396, 422], 
+         [ new Date(2020, 11, 27), 357, 419], 
+         [ new Date(2020, 11, 28), 428, 432], 
+         [ new Date(2020, 11, 29), 405, 437], 
+         [ new Date(2020, 11, 30), 411, 460], 
+         [ new Date(2020, 11, 31), 414, 463], 
+         [ new Date(2021, 0, 1), 415, 469], 
+         [ new Date(2021, 0, 2), 445, 513], 
+         [ new Date(2021, 0, 3), 502, 523], 
+         [ new Date(2021, 0, 4), 535, 510], 
+         [ new Date(2021, 0, 5), 597, 542], 
+         [ new Date(2021, 0, 6), 738, 588], 
+         [ new Date(2021, 0, 7), 648, 628], 
+         [ new Date(2021, 0, 8), 620, 651], 
+         [ new Date(2021, 0, 9), 630, 642], 
+         [ new Date(2021, 0, 10), 569, 612], 
+         [ new Date(2021, 0, 11), 527, 567], 
+         [ new Date(2021, 0, 12), 525, 541], 
+         [ new Date(2021, 0, 13), 668, 595], 
+         [ new Date(2021, 0, 14), 694, 625], 
+         [ new Date(2021, 0, 15), 693, 588], 
+         [ new Date(2021, 0, 16), 752, 577], 
+         [ new Date(2021, 0, 17), 830, 571], 
+         [ new Date(2021, 0, 18), 885, 584], 
+         [ new Date(2021, 0, 19), 820, 575], 
+         [ new Date(2021, 0, 20), 848, 567], 
+         [ new Date(2021, 0, 21), 613, 492], 
+         [ new Date(2021, 0, 22), 637, 527], 
+         [ new Date(2021, 0, 23), 664, 512], 
+         [ new Date(2021, 0, 24), 627, 515], 
+         [ new Date(2021, 0, 25), 548, 516], 
+         [ new Date(2021, 0, 26), 528, 520], 
+         [ new Date(2021, 0, 27), 487, 486], 
+         [ new Date(2021, 0, 28), 555, 505], 
+         [ new Date(2021, 0, 29), 571, 548], 
+         [ new Date(2021, 0, 30), 565, 547], 
+         [ new Date(2021, 0, 31), 638, 528], 
+         [ new Date(2021, 1, 1), 756, 535], 
+         [ new Date(2021, 1, 2), 747, 567], 
+         [ new Date(2021, 1, 3), 942, 598], 
+         [ new Date(2021, 1, 4), 971, 589], 
+         [ new Date(2021, 1, 5), 1087, 609], 
+         [ new Date(2021, 1, 6), 1000, 626], 
+         [ new Date(2021, 1, 7), 1012, 621], 
+         [ new Date(2021, 1, 8), 1069, 737], 
+         [ new Date(2021, 1, 9), 1259, 742], 
+         [ new Date(2021, 1, 10), 1341, 717], 
+         [ new Date(2021, 1, 11), 1528, 764], 
+         [ new Date(2021, 1, 12), 1593, 758], 
+         [ new Date(2021, 1, 13), 1630, 752], 
+         [ new Date(2021, 1, 14), 1442, 777], 
+         [ new Date(2021, 1, 15), 1137, 765], 
+         [ new Date(2021, 1, 16), 1063, 785], 
+         [ new Date(2021, 1, 17), 1135, 832], 
+         [ new Date(2021, 1, 18), 1300, 825], 
+         [ new Date(2021, 1, 19), 1585, 892], 
+         [ new Date(2021, 1, 20), 1696, 895], 
+         [ new Date(2021, 1, 21), 2325, 918], 
+         [ new Date(2021, 1, 22), 1748, 865], 
+         [ new Date(2021, 1, 23), 1452, 779], 
+         [ new Date(2021, 1, 24), 1411, 793], 
+         [ new Date(2021, 1, 25), 1422, 751], 
+         [ new Date(2021, 1, 26), 1374, 739], 
+         [ new Date(2021, 1, 27), 1583, 737], 
+         [ new Date(2021, 1, 28), 1425, 720], 
+         [ new Date(2021, 2, 1), 1581, 792], 
+         [ new Date(2021, 2, 2), 1781, 772], 
+         [ new Date(2021, 2, 3), 2132, 806], 
+         [ new Date(2021, 2, 4), 2093, 775], 
+         [ new Date(2021, 2, 5), 2127, 781], 
+         [ new Date(2021, 2, 6), 2103, 780], 
+         [ new Date(2021, 2, 7), 2204, 817], 
+         [ new Date(2021, 2, 8), 2293, 834], 
+         [ new Date(2021, 2, 9), 2571, 875], 
+         [ new Date(2021, 2, 10), 2388, 894], 
+         [ new Date(2021, 2, 11), 2695, 922], 
+         [ new Date(2021, 2, 12), 2534, 915], 
+         [ new Date(2021, 2, 13), 2945, 977], 
+         [ new Date(2021, 2, 14), 2999, 946], 
+         [ new Date(2021, 2, 15), 3278, 892], 
+         [ new Date(2021, 2, 16), 2931, 906], 
+         [ new Date(2021, 2, 17), 2972, 939], 
+         [ new Date(2021, 2, 18), 2811, 923], 
+         [ new Date(2021, 2, 19), 3393, 931], 
+         [ new Date(2021, 2, 20), 3722, 930], 
+         [ new Date(2021, 2, 21), 3775, 918], 
+         [ new Date(2021, 2, 22), 3507, 870], 
+         [ new Date(2021, 2, 23), 3752, 873], 
+         [ new Date(2021, 2, 24), 4004, 842], 
+         [ new Date(2021, 2, 25), 4379, 825], 
+         [ new Date(2021, 2, 26), 4693, 880], 
+         [ new Date(2021, 2, 27), 5161, 893], 
+         [ new Date(2021, 2, 28), 5534, 893], 
+         [ new Date(2021, 2, 29), 5959, 921], 
+         [ new Date(2021, 2, 30), 6203, 940], 
+         [ new Date(2021, 2, 31), 6540, 940], 
+         [ new Date(2021, 3, 1), 6233, 943], 
+         [ new Date(2021, 3, 2), 6666, 947], 
+         [ new Date(2021, 3, 3), 6666, 935], 
+         [ new Date(2021, 3, 4), 6666, 935]
+    ]);
+
+    var options = {
+      title:'Historical Performance - David Garrard',
+      legend: {position: 'bottom'},
+      hAxis: {
+        title: 'From inception'
+      },
+      vAxis: {
+        title: 'Equity Curve'
+      },
+      backgroundColor: '#f1f8e9',
+      series: {
+            0: { color: '#99B731' },
+            1: { color: '#999' },
+            }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+    }
+  </script>
+
+  <script type="text/javascript">
+
+  google.charts.load('current', {packages: ['corechart', 'bar']});
+  google.charts.setOnLoadCallback(drawColColors);
+
+  function drawColColors() {
+        var data = new google.visualization.DataTable();
+          data.addColumn('date', 'Date');
+          data.addColumn('number', 'Loss');
+          data.addColumn('number', 'Profit');
+
+        data.addRows([
+                         [ new Date(2020, 11, 1), -11.30, 0.00], 
+         [ new Date(2020, 11, 2), 0.00, 4.95], 
+         [ new Date(2020, 11, 3), 0.00, 5.87], 
+         [ new Date(2020, 11, 4), -15.38, 0.00], 
+         [ new Date(2020, 11, 5), 0.00, 10.64], 
+         [ new Date(2020, 11, 6), 0.00, 5.10], 
+         [ new Date(2020, 11, 7), 0.00, 2.98], 
+         [ new Date(2020, 11, 8), -10.19, 0.00], 
+         [ new Date(2020, 11, 9), -0.35, 0.00], 
+         [ new Date(2020, 11, 10), -0.50, 0.00], 
+         [ new Date(2020, 11, 11), 0.00, 6.01], 
+         [ new Date(2020, 11, 12), 0.00, 12.82], 
+         [ new Date(2020, 11, 13), 0.00, 9.69], 
+         [ new Date(2020, 11, 14), 0.00, 3.48], 
+         [ new Date(2020, 11, 15), 0.00, 3.87], 
+         [ new Date(2020, 11, 16), 0.00, 29.07], 
+         [ new Date(2020, 11, 17), 0.00, 20.03], 
+         [ new Date(2020, 11, 18), -1.94, 0.00], 
+         [ new Date(2020, 11, 19), 0.00, 8.13], 
+         [ new Date(2020, 11, 20), -7.22, 0.00], 
+         [ new Date(2020, 11, 21), -19.09, 0.00], 
+         [ new Date(2020, 11, 22), 0.00, 21.55], 
+         [ new Date(2020, 11, 23), -90.14, 0.00], 
+         [ new Date(2020, 11, 24), 0.00, 55.56], 
+         [ new Date(2020, 11, 25), -7.03, 0.00], 
+         [ new Date(2020, 11, 26), 0.00, 59.33], 
+         [ new Date(2020, 11, 27), -39.39, 0.00], 
+         [ new Date(2020, 11, 28), 0.00, 71.03], 
+         [ new Date(2020, 11, 29), -23.02, 0.00], 
+         [ new Date(2020, 11, 30), 0.00, 6.35], 
+         [ new Date(2020, 11, 31), 0.00, 3.12], 
+         [ new Date(2021, 0, 1), 0.00, 0.98], 
+         [ new Date(2021, 0, 2), 0.00, 30.32], 
+         [ new Date(2021, 0, 3), 0.00, 56.63], 
+         [ new Date(2021, 0, 4), 0.00, 32.83], 
+         [ new Date(2021, 0, 5), 0.00, 62.35], 
+         [ new Date(2021, 0, 6), 0.00, 141.13], 
+         [ new Date(2021, 0, 7), -90.55, 0.00], 
+         [ new Date(2021, 0, 8), -28.19, 0.00], 
+         [ new Date(2021, 0, 9), 0.00, 10.55], 
+         [ new Date(2021, 0, 10), -60.97, 0.00], 
+         [ new Date(2021, 0, 11), -42.11, 0.00], 
+         [ new Date(2021, 0, 12), -2.09, 0.00], 
+         [ new Date(2021, 0, 13), 0.00, 142.69], 
+         [ new Date(2021, 0, 14), 0.00, 26.60], 
+         [ new Date(2021, 0, 15), -1.17, 0.00], 
+         [ new Date(2021, 0, 16), 0.00, 58.50], 
+         [ new Date(2021, 0, 17), 0.00, 78.75], 
+         [ new Date(2021, 0, 18), 0.00, 54.82], 
+         [ new Date(2021, 0, 19), -65.53, 0.00], 
+         [ new Date(2021, 0, 20), 0.00, 28.59], 
+         [ new Date(2021, 0, 21), -235.61, 0.00], 
+         [ new Date(2021, 0, 22), 0.00, 24.51], 
+         [ new Date(2021, 0, 23), 0.00, 26.60], 
+         [ new Date(2021, 0, 24), -36.39, 0.00], 
+         [ new Date(2021, 0, 25), -79.53, 0.00], 
+         [ new Date(2021, 0, 26), -19.29, 0.00], 
+         [ new Date(2021, 0, 27), -41.07, 0.00], 
+         [ new Date(2021, 0, 28), 0.00, 67.15], 
+         [ new Date(2021, 0, 29), 0.00, 16.19], 
+         [ new Date(2021, 0, 30), -5.59, 0.00], 
+         [ new Date(2021, 0, 31), 0.00, 73.17], 
+         [ new Date(2021, 1, 1), 0.00, 117.93], 
+         [ new Date(2021, 1, 2), -8.89, 0.00], 
+         [ new Date(2021, 1, 3), 0.00, 194.87], 
+         [ new Date(2021, 1, 4), 0.00, 28.49], 
+         [ new Date(2021, 1, 5), 0.00, 116.28], 
+         [ new Date(2021, 1, 6), -86.85, 0.00], 
+         [ new Date(2021, 1, 7), 0.00, 11.51], 
+         [ new Date(2021, 1, 8), 0.00, 57.83], 
+         [ new Date(2021, 1, 9), 0.00, 189.98], 
+         [ new Date(2021, 1, 10), 0.00, 81.63], 
+         [ new Date(2021, 1, 11), 0.00, 187.12], 
+         [ new Date(2021, 1, 12), 0.00, 64.53], 
+         [ new Date(2021, 1, 13), 0.00, 36.86], 
+         [ new Date(2021, 1, 14), -187.97, 0.00], 
+         [ new Date(2021, 1, 15), -304.40, 0.00], 
+         [ new Date(2021, 1, 16), -74.62, 0.00], 
+         [ new Date(2021, 1, 17), 0.00, 72.51], 
+         [ new Date(2021, 1, 18), 0.00, 164.83], 
+         [ new Date(2021, 1, 19), 0.00, 285.30], 
+         [ new Date(2021, 1, 20), 0.00, 110.41], 
+         [ new Date(2021, 1, 21), 0.00, 628.97], 
+         [ new Date(2021, 1, 22), -577.09, 0.00], 
+         [ new Date(2021, 1, 23), -295.88, 0.00], 
+         [ new Date(2021, 1, 24), -40.66, 0.00], 
+         [ new Date(2021, 1, 25), 0.00, 11.43], 
+         [ new Date(2021, 1, 26), -48.38, 0.00], 
+         [ new Date(2021, 1, 27), 0.00, 209.08], 
+         [ new Date(2021, 1, 28), -158.09, 0.00], 
+         [ new Date(2021, 2, 1), 0.00, 155.87], 
+         [ new Date(2021, 2, 2), 0.00, 199.73], 
+         [ new Date(2021, 2, 3), 0.00, 351.12], 
+         [ new Date(2021, 2, 4), -38.49, 0.00], 
+         [ new Date(2021, 2, 5), 0.00, 33.94], 
+         [ new Date(2021, 2, 6), -24.49, 0.00], 
+         [ new Date(2021, 2, 7), 0.00, 101.55], 
+         [ new Date(2021, 2, 8), 0.00, 88.55], 
+         [ new Date(2021, 2, 9), 0.00, 277.95], 
+         [ new Date(2021, 2, 10), -182.81, 0.00], 
+         [ new Date(2021, 2, 11), 0.00, 306.61], 
+         [ new Date(2021, 2, 12), -160.10, 0.00], 
+         [ new Date(2021, 2, 13), 0.00, 410.99], 
+         [ new Date(2021, 2, 14), 0.00, 53.90], 
+         [ new Date(2021, 2, 15), 0.00, 278.89], 
+         [ new Date(2021, 2, 16), -347.28, 0.00], 
+         [ new Date(2021, 2, 17), 0.00, 41.54], 
+         [ new Date(2021, 2, 18), -161.17, 0.00], 
+         [ new Date(2021, 2, 19), 0.00, 581.96], 
+         [ new Date(2021, 2, 20), 0.00, 329.14], 
+         [ new Date(2021, 2, 21), 0.00, 52.30], 
+         [ new Date(2021, 2, 22), -267.85, 0.00], 
+         [ new Date(2021, 2, 23), 0.00, 244.66], 
+         [ new Date(2021, 2, 24), 0.00, 252.61], 
+         [ new Date(2021, 2, 25), 0.00, 374.75], 
+         [ new Date(2021, 2, 26), 0.00, 314.33], 
+         [ new Date(2021, 2, 27), 0.00, 467.78], 
+         [ new Date(2021, 2, 28), 0.00, 373.08], 
+         [ new Date(2021, 2, 29), 0.00, 424.71], 
+         [ new Date(2021, 2, 30), 0.00, 244.47], 
+         [ new Date(2021, 2, 31), 0.00, 336.82], 
+         [ new Date(2021, 3, 1), -306.94, 0.00], 
+         [ new Date(2021, 3, 2), 0.00, 432.53], 
+         [ new Date(2021, 3, 3), 0.00, 0.00], 
+         [ new Date(2021, 3, 4), 0.00, 0.00]
+        ]);
+
+        var options = {
+          title: 'Daily Profit and Loss',
+          backgroundColor: '#f1f8e9',
+          colors: ['#ff3333', '#00cc00'],
+          isStacked: true,
+          legend: { position: 'none' },
+          hAxis: {
+            title: ''
+          },
+          vAxis: {
+            title: 'USDT'
+          }
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('column_chart_div'));
+        chart.draw(data, options);
+    }
+    </script>
+
+  <div class="container-fluid logo_container">
+    <div class="container text-right logo">
+      <a href="#"><img src="../../Grid_HTML/images/i4cfinancial_Logo.png"></a>
+    </div>
+  </div>
+
+  <div class="container header_container">
+    <h2 class="report_name">i4cFinancial Performance Report - David Garrard</h2>
+    <h4 class="report_description">Quantitative Opportunistic Volatility</h4>
+    <h4 class="report_description">The strategy actively trades a universe of 100+ top market cap cryptocurrencies, taking positions based on a proprietary technical ranking derived from a multi-factor analysis of market action across multiple trading horizons. Strict risk management enforces a rapid 'go-to-cash' ruleset in bearish markets.</h4>
+    <h4 class="report_description">Forward test from inception 2020/12/01 to 2021/04/04</h4>
+  </div>
+
+  <div class="container chart_container">
+    <div id="chart_div" class="chart"></div>
+  </div>
+  <p>
+  <div class="container column_chart_container">
+    <div id="column_chart_div" class="chart"></div>
+  </div>
+
+  <div class="container overview_container">
+    <h2 class="report_sub_head">Overview</h2>
+    <div class="overview_tab">
+   <table class="overview_table">
+        <tr>
+          <td>Total Deposits (USDT):</td>
+          <td>300.0</td>
+          <td>Total Withdrawals and Fees (USDT):</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Annualized Returns:</td>
+          <td>1,119.87%</td>
+          <td>Average Win Size:</td>
+          <td>128.92</td>
+        </tr>
+        <tr>
+          <td>Number of Win Days:</td>
+          <td>82</td>
+          <td>Average Loss Size:</td>
+          <td>97.80</td>
+        </tr>
+        <tr>
+          <td>Number of Loss Days:</td>
+          <td>43</td>
+          <td>Win/Loss Size Ratio:</td>
+          <td>1.32</td>
+        </tr>
+        <tr>
+          <td>Win/Loss Days Count Ratio:</td>
+          <td>1.91  (66% winners)</td>
+          <td>Last Session Move:</td>
+          <td>101,000.00 (1.00%)</td>
+        </tr>
+        <tr>
+          <td>Sharpe Ratio (Annualized):</td>
+          <td>5.65</td>
+          <td>Sortino Ratio (Annualized):</td>
+          <td>8.49</td>
+        </tr>
+     </table>
+    </div>
+  </div>
+
+  <div class="container monthly_container">
+    <h2 class="report_sub_head">Monthly Absolute Returns:</h2>
+    <div class="monthly_table">
+      <Table width="70%"><TR><TH style=width:"11%"><FONT STYLE="text-align:center">&nbsp;</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jan</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Feb</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Mar</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Apr</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">May </FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jun</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jul</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Aug</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Sep</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Oct</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Nov</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Dec</FONT></TH><TH style="border: 1px solid black" width:"11%"><FONT STYLE="text-align:center">Total</FONT></TH></TR><TR><TD><strong><font style="text-align:right">2020</strong></TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center"><font style="color:green">46.3</font></TD><TD style="text-align:center"><font style="color:green">46.3</font></TD></TR><TR><TD><strong><font style="text-align:right">2021</strong></TD><TD style="text-align:center"><font style="color:green">61.9</font></TD><TD style="text-align:center"><font style="color:green">108.2</font></TD><TD style="text-align:center"><font style="color:green">164.8</font></TD><TD style="text-align:center"><font style="color:green">2.2</font></TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center"><font style="color:green">337.1</font></TD></TR></Table>
+    </div>
+  </div>
+
+  <div class="container sold_container">
+    <h2 class="report_sub_head inner_head">Notes:</h2>
+    <ul>
+		<li>Exits on target achieved or dynamic proprietary trailing stop posted.  These trailing stops, combined with minimum rank entry rules lead to the imposition of 'go-to-cash' and 'stay-in-cash' rules if there is a broad market bearish turn.</li>
+    </ul>
+    <div class="notes_table">
+      <p>The performance data quoted represents past performance. Past performance does not guarantee future results. The investment return and principal value of an investment will fluctuate so that an investor's position, when redeemed, may be worth more or less than the original cost. Current performance may be lower or higher than the performance data quoted. Investors should consider the investment objectives, risks, and charges and expenses of the above system carefully before investing.<p>
+    </div>
+
+    <p class="session">Last Session Date: 2021/04/04</p>
+    </div>
+
+</body>
+</html>

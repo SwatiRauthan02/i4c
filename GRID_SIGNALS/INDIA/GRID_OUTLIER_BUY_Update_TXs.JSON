@@ -1,0 +1,14 @@
+﻿{
+ "countrycode":"INDIA",
+ "date":"2025-07-30",
+ "export_time":"07:41:55",
+ "buy_count":1,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"NESCO",
+   "name":"Nesco Limited",
+   "recordnumber":2378500
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+﻿{
+ "countrycode":"INDONESIA",
+ "date":"2025-07-30",
+ "export_time":"05:41:56",
+ "sell_count":3,
+ "buy_count":6,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"ARCI",
+   "name":"Archi Indonesia Tbk.",
+   "numshares":136000,
+   "weightednumshares":136000,
+   "NOVInumshares":136000,
+   "tsid":"",
+   "recordnumber":6833
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"AMAN",
+   "name":"Makmur Berkah Amanda Tbk.",
+   "numshares":833000,
+   "weightednumshares":833000,
+   "NOVInumshares":833300,
+   "tsid":"",
+   "recordnumber":6955
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"BKSL",
+   "name":"PT Sentul City Tbk",
+   "numshares":918800,
+   "weightednumshares":918800,
+   "NOVInumshares":939800,
+   "tsid":"",
+   "recordnumber":8068
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"BUVA",
+   "name":"PT Bukit Uluwatu Villa Tbk",
+   "numshares":644300,
+   "weightednumshares":644300,
+   "NOVInumshares":644300,
+   "tsid":"",
+   "recordnumber":8093
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"BWPT",
+   "name":"Eagle High Plantations Tbk.",
+   "numshares":976500,
+   "weightednumshares":976500,
+   "NOVInumshares":976500,
+   "tsid":"",
+   "recordnumber":8114
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"IMPC",
+   "name":"Impack Pratama Industri Tbk.",
+   "numshares":253000,
+   "weightednumshares":253000,
+   "NOVInumshares":253000,
+   "tsid":"",
+   "recordnumber":8115
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"ANDI",
+   "name":"PT. Andira Agro, Tbk",
+   "numshares":6578900,
+   "weightednumshares":6578900,
+   "NOVInumshares":6578900,
+   "tsid":"",
+   "recordnumber":8116
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"GZCO",
+   "name":"Gozco Plantations Tbk",
+   "numshares":1050400,
+   "weightednumshares":1050400,
+   "NOVInumshares":1050400,
+   "tsid":"",
+   "recordnumber":8117
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"PTSN",
+   "name":"Sat Nusapersada Tbk",
+   "numshares":520800,
+   "weightednumshares":520800,
+   "NOVInumshares":520800,
+   "tsid":"",
+   "recordnumber":8118
+  }
+ ]
+}

@@ -1,0 +1,300 @@
+﻿{
+ "countrycode":"ISHARES",
+ "date":"2022-04-29",
+ "export_time":"13:04:54",
+ "sell_count":27,
+ "buy_count":2,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"SMIN",
+   "name":"iShares MSCI India Small-Cap ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":33777
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IWN",
+   "name":"iShares Russell 2000 Value ETF",
+   "numshares":25,
+   "weightednumshares":25,
+   "NOVInumshares":25,
+   "tsid":"",
+   "recordnumber":33848
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IJR",
+   "name":"iShares Core S&P Small-Cap ETF",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":33849
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IYT",
+   "name":"iShares Transportation Average ETF",
+   "numshares":15,
+   "weightednumshares":15,
+   "NOVInumshares":15,
+   "tsid":"",
+   "recordnumber":33850
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"EXI",
+   "name":"iShares Global Industrials ETF",
+   "numshares":25,
+   "weightednumshares":25,
+   "NOVInumshares":25,
+   "tsid":"",
+   "recordnumber":33882
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"VLUE",
+   "name":"ISHARES EDGE MSCI USA VALUE FACTOR ETF",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":33928
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IWS",
+   "name":"iShares Russell Mid-Cap Value ETF",
+   "numshares":25,
+   "weightednumshares":25,
+   "NOVInumshares":25,
+   "tsid":"",
+   "recordnumber":33929
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"HEFA",
+   "name":"iShares Currency Hedged Msci Eafe ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":33967
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"HSCZ",
+   "name":"iShares Currency Hedged MSCI EAFE Small-",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":33968
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"EWU",
+   "name":"iShares MSCI United Kingdom ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":33969
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"ITA",
+   "name":"ISHARES U.S. AEROSPACE & DEFENSE ETF",
+   "numshares":25,
+   "weightednumshares":25,
+   "NOVInumshares":25,
+   "tsid":"",
+   "recordnumber":34014
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IEUS",
+   "name":"iShares MSCI Europe Small-Cap",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":34015
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"SCJ",
+   "name":"iShares MSCI Japan Small-Cap ETF",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":34058
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"HJPX",
+   "name":"iShares Currency Hedged JPX-Nikkei 400 E",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":34059
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IAK",
+   "name":"ISHARES U.S. INSURANCE ETF",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":34060
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"HEWJ",
+   "name":"iShares Currency Hedged Msci Japan ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":34061
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IPAC",
+   "name":"iShares Core MSCI Pacific ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":34096
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"SIZE",
+   "name":"ISHARES EDGE MSCI USA SIZE FACTOR ETF",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":34136
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IYW",
+   "name":"ISHARES U.S. TECHNOLOGY ETF",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":34137
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"URTH",
+   "name":"iShares MSCI World ETF",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":34138
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"KXI",
+   "name":"iShares Global Consumer Staples ETF",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":34174
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IYE",
+   "name":"ISHARES U.S. ENERGY ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":34212
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IDU",
+   "name":"ISHARES U.S. UTILITIES ETF",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":34213
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"ITB",
+   "name":"ISHARES U.S. HOME CONSTRUCTION ETF",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":34250
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"HDV",
+   "name":"iShares Core High Dividend ETF",
+   "numshares":25,
+   "weightednumshares":25,
+   "NOVInumshares":25,
+   "tsid":"",
+   "recordnumber":34275
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"EWI",
+   "name":"iShares MSCI Italy Capped ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":34310
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"HEWG",
+   "name":"iShares Currency Hedged Msci Germany ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":34342
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"EIDO",
+   "name":"iShares MSCI Indonesia ETF",
+   "numshares":200,
+   "weightednumshares":200,
+   "NOVInumshares":200,
+   "tsid":"",
+   "recordnumber":34475
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"KSA",
+   "name":"iShares MSCI Saudi Arabia Capped ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":34476
+  }
+ ]
+}

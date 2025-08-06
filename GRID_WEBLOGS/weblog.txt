@@ -1,0 +1,752 @@
+﻿2025/07/31 00:42:37 UTC	   [07:42:37 ICT]   	[GRIDR] INDIA Completed for 2025/07/30 in Elapsed Time: 7:03
+2025/07/30 22:42:43 UTC	   [05:42:43 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/30 in Elapsed Time: 7:52
+2025/07/30 22:31:19 UTC	   [05:31:19 ICT]   	[GRIDR] SET Completed for 2025/07/30 in Elapsed Time: 10:41
+2025/07/30 20:19:13 UTC	   [03:19:13 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/30 in Elapsed Time: 6:56
+2025/07/30 19:26:30 UTC	   [02:26:30 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/30 in Elapsed Time: 11:40
+2025/07/30 13:28:14 UTC	   [20:28:14 ICT]   	[GRIDR] Process started with version 1.2.174 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/30 07:19:59 UTC	   [14:19:59 ICT]   	[GRIDR] MINERS Completed for 2025/07/29 in Elapsed Time: 3:01
+2025/07/30 07:16:33 UTC	   [14:16:33 ICT]   	[GRIDR] Crypto Funds Completed for 2025/07/29 in Elapsed Time: 2:07
+2025/07/30 07:12:12 UTC	   [14:12:12 ICT]   	[GRIDR] AI Completed for 2025/07/29 in Elapsed Time: 2:11
+2025/07/30 07:05:58 UTC	   [14:05:58 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/29 in Elapsed Time: 4:05
+2025/07/30 06:56:31 UTC	   [13:56:31 ICT]   	[GRIDR] USSectors Completed for 2025/07/29 in Elapsed Time: 1:50
+2025/07/30 06:44:36 UTC	   [13:44:36 ICT]   	[GRIDR] US Completed for 2025/07/29 in Elapsed Time: 60:28
+2025/07/30 05:43:47 UTC	   [12:43:47 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/29 in Elapsed Time: 7:22
+2025/07/30 00:43:38 UTC	   [07:43:38 ICT]   	[GRIDR] INDIA Completed for 2025/07/29 in Elapsed Time: 7:24
+2025/07/29 22:43:22 UTC	   [05:43:22 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/29 in Elapsed Time: 8:12
+2025/07/29 22:31:38 UTC	   [05:31:38 ICT]   	[GRIDR] SET Completed for 2025/07/29 in Elapsed Time: 11:05
+2025/07/29 20:17:33 UTC	   [03:17:33 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/29 in Elapsed Time: 6:52
+2025/07/29 19:26:20 UTC	   [02:26:20 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/29 in Elapsed Time: 11:51
+2025/07/29 09:10:15 UTC	   [16:10:15 ICT]   	[GRIDR] Process started with version 1.2.173 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/29 07:14:22 UTC	   [14:14:22 ICT]   	[GRIDR] MINERS Completed for 2025/07/28 in Elapsed Time: 3:06
+2025/07/29 07:10:50 UTC	   [14:10:50 ICT]   	[GRIDR] Crypto Funds Completed for 2025/07/28 in Elapsed Time: 2:11
+2025/07/29 07:06:24 UTC	   [14:06:24 ICT]   	[GRIDR] AI Completed for 2025/07/28 in Elapsed Time: 2:04
+2025/07/29 07:00:11 UTC	   [14:00:11 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/28 in Elapsed Time: 3:59
+2025/07/29 06:50:49 UTC	   [13:50:49 ICT]   	[GRIDR] USSectors Completed for 2025/07/28 in Elapsed Time: 1:55
+2025/07/29 06:38:30 UTC	   [13:38:30 ICT]   	[GRIDR] US Completed for 2025/07/28 in Elapsed Time: 60:51
+2025/07/29 05:37:18 UTC	   [12:37:18 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/28 in Elapsed Time: 7:16
+2025/07/29 00:37:36 UTC	   [07:37:36 ICT]   	[GRIDR] INDIA Completed for 2025/07/28 in Elapsed Time: 7:36
+2025/07/28 22:30:11 UTC	   [05:30:11 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/28 in Elapsed Time: 8:11
+2025/07/28 22:21:49 UTC	   [05:21:49 ICT]   	[GRIDR] SET Holiday found for 2025/07/28
+2025/07/28 20:12:22 UTC	   [03:12:22 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/28 in Elapsed Time: 6:52
+2025/07/28 19:22:45 UTC	   [02:22:45 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/28 in Elapsed Time: 12:18
+2025/07/28 09:33:53 UTC	   [16:33:53 ICT]   	[GRIDR] Process started with version 1.2.172 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/27 00:11:56 UTC	   [07:11:56 ICT]   	[GRIDR] Process started with version 1.2.171 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/26 13:17:05 UTC	   [20:17:05 ICT]   	[GRIDR] Process started with version 1.2.170 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/26 13:00:08 UTC	   [20:00:08 ICT]   	[GRIDR] ALL Weekend Utilities Run - Completed: 2025/07/26 in Elapsed Time: 4 hours 51 minutes
+2025/07/26 08:08:29 UTC	   [15:08:29 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/07/26 07:04:11 UTC	   [14:04:11 ICT]   	[GRIDR] MINERS Completed for 2025/07/25 in Elapsed Time: 1:50
+2025/07/26 07:02:00 UTC	   [14:02:00 ICT]   	[GRIDR] Crypto Funds Completed for 2025/07/25 in Elapsed Time: 1:03
+2025/07/26 06:58:46 UTC	   [13:58:46 ICT]   	[GRIDR] AI Completed for 2025/07/25 in Elapsed Time: 1:10
+2025/07/26 06:53:47 UTC	   [13:53:47 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/25 in Elapsed Time: 2:52
+2025/07/26 06:45:33 UTC	   [13:45:33 ICT]   	[GRIDR] USSectors Completed for 2025/07/25 in Elapsed Time: 0:54
+2025/07/26 06:40:13 UTC	   [13:40:13 ICT]   	[GRIDR] US Completed for 2025/07/25 in Elapsed Time: 55:31
+2025/07/26 05:44:28 UTC	   [12:44:28 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/25 in Elapsed Time: 6:00
+2025/07/26 03:55:29 UTC	   [10:55:29 ICT]   	[GRIDR] Crypto Funds Completed for 2025/07/24 in Elapsed Time: 1:02
+2025/07/26 03:54:13 UTC	   [10:54:13 ICT]   	[GRIDR] Crypto Funds Completed for 2025/07/23 in Elapsed Time: 0:56
+2025/07/26 03:52:59 UTC	   [10:52:59 ICT]   	[GRIDR] Crypto Funds Completed for 2025/07/22 in Elapsed Time: 0:59
+2025/07/26 03:51:42 UTC	   [10:51:42 ICT]   	[GRIDR] Crypto Funds Completed for 2025/07/21 in Elapsed Time: 1:22
+2025/07/26 03:48:27 UTC	   [10:48:27 ICT]   	[GRIDR] Process started with version 1.2.169 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/26 00:40:24 UTC	   [07:40:24 ICT]   	[GRIDR] INDIA Completed for 2025/07/25 in Elapsed Time: 5:39
+2025/07/25 22:42:35 UTC	   [05:42:35 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/25 in Elapsed Time: 6:17
+2025/07/25 22:34:07 UTC	   [05:34:07 ICT]   	[GRIDR] SET Completed for 2025/07/25 in Elapsed Time: 9:01
+2025/07/25 20:13:00 UTC	   [03:13:00 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/25 in Elapsed Time: 5:29
+2025/07/25 19:24:34 UTC	   [02:24:34 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/25 in Elapsed Time: 9:54
+2025/07/25 06:53:37 UTC	   [13:53:37 ICT]   	[GRIDR] MINERS Completed for 2025/07/24 in Elapsed Time: 1:47
+2025/07/25 06:51:29 UTC	   [13:51:29 ICT]   	[GRIDR] AI Completed for 2025/07/24 in Elapsed Time: 1:02
+2025/07/25 06:46:38 UTC	   [13:46:38 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/24 in Elapsed Time: 2:53
+2025/07/25 06:38:24 UTC	   [13:38:24 ICT]   	[GRIDR] USSectors Completed for 2025/07/24 in Elapsed Time: 0:52
+2025/07/25 06:33:11 UTC	   [13:33:11 ICT]   	[GRIDR] US Completed for 2025/07/24 in Elapsed Time: 55:05
+2025/07/25 05:37:52 UTC	   [12:37:52 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/24 in Elapsed Time: 6:36
+2025/07/25 00:39:02 UTC	   [07:39:02 ICT]   	[GRIDR] INDIA Completed for 2025/07/24 in Elapsed Time: 5:34
+2025/07/24 22:41:18 UTC	   [05:41:18 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/24 in Elapsed Time: 6:16
+2025/07/24 22:32:53 UTC	   [05:32:53 ICT]   	[GRIDR] SET Completed for 2025/07/24 in Elapsed Time: 8:53
+2025/07/24 20:11:58 UTC	   [03:11:58 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/24 in Elapsed Time: 5:12
+2025/07/24 19:24:09 UTC	   [02:24:09 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/24 in Elapsed Time: 9:29
+2025/07/24 06:52:04 UTC	   [13:52:04 ICT]   	[GRIDR] MINERS Completed for 2025/07/23 in Elapsed Time: 1:53
+2025/07/24 06:49:50 UTC	   [13:49:50 ICT]   	[GRIDR] AI Completed for 2025/07/23 in Elapsed Time: 1:03
+2025/07/24 06:44:58 UTC	   [13:44:58 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/23 in Elapsed Time: 2:44
+2025/07/24 06:36:53 UTC	   [13:36:53 ICT]   	[GRIDR] USSectors Completed for 2025/07/23 in Elapsed Time: 0:53
+2025/07/24 06:31:26 UTC	   [13:31:26 ICT]   	[GRIDR] US Completed for 2025/07/23 in Elapsed Time: 53:15
+2025/07/24 05:37:58 UTC	   [12:37:58 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/23 in Elapsed Time: 5:47
+2025/07/24 00:39:58 UTC	   [07:39:58 ICT]   	[GRIDR] INDIA Completed for 2025/07/23 in Elapsed Time: 5:31
+2025/07/23 22:44:26 UTC	   [05:44:26 ICT]   	[GRIDR] Process started with version 1.2.168 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/23 22:39:29 UTC	   [05:39:29 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/23 in Elapsed Time: 6:08
+2025/07/23 22:31:09 UTC	   [05:31:09 ICT]   	[GRIDR] SET Completed for 2025/07/23 in Elapsed Time: 8:45
+2025/07/23 22:02:04 UTC	   [05:02:04 ICT]   	[GRIDR] Process started with version 1.2.168 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/23 20:20:22 UTC	   [03:20:22 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/23 in Elapsed Time: 5:08
+2025/07/23 19:22:30 UTC	   [02:22:30 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/23 in Elapsed Time: 9:38
+2025/07/23 13:47:42 UTC	   [20:47:42 ICT]   	[GRIDR] Process started with version 1.2.168 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/23 06:52:52 UTC	   [13:52:52 ICT]   	[GRIDR] MINERS Completed for 2025/07/22 in Elapsed Time: 1:46
+2025/07/23 06:50:45 UTC	   [13:50:45 ICT]   	[GRIDR] AI Completed for 2025/07/22 in Elapsed Time: 1:03
+2025/07/23 06:45:54 UTC	   [13:45:54 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/22 in Elapsed Time: 2:40
+2025/07/23 06:37:51 UTC	   [13:37:51 ICT]   	[GRIDR] USSectors Completed for 2025/07/22 in Elapsed Time: 0:52
+2025/07/23 06:32:40 UTC	   [13:32:40 ICT]   	[GRIDR] US Completed for 2025/07/22 in Elapsed Time: 53:10
+2025/07/23 05:39:18 UTC	   [12:39:18 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/22 in Elapsed Time: 5:50
+2025/07/23 00:41:17 UTC	   [07:41:17 ICT]   	[GRIDR] INDIA Completed for 2025/07/22 in Elapsed Time: 5:28
+2025/07/22 22:43:34 UTC	   [05:43:34 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/22 in Elapsed Time: 6:44
+2025/07/22 22:34:40 UTC	   [05:34:40 ICT]   	[GRIDR] SET Completed for 2025/07/22 in Elapsed Time: 9:25
+2025/07/22 20:13:12 UTC	   [03:13:12 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/22 in Elapsed Time: 5:29
+2025/07/22 19:25:08 UTC	   [02:25:08 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/22 in Elapsed Time: 10:11
+2025/07/22 07:02:16 UTC	   [14:02:16 ICT]   	[GRIDR] MINERS Completed for 2025/07/21 in Elapsed Time: 1:58
+2025/07/22 06:59:58 UTC	   [13:59:58 ICT]   	[GRIDR] AI Completed for 2025/07/21 in Elapsed Time: 1:03
+2025/07/22 06:55:07 UTC	   [13:55:07 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/21 in Elapsed Time: 2:58
+2025/07/22 06:46:48 UTC	   [13:46:48 ICT]   	[GRIDR] USSectors Completed for 2025/07/21 in Elapsed Time: 0:54
+2025/07/22 06:41:32 UTC	   [13:41:32 ICT]   	[GRIDR] US Completed for 2025/07/21 in Elapsed Time: 54:44
+2025/07/22 05:46:35 UTC	   [12:46:35 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/21 in Elapsed Time: 6:33
+2025/07/22 00:35:35 UTC	   [07:35:35 ICT]   	[GRIDR] INDIA Completed for 2025/07/21 in Elapsed Time: 5:35
+2025/07/21 22:32:44 UTC	   [05:32:44 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/21 in Elapsed Time: 6:19
+2025/07/21 22:24:15 UTC	   [05:24:15 ICT]   	[GRIDR] SET Completed for 2025/07/21 in Elapsed Time: 8:55
+2025/07/21 20:10:41 UTC	   [03:10:41 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/21 in Elapsed Time: 5:11
+2025/07/21 19:20:06 UTC	   [02:20:06 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/21 in Elapsed Time: 9:38
+2025/07/21 10:46:50 UTC	   [17:46:50 ICT]   	[GRIDR] Process started with version 1.2.167 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/20 15:12:20 UTC	   [22:12:20 ICT]   	[GRIDR] Process started with version 1.2.166 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/20 11:50:36 UTC	   [18:50:36 ICT]   	[GRIDR] Process started with version 1.2.166 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/20 11:02:42 UTC	   [18:02:42 ICT]   	[GRIDR] AI Completed for 2025/07/18 in Elapsed Time: 1:12
+2025/07/20 11:01:18 UTC	   [18:01:18 ICT]   	[GRIDR] AI Completed for 2025/07/17 in Elapsed Time: 1:03
+2025/07/20 10:59:19 UTC	   [17:59:19 ICT]   	[GRIDR] AI Completed for 2025/07/16 in Elapsed Time: 1:04
+2025/07/20 10:57:11 UTC	   [17:57:11 ICT]   	[GRIDR] AI Completed for 2025/07/15 in Elapsed Time: 1:05
+2025/07/20 10:52:58 UTC	   [17:52:58 ICT]   	[GRIDR] AI Completed for 2025/07/14 in Elapsed Time: 1:18
+2025/07/20 00:30:48 UTC	   [07:30:48 ICT]   	[GRIDR] Process started with version 1.2.166 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/19 13:44:28 UTC	   [20:44:28 ICT]   	[GRIDR] USSectors Completed for 2025/07/18 in Elapsed Time: 0:58
+2025/07/19 13:38:23 UTC	   [20:38:23 ICT]   	[GRIDR] Process started with version 1.2.165 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/19 13:32:37 UTC	   [20:32:37 ICT]   	[GRIDR] ALL Weekend Utilities Run - Completed: 2025/07/19 in Elapsed Time: 5 hours 26 minutes
+2025/07/19 08:06:18 UTC	   [15:06:18 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/07/19 07:04:06 UTC	   [14:04:06 ICT]   	[GRIDR] MINERS Completed for 2025/07/18 in Elapsed Time: 1:50
+2025/07/19 07:01:55 UTC	   [14:01:55 ICT]   	[GRIDR] AI Completed for 2025/07/18 in Elapsed Time: 1:15
+2025/07/19 06:57:05 UTC	   [13:57:05 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/18 in Elapsed Time: 2:50
+2025/07/19 06:48:53 UTC	   [13:48:53 ICT]   	[GRIDR] USSectors Completed for 2025/07/18 in Elapsed Time: 0:55
+2025/07/19 06:42:44 UTC	   [13:42:44 ICT]   	[GRIDR] US Completed for 2025/07/18 in Elapsed Time: 59:47
+2025/07/19 05:42:43 UTC	   [12:42:43 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/18 in Elapsed Time: 6:27
+2025/07/19 01:56:14 UTC	   [08:56:14 ICT]   	[GRIDR] Process started with version 1.2.165 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/19 00:37:43 UTC	   [07:37:43 ICT]   	[GRIDR] INDIA Completed for 2025/07/18 in Elapsed Time: 5:22
+2025/07/19 00:06:24 UTC	   [07:06:24 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/18 in Elapsed Time: 6:11
+2025/07/18 23:57:58 UTC	   [06:57:58 ICT]   	[GRIDR] SET Completed for 2025/07/18 in Elapsed Time: 8:48
+2025/07/18 23:48:48 UTC	   [06:48:48 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/18 in Elapsed Time: 5:14
+2025/07/18 23:42:21 UTC	   [06:42:21 ICT]   	[GRIDR] Process started with version 1.2.165 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/18 23:33:06 UTC	   [06:33:06 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/18 in Elapsed Time: 258:06
+2025/07/18 13:24:35 UTC	   [20:24:35 ICT]   	[GRIDR] Process started with version 1.2.165 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/18 11:33:31 UTC	   [18:33:31 ICT]   	[GRIDR] Process started with version 1.2.165 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/18 06:45:48 UTC	   [13:45:48 ICT]   	[GRIDR] MINERS Completed for 2025/07/17 in Elapsed Time: 1:48
+2025/07/18 06:42:16 UTC	   [13:42:16 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/17 in Elapsed Time: 2:42
+2025/07/18 06:34:13 UTC	   [13:34:13 ICT]   	[GRIDR] USSectors Completed for 2025/07/17 in Elapsed Time: 0:52
+2025/07/18 06:29:00 UTC	   [13:29:00 ICT]   	[GRIDR] US Completed for 2025/07/17 in Elapsed Time: 52:22
+2025/07/18 05:36:24 UTC	   [12:36:24 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/17 in Elapsed Time: 6:01
+2025/07/18 00:38:12 UTC	   [07:38:12 ICT]   	[GRIDR] INDIA Completed for 2025/07/17 in Elapsed Time: 5:23
+2025/07/17 22:40:39 UTC	   [05:40:39 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/17 in Elapsed Time: 6:03
+2025/07/17 22:32:27 UTC	   [05:32:27 ICT]   	[GRIDR] SET Completed for 2025/07/17 in Elapsed Time: 8:36
+2025/07/17 20:11:48 UTC	   [03:11:48 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/17 in Elapsed Time: 5:07
+2025/07/17 19:24:05 UTC	   [02:24:05 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/17 in Elapsed Time: 9:18
+2025/07/17 06:49:16 UTC	   [13:49:16 ICT]   	[GRIDR] MINERS Completed for 2025/07/16 in Elapsed Time: 1:47
+2025/07/17 06:45:43 UTC	   [13:45:43 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/16 in Elapsed Time: 2:40
+2025/07/17 06:37:41 UTC	   [13:37:41 ICT]   	[GRIDR] USSectors Completed for 2025/07/16 in Elapsed Time: 0:51
+2025/07/17 06:31:43 UTC	   [13:31:43 ICT]   	[GRIDR] US Completed for 2025/07/16 in Elapsed Time: 54:00
+2025/07/17 05:37:29 UTC	   [12:37:29 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/16 in Elapsed Time: 6:08
+2025/07/17 00:39:08 UTC	   [07:39:08 ICT]   	[GRIDR] INDIA Completed for 2025/07/16 in Elapsed Time: 5:40
+2025/07/16 22:41:15 UTC	   [05:41:15 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/16 in Elapsed Time: 6:15
+2025/07/16 22:32:46 UTC	   [05:32:46 ICT]   	[GRIDR] SET Completed for 2025/07/16 in Elapsed Time: 8:53
+2025/07/16 20:11:48 UTC	   [03:11:48 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/16 in Elapsed Time: 5:10
+2025/07/16 19:23:59 UTC	   [02:23:59 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/16 in Elapsed Time: 9:24
+2025/07/16 13:10:40 UTC	   [20:10:40 ICT]   	[GRIDR] Process started with version 1.2.164 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/16 06:45:40 UTC	   [13:45:40 ICT]   	[GRIDR] MINERS Completed for 2025/07/15 in Elapsed Time: 1:46
+2025/07/16 06:42:11 UTC	   [13:42:11 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/15 in Elapsed Time: 2:47
+2025/07/16 06:34:03 UTC	   [13:34:03 ICT]   	[GRIDR] USSectors Completed for 2025/07/15 in Elapsed Time: 0:52
+2025/07/16 06:28:52 UTC	   [13:28:52 ICT]   	[GRIDR] US Completed for 2025/07/15 in Elapsed Time: 52:26
+2025/07/16 05:36:12 UTC	   [12:36:12 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/15 in Elapsed Time: 6:07
+2025/07/16 00:37:53 UTC	   [07:37:53 ICT]   	[GRIDR] INDIA Completed for 2025/07/15 in Elapsed Time: 5:27
+2025/07/15 22:40:17 UTC	   [05:40:17 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/15 in Elapsed Time: 6:19
+2025/07/15 22:31:45 UTC	   [05:31:45 ICT]   	[GRIDR] SET Completed for 2025/07/15 in Elapsed Time: 8:52
+2025/07/15 20:10:51 UTC	   [03:10:51 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/15 in Elapsed Time: 5:08
+2025/07/15 19:23:07 UTC	   [02:23:07 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/15 in Elapsed Time: 9:26
+2025/07/15 13:30:13 UTC	   [20:30:13 ICT]   	[GRIDR] Process started with version 1.2.163 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/15 06:54:57 UTC	   [13:54:57 ICT]   	[GRIDR] MINERS Completed for 2025/07/14 in Elapsed Time: 1:50
+2025/07/15 06:51:24 UTC	   [13:51:24 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/14 in Elapsed Time: 2:41
+2025/07/15 06:43:22 UTC	   [13:43:22 ICT]   	[GRIDR] USSectors Completed for 2025/07/14 in Elapsed Time: 0:52
+2025/07/15 06:38:11 UTC	   [13:38:11 ICT]   	[GRIDR] US Completed for 2025/07/14 in Elapsed Time: 51:51
+2025/07/15 05:46:07 UTC	   [12:46:07 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/14 in Elapsed Time: 6:06
+2025/07/15 00:35:28 UTC	   [07:35:28 ICT]   	[GRIDR] INDIA Completed for 2025/07/14 in Elapsed Time: 5:28
+2025/07/14 22:32:12 UTC	   [05:32:12 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/14 in Elapsed Time: 6:02
+2025/07/14 22:24:01 UTC	   [05:24:01 ICT]   	[GRIDR] SET Completed for 2025/07/14 in Elapsed Time: 8:41
+2025/07/14 20:10:31 UTC	   [03:10:31 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/14 in Elapsed Time: 5:01
+2025/07/14 19:20:06 UTC	   [02:20:06 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/14 in Elapsed Time: 9:24
+2025/07/13 08:51:29 UTC	   [15:51:29 ICT]   	[GRIDR] Process started with version 1.2.162 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/13 08:35:26 UTC	   [15:35:26 ICT]   	[GRIDR] Process started with version 1.2.162 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/13 08:06:29 UTC	   [15:06:29 ICT]   	[GRIDR] Process started with version 1.2.162 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/13 07:30:34 UTC	   [14:30:34 ICT]   	[GRIDR] Process started with version 1.2.162 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/12 12:28:41 UTC	   [19:28:41 ICT]   	[GRIDR] ALL Weekend Utilities Run - Completed: 2025/07/12 in Elapsed Time: 4 hours 27 minutes
+2025/07/12 08:01:39 UTC	   [15:01:39 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/07/12 06:48:25 UTC	   [13:48:25 ICT]   	[GRIDR] MINERS Completed for 2025/07/11 in Elapsed Time: 1:49
+2025/07/12 06:44:52 UTC	   [13:44:52 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/11 in Elapsed Time: 2:42
+2025/07/12 06:36:49 UTC	   [13:36:49 ICT]   	[GRIDR] USSectors Completed for 2025/07/11 in Elapsed Time: 0:53
+2025/07/12 06:31:28 UTC	   [13:31:28 ICT]   	[GRIDR] US Completed for 2025/07/11 in Elapsed Time: 52:11
+2025/07/12 05:38:59 UTC	   [12:38:59 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/11 in Elapsed Time: 6:30
+2025/07/12 00:40:17 UTC	   [07:40:17 ICT]   	[GRIDR] INDIA Completed for 2025/07/11 in Elapsed Time: 5:33
+2025/07/11 22:32:32 UTC	   [05:32:32 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/11 in Elapsed Time: 6:17
+2025/07/11 22:24:05 UTC	   [05:24:05 ICT]   	[GRIDR] SET Completed for 2025/07/11 in Elapsed Time: 8:45
+2025/07/11 20:13:15 UTC	   [03:13:15 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/11 in Elapsed Time: 5:05
+2025/07/11 19:25:21 UTC	   [02:25:21 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/11 in Elapsed Time: 10:05
+2025/07/11 06:46:15 UTC	   [13:46:15 ICT]   	[GRIDR] MINERS Completed for 2025/07/10 in Elapsed Time: 1:47
+2025/07/11 06:42:44 UTC	   [13:42:44 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/10 in Elapsed Time: 2:35
+2025/07/11 06:34:48 UTC	   [13:34:48 ICT]   	[GRIDR] USSectors Completed for 2025/07/10 in Elapsed Time: 0:55
+2025/07/11 06:29:38 UTC	   [13:29:38 ICT]   	[GRIDR] US Completed for 2025/07/10 in Elapsed Time: 51:23
+2025/07/11 05:38:01 UTC	   [12:38:01 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/10 in Elapsed Time: 6:16
+2025/07/11 00:51:22 UTC	   [07:51:22 ICT]   	[GRIDR] Process started with version 1.2.161 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/11 00:40:01 UTC	   [07:40:01 ICT]   	[GRIDR] INDIA Completed for 2025/07/10 in Elapsed Time: 5:51
+2025/07/11 00:34:11 UTC	   [07:34:11 ICT]   	[GRIDR] Process started with version 1.2.161 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/10 22:35:31 UTC	   [05:35:31 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/10 in Elapsed Time: 6:08
+2025/07/10 22:29:12 UTC	   [05:29:12 ICT]   	[GRIDR] SET Holiday found for 2025/07/10
+2025/07/10 20:11:25 UTC	   [03:11:25 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/10 in Elapsed Time: 4:59
+2025/07/10 19:23:47 UTC	   [02:23:47 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/10 in Elapsed Time: 9:24
+2025/07/10 10:59:03 UTC	   [17:59:03 ICT]   	[GRIDR] Process started with version 1.2.160 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/10 06:49:57 UTC	   [13:49:57 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/09 in Elapsed Time: 2:48
+2025/07/10 06:46:49 UTC	   [13:46:49 ICT]   	[GRIDR] MINERS Completed for 2025/07/09 in Elapsed Time: 1:55
+2025/07/10 06:39:22 UTC	   [13:39:22 ICT]   	[GRIDR] USSectors Completed for 2025/07/09 in Elapsed Time: 0:59
+2025/07/10 06:32:34 UTC	   [13:32:34 ICT]   	[GRIDR] US Completed for 2025/07/09 in Elapsed Time: 52:38
+2025/07/10 05:39:40 UTC	   [12:39:40 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/09 in Elapsed Time: 6:10
+2025/07/10 00:41:15 UTC	   [07:41:15 ICT]   	[GRIDR] INDIA Completed for 2025/07/09 in Elapsed Time: 5:51
+2025/07/09 22:33:09 UTC	   [05:33:09 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/09 in Elapsed Time: 6:14
+2025/07/09 22:24:44 UTC	   [05:24:44 ICT]   	[GRIDR] SET Completed for 2025/07/09 in Elapsed Time: 8:45
+2025/07/09 20:13:47 UTC	   [03:13:47 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/09 in Elapsed Time: 5:12
+2025/07/09 19:24:12 UTC	   [02:24:12 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/09 in Elapsed Time: 9:27
+2025/07/09 06:43:32 UTC	   [13:43:32 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/08 in Elapsed Time: 2:37
+2025/07/09 06:40:40 UTC	   [13:40:40 ICT]   	[GRIDR] MINERS Completed for 2025/07/08 in Elapsed Time: 1:46
+2025/07/09 06:33:23 UTC	   [13:33:23 ICT]   	[GRIDR] USSectors Completed for 2025/07/08 in Elapsed Time: 0:52
+2025/07/09 06:28:17 UTC	   [13:28:17 ICT]   	[GRIDR] US Completed for 2025/07/08 in Elapsed Time: 51:12
+2025/07/09 05:36:51 UTC	   [12:36:51 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/08 in Elapsed Time: 6:09
+2025/07/09 00:38:31 UTC	   [07:38:31 ICT]   	[GRIDR] INDIA Completed for 2025/07/08 in Elapsed Time: 5:31
+2025/07/08 22:40:51 UTC	   [05:40:51 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/08 in Elapsed Time: 6:08
+2025/07/08 22:32:34 UTC	   [05:32:34 ICT]   	[GRIDR] SET Completed for 2025/07/08 in Elapsed Time: 8:43
+2025/07/08 20:11:50 UTC	   [03:11:50 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/08 in Elapsed Time: 5:01
+2025/07/08 19:24:13 UTC	   [02:24:13 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/08 in Elapsed Time: 9:16
+2025/07/08 06:55:46 UTC	   [13:55:46 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/07 in Elapsed Time: 2:49
+2025/07/08 06:52:35 UTC	   [13:52:35 ICT]   	[GRIDR] MINERS Completed for 2025/07/07 in Elapsed Time: 1:56
+2025/07/08 06:45:07 UTC	   [13:45:07 ICT]   	[GRIDR] USSectors Completed for 2025/07/07 in Elapsed Time: 1:00
+2025/07/08 06:38:25 UTC	   [13:38:25 ICT]   	[GRIDR] US Completed for 2025/07/07 in Elapsed Time: 51:53
+2025/07/08 05:46:17 UTC	   [12:46:17 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/07 in Elapsed Time: 6:16
+2025/07/08 00:35:37 UTC	   [07:35:37 ICT]   	[GRIDR] INDIA Completed for 2025/07/07 in Elapsed Time: 5:37
+2025/07/07 22:32:37 UTC	   [05:32:37 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/07 in Elapsed Time: 6:17
+2025/07/07 22:24:09 UTC	   [05:24:09 ICT]   	[GRIDR] SET Completed for 2025/07/07 in Elapsed Time: 8:49
+2025/07/07 20:10:45 UTC	   [03:10:45 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/07 in Elapsed Time: 5:15
+2025/07/07 19:19:36 UTC	   [02:19:36 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/07 in Elapsed Time: 9:32
+2025/07/05 11:08:00 UTC	   [18:08:00 ICT]   	[GRIDR] ALL Weekend Utilities Run - Completed: 2025/07/05 in Elapsed Time: 3 hours 6 minutes
+2025/07/05 08:01:48 UTC	   [15:01:48 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/07/05 05:46:12 UTC	   [12:46:12 ICT]   	[GRIDR] MINERS Completed for 2025/07/04 in Elapsed Time: 1:53
+2025/07/05 00:42:23 UTC	   [07:42:23 ICT]   	[GRIDR] INDIA Completed for 2025/07/04 in Elapsed Time: 5:30
+2025/07/04 22:34:44 UTC	   [05:34:44 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/04 in Elapsed Time: 6:14
+2025/07/04 22:26:22 UTC	   [05:26:22 ICT]   	[GRIDR] SET Completed for 2025/07/04 in Elapsed Time: 8:46
+2025/07/04 20:15:27 UTC	   [03:15:27 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/04 in Elapsed Time: 5:09
+2025/07/04 19:26:18 UTC	   [02:26:18 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/04 in Elapsed Time: 9:32
+2025/07/04 06:45:28 UTC	   [13:45:28 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/03 in Elapsed Time: 2:38
+2025/07/04 06:42:35 UTC	   [13:42:35 ICT]   	[GRIDR] MINERS Completed for 2025/07/03 in Elapsed Time: 1:45
+2025/07/04 06:35:18 UTC	   [13:35:18 ICT]   	[GRIDR] USSectors Completed for 2025/07/03 in Elapsed Time: 1:02
+2025/07/04 06:29:57 UTC	   [13:29:57 ICT]   	[GRIDR] US Completed for 2025/07/03 in Elapsed Time: 51:50
+2025/07/04 05:37:54 UTC	   [12:37:54 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/03 in Elapsed Time: 6:03
+2025/07/04 00:39:38 UTC	   [07:39:38 ICT]   	[GRIDR] INDIA Completed for 2025/07/03 in Elapsed Time: 5:30
+2025/07/03 22:41:59 UTC	   [05:41:59 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/03 in Elapsed Time: 6:37
+2025/07/03 22:33:13 UTC	   [05:33:13 ICT]   	[GRIDR] SET Completed for 2025/07/03 in Elapsed Time: 9:11
+2025/07/03 20:12:01 UTC	   [03:12:01 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/03 in Elapsed Time: 5:00
+2025/07/03 19:24:25 UTC	   [02:24:25 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/03 in Elapsed Time: 9:21
+2025/07/03 06:46:59 UTC	   [13:46:59 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/02 in Elapsed Time: 2:47
+2025/07/03 06:43:55 UTC	   [13:43:55 ICT]   	[GRIDR] MINERS Completed for 2025/07/02 in Elapsed Time: 1:55
+2025/07/03 06:36:24 UTC	   [13:36:24 ICT]   	[GRIDR] USSectors Completed for 2025/07/02 in Elapsed Time: 0:54
+2025/07/03 06:29:58 UTC	   [13:29:58 ICT]   	[GRIDR] US Completed for 2025/07/02 in Elapsed Time: 51:41
+2025/07/03 05:38:02 UTC	   [12:38:02 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/02 in Elapsed Time: 6:23
+2025/07/03 00:39:28 UTC	   [07:39:28 ICT]   	[GRIDR] INDIA Completed for 2025/07/02 in Elapsed Time: 5:22
+2025/07/02 22:41:56 UTC	   [05:41:56 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/02 in Elapsed Time: 6:07
+2025/07/02 22:33:38 UTC	   [05:33:38 ICT]   	[GRIDR] SET Completed for 2025/07/02 in Elapsed Time: 8:41
+2025/07/02 20:12:34 UTC	   [03:12:34 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/02 in Elapsed Time: 5:04
+2025/07/02 19:23:40 UTC	   [02:23:40 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/02 in Elapsed Time: 9:20
+2025/07/02 08:25:00 UTC	   [15:25:00 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/07/01 in Elapsed Time: 2:51
+2025/07/02 08:21:13 UTC	   [15:21:13 ICT]   	[GRIDR] Process started with version 1.2.159 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/07/02 08:15:30 UTC	   [15:15:30 ICT]   	[GRIDR] Leveraged ETFs Completed for 2015/07/01 in Elapsed Time: 5:14
+2025/07/02 06:34:59 UTC	   [13:34:59 ICT]   	[GRIDR] USSectors Completed for 2025/07/01 in Elapsed Time: 0:53
+2025/07/02 06:29:56 UTC	   [13:29:56 ICT]   	[GRIDR] US Completed for 2025/07/01 in Elapsed Time: 51:45
+2025/07/02 05:37:57 UTC	   [12:37:57 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/07/01 in Elapsed Time: 6:21
+2025/07/02 00:39:25 UTC	   [07:39:25 ICT]   	[GRIDR] INDIA Completed for 2025/07/01 in Elapsed Time: 5:29
+2025/07/01 22:41:48 UTC	   [05:41:48 ICT]   	[GRIDR] INDONESIA Completed for 2025/07/01 in Elapsed Time: 6:16
+2025/07/01 22:33:24 UTC	   [05:33:24 ICT]   	[GRIDR] SET Completed for 2025/07/01 in Elapsed Time: 8:47
+2025/07/01 20:12:37 UTC	   [03:12:37 ICT]   	[GRIDR] SHANGHAI Completed for 2025/07/01 in Elapsed Time: 5:00
+2025/07/01 19:25:03 UTC	   [02:25:03 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/07/01 in Elapsed Time: 9:58
+2025/07/01 06:46:36 UTC	   [13:46:36 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/30 in Elapsed Time: 2:38
+2025/07/01 06:43:44 UTC	   [13:43:44 ICT]   	[GRIDR] MINERS Completed for 2025/06/30 in Elapsed Time: 1:47
+2025/07/01 06:36:26 UTC	   [13:36:26 ICT]   	[GRIDR] USSectors Completed for 2025/06/30 in Elapsed Time: 0:52
+2025/07/01 06:31:33 UTC	   [13:31:33 ICT]   	[GRIDR] US Completed for 2025/06/30 in Elapsed Time: 45:49
+2025/07/01 05:45:31 UTC	   [12:45:31 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/30 in Elapsed Time: 5:30
+2025/07/01 00:35:25 UTC	   [07:35:25 ICT]   	[GRIDR] INDIA Completed for 2025/06/30 in Elapsed Time: 5:25
+2025/06/30 22:32:25 UTC	   [05:32:25 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/30 in Elapsed Time: 6:11
+2025/06/30 22:24:08 UTC	   [05:24:08 ICT]   	[GRIDR] SET Completed for 2025/06/30 in Elapsed Time: 8:48
+2025/06/30 20:10:28 UTC	   [03:10:28 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/30 in Elapsed Time: 4:58
+2025/06/30 19:19:00 UTC	   [02:19:00 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/30 in Elapsed Time: 9:25
+2025/06/29 02:39:45 UTC	   [09:39:45 ICT]   	[GRIDR] All Weekend Utilities Run - Completed: 2025/06/28 in Elapsed Time: 0 hour 19 minutes
+2025/06/29 02:19:47 UTC	   [09:19:47 ICT]   	[GRIDR] All Weekend Utilities Run - Commenced
+2025/06/29 02:13:12 UTC	   [09:13:12 ICT]   	[GRIDR] Process started with version 1.2.159 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/28 08:00:33 UTC	   [15:00:33 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/06/28 06:48:21 UTC	   [13:48:21 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/27 in Elapsed Time: 2:38
+2025/06/28 06:44:13 UTC	   [13:44:13 ICT]   	[GRIDR] MINERS Completed for 2025/06/27 in Elapsed Time: 1:49
+2025/06/28 06:36:53 UTC	   [13:36:53 ICT]   	[GRIDR] USSectors Completed for 2025/06/27 in Elapsed Time: 0:52
+2025/06/28 06:31:38 UTC	   [13:31:38 ICT]   	[GRIDR] US Completed for 2025/06/27 in Elapsed Time: 49:36
+2025/06/28 05:41:49 UTC	   [12:41:49 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/27 in Elapsed Time: 5:22
+2025/06/28 00:44:16 UTC	   [07:44:16 ICT]   	[GRIDR] INDIA Completed for 2025/06/27 in Elapsed Time: 5:22
+2025/06/27 22:38:36 UTC	   [05:38:36 ICT]   	[GRIDR] INDONESIA Holiday found for 2025/06/27
+2025/06/27 22:31:54 UTC	   [05:31:54 ICT]   	[GRIDR] SET Completed for 2025/06/27 in Elapsed Time: 8:31
+2025/06/27 20:11:23 UTC	   [03:11:23 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/27 in Elapsed Time: 5:04
+2025/06/27 19:23:40 UTC	   [02:23:40 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/27 in Elapsed Time: 9:20
+2025/06/27 06:42:48 UTC	   [13:42:48 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/26 in Elapsed Time: 2:36
+2025/06/27 06:39:58 UTC	   [13:39:58 ICT]   	[GRIDR] MINERS Completed for 2025/06/26 in Elapsed Time: 1:44
+2025/06/27 06:32:42 UTC	   [13:32:42 ICT]   	[GRIDR] USSectors Completed for 2025/06/26 in Elapsed Time: 0:51
+2025/06/27 06:27:35 UTC	   [13:27:35 ICT]   	[GRIDR] US Completed for 2025/06/26 in Elapsed Time: 50:28
+2025/06/27 05:36:54 UTC	   [12:36:54 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/26 in Elapsed Time: 5:28
+2025/06/27 00:39:14 UTC	   [07:39:14 ICT]   	[GRIDR] INDIA Completed for 2025/06/26 in Elapsed Time: 5:14
+2025/06/26 22:41:50 UTC	   [05:41:50 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/26 in Elapsed Time: 6:31
+2025/06/26 22:33:08 UTC	   [05:33:08 ICT]   	[GRIDR] SET Completed for 2025/06/26 in Elapsed Time: 9:18
+2025/06/26 20:11:49 UTC	   [03:11:49 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/26 in Elapsed Time: 5:20
+2025/06/26 19:23:57 UTC	   [02:23:57 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/26 in Elapsed Time: 9:21
+2025/06/26 06:51:51 UTC	   [13:51:51 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/25 in Elapsed Time: 2:45
+2025/06/26 06:48:52 UTC	   [13:48:52 ICT]   	[GRIDR] MINERS Completed for 2025/06/25 in Elapsed Time: 1:47
+2025/06/26 06:41:34 UTC	   [13:41:34 ICT]   	[GRIDR] USSectors Completed for 2025/06/25 in Elapsed Time: 0:53
+2025/06/26 06:36:19 UTC	   [13:36:19 ICT]   	[GRIDR] US Completed for 2025/06/25 in Elapsed Time: 50:38
+2025/06/26 05:45:27 UTC	   [12:45:27 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/25 in Elapsed Time: 5:31
+2025/06/26 00:37:45 UTC	   [07:37:45 ICT]   	[GRIDR] INDIA Completed for 2025/06/25 in Elapsed Time: 5:35
+2025/06/25 22:40:00 UTC	   [05:40:00 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/25 in Elapsed Time: 6:02
+2025/06/25 22:31:48 UTC	   [05:31:48 ICT]   	[GRIDR] SET Completed for 2025/06/25 in Elapsed Time: 8:36
+2025/06/25 20:11:11 UTC	   [03:11:11 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/25 in Elapsed Time: 4:52
+2025/06/25 19:23:40 UTC	   [02:23:40 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/25 in Elapsed Time: 9:09
+2025/06/25 06:51:03 UTC	   [13:51:03 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/24 in Elapsed Time: 2:32
+2025/06/25 06:48:16 UTC	   [13:48:16 ICT]   	[GRIDR] MINERS Completed for 2025/06/24 in Elapsed Time: 1:43
+2025/06/25 06:41:01 UTC	   [13:41:01 ICT]   	[GRIDR] USSectors Completed for 2025/06/24 in Elapsed Time: 0:50
+2025/06/25 06:35:57 UTC	   [13:35:57 ICT]   	[GRIDR] US Completed for 2025/06/24 in Elapsed Time: 50:42
+2025/06/25 05:45:01 UTC	   [12:45:01 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/24 in Elapsed Time: 5:21
+2025/06/25 00:37:29 UTC	   [07:37:29 ICT]   	[GRIDR] INDIA Completed for 2025/06/24 in Elapsed Time: 5:22
+2025/06/24 22:39:58 UTC	   [05:39:58 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/24 in Elapsed Time: 6:01
+2025/06/24 22:31:48 UTC	   [05:31:48 ICT]   	[GRIDR] SET Completed for 2025/06/24 in Elapsed Time: 8:34
+2025/06/24 20:11:14 UTC	   [03:11:14 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/24 in Elapsed Time: 4:55
+2025/06/24 19:23:48 UTC	   [02:23:48 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/24 in Elapsed Time: 9:12
+2025/06/24 06:42:01 UTC	   [13:42:01 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/23 in Elapsed Time: 2:38
+2025/06/24 06:39:09 UTC	   [13:39:09 ICT]   	[GRIDR] MINERS Completed for 2025/06/23 in Elapsed Time: 1:47
+2025/06/24 06:31:51 UTC	   [13:31:51 ICT]   	[GRIDR] USSectors Completed for 2025/06/23 in Elapsed Time: 0:54
+2025/06/24 06:26:36 UTC	   [13:26:36 ICT]   	[GRIDR] US Completed for 2025/06/23 in Elapsed Time: 50:39
+2025/06/24 05:35:43 UTC	   [12:35:43 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/23 in Elapsed Time: 5:41
+2025/06/24 00:35:29 UTC	   [07:35:29 ICT]   	[GRIDR] INDIA Completed for 2025/06/23 in Elapsed Time: 5:29
+2025/06/23 22:32:27 UTC	   [05:32:27 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/23 in Elapsed Time: 6:09
+2025/06/23 22:24:08 UTC	   [05:24:08 ICT]   	[GRIDR] SET Completed for 2025/06/23 in Elapsed Time: 8:48
+2025/06/23 20:10:36 UTC	   [03:10:36 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/23 in Elapsed Time: 5:06
+2025/06/23 19:19:05 UTC	   [02:19:05 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/23 in Elapsed Time: 9:23
+2025/06/21 11:19:06 UTC	   [18:19:06 ICT]   	[GRIDR] ALL Weekend Utilities Run - Completed: 2025/06/21 in Elapsed Time: 3 hours 18 minutes
+2025/06/21 08:00:43 UTC	   [15:00:43 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/06/21 06:46:02 UTC	   [13:46:02 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/20 in Elapsed Time: 2:40
+2025/06/21 06:41:51 UTC	   [13:41:51 ICT]   	[GRIDR] MINERS Completed for 2025/06/20 in Elapsed Time: 1:46
+2025/06/21 06:34:34 UTC	   [13:34:34 ICT]   	[GRIDR] USSectors Completed for 2025/06/20 in Elapsed Time: 0:52
+2025/06/21 06:29:23 UTC	   [13:29:23 ICT]   	[GRIDR] US Completed for 2025/06/20 in Elapsed Time: 43:52
+2025/06/21 05:45:18 UTC	   [12:45:18 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/20 in Elapsed Time: 5:34
+2025/06/21 00:37:33 UTC	   [07:37:33 ICT]   	[GRIDR] INDIA Completed for 2025/06/20 in Elapsed Time: 5:25
+2025/06/20 22:39:59 UTC	   [05:39:59 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/20 in Elapsed Time: 6:07
+2025/06/20 22:31:42 UTC	   [05:31:42 ICT]   	[GRIDR] SET Completed for 2025/06/20 in Elapsed Time: 8:50
+2025/06/20 20:10:52 UTC	   [03:10:52 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/20 in Elapsed Time: 4:57
+2025/06/20 19:23:21 UTC	   [02:23:21 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/20 in Elapsed Time: 9:19
+2025/06/20 05:41:24 UTC	   [12:41:24 ICT]   	[GRIDR] MINERS Completed for 2025/06/19 in Elapsed Time: 1:46
+2025/06/20 00:38:22 UTC	   [07:38:22 ICT]   	[GRIDR] INDIA Completed for 2025/06/19 in Elapsed Time: 5:18
+2025/06/19 22:40:55 UTC	   [05:40:55 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/19 in Elapsed Time: 5:59
+2025/06/19 22:32:48 UTC	   [05:32:48 ICT]   	[GRIDR] SET Completed for 2025/06/19 in Elapsed Time: 8:31
+2025/06/19 20:12:17 UTC	   [03:12:17 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/19 in Elapsed Time: 4:50
+2025/06/19 19:24:56 UTC	   [02:24:56 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/19 in Elapsed Time: 9:03
+2025/06/19 06:46:19 UTC	   [13:46:19 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/18 in Elapsed Time: 2:44
+2025/06/19 06:43:21 UTC	   [13:43:21 ICT]   	[GRIDR] MINERS Completed for 2025/06/18 in Elapsed Time: 1:47
+2025/06/19 06:36:02 UTC	   [13:36:02 ICT]   	[GRIDR] USSectors Completed for 2025/06/18 in Elapsed Time: 0:52
+2025/06/19 06:30:50 UTC	   [13:30:50 ICT]   	[GRIDR] US Completed for 2025/06/18 in Elapsed Time: 45:15
+2025/06/19 05:45:22 UTC	   [12:45:22 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/18 in Elapsed Time: 5:34
+2025/06/19 00:37:36 UTC	   [07:37:36 ICT]   	[GRIDR] INDIA Completed for 2025/06/18 in Elapsed Time: 5:20
+2025/06/18 22:40:06 UTC	   [05:40:06 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/18 in Elapsed Time: 6:22
+2025/06/18 22:31:35 UTC	   [05:31:35 ICT]   	[GRIDR] SET Completed for 2025/06/18 in Elapsed Time: 8:55
+2025/06/18 20:10:39 UTC	   [03:10:39 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/18 in Elapsed Time: 4:55
+2025/06/18 19:23:12 UTC	   [02:23:12 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/18 in Elapsed Time: 9:16
+2025/06/18 06:34:23 UTC	   [13:34:23 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/17 in Elapsed Time: 2:35
+2025/06/18 06:31:33 UTC	   [13:31:33 ICT]   	[GRIDR] MINERS Completed for 2025/06/17 in Elapsed Time: 1:44
+2025/06/18 06:24:18 UTC	   [13:24:18 ICT]   	[GRIDR] USSectors Completed for 2025/06/17 in Elapsed Time: 0:52
+2025/06/18 06:19:12 UTC	   [13:19:12 ICT]   	[GRIDR] US Completed for 2025/06/17 in Elapsed Time: 43:25
+2025/06/18 05:35:34 UTC	   [12:35:34 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/17 in Elapsed Time: 5:24
+2025/06/18 00:38:01 UTC	   [07:38:01 ICT]   	[GRIDR] INDIA Completed for 2025/06/17 in Elapsed Time: 5:25
+2025/06/17 22:40:27 UTC	   [05:40:27 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/17 in Elapsed Time: 6:05
+2025/06/17 22:32:14 UTC	   [05:32:14 ICT]   	[GRIDR] SET Completed for 2025/06/17 in Elapsed Time: 8:48
+2025/06/17 20:11:26 UTC	   [03:11:26 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/17 in Elapsed Time: 5:04
+2025/06/17 19:23:52 UTC	   [02:23:52 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/17 in Elapsed Time: 9:24
+2025/06/17 06:34:51 UTC	   [13:34:51 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/16 in Elapsed Time: 2:36
+2025/06/17 06:32:00 UTC	   [13:32:00 ICT]   	[GRIDR] MINERS Completed for 2025/06/16 in Elapsed Time: 1:47
+2025/06/17 06:24:42 UTC	   [13:24:42 ICT]   	[GRIDR] USSectors Completed for 2025/06/16 in Elapsed Time: 0:52
+2025/06/17 06:19:30 UTC	   [13:19:30 ICT]   	[GRIDR] US Completed for 2025/06/16 in Elapsed Time: 43:46
+2025/06/17 05:35:31 UTC	   [12:35:31 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/16 in Elapsed Time: 5:29
+2025/06/17 00:35:27 UTC	   [07:35:27 ICT]   	[GRIDR] INDIA Completed for 2025/06/16 in Elapsed Time: 5:27
+2025/06/16 22:32:39 UTC	   [05:32:39 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/16 in Elapsed Time: 6:13
+2025/06/16 22:24:17 UTC	   [05:24:17 ICT]   	[GRIDR] SET Completed for 2025/06/16 in Elapsed Time: 8:57
+2025/06/16 20:10:36 UTC	   [03:10:36 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/16 in Elapsed Time: 5:06
+2025/06/16 19:19:28 UTC	   [02:19:28 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/16 in Elapsed Time: 9:48
+2025/06/14 12:09:14 UTC	   [19:09:14 ICT]   	[GRIDR] ALL Weekend Utilities Run - Completed: 2025/06/14 in Elapsed Time: 4 hours 5 minutes
+2025/06/14 08:03:58 UTC	   [15:03:58 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/06/14 06:33:48 UTC	   [13:33:48 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/13 in Elapsed Time: 2:54
+2025/06/14 06:29:23 UTC	   [13:29:23 ICT]   	[GRIDR] MINERS Completed for 2025/06/13 in Elapsed Time: 1:44
+2025/06/14 06:22:08 UTC	   [13:22:08 ICT]   	[GRIDR] USSectors Completed for 2025/06/13 in Elapsed Time: 0:51
+2025/06/14 06:17:03 UTC	   [13:17:03 ICT]   	[GRIDR] US Completed for 2025/06/13 in Elapsed Time: 41:03
+2025/06/14 05:35:47 UTC	   [12:35:47 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/13 in Elapsed Time: 5:18
+2025/06/14 00:38:17 UTC	   [07:38:17 ICT]   	[GRIDR] INDIA Completed for 2025/06/13 in Elapsed Time: 5:32
+2025/06/13 22:40:36 UTC	   [05:40:36 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/13 in Elapsed Time: 6:02
+2025/06/13 22:32:26 UTC	   [05:32:26 ICT]   	[GRIDR] SET Completed for 2025/06/13 in Elapsed Time: 9:47
+2025/06/13 20:10:40 UTC	   [03:10:40 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/13 in Elapsed Time: 4:59
+2025/06/13 19:23:09 UTC	   [02:23:09 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/13 in Elapsed Time: 9:13
+2025/06/13 06:42:28 UTC	   [13:42:28 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/12 in Elapsed Time: 2:41
+2025/06/13 06:39:33 UTC	   [13:39:33 ICT]   	[GRIDR] MINERS Completed for 2025/06/12 in Elapsed Time: 1:45
+2025/06/13 06:32:17 UTC	   [13:32:17 ICT]   	[GRIDR] USSectors Completed for 2025/06/12 in Elapsed Time: 0:51
+2025/06/13 06:27:18 UTC	   [13:27:18 ICT]   	[GRIDR] US Completed for 2025/06/12 in Elapsed Time: 41:59
+2025/06/13 05:45:07 UTC	   [12:45:07 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/12 in Elapsed Time: 5:38
+2025/06/13 00:37:20 UTC	   [07:37:20 ICT]   	[GRIDR] INDIA Completed for 2025/06/12 in Elapsed Time: 5:28
+2025/06/12 22:39:45 UTC	   [05:39:45 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/12 in Elapsed Time: 6:52
+2025/06/12 22:30:45 UTC	   [05:30:45 ICT]   	[GRIDR] SET Completed for 2025/06/12 in Elapsed Time: 9:38
+2025/06/12 20:20:16 UTC	   [03:20:16 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/12 in Elapsed Time: 4:50
+2025/06/12 19:22:59 UTC	   [02:22:59 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/12 in Elapsed Time: 9:19
+2025/06/12 06:38:22 UTC	   [13:38:22 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/11 in Elapsed Time: 2:34
+2025/06/12 06:35:33 UTC	   [13:35:33 ICT]   	[GRIDR] MINERS Completed for 2025/06/11 in Elapsed Time: 1:45
+2025/06/12 06:28:17 UTC	   [13:28:17 ICT]   	[GRIDR] USSectors Completed for 2025/06/11 in Elapsed Time: 0:51
+2025/06/12 06:23:14 UTC	   [13:23:14 ICT]   	[GRIDR] US Completed for 2025/06/11 in Elapsed Time: 43:32
+2025/06/12 05:39:29 UTC	   [12:39:29 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/11 in Elapsed Time: 6:01
+2025/06/12 02:33:26 UTC	   [09:33:26 ICT]   	[GRIDR] Process started with version 1.2.159 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/12 00:39:38 UTC	   [07:39:38 ICT]   	[GRIDR] INDIA Completed for 2025/06/11 in Elapsed Time: 5:20
+2025/06/11 22:42:10 UTC	   [05:42:10 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/11 in Elapsed Time: 6:05
+2025/06/11 22:33:56 UTC	   [05:33:56 ICT]   	[GRIDR] SET Completed for 2025/06/11 in Elapsed Time: 9:54
+2025/06/11 20:12:03 UTC	   [03:12:03 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/11 in Elapsed Time: 4:59
+2025/06/11 19:23:51 UTC	   [02:23:51 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/11 in Elapsed Time: 9:31
+2025/06/11 06:41:41 UTC	   [13:41:41 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/10 in Elapsed Time: 2:35
+2025/06/11 06:38:50 UTC	   [13:38:50 ICT]   	[GRIDR] MINERS Completed for 2025/06/10 in Elapsed Time: 1:45
+2025/06/11 06:31:33 UTC	   [13:31:33 ICT]   	[GRIDR] USSectors Completed for 2025/06/10 in Elapsed Time: 0:55
+2025/06/11 06:26:31 UTC	   [13:26:31 ICT]   	[GRIDR] US Completed for 2025/06/10 in Elapsed Time: 41:33
+2025/06/11 05:44:45 UTC	   [12:44:45 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/10 in Elapsed Time: 5:20
+2025/06/11 05:29:26 UTC	   [12:29:26 ICT]   	[GRIDR] Process started with version 1.2.159 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/11 00:35:35 UTC	   [07:35:35 ICT]   	[GRIDR] INDIA Completed for 2025/06/10 in Elapsed Time: 4:59
+2025/06/10 22:38:29 UTC	   [05:38:29 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/10 in Elapsed Time: 6:06
+2025/06/10 22:30:12 UTC	   [05:30:12 ICT]   	[GRIDR] SET Completed for 2025/06/10 in Elapsed Time: 9:10
+2025/06/10 20:20:09 UTC	   [03:20:09 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/10 in Elapsed Time: 4:52
+2025/06/10 19:22:50 UTC	   [02:22:50 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/10 in Elapsed Time: 8:33
+2025/06/10 07:05:32 UTC	   [14:05:32 ICT]   	[GRIDR] Process started with version 1.2.158 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/10 06:47:43 UTC	   [13:47:43 ICT]   	[GRIDR] INDONESIA Holiday found for 2025/06/09
+2025/06/10 06:31:47 UTC	   [13:31:47 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/09 in Elapsed Time: 2:31
+2025/06/10 06:29:02 UTC	   [13:29:02 ICT]   	[GRIDR] MINERS Completed for 2025/06/09 in Elapsed Time: 1:42
+2025/06/10 06:21:49 UTC	   [13:21:49 ICT]   	[GRIDR] USSectors Completed for 2025/06/09 in Elapsed Time: 0:54
+2025/06/10 06:15:42 UTC	   [13:15:42 ICT]   	[GRIDR] US Completed for 2025/06/09 in Elapsed Time: 40:04
+2025/06/10 05:35:25 UTC	   [12:35:25 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/09 in Elapsed Time: 5:23
+2025/06/10 00:35:03 UTC	   [07:35:03 ICT]   	[GRIDR] INDIA Completed for 2025/06/09 in Elapsed Time: 5:03
+2025/06/09 22:31:27 UTC	   [05:31:27 ICT]   	[GRIDR] INDONESIA Holiday found for 2025/06/09
+2025/06/09 22:24:50 UTC	   [05:24:50 ICT]   	[GRIDR] SET Completed for 2025/06/09 in Elapsed Time: 9:30
+2025/06/09 20:10:16 UTC	   [03:10:16 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/09 in Elapsed Time: 4:46
+2025/06/07 12:57:19 UTC	   [19:57:19 ICT]   	[GRIDR] Process started with version 1.2.157 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/07 11:37:28 UTC	   [18:37:28 ICT]   	[GRIDR] ALL Weekend Utilities Run - Completed: 2025/06/07 in Elapsed Time: 3 hours 32 minutes
+2025/06/07 08:04:39 UTC	   [15:04:39 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/06/07 07:14:34 UTC	   [14:14:34 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/06 in Elapsed Time: 2:28
+2025/06/07 07:10:45 UTC	   [14:10:45 ICT]   	[GRIDR] MINERS Completed for 2025/06/06 in Elapsed Time: 1:42
+2025/06/07 07:09:02 UTC	   [14:09:02 ICT]   	[GRIDR] USSectors Completed for 2025/06/06 in Elapsed Time: 0:49
+2025/06/07 07:04:17 UTC	   [14:04:17 ICT]   	[GRIDR] US Completed for 2025/06/06 in Elapsed Time: 38:42
+2025/06/07 06:24:38 UTC	   [13:24:38 ICT]   	[GRIDR] Process started with version 1.2.156 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/07 05:44:48 UTC	   [12:44:48 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/06 in Elapsed Time: 8:15
+2025/06/07 01:56:24 UTC	   [08:56:24 ICT]   	[GRIDR] Process started with version 1.2.156 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/07 00:43:56 UTC	   [07:43:56 ICT]   	[GRIDR] INDIA Completed for 2025/06/06 in Elapsed Time: 5:16
+2025/06/06 22:38:21 UTC	   [05:38:21 ICT]   	[GRIDR] INDONESIA Holiday found for 2025/06/06
+2025/06/06 22:32:02 UTC	   [05:32:02 ICT]   	[GRIDR] SET Completed for 2025/06/06 in Elapsed Time: 8:45
+2025/06/06 20:11:17 UTC	   [03:11:17 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/06 in Elapsed Time: 4:33
+2025/06/06 19:23:38 UTC	   [02:23:38 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/06 in Elapsed Time: 9:02
+2025/06/06 11:37:55 UTC	   [18:37:55 ICT]   	[GRIDR] Process started with version 1.2.155 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/06 11:33:12 UTC	   [18:33:12 ICT]   	[GRIDR] Process started with version 1.2.155 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/06 06:38:24 UTC	   [13:38:24 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/05 in Elapsed Time: 2:36
+2025/06/06 06:35:34 UTC	   [13:35:34 ICT]   	[GRIDR] MINERS Completed for 2025/06/05 in Elapsed Time: 1:42
+2025/06/06 06:28:21 UTC	   [13:28:21 ICT]   	[GRIDR] USSectors Completed for 2025/06/05 in Elapsed Time: 0:49
+2025/06/06 06:23:23 UTC	   [13:23:23 ICT]   	[GRIDR] US Completed for 2025/06/05 in Elapsed Time: 39:01
+2025/06/06 05:44:09 UTC	   [12:44:09 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/05 in Elapsed Time: 5:18
+2025/06/06 00:36:42 UTC	   [07:36:42 ICT]   	[GRIDR] INDIA Completed for 2025/06/05 in Elapsed Time: 4:58
+2025/06/05 22:28:51 UTC	   [05:28:51 ICT]   	[GRIDR] SET Completed for 2025/06/05 in Elapsed Time: 8:17
+2025/06/05 20:19:40 UTC	   [03:19:40 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/05 in Elapsed Time: 4:36
+2025/06/05 19:22:32 UTC	   [02:22:32 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/05 in Elapsed Time: 8:36
+2025/06/05 09:36:16 UTC	   [16:36:16 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/05 in Elapsed Time: 5:32
+2025/06/05 09:19:14 UTC	   [16:19:14 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/04 in Elapsed Time: 5:52
+2025/06/05 09:12:18 UTC	   [16:12:18 ICT]   	[GRIDR] Process started with version 1.2.154 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/05 09:10:03 UTC	   [16:10:03 ICT]   	[GRIDR] Process started with version 1.2.154 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/05 06:35:25 UTC	   [13:35:25 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/04 in Elapsed Time: 2:31
+2025/06/05 06:32:40 UTC	   [13:32:40 ICT]   	[GRIDR] MINERS Completed for 2025/06/04 in Elapsed Time: 1:40
+2025/06/05 06:25:29 UTC	   [13:25:29 ICT]   	[GRIDR] USSectors Completed for 2025/06/04 in Elapsed Time: 0:49
+2025/06/05 06:20:32 UTC	   [13:20:32 ICT]   	[GRIDR] US Completed for 2025/06/04 in Elapsed Time: 38:32
+2025/06/05 05:41:47 UTC	   [12:41:47 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/04 in Elapsed Time: 5:45
+2025/06/05 00:43:51 UTC	   [07:43:51 ICT]   	[GRIDR] INDIA Completed for 2025/06/04 in Elapsed Time: 5:14
+2025/06/05 00:28:38 UTC	   [07:28:38 ICT]   	[GRIDR] Process started with version 1.2.154 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/04 22:31:42 UTC	   [05:31:42 ICT]   	[GRIDR] SET Completed for 2025/06/04 in Elapsed Time: 8:22
+2025/06/04 20:11:20 UTC	   [03:11:20 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/04 in Elapsed Time: 4:52
+2025/06/04 19:22:59 UTC	   [02:22:59 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/04 in Elapsed Time: 9:10
+2025/06/04 08:39:37 UTC	   [15:39:37 ICT]   	[GRIDR] US Completed for 2025/06/03 in Elapsed Time: 38:08
+2025/06/04 07:59:28 UTC	   [14:59:28 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/03 in Elapsed Time: 2:25
+2025/06/04 07:55:55 UTC	   [14:55:55 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/03 in Elapsed Time: 5:29
+2025/06/04 07:48:47 UTC	   [14:48:47 ICT]   	[GRIDR] MINERS Completed for 2025/06/03 in Elapsed Time: 1:37
+2025/06/04 07:45:54 UTC	   [14:45:54 ICT]   	[GRIDR] USSectors Completed for 2025/06/03 in Elapsed Time: 0:58
+2025/06/04 07:43:12 UTC	   [14:43:12 ICT]   	[GRIDR] Process started with version 1.2.154 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/04 07:06:11 UTC	   [14:06:11 ICT]   	[GRIDR] Process started with version 1.2.154 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/04 06:35:43 UTC	   [13:35:43 ICT]   	[GRIDR] Process started with version 1.2.154 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/04 05:48:20 UTC	   [12:48:20 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/03 in Elapsed Time: 8:26
+2025/06/04 01:09:35 UTC	   [08:09:35 ICT]   	[GRIDR] Process started with version 1.2.154 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/04 01:03:28 UTC	   [08:03:28 ICT]   	[GRIDR] Process started with version 1.2.154 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/04 00:54:31 UTC	   [07:54:31 ICT]   	[GRIDR] Process started with version 1.2.153 Data at: C:\dgarrard\Nufocus_Inc\Development\Projects\i4cfinancial_Real\Backtest_data.4DD
+2025/06/04 00:45:49 UTC	   [07:45:49 ICT]   	[GRIDR] INDIA Completed for 2025/06/03 in Elapsed Time: 8:08
+2025/06/03 22:35:30 UTC	   [05:35:30 ICT]   	[GRIDR] INDONESIA Completed for 2025/06/03 in Elapsed Time: 6:15
+2025/06/03 22:29:05 UTC	   [05:29:05 ICT]   	[GRIDR] SET Holiday found for 2025/06/03
+2025/06/03 20:11:39 UTC	   [03:11:39 ICT]   	[GRIDR] SHANGHAI Completed for 2025/06/03 in Elapsed Time: 4:48
+2025/06/03 19:24:20 UTC	   [02:24:20 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/03 in Elapsed Time: 8:48
+2025/06/03 09:49:22 UTC	   [16:49:22 ICT]   	[GRIDR] Process started with version 1.2.153 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/03 09:44:26 UTC	   [16:44:26 ICT]   	[GRIDR] US Completed for 2025/06/02 in Elapsed Time: 38:59
+2025/06/03 09:05:13 UTC	   [16:05:13 ICT]   	[GRIDR] Process started with version 1.2.153 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/03 07:37:34 UTC	   [14:37:34 ICT]   	[GRIDR] USSectors Completed for 2025/06/02 in Elapsed Time: 0:50
+2025/06/03 07:36:39 UTC	   [14:36:39 ICT]   	[GRIDR] MINERS Completed for 2025/06/02 in Elapsed Time: 1:44
+2025/06/03 07:33:31 UTC	   [14:33:31 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/06/02 in Elapsed Time: 2:43
+2025/06/03 07:30:15 UTC	   [14:30:15 ICT]   	[GRIDR] Process started with version 1.2.153 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/03 06:23:58 UTC	   [13:23:58 ICT]   	[GRIDR] Process started with version 1.2.153 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/06/03 05:38:52 UTC	   [12:38:52 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/06/02 in Elapsed Time: 8:47
+2025/06/03 00:38:51 UTC	   [07:38:51 ICT]   	[GRIDR] INDIA Completed for 2025/06/02 in Elapsed Time: 8:51
+2025/06/02 22:23:28 UTC	   [05:23:28 ICT]   	[GRIDR] SET Holiday found for 2025/06/02
+2025/06/02 20:10:47 UTC	   [03:10:47 ICT]   	[GRIDR] SHANGHAI Holiday found for 2025/06/02
+2025/06/02 19:28:35 UTC	   [02:28:35 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/06/02 in Elapsed Time: 17:07
+2025/05/31 12:00:26 UTC	   [19:00:26 ICT]   	[GRIDR] ALL Weekend Utilities Run - Completed: 2025/05/31 in Elapsed Time: 4 hours 0 minute
+2025/05/31 08:00:05 UTC	   [15:00:05 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/05/31 06:49:04 UTC	   [13:49:04 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/30 in Elapsed Time: 2:36
+2025/05/31 06:44:57 UTC	   [13:44:57 ICT]   	[GRIDR] MINERS Completed for 2025/05/30 in Elapsed Time: 1:41
+2025/05/31 06:37:45 UTC	   [13:37:45 ICT]   	[GRIDR] USSectors Completed for 2025/05/30 in Elapsed Time: 3:11
+2025/05/31 06:30:14 UTC	   [13:30:14 ICT]   	[GRIDR] US Completed for 2025/05/30 in Elapsed Time: 53:27
+2025/05/31 05:36:33 UTC	   [12:36:33 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/30 in Elapsed Time: 6:29
+2025/05/31 02:20:01 UTC	   [09:20:01 ICT]   	[GRIDR] Process started with version 1.2.153 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/31 01:55:14 UTC	   [08:55:14 ICT]   	[GRIDR] Process started with version 1.2.153 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/31 00:41:07 UTC	   [07:41:07 ICT]   	[GRIDR] INDIA Completed for 2025/05/30 in Elapsed Time: 5:34
+2025/05/30 22:35:14 UTC	   [05:35:14 ICT]   	[GRIDR] INDONESIA Holiday found for 2025/05/30
+2025/05/30 22:28:56 UTC	   [05:28:56 ICT]   	[GRIDR] SET Completed for 2025/05/30 in Elapsed Time: 8:06
+2025/05/30 20:20:00 UTC	   [03:20:00 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/30 in Elapsed Time: 4:34
+2025/05/30 19:23:00 UTC	   [02:23:00 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/30 in Elapsed Time: 8:38
+2025/05/30 06:54:00 UTC	   [13:54:00 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/29 in Elapsed Time: 2:28
+2025/05/30 06:51:18 UTC	   [13:51:18 ICT]   	[GRIDR] MINERS Completed for 2025/05/29 in Elapsed Time: 1:40
+2025/05/30 06:44:07 UTC	   [13:44:07 ICT]   	[GRIDR] USSectors Completed for 2025/05/29 in Elapsed Time: 0:48
+2025/05/30 06:38:51 UTC	   [13:38:51 ICT]   	[GRIDR] US Completed for 2025/05/29 in Elapsed Time: 53:43
+2025/05/30 05:44:55 UTC	   [12:44:55 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/29 in Elapsed Time: 5:30
+2025/05/30 00:37:08 UTC	   [07:37:08 ICT]   	[GRIDR] INDIA Completed for 2025/05/29 in Elapsed Time: 5:18
+2025/05/30 00:14:58 UTC	   [07:14:58 ICT]   	[GRIDR] INDONESIA Holiday found for 2025/05/29
+2025/05/30 00:05:37 UTC	   [07:05:37 ICT]   	[GRIDR] INDONESIA Completed for 2025/05/28 in Elapsed Time: 6:07
+2025/05/29 23:51:44 UTC	   [06:51:44 ICT]   	[GRIDR] Process started with version 1.2.152 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/29 23:50:42 UTC	   [06:50:42 ICT]   	[GRIDR] Process started with version 1.2.152 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/29 22:32:44 UTC	   [05:32:44 ICT]   	[GRIDR] SET Completed for 2025/05/29 in Elapsed Time: 8:34
+2025/05/29 20:14:58 UTC	   [03:14:58 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/29 in Elapsed Time: 9:05
+2025/05/29 19:32:16 UTC	   [02:32:16 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/29 in Elapsed Time: 16:14
+2025/05/29 08:25:22 UTC	   [15:25:22 ICT]   	[GRIDR] MINERS Completed for 2025/05/28 in Elapsed Time: 1:39
+2025/05/29 08:22:20 UTC	   [15:22:20 ICT]   	[GRIDR] Leveraged ETFS Completed for 2025/05/28 in Elapsed Time: 2:32
+2025/05/29 08:19:47 UTC	   [15:19:47 ICT]   	[GRIDR] USSectors Completed for 2025/05/28 in Elapsed Time: 0:49
+2025/05/29 08:15:15 UTC	   [15:15:15 ICT]   	[GRIDR] US Completed for 2025/05/28 in Elapsed Time: 52:22
+2025/05/29 07:22:15 UTC	   [14:22:15 ICT]   	[GRIDR] Process started with version 1.2.151 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/29 05:44:12 UTC	   [12:44:12 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/28 in Elapsed Time: 8:48
+2025/05/29 00:48:16 UTC	   [07:48:16 ICT]   	[GRIDR] INDIA Completed for 2025/05/28 in Elapsed Time: 9:36
+2025/05/28 22:38:33 UTC	   [05:38:33 ICT]   	[GRIDR] SET Completed for 2025/05/28 in Elapsed Time: 14:50
+2025/05/28 20:19:34 UTC	   [03:19:34 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/28 in Elapsed Time: 8:55
+2025/05/28 19:36:48 UTC	   [02:36:48 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/28 in Elapsed Time: 17:56
+2025/05/28 15:22:36 UTC	   [22:22:36 ICT]   	[GRIDR] Process started with version 1.2.151 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/28 15:18:23 UTC	   [22:18:23 ICT]   	[GRIDR] MINERS Completed for 2025/05/27 in Elapsed Time: 1:46
+2025/05/28 15:15:11 UTC	   [22:15:11 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/27 in Elapsed Time: 2:37
+2025/05/28 15:12:33 UTC	   [22:12:33 ICT]   	[GRIDR] USSectors Completed for 2025/05/27 in Elapsed Time: 0:48
+2025/05/28 15:07:47 UTC	   [22:07:47 ICT]   	[GRIDR] US Completed for 2025/05/27 in Elapsed Time: 55:15
+2025/05/28 14:11:10 UTC	   [21:11:10 ICT]   	[GRIDR] Process started with version 1.2.151 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/28 05:41:04 UTC	   [12:41:04 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/27 in Elapsed Time: 8:35
+2025/05/28 00:47:46 UTC	   [07:47:46 ICT]   	[GRIDR] INDIA Completed for 2025/05/27 in Elapsed Time: 9:28
+2025/05/27 22:31:56 UTC	   [05:31:56 ICT]   	[GRIDR] SET Completed for 2025/05/27 in Elapsed Time: 13:14
+2025/05/27 20:14:10 UTC	   [03:14:10 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/27 in Elapsed Time: 8:11
+2025/05/27 19:32:26 UTC	   [02:32:26 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/27 in Elapsed Time: 16:40
+2025/05/27 06:05:09 UTC	   [13:05:09 ICT]   	[GRIDR] MINERS Completed for 2025/05/26 in Elapsed Time: 4:27
+2025/05/27 00:39:47 UTC	   [07:39:47 ICT]   	[GRIDR] INDIA Completed for 2025/05/26 in Elapsed Time: 9:47
+2025/05/26 23:46:41 UTC	   [06:46:41 ICT]   	[GRIDR] Process started with version 1.2.151 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/26 22:32:22 UTC	   [05:32:22 ICT]   	[GRIDR] INDONESIA Completed for 2025/05/26 in Elapsed Time: 5:50
+2025/05/26 22:24:21 UTC	   [05:24:21 ICT]   	[GRIDR] SET Completed for 2025/05/26 in Elapsed Time: 9:01
+2025/05/26 20:10:22 UTC	   [03:10:22 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/26 in Elapsed Time: 4:52
+2025/05/26 19:18:41 UTC	   [02:18:41 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/26 in Elapsed Time: 8:57
+2025/05/25 04:55:33 UTC	   [11:55:33 ICT]   	[GRIDR] Process started with version 1.2.150 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/25 03:49:15 UTC	   [10:49:15 ICT]   	[GRIDR] INDONESIA Completed for 2025/05/23 in Elapsed Time: 7:12
+2025/05/25 03:08:47 UTC	   [10:08:47 ICT]   	[GRIDR] Process started with version 1.2.149 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/24 12:54:56 UTC	   [19:54:56 ICT]   	[GRIDR] ALL Weekend Utilities Run - Completed: 2025/05/24 in Elapsed Time: 4 hours 53 minutes
+2025/05/24 08:01:22 UTC	   [15:01:22 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/05/24 06:58:11 UTC	   [13:58:11 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/23 in Elapsed Time: 2:43
+2025/05/24 06:53:56 UTC	   [13:53:56 ICT]   	[GRIDR] MINERS Completed for 2025/05/23 in Elapsed Time: 2:05
+2025/05/24 06:46:20 UTC	   [13:46:20 ICT]   	[GRIDR] USSectors Completed for 2025/05/23 in Elapsed Time: 0:54
+2025/05/24 06:40:55 UTC	   [13:40:55 ICT]   	[GRIDR] US Completed for 2025/05/23 in Elapsed Time: 59:45
+2025/05/24 05:40:57 UTC	   [12:40:57 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/23 in Elapsed Time: 8:43
+2025/05/24 00:40:05 UTC	   [07:40:05 ICT]   	[GRIDR] INDIA Completed for 2025/05/23 in Elapsed Time: 5:47
+2025/05/23 22:31:55 UTC	   [05:31:55 ICT]   	[GRIDR] SET Completed for 2025/05/23 in Elapsed Time: 8:25
+2025/05/23 20:11:26 UTC	   [03:11:26 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/23 in Elapsed Time: 4:43
+2025/05/23 19:23:59 UTC	   [02:23:59 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/23 in Elapsed Time: 8:47
+2025/05/23 09:51:10 UTC	   [16:51:10 ICT]   	[GRIDR] Process started with version 1.2.148 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/23 06:45:59 UTC	   [13:45:59 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/22 in Elapsed Time: 2:24
+2025/05/23 06:43:21 UTC	   [13:43:21 ICT]   	[GRIDR] MINERS Completed for 2025/05/22 in Elapsed Time: 1:45
+2025/05/23 06:36:04 UTC	   [13:36:04 ICT]   	[GRIDR] USSectors Completed for 2025/05/22 in Elapsed Time: 0:47
+2025/05/23 06:31:38 UTC	   [13:31:38 ICT]   	[GRIDR] US Completed for 2025/05/22 in Elapsed Time: 53:38
+2025/05/23 05:37:47 UTC	   [12:37:47 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/22 in Elapsed Time: 6:46
+2025/05/23 00:38:53 UTC	   [07:38:53 ICT]   	[GRIDR] INDIA Completed for 2025/05/22 in Elapsed Time: 5:06
+2025/05/22 22:31:26 UTC	   [05:31:26 ICT]   	[GRIDR] SET Completed for 2025/05/22 in Elapsed Time: 8:26
+2025/05/22 20:11:04 UTC	   [03:11:04 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/22 in Elapsed Time: 4:35
+2025/05/22 19:23:55 UTC	   [02:23:55 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/22 in Elapsed Time: 8:46
+2025/05/22 11:51:41 UTC	   [18:51:41 ICT]   	[GRIDR] Process started with version 1.2.147 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/22 07:23:23 UTC	   [14:23:23 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/21 in Elapsed Time: 2:49
+2025/05/22 07:20:15 UTC	   [14:20:15 ICT]   	[GRIDR] MINERS Completed for 2025/05/21 in Elapsed Time: 2:04
+2025/05/22 07:17:39 UTC	   [14:17:39 ICT]   	[GRIDR] USSectors Completed for 2025/05/21 in Elapsed Time: 0:51
+2025/05/22 07:11:39 UTC	   [14:11:39 ICT]   	[GRIDR] US Completed for 2025/05/21 in Elapsed Time: 91:58
+2025/05/22 05:39:28 UTC	   [12:39:28 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/21 in Elapsed Time: 6:36
+2025/05/22 02:12:50 UTC	   [09:12:50 ICT]   	[GRIDR] Process started with version 1.2.147 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/22 00:37:36 UTC	   [07:37:36 ICT]   	[GRIDR] INDIA Completed for 2025/05/21 in Elapsed Time: 5:06
+2025/05/21 22:30:09 UTC	   [05:30:09 ICT]   	[GRIDR] SET Completed for 2025/05/21 in Elapsed Time: 8:55
+2025/05/21 20:20:24 UTC	   [03:20:24 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/21 in Elapsed Time: 5:15
+2025/05/21 19:22:38 UTC	   [02:22:38 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/21 in Elapsed Time: 8:43
+2025/05/21 07:10:28 UTC	   [14:10:28 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/20 in Elapsed Time: 2:33
+2025/05/21 07:07:41 UTC	   [14:07:41 ICT]   	[GRIDR] MINERS Completed for 2025/05/20 in Elapsed Time: 1:43
+2025/05/21 07:05:27 UTC	   [14:05:27 ICT]   	[GRIDR] USSectors Completed for 2025/05/20 in Elapsed Time: 0:49
+2025/05/21 07:01:00 UTC	   [14:01:00 ICT]   	[GRIDR] US Completed for 2025/05/20 in Elapsed Time: 76:40
+2025/05/21 05:44:07 UTC	   [12:44:07 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/20 in Elapsed Time: 5:27
+2025/05/21 00:36:33 UTC	   [07:36:33 ICT]   	[GRIDR] INDIA Completed for 2025/05/20 in Elapsed Time: 5:11
+2025/05/20 22:29:02 UTC	   [05:29:02 ICT]   	[GRIDR] SET Completed for 2025/05/20 in Elapsed Time: 8:27
+2025/05/20 20:19:45 UTC	   [03:19:45 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/20 in Elapsed Time: 4:50
+2025/05/20 19:22:25 UTC	   [02:22:25 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/20 in Elapsed Time: 8:40
+2025/05/20 07:15:30 UTC	   [14:15:30 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/19 in Elapsed Time: 2:35
+2025/05/20 07:00:31 UTC	   [14:00:31 ICT]   	[GRIDR] USSectors Completed for 2025/05/19 in Elapsed Time: 0:48
+2025/05/20 06:55:59 UTC	   [13:55:59 ICT]   	[GRIDR] US Completed for 2025/05/19 in Elapsed Time: 80:04
+2025/05/20 05:35:42 UTC	   [12:35:42 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/19 in Elapsed Time: 5:40
+2025/05/20 00:57:25 UTC	   [07:57:25 ICT]   	[GRIDR] Process started with version 1.2.146 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/20 00:35:03 UTC	   [07:35:03 ICT]   	[GRIDR] INDIA Completed for 2025/05/19 in Elapsed Time: 5:03
+2025/05/20 00:26:47 UTC	   [07:26:47 ICT]   	[GRIDR] Process started with version 1.2.146 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/19 22:23:55 UTC	   [05:23:55 ICT]   	[GRIDR] SET Completed for 2025/05/19 in Elapsed Time: 8:35
+2025/05/19 22:22:33 UTC	   [05:22:33 ICT]   	[GRIDR] SET Bought Today List for 2025/05/19
+2025/05/19 20:10:05 UTC	   [03:10:05 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/19 in Elapsed Time: 4:35
+2025/05/19 20:09:21 UTC	   [03:09:21 ICT]   	[GRIDR] SHANGHAI Bought Today List for 2025/05/19
+2025/05/19 19:18:41 UTC	   [02:18:41 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/19 in Elapsed Time: 8:49
+2025/05/19 19:17:00 UTC	   [02:17:00 ICT]   	[GRIDR] AUSTRALIA Bought Today List for 2025/05/19
+2025/05/19 10:05:06 UTC	   [17:05:06 ICT]   	[GRIDR] Process started with version 1.2.145 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/17 18:07:46 UTC	   [01:07:46 ICT]   	[GRIDR] LEVERAGED ETFs Completed for 2025/05/16 in Elapsed Time: 2:34
+2025/05/17 18:03:53 UTC	   [01:03:53 ICT]   	[GRIDR] MINERS Completed for 2025/05/16 in Elapsed Time: 1:41
+2025/05/17 18:02:12 UTC	   [01:02:12 ICT]   	[GRIDR] USSectors Completed for 2025/05/16 in Elapsed Time: 0:48
+2025/05/17 17:58:08 UTC	   [00:58:08 ICT]   	[GRIDR] US Completed for 2025/05/16 in Elapsed Time: 77:52
+2025/05/17 16:38:26 UTC	   [23:38:26 ICT]   	[GRIDR] SET Completed for 2025/05/16 in Elapsed Time: 8:28
+2025/05/17 16:28:15 UTC	   [23:28:15 ICT]   	[GRIDR] INDIA Completed for 2025/05/16 in Elapsed Time: 4:54
+2025/05/17 16:23:13 UTC	   [23:23:13 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/16 in Elapsed Time: 4:34
+2025/05/17 16:16:59 UTC	   [23:16:59 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/16 in Elapsed Time: 8:30
+2025/05/17 16:08:27 UTC	   [23:08:27 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/16 in Elapsed Time: 5:23
+2025/05/17 15:51:44 UTC	   [22:51:44 ICT]   	[GRIDR] LEVERAGED ETFs Completed for 2025/05/15 in Elapsed Time: 2:29
+2025/05/17 15:49:12 UTC	   [22:49:12 ICT]   	[GRIDR] MINERS Completed for 2025/05/15 in Elapsed Time: 1:41
+2025/05/17 15:47:31 UTC	   [22:47:31 ICT]   	[GRIDR] USSectors Completed for 2025/05/15 in Elapsed Time: 0:48
+2025/05/17 15:43:26 UTC	   [22:43:26 ICT]   	[GRIDR] US Completed for 2025/05/15 in Elapsed Time: 80:02
+2025/05/17 14:21:34 UTC	   [21:21:34 ICT]   	[GRIDR] SET Completed for 2025/05/15 in Elapsed Time: 9:11
+2025/05/17 14:10:40 UTC	   [21:10:40 ICT]   	[GRIDR] INDIA Completed for 2025/05/15 in Elapsed Time: 5:22
+2025/05/17 14:05:11 UTC	   [21:05:11 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/15 in Elapsed Time: 4:59
+2025/05/17 13:58:33 UTC	   [20:58:33 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/15 in Elapsed Time: 9:31
+2025/05/17 13:48:59 UTC	   [20:48:59 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/15 in Elapsed Time: 5:34
+2025/05/17 13:40:50 UTC	   [20:40:50 ICT]   	[GRIDR] Process started with version 1.2.144 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/15 06:59:45 UTC	   [13:59:45 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/14 in Elapsed Time: 2:31
+2025/05/15 06:57:01 UTC	   [13:57:01 ICT]   	[GRIDR] MINERS Completed for 2025/05/14 in Elapsed Time: 1:46
+2025/05/15 06:54:44 UTC	   [13:54:44 ICT]   	[GRIDR] USSectors Completed for 2025/05/14 in Elapsed Time: 0:49
+2025/05/15 06:50:07 UTC	   [13:50:07 ICT]   	[GRIDR] US Completed for 2025/05/14 in Elapsed Time: 73:09
+2025/05/15 05:36:46 UTC	   [12:36:46 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/14 in Elapsed Time: 5:29
+2025/05/15 00:39:11 UTC	   [07:39:11 ICT]   	[GRIDR] INDIA Completed for 2025/05/14 in Elapsed Time: 4:57
+2025/05/14 22:31:52 UTC	   [05:31:52 ICT]   	[GRIDR] SET Completed for 2025/05/14 in Elapsed Time: 8:37
+2025/05/14 20:11:04 UTC	   [03:11:04 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/14 in Elapsed Time: 4:39
+2025/05/14 19:22:54 UTC	   [02:22:54 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/14 in Elapsed Time: 8:47
+2025/05/14 07:45:44 UTC	   [14:45:44 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/13 in Elapsed Time: 2:36
+2025/05/14 07:42:54 UTC	   [14:42:54 ICT]   	[GRIDR] MINERS Completed for 2025/05/13 in Elapsed Time: 1:55
+2025/05/14 07:40:28 UTC	   [14:40:28 ICT]   	[GRIDR] USSectors Completed for 2025/05/13 in Elapsed Time: 0:55
+2025/05/14 07:35:49 UTC	   [14:35:49 ICT]   	[GRIDR] US Completed for 2025/05/13 in Elapsed Time: 118:33
+2025/05/14 05:37:02 UTC	   [12:37:02 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/13 in Elapsed Time: 5:30
+2025/05/14 00:39:24 UTC	   [07:39:24 ICT]   	[GRIDR] INDIA Completed for 2025/05/13 in Elapsed Time: 5:13
+2025/05/13 22:31:39 UTC	   [05:31:39 ICT]   	[GRIDR] SET Completed for 2025/05/13 in Elapsed Time: 9:27
+2025/05/13 20:10:18 UTC	   [03:10:18 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/13 in Elapsed Time: 4:39
+2025/05/13 19:23:09 UTC	   [02:23:09 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/13 in Elapsed Time: 8:54
+2025/05/13 07:10:49 UTC	   [14:10:49 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/12 in Elapsed Time: 2:34
+2025/05/13 07:08:02 UTC	   [14:08:02 ICT]   	[GRIDR] MINERS Completed for 2025/05/12 in Elapsed Time: 1:49
+2025/05/13 07:05:42 UTC	   [14:05:42 ICT]   	[GRIDR] USSectors Completed for 2025/05/12 in Elapsed Time: 0:55
+2025/05/13 07:00:50 UTC	   [14:00:50 ICT]   	[GRIDR] US Completed for 2025/05/12 in Elapsed Time: 75:11
+2025/05/13 05:45:27 UTC	   [12:45:27 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/12 in Elapsed Time: 5:25
+2025/05/13 00:35:32 UTC	   [07:35:32 ICT]   	[GRIDR] INDIA Completed for 2025/05/12 in Elapsed Time: 5:32
+2025/05/12 22:20:50 UTC	   [05:20:50 ICT]   	[GRIDR] SET Holiday found for 2025/05/12
+2025/05/12 20:10:06 UTC	   [03:10:06 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/12 in Elapsed Time: 4:36
+2025/05/12 19:18:33 UTC	   [02:18:33 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/12 in Elapsed Time: 8:47
+2025/05/12 05:06:32 UTC	   [12:06:32 ICT]   	[GRIDR] Process started with version 1.2.144 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/10 12:43:43 UTC	   [19:43:43 ICT]   	[GRIDR] ALL Weekend Utilities Run - Completed: 2025/05/10 in Elapsed Time: 4 hours 39 minutes
+2025/05/10 08:04:10 UTC	   [15:04:10 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/05/10 07:02:44 UTC	   [14:02:44 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/09 in Elapsed Time: 2:37
+2025/05/10 06:58:38 UTC	   [13:58:38 ICT]   	[GRIDR] MINERS Completed for 2025/05/09 in Elapsed Time: 1:43
+2025/05/10 06:56:24 UTC	   [13:56:24 ICT]   	[GRIDR] USSectors Completed for 2025/05/09 in Elapsed Time: 0:48
+2025/05/10 06:51:57 UTC	   [13:51:57 ICT]   	[GRIDR] US Completed for 2025/05/09 in Elapsed Time: 74:42
+2025/05/10 05:37:02 UTC	   [12:37:02 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/09 in Elapsed Time: 5:23
+2025/05/10 00:39:32 UTC	   [07:39:32 ICT]   	[GRIDR] INDIA Completed for 2025/05/09 in Elapsed Time: 5:43
+2025/05/09 22:31:28 UTC	   [05:31:28 ICT]   	[GRIDR] SET Completed for 2025/05/09 in Elapsed Time: 8:31
+2025/05/09 20:11:03 UTC	   [03:11:03 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/09 in Elapsed Time: 4:37
+2025/05/09 19:23:57 UTC	   [02:23:57 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/09 in Elapsed Time: 9:06
+2025/05/09 12:04:01 UTC	   [19:04:01 ICT]   	[GRIDR] Process started with version 1.2.143 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/09 10:35:51 UTC	   [17:35:51 ICT]   	[GRIDR] Process started with version 1.2.143 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/09 07:10:25 UTC	   [14:10:25 ICT]   	[GRIDR] Process started with version 1.2.143 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/09 07:09:41 UTC	   [14:09:41 ICT]   	[GRIDR] Process started with version 1.2.143 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/09 07:00:49 UTC	   [14:00:49 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/08 in Elapsed Time: 2:57
+2025/05/09 06:57:39 UTC	   [13:57:39 ICT]   	[GRIDR] MINERS Completed for 2025/05/08 in Elapsed Time: 1:41
+2025/05/09 06:55:27 UTC	   [13:55:27 ICT]   	[GRIDR] USSectors Completed for 2025/05/08 in Elapsed Time: 0:47
+2025/05/09 06:51:07 UTC	   [13:51:07 ICT]   	[GRIDR] US Completed for 2025/05/08 in Elapsed Time: 74:36
+2025/05/09 05:36:18 UTC	   [12:36:18 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/08 in Elapsed Time: 5:38
+2025/05/09 05:30:40 UTC	   [12:30:40 ICT]   	[GRIDR] Process started with version 1.2.143 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/09 00:36:03 UTC	   [07:36:03 ICT]   	[GRIDR] INDIA Completed for 2025/05/08 in Elapsed Time: 5:00
+2025/05/08 22:28:45 UTC	   [05:28:45 ICT]   	[GRIDR] SET Completed for 2025/05/08 in Elapsed Time: 8:20
+2025/05/08 20:19:36 UTC	   [03:19:36 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/08 in Elapsed Time: 4:34
+2025/05/08 19:22:35 UTC	   [02:22:35 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/08 in Elapsed Time: 8:42
+2025/05/08 07:01:30 UTC	   [14:01:30 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/07 in Elapsed Time: 2:36
+2025/05/08 06:58:41 UTC	   [13:58:41 ICT]   	[GRIDR] MINERS Completed for 2025/05/07 in Elapsed Time: 1:42
+2025/05/08 06:56:28 UTC	   [13:56:28 ICT]   	[GRIDR] USSectors Completed for 2025/05/07 in Elapsed Time: 0:48
+2025/05/08 06:52:05 UTC	   [13:52:05 ICT]   	[GRIDR] US Completed for 2025/05/07 in Elapsed Time: 73:50
+2025/05/08 05:38:03 UTC	   [12:38:03 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/07 in Elapsed Time: 6:42
+2025/05/08 03:41:20 UTC	   [10:41:20 ICT]   	[GRIDR] Process started with version 1.2.142 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/08 00:36:58 UTC	   [07:36:58 ICT]   	[GRIDR] INDIA Completed for 2025/05/07 in Elapsed Time: 5:17
+2025/05/07 22:29:25 UTC	   [05:29:25 ICT]   	[GRIDR] SET Completed for 2025/05/07 in Elapsed Time: 8:18
+2025/05/07 20:19:15 UTC	   [03:19:15 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/07 in Elapsed Time: 4:29
+2025/05/07 19:22:20 UTC	   [02:22:20 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/07 in Elapsed Time: 8:34
+2025/05/07 12:40:58 UTC	   [19:40:58 ICT]   	[GRIDR] Process started with version 1.2.141 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/07 07:07:18 UTC	   [14:07:18 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/06 in Elapsed Time: 2:32
+2025/05/07 07:04:33 UTC	   [14:04:33 ICT]   	[GRIDR] MINERS Completed for 2025/05/06 in Elapsed Time: 1:40
+2025/05/07 07:02:22 UTC	   [14:02:22 ICT]   	[GRIDR] USSectors Completed for 2025/05/06 in Elapsed Time: 0:51
+2025/05/07 06:58:01 UTC	   [13:58:01 ICT]   	[GRIDR] US Completed for 2025/05/06 in Elapsed Time: 72:44
+2025/05/07 05:45:05 UTC	   [12:45:05 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/06 in Elapsed Time: 5:32
+2025/05/07 00:37:27 UTC	   [07:37:27 ICT]   	[GRIDR] INDIA Completed for 2025/05/06 in Elapsed Time: 5:01
+2025/05/06 22:30:06 UTC	   [05:30:06 ICT]   	[GRIDR] SET Completed for 2025/05/06 in Elapsed Time: 8:51
+2025/05/06 20:20:25 UTC	   [03:20:25 ICT]   	[GRIDR] SHANGHAI Completed for 2025/05/06 in Elapsed Time: 5:07
+2025/05/06 19:22:51 UTC	   [02:22:51 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/06 in Elapsed Time: 8:48
+2025/05/06 09:18:54 UTC	   [16:18:54 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/05 in Elapsed Time: 2:35
+2025/05/06 08:41:09 UTC	   [15:41:09 ICT]   	[GRIDR] MINERS Completed for 2025/05/05 in Elapsed Time: 1:43
+2025/05/06 08:39:25 UTC	   [15:39:25 ICT]   	[GRIDR] USSectors Completed for 2025/05/05 in Elapsed Time: 0:47
+2025/05/06 08:35:19 UTC	   [15:35:19 ICT]   	[GRIDR] US Completed for 2025/05/05 in Elapsed Time: 74:33
+2025/05/06 07:20:18 UTC	   [14:20:18 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/05 in Elapsed Time: 5:43
+2025/05/06 07:14:25 UTC	   [14:14:25 ICT]   	[GRIDR] Process started with version 1.2.141 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/06 06:58:18 UTC	   [13:58:18 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/05 in Elapsed Time: 6:33
+2025/05/06 06:51:11 UTC	   [13:51:11 ICT]   	[GRIDR] Process started with version 1.2.141 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/06 06:47:46 UTC	   [13:47:46 ICT]   	[GRIDR] US Completed for 2025/05/05 in Elapsed Time: 71:15
+2025/05/06 05:36:15 UTC	   [12:36:15 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/05 in Elapsed Time: 6:13
+2025/05/06 00:33:26 UTC	   [07:33:26 ICT]   	[GRIDR] INDIA Completed for 2025/05/05 in Elapsed Time: 3:26
+2025/05/05 22:18:04 UTC	   [05:18:04 ICT]   	[GRIDR] SET Holiday found for 2025/05/05
+2025/05/05 20:07:26 UTC	   [03:07:26 ICT]   	[GRIDR] SHANGHAI Holiday found for 2025/05/05
+2025/05/05 19:15:31 UTC	   [02:15:31 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/05 in Elapsed Time: 5:45
+2025/05/04 11:46:06 UTC	   [18:46:06 ICT]   	[GRIDR] Process started with version 1.2.141 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/03 13:13:31 UTC	   [20:13:31 ICT]   	[GRIDR] ALL Weekend Utilities Run - Completed: 2025/05/03 in Elapsed Time: 5 hours 10 minutes
+2025/05/03 08:03:00 UTC	   [15:03:00 ICT]   	[GRIDR] ALL Weekend Utilities Run - Commenced
+2025/05/03 06:46:32 UTC	   [13:46:32 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/02 in Elapsed Time: 1:45
+2025/05/03 06:43:17 UTC	   [13:43:17 ICT]   	[GRIDR] MINERS Completed for 2025/05/02 in Elapsed Time: 1:23
+2025/05/03 06:41:23 UTC	   [13:41:23 ICT]   	[GRIDR] USSectors Completed for 2025/05/02 in Elapsed Time: 0:46
+2025/05/03 06:36:53 UTC	   [13:36:53 ICT]   	[GRIDR] US Completed for 2025/05/02 in Elapsed Time: 58:08
+2025/05/03 05:38:33 UTC	   [12:38:33 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/02 in Elapsed Time: 5:35
+2025/05/03 05:02:58 UTC	   [12:02:58 ICT]   	[GRIDR] Process started with version 1.2.140 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/03 03:54:56 UTC	   [10:54:56 ICT]   	[GRIDR] Process started with version 1.2.140 Data at: C:\i4cFinancial\Backtest_data.4DD
+2025/05/03 00:38:57 UTC	   [07:38:57 ICT]   	[GRIDR] INDIA Completed for 2025/05/02 in Elapsed Time: 3:19
+2025/05/02 22:21:48 UTC	   [05:21:48 ICT]   	[GRIDR] SET Completed for 2025/05/02 in Elapsed Time: 5:58
+2025/05/02 20:14:02 UTC	   [03:14:02 ICT]   	[GRIDR] SHANGHAI Holiday found for 2025/05/02
+2025/05/02 19:19:24 UTC	   [02:19:24 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/02 in Elapsed Time: 5:38
+2025/05/02 06:43:19 UTC	   [13:43:19 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/05/01 in Elapsed Time: 1:42
+2025/05/02 06:41:23 UTC	   [13:41:23 ICT]   	[GRIDR] MINERS Completed for 2025/05/01 in Elapsed Time: 1:18
+2025/05/02 06:39:34 UTC	   [13:39:34 ICT]   	[GRIDR] USSectors Completed for 2025/05/01 in Elapsed Time: 0:44
+2025/05/02 06:35:16 UTC	   [13:35:16 ICT]   	[GRIDR] US Completed for 2025/05/01 in Elapsed Time: 58:30
+2025/05/02 05:36:33 UTC	   [12:36:33 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/05/01 in Elapsed Time: 5:32
+2025/05/02 00:40:37 UTC	   [07:40:37 ICT]   	[GRIDR] INDIA Holiday found for 2025/05/01
+2025/05/01 20:14:38 UTC	   [03:14:38 ICT]   	[GRIDR] SHANGHAI Holiday found for 2025/05/01
+2025/05/01 19:20:16 UTC	   [02:20:16 ICT]   	[GRIDR] AUSTRALIA Completed for 2025/05/01 in Elapsed Time: 5:37
+2025/05/01 06:42:03 UTC	   [13:42:03 ICT]   	[GRIDR] Leveraged ETFs Completed for 2025/04/30 in Elapsed Time: 1:45
+2025/05/01 06:40:04 UTC	   [13:40:04 ICT]   	[GRIDR] MINERS Completed for 2025/04/30 in Elapsed Time: 1:22
+2025/05/01 06:38:11 UTC	   [13:38:11 ICT]   	[GRIDR] USSectors Completed for 2025/04/30 in Elapsed Time: 0:52
+2025/05/01 06:33:26 UTC	   [13:33:26 ICT]   	[GRIDR] US Completed for 2025/04/30 in Elapsed Time: 57:23
+2025/05/01 05:35:48 UTC	   [12:35:48 ICT]   	[GRIDR] AGGRESSORUSETF Completed for 2025/04/30 in Elapsed Time: 5:27
+2025/05/01 00:38:16 UTC	   [07:38:16 ICT]   	[GRIDR] INDIA Completed for 2025/04/30 in Elapsed Time: 3:14

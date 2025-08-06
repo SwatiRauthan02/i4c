@@ -1,0 +1,19 @@
+<svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 90%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 6%, 80%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 82%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(120, 26%, 80%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 52%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(120, 46%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(120, 52%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 94%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 26%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 18%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 34%, 50%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(120, 30%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(120, 68%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GRID - Overview</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="../assets/images/i4cfinancial_Logo_only.ico">
+  <link rel="stylesheet" type="text/css" href="../GRID_HTML/css/bootstrap.min.css?a=1">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style_site.css">
+  <!--<link rel="stylesheet" type="text/css" href="../../assets/css/style_site.css">-->
+  <script type="text/javascript" src="../GRID_HTML/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../GRID_HTML/js/bootstrap.min.js"></script>
+<!-- tooltip ticker hover -->
+<!-- Tipso CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/object505/tipso@1.0.12/dist/tipso.min.css" />
+<!-- Tipso JS -->
+<script src="https://cdn.jsdelivr.net/gh/object505/tipso@1.0.12/dist/tipso.min.js"></script>
+</head>
+<body>
+  <style type="text/css">
+    iframe{border: none;}
+    .nav-tabs,.nav-tabs>li>a:hover,.nav-tabs>li>a{border: none !important;}
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{border: none !important;border-bottom: 5px solid #9cb533 !important;color: #000;}
+    .nav-tabs>li>a{color: #000;font-family: PoppinsMedium;font-size: 14px;}
+    .green{color: #14EB14;font-weight: bolder;}
+    .red{color: #FA0505;font-weight: bolder;}
+
+    @media (min-width:631px) and (max-width:992px){
+      .nav-tabs>li>a{color: #000;font-family: PoppinsMedium;font-size: 13px;}
+    }
+    @media (min-width:451px) and (max-width:630px){
+      .nav-tabs>li>a{color: #000;font-family: PoppinsMedium;font-size: 11.5px;}
+    }
+    @media (min-width:320px) and (max-width:450px){
+      .nav-tabs>li>a{color: #000;font-family: PoppinsMedium;font-size: 10px;padding: 6px;}
+    }
+
+  </style>
+<div class="site_header_container">
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                    <a class="navbar-brand" href="https://i4cfinancial.com/index.php">
+					<img src="../GRID_HTML/images/i4cfinancial_logo.svg">
+					</a>
+                  </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+                     <ul class="nav navbar-nav navbar-right">
+                              <li><a href="https://i4cfinancial.com/index.php">Home</a></li>
+                <li><a href="https://i4cfinancial.com/index.php?goto=about_us" class="about_us" data-nav-option="about_us">About</a></li>
+                <!-- <li><a href="https://i4cfinancial.com/performance_monitor.php">GRID Monitor</a></li> -->
+                <li>
+                  <div>
+                    <button type="button" class="btn btn-filters" data-toggle="dropdown">Solutions</button>
+                    <ul class="dropdown-menu">
+                                              <li><a href="https://i4cfinancial.com/performance_monitor.php">GRID Monitor</a></li>
+                        <!--<li><a href="grid_score.php">GRID Edge</a></li>
+                                              <li><a href="portfolio_en.php">Portfolio Optimization - English</a></li>
+                        <li><a href="portfolio_th.php">Portfolio Optimization - Thai</a></li>-->
+                                          </ul>
+                  </div>
+                </li>
+                <li><a href="https://i4cfinancial.com/index.php?goto=contact_us" class="contact_us" data-nav-option="contact_us">Contact Us</a></li>
+                                 <!-- <li class="last_navitem"><a href="https://i4cfinancial.com/login.php" class="login_navitem">Log In</a> / <a href="https://i4cfinancial.com/sign_up.php" class="signup_navitem"> Sign Up</a></li>-->
+                                          </ul>
+                  </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container opportunities_container">
+    <p></p>
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home">Grid Overview</a></li>
+      <li><a data-toggle="tab" href="#menu1">Grid Components</a></li>
+      <li><a data-toggle="tab" href="#menu2">Grid Element Details</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="home" class="tab-pane fade in active">
+        <iframe src="grid_view.html?a=10" width="100%" height="420px"></iframe>
+      </div>
+      <div id="menu1" class="tab-pane fade">
+        <iframe src="grid_components.html?a=7" width="100%" height="230px"></iframe>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <iframe src="grid_elements.html?a=6" width="100%" height="470px"></iframe>
+      </div>
+    </div>
+    <div class="notes_table">
+      <p><span class="green">Bullishness</span> is indicated by green colour, whereas red is an indication of <span class="red">bearishness</span> for the trading instrument. Brightness of colour indicates score strength. Grey colour denotes neutrality. Rank is an aggregate score combining Technical strength, Tradability Score and recent price movement metrics from the PowerGrid elements and is used for opportunity sorting.</p>
+    </div>
+    <h3></h3>
+  </div>
+﻿  <div class="footer_container">
+	<div class="container">
+	  <p>Copyright © i4cfinancial 2025. All rights reserved.</p>
+	</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿{
+ "countrycode":"USSectors",
+ "date":"2025-07-29",
+ "export_time":"13:56:29",
+ "sell_count":2,
+ "buy_count":0,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"XLY",
+   "name":"Consumer Discretionary Select Sector SPD",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":6722
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"XLI",
+   "name":"Industrial Select Sector SPDR Fund",
+   "numshares":200,
+   "weightednumshares":200,
+   "NOVInumshares":200,
+   "tsid":"",
+   "recordnumber":6742
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+﻿{
+ "countrycode":"SHANGHAI",
+ "date":"2025-07-30",
+ "export_time":"03:18:27",
+ "buy_count":16,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"600309",
+   "name":"Wanhua Chemical Group Co Ltd",
+   "recordnumber":2376720
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"600479",
+   "name":"Zhuzhou Qianjin Pharmaceutical Co Ltd",
+   "recordnumber":2376726
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"600409",
+   "name":"Tangshan Sanyou Chemical Industries Co L",
+   "recordnumber":2376736
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"900904",
+   "name":"Shanghai Shenqi Pharmaceutical Investmen",
+   "recordnumber":2376764
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"600129",
+   "name":"Chongqing Taiji Industry (Group) Co Ltd",
+   "recordnumber":2376775
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"601231",
+   "name":"Universal Scientific Industrial (Shanghai) Co Ltd",
+   "recordnumber":2376802
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"601233",
+   "name":"Tongkun Group Co Ltd",
+   "recordnumber":2376811
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"600326",
+   "name":"Tibet Tianlu Co Ltd",
+   "recordnumber":2376840
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"600966",
+   "name":"Shandong Bohui Paper Industrial Co Ltd",
+   "recordnumber":2376883
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"600117",
+   "name":"Xining Special Steel Co Ltd",
+   "recordnumber":2376885
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"603063",
+   "name":"Shenzhen Hopewind Electric Co., Ltd",
+   "recordnumber":2376952
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"603299",
+   "name":"Jiang Su Suyan Jingshen Co.,Ltd",
+   "recordnumber":2376981
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"600196",
+   "name":"Shanghai Fosun Pharmaceutical (Group) Co., Ltd",
+   "recordnumber":2377012
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"603992",
+   "name":"Xiamen Solex High-tech Industries Co., Ltd",
+   "recordnumber":2377036
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"600763",
+   "name":"TOPCHOICE MEDICAL CORPORATION",
+   "recordnumber":2377094
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"603290",
+   "name":"STARPOWER SEMICONDUCTOR LTD",
+   "recordnumber":2377097
+  }
+ ]
+}

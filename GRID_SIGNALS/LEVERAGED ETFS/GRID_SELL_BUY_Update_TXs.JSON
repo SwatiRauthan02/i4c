@@ -1,0 +1,40 @@
+﻿{
+ "countrycode":"Leveraged ETFs",
+ "date":"2025-07-29",
+ "export_time":"14:05:33",
+ "sell_count":0,
+ "buy_count":3,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"AVGX",
+   "name":"Defiance Daily Target 2X Long AVGO ETF",
+   "numshares":200,
+   "weightednumshares":200,
+   "NOVInumshares":200,
+   "tsid":"",
+   "recordnumber":8106
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"GGLL",
+   "name":"Direxion Daily GOOGL Bull 2X Shares",
+   "numshares":200,
+   "weightednumshares":200,
+   "NOVInumshares":200,
+   "tsid":"",
+   "recordnumber":8107
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"ROM",
+   "name":"ProShares Ultra Technology",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":8108
+  }
+ ]
+}

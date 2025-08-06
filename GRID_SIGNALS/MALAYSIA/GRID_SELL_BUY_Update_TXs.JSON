@@ -1,0 +1,18 @@
+﻿{
+ "countrycode":"MALAYSIA",
+ "date":"2021-01-08",
+ "sell_count":0,
+ "buy_count":1,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"6012",
+   "name":"Maxis Berhad",
+   "numshares":3300,
+   "weightednumshares":3300,
+   "NOVInumshares":3300,
+   "recordnumber":1757
+  }
+ ]
+}

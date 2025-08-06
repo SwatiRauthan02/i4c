@@ -1,0 +1,1 @@
+[Stock_List]SymbolExchange	sortino_ratio_raw	sortino_ratio_normalised	ta_score	risk_score	combo_score	CQR	BetaAGRI	-3.397	30.2	19.11	37.18	26.6	5	3.31FRSX	-1.9	42.962	26.11	28.97	31.33	5	9.21

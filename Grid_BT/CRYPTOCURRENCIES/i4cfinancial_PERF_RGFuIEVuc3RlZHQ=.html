@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>I4CFinancial Performance Report</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" initial-scale=1>
+
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/bootstrap.min.css">
+  <script type="text/javascript" src="../../Grid_HTML/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../../Grid_HTML/js/bootstrap.min.js"></script>
+
+  <!-- custom style sheet -->
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/style.css">
+
+  <!-- map loader -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+  <script type="text/javascript">
+    google.charts.load('current', {packages: ['corechart', 'line']});
+  google.charts.setOnLoadCallback(drawBackgroundColor);
+
+  function drawBackgroundColor() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'Asset Net Worth');
+    data.addColumn('number', 'Baseline(BTCUSDT)');
+
+
+    data.addRows([
+                    [ new Date(2021, 2, 17), 4819, 4819], 
+         [ new Date(2021, 2, 18), 4819, 4736], 
+         [ new Date(2021, 2, 19), 4819, 4776], 
+         [ new Date(2021, 2, 20), 4819, 4773], 
+         [ new Date(2021, 2, 21), 4819, 4708], 
+         [ new Date(2021, 2, 22), 4819, 4463], 
+         [ new Date(2021, 2, 23), 4819, 4480], 
+         [ new Date(2021, 2, 24), 4819, 4320], 
+         [ new Date(2021, 2, 25), 4819, 4232], 
+         [ new Date(2021, 2, 26), 4819, 4513], 
+         [ new Date(2021, 2, 27), 4819, 4581], 
+         [ new Date(2021, 2, 28), 4819, 4580], 
+         [ new Date(2021, 2, 29), 4819, 4727], 
+         [ new Date(2021, 2, 30), 4819, 4822], 
+         [ new Date(2021, 2, 31), 4819, 4823], 
+         [ new Date(2021, 3, 1), 4819, 4837], 
+         [ new Date(2021, 3, 2), 4819, 4861], 
+         [ new Date(2021, 3, 3), 4819, 4796], 
+         [ new Date(2021, 3, 4), 4819, 4796]
+    ]);
+
+    var options = {
+      title:'Historical Performance - Dan Enstedt',
+      legend: {position: 'bottom'},
+      hAxis: {
+        title: 'From inception'
+      },
+      vAxis: {
+        title: 'Equity Curve'
+      },
+      backgroundColor: '#f1f8e9',
+      series: {
+            0: { color: '#99B731' },
+            1: { color: '#999' },
+            }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+    }
+  </script>
+
+  <script type="text/javascript">
+
+  google.charts.load('current', {packages: ['corechart', 'bar']});
+  google.charts.setOnLoadCallback(drawColColors);
+
+  function drawColColors() {
+        var data = new google.visualization.DataTable();
+          data.addColumn('date', 'Date');
+          data.addColumn('number', 'Loss');
+          data.addColumn('number', 'Profit');
+
+        data.addRows([
+                         [ new Date(2021, 2, 17), 0.00, 0.00], 
+         [ new Date(2021, 2, 18), 0.00, 0.00], 
+         [ new Date(2021, 2, 19), 0.00, 0.00], 
+         [ new Date(2021, 2, 20), 0.00, 0.00], 
+         [ new Date(2021, 2, 21), 0.00, 0.00], 
+         [ new Date(2021, 2, 22), 0.00, 0.00], 
+         [ new Date(2021, 2, 23), 0.00, 0.00], 
+         [ new Date(2021, 2, 24), 0.00, 0.00], 
+         [ new Date(2021, 2, 25), 0.00, 0.00], 
+         [ new Date(2021, 2, 26), 0.00, 0.00], 
+         [ new Date(2021, 2, 27), 0.00, 0.00], 
+         [ new Date(2021, 2, 28), 0.00, 0.00], 
+         [ new Date(2021, 2, 29), 0.00, 0.00], 
+         [ new Date(2021, 2, 30), 0.00, 0.00], 
+         [ new Date(2021, 2, 31), 0.00, 0.00], 
+         [ new Date(2021, 3, 1), 0.00, 0.00], 
+         [ new Date(2021, 3, 2), 0.00, 0.00], 
+         [ new Date(2021, 3, 3), 0.00, 0.00], 
+         [ new Date(2021, 3, 4), 0.00, 0.00]
+        ]);
+
+        var options = {
+          title: 'Daily Profit and Loss',
+          backgroundColor: '#f1f8e9',
+          colors: ['#ff3333', '#00cc00'],
+          isStacked: true,
+          legend: { position: 'none' },
+          hAxis: {
+            title: ''
+          },
+          vAxis: {
+            title: 'USDT'
+          }
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('column_chart_div'));
+        chart.draw(data, options);
+    }
+    </script>
+
+  <div class="container-fluid logo_container">
+    <div class="container text-right logo">
+      <a href="#"><img src="../../Grid_HTML/images/i4cfinancial_Logo.png"></a>
+    </div>
+  </div>
+
+  <div class="container header_container">
+    <h2 class="report_name">i4cFinancial Performance Report - Dan Enstedt</h2>
+    <h4 class="report_description">Quantitative Opportunistic Volatility</h4>
+    <h4 class="report_description">The strategy actively trades a universe of 100+ top market cap cryptocurrencies, taking positions based on a proprietary technical ranking derived from a multi-factor analysis of market action across multiple trading horizons. Strict risk management enforces a rapid 'go-to-cash' ruleset in bearish markets.</h4>
+    <h4 class="report_description">Forward test from inception 2021/03/17 to 2021/04/04</h4>
+  </div>
+
+  <div class="container chart_container">
+    <div id="chart_div" class="chart"></div>
+  </div>
+  <p>
+  <div class="container column_chart_container">
+    <div id="column_chart_div" class="chart"></div>
+  </div>
+
+  <div class="container overview_container">
+    <h2 class="report_sub_head">Overview</h2>
+    <div class="overview_tab">
+   <table class="overview_table">
+        <tr>
+          <td>Total Deposits (USDT):</td>
+          <td>4818.65</td>
+          <td>Total Withdrawals and Fees (USDT):</td>
+          <td>0.0</td>
+        </tr>
+        <tr>
+          <td>Annualized Returns:</td>
+          <td>0.00%</td>
+          <td>Average Win Size:</td>
+          <td>0.00</td>
+        </tr>
+        <tr>
+          <td>Number of Win Days:</td>
+          <td>19</td>
+          <td>Average Loss Size:</td>
+          <td>0.00</td>
+        </tr>
+        <tr>
+          <td>Number of Loss Days:</td>
+          <td>0</td>
+          <td>Win/Loss Size Ratio:</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Win/Loss Days Count Ratio:</td>
+          <td>0.00  (100% winners)</td>
+          <td>Last Session Move:</td>
+          <td>101,000.00 (1.00%)</td>
+        </tr>
+        <tr>
+          <td>Sharpe Ratio (Annualized):</td>
+          <td>0.00</td>
+          <td>Sortino Ratio (Annualized):</td>
+          <td>0.00</td>
+        </tr>
+     </table>
+    </div>
+  </div>
+
+  <div class="container monthly_container">
+    <h2 class="report_sub_head">Monthly Absolute Returns:</h2>
+    <div class="monthly_table">
+      <Table width="70%"><TR><TH style=width:"11%"><FONT STYLE="text-align:center">&nbsp;</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jan</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Feb</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Mar</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Apr</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">May </FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jun</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jul</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Aug</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Sep</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Oct</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Nov</FONT></TH><TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Dec</FONT></TH><TH style="border: 1px solid black" width:"11%"><FONT STYLE="text-align:center">Total</FONT></TH></TR><TR><TD><strong><font style="text-align:right">2021</strong></TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD>
+</TR></Table>
+    </div>
+  </div>
+
+  <div class="container sold_container">
+    <h2 class="report_sub_head inner_head">Notes:</h2>
+    <ul>
+		<li>Exits on target achieved or dynamic proprietary trailing stop posted.  These trailing stops, combined with minimum rank entry rules lead to the imposition of 'go-to-cash' and 'stay-in-cash' rules if there is a broad market bearish turn.</li>
+    </ul>
+    <div class="notes_table">
+      <p>The performance data quoted represents past performance. Past performance does not guarantee future results. The investment return and principal value of an investment will fluctuate so that an investor's position, when redeemed, may be worth more or less than the original cost. Current performance may be lower or higher than the performance data quoted. Investors should consider the investment objectives, risks, and charges and expenses of the above system carefully before investing.<p>
+    </div>
+
+    <p class="session">Last Session Date: 2021/04/04</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+
+
+.body{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.th{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+.td{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 6pt;
+}
+
+.container{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+    .sold_container{
+	    font-family: Verdana, Arial, Helvetica, sans-serif;
+	    font-size: 8pt;
+    }
+
+}
+
+
+
+.overview_table{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+
+.report_sub_head{
+	font-size: 8pt;
+}
+
+report_sub_head h2{
+	font-size: 8pt;
+}
+
+.monthly_table{
+	font-size: 8pt;
+}
+
+.position_table{
+	font-size: 8pt;
+}
+
+.monthtodate_table{
+	font-size: 8pt;
+}
+
+.sold_table p{
+	font-size: 18pt;
+}
+
+.buys_table{
+	font-size: 18pt;
+}
+.buys_table p {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+
+
+
+#logobar tr{
+	background-color: #336699;
+}
+
+#logobar td {
+	color: #000000;
+	font-size: 12pt;
+}
+
+#logobar span{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24pt;
+	font-style: italic;
+}
+	
+td.navigation {
+	background-color: #6699FF;
+}
+
+#logobar a:link{
+	font-size: 9pt;
+	color: #003333;
+	text-decoration: none;
+}
+
+#logobar a:visited {
+	font-size: 9pt;
+	color: #003333;
+	text-decoration: none;
+}
+
+#logobar a:focus {
+	font-size: 9pt;
+	color: #003333;
+	text-decoration: underline;
+}
+
+#logobar a:hover {
+	font-size: 9pt;
+	color: #003333;
+	text-decoration: underline;
+}
+
+#logobar a:activate {
+	font-size: 9pt;
+	color: #003333;
+	text-decoration: underline;
+}
+
+#content h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #333333;
+	font-weight: normal;
+}
+
+#content h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #333333;
+	font-weight: normal;
+}
+
+#content h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #333333;
+	font-weight: normal;
+}
+
+#content p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #666666;
+}
+
+#content li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #666666;
+}
+
+td.newssidebarheader {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+

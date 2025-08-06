@@ -1,0 +1,60 @@
+﻿{
+ "countrycode":"AGGRESSORUSETF",
+ "date":"2025-07-29",
+ "export_time":"12:43:38",
+ "sell_count":2,
+ "buy_count":3,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"MCHI",
+   "name":"iShares MSCI China ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":6763
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"ACES",
+   "name":"ALPS Clean Energy ETF",
+   "numshares":300,
+   "weightednumshares":300,
+   "NOVInumshares":300,
+   "tsid":"",
+   "recordnumber":6840
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"PALL",
+   "name":"ETFS Physical Palladium Shares",
+   "numshares":50,
+   "weightednumshares":50,
+   "NOVInumshares":50,
+   "tsid":"",
+   "recordnumber":8099
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"ALTY",
+   "name":"al X SuperDividend Alternat",
+   "numshares":700,
+   "weightednumshares":700,
+   "NOVInumshares":700,
+   "tsid":"",
+   "recordnumber":8100
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"MLPA",
+   "name":"al X MLP ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":8101
+  }
+ ]
+}

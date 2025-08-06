@@ -1,0 +1,20 @@
+﻿{
+ "countrycode":"SET",
+ "date":"2025-07-30",
+ "export_time":"05:30:18",
+ "sell_count":1,
+ "buy_count":0,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"TM",
+   "name":"Techno Medical PCL",
+   "numshares":89900,
+   "weightednumshares":89900,
+   "NOVInumshares":91800,
+   "tsid":"",
+   "recordnumber":6952
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+﻿{
+ "countrycode":"US",
+ "date":"2025-07-29",
+ "export_time":"13:37:00",
+ "sell_count":3,
+ "buy_count":4,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"WBD",
+   "name":"Warner Bros Discovery Inc",
+   "numshares":1200,
+   "weightednumshares":1200,
+   "NOVInumshares":1200,
+   "tsid":"",
+   "recordnumber":6789
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"RBLX",
+   "name":"RobloxCorp",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":6817
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"NTWK",
+   "name":"NetSol Technologies Inc",
+   "numshares":3700,
+   "weightednumshares":3700,
+   "NOVInumshares":3800,
+   "tsid":"",
+   "recordnumber":6878
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"AMD",
+   "name":"Advanced Micro Devices Inc",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":8102
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"CECO",
+   "name":"CECO Environmental Corp.",
+   "numshares":300,
+   "weightednumshares":300,
+   "NOVInumshares":300,
+   "tsid":"",
+   "recordnumber":8103
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"COSM",
+   "name":"Cosmos Health Inc.",
+   "numshares":19000,
+   "weightednumshares":19000,
+   "NOVInumshares":19000,
+   "tsid":"",
+   "recordnumber":8104
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"AWI",
+   "name":"Armstrong World Industries Inc",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":8105
+  }
+ ]
+}

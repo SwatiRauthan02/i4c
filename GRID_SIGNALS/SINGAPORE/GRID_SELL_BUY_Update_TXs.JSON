@@ -1,0 +1,63 @@
+﻿{
+ "countrycode":"SINGAPORE",
+ "date":"2021-01-08",
+ "sell_count":0,
+ "buy_count":6,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"F03",
+   "name":"Food Empire Holdings Limited",
+   "numshares":8600,
+   "weightednumshares":8600,
+   "NOVInumshares":8600,
+   "recordnumber":1758
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"D05",
+   "name":"DBS Group Holdings Ltd",
+   "numshares":200,
+   "weightednumshares":200,
+   "NOVInumshares":200,
+   "recordnumber":1759
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"BN4",
+   "name":"Keppel Corporation Limited",
+   "numshares":1000,
+   "weightednumshares":1000,
+   "NOVInumshares":1000,
+   "recordnumber":1760
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"AU8U",
+   "name":"CapitaLand Retail China Trust",
+   "numshares":4200,
+   "weightednumshares":4200,
+   "NOVInumshares":4200,
+   "recordnumber":1761
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"F34",
+   "name":"Wilmar International Limited",
+   "numshares":1200,
+   "weightednumshares":1200,
+   "NOVInumshares":1200,
+   "recordnumber":1762
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"U09",
+   "name":"Avarga Limited",
+   "numshares":20800,
+   "weightednumshares":20800,
+   "NOVInumshares":20800,
+   "recordnumber":1763
+  }
+ ]
+}

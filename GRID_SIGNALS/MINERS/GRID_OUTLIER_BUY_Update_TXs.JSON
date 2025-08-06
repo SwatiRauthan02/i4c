@@ -1,0 +1,20 @@
+﻿{
+ "countrycode":"MINERS",
+ "date":"2025-07-29",
+ "export_time":"14:19:46",
+ "buy_count":2,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"G",
+   "name":"AUGUSTA GOLD CORP",
+   "recordnumber":2375846
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"MTA",
+   "name":"METALLA ROYALTY AND STREAMING L",
+   "recordnumber":2375873
+  }
+ ]
+}

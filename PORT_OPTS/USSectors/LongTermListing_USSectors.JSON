@@ -1,0 +1,133 @@
+{"ideas":[{"idea":{
+	"Symbol": "^GSPC",
+	"Name": "S&P 500 Index",
+	"Sortino": 99.8,
+	"Beta": 51.15,
+	"BullishVolume": 53.084,
+	"PriceUp": 56,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 62.82987,
+	"AggregateScore": 74.695
+}},{"idea":{
+	"Symbol": "XLK",
+	"Name": "Technology Select Sector SPDR Fund",
+	"Sortino": 99.8,
+	"Beta": 80.35,
+	"BullishVolume": 53.231,
+	"PriceUp": 57.55556,
+	"TDI": 81.81329,
+	"TII": 100,
+	"MFI": 56.39955,
+	"AggregateScore": 72.995
+}},{"idea":{
+	"Symbol": "XLI",
+	"Name": "Industrial Select Sector SPDR Fund",
+	"Sortino": 98.3908,
+	"Beta": 48.4,
+	"BullishVolume": 51.097,
+	"PriceUp": 54.44444,
+	"TDI": 86.751075,
+	"TII": 100,
+	"MFI": 58.13366,
+	"AggregateScore": 69.138
+}},{"idea":{
+	"Symbol": "XLY",
+	"Name": "Consumer Discretionary Select Sector SPD",
+	"Sortino": 91.9533,
+	"Beta": 59.2,
+	"BullishVolume": 53.27,
+	"PriceUp": 55.55556,
+	"TDI": 73.22088,
+	"TII": 100,
+	"MFI": 58.80627,
+	"AggregateScore": 66.461
+}},{"idea":{
+	"Symbol": "XLF",
+	"Name": "Financial Select Sector SPDR Fund",
+	"Sortino": 89.1505,
+	"Beta": 55.5,
+	"BullishVolume": 49.652,
+	"PriceUp": 53.77778,
+	"TDI": 63.70301,
+	"TII": 100,
+	"MFI": 60.91523,
+	"AggregateScore": 62.343
+}},{"idea":{
+	"Symbol": "XLB",
+	"Name": "Materials Select Sector SPDR Fund",
+	"Sortino": 75.5468,
+	"Beta": 29.1,
+	"BullishVolume": 50.939,
+	"PriceUp": 54.22222,
+	"TDI": 71.893795,
+	"TII": 98.92624,
+	"MFI": 52.62072,
+	"AggregateScore": 57.878
+}},{"idea":{
+	"Symbol": "XLE",
+	"Name": "Energy Select Sector SPDR Fund",
+	"Sortino": 67.6305,
+	"Beta": 14.15,
+	"BullishVolume": 47.948,
+	"PriceUp": 53.55556,
+	"TDI": 89.526735,
+	"TII": 85.0296,
+	"MFI": 57.04114,
+	"AggregateScore": 57.773
+}},{"idea":{
+	"Symbol": "XLU",
+	"Name": "SPDR Select Sector Fund - Utili",
+	"Sortino": 75.9006,
+	"Beta": -2.35,
+	"BullishVolume": 48.174,
+	"PriceUp": 52.66667,
+	"TDI": 50,
+	"TII": 96.92955,
+	"MFI": 58.42112,
+	"AggregateScore": 47.106
+}},{"idea":{
+	"Symbol": "XLRE",
+	"Name": "Real Estate Select Sector SPDR Fund",
+	"Sortino": 71.7244,
+	"Beta": 3.5,
+	"BullishVolume": 49.257,
+	"PriceUp": 51.33333,
+	"TDI": 50,
+	"TII": 85.15244,
+	"MFI": 58.0011,
+	"AggregateScore": 45.567
+}},{"idea":{
+	"Symbol": "XLV",
+	"Name": "Health Care Select Sector SPDR Fund",
+	"Sortino": 78.5005,
+	"Beta": 24.9,
+	"BullishVolume": 50.213,
+	"PriceUp": 51.11111,
+	"TDI": 40.07285,
+	"TII": 10.75785,
+	"MFI": 56.08963,
+	"AggregateScore": 41.632
+}},{"idea":{
+	"Symbol": "XLP",
+	"Name": "Cinsumer Staples Select Sector SPDR Fund",
+	"Sortino": 77.6069,
+	"Beta": 1.15,
+	"BullishVolume": 50.895,
+	"PriceUp": 51.77778,
+	"TDI": 50,
+	"TII": 49.11613,
+	"MFI": 53.77082,
+	"AggregateScore": 40.617
+}},{"idea":{
+	"Symbol": "^VIX",
+	"Name": "CBOE Volatility Index",
+	"Sortino": 77.0203,
+	"Beta": -420.8,
+	"BullishVolume": 39.688,
+	"PriceUp": 43.77778,
+	"TDI": 70.777085,
+	"TII": 79.18445,
+	"MFI": 44.50983,
+	"AggregateScore": -13.581
+}}]}

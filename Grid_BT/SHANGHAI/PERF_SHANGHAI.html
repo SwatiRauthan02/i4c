@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>I4CFinancial Performance Report</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Old CSS and Bootstrap calls
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/bootstrap.min.css">
+  <script type="text/javascript" src="../../Grid_HTML/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../../Grid_HTML/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/style.css">
+ End of Old CSS -->
+
+<link rel="icon" type="image/x-icon" href="../../assets/images/i4cfinancial_Logo_only.ico">
+
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/i4cfinancial.css">
+<link rel="stylesheet" type="text/css" href="../../GRID_HTML/css/performance_style.css?a=2">
+<link rel="stylesheet" type="text/css" href="../../assets/css/style_site.css">
+
+<!-- Latest compiled and minified CSS DG 20240823 from https://www.w3schools.com/bootstrap/bootstrap_get_started.asp -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- End of Latest compiled and minified CSS -->
+
+
+  <!-- GChart loader -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    google.charts.load('current', {
+    packages: ['corechart', 'line']
+  });
+  google.charts.setOnLoadCallback(drawBackgroundColor);
+
+  function drawBackgroundColor() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'Closed');
+    data.addColumn('number', 'Total');
+    <!-- data.addColumn('number', 'Max Move');   DG 20240918 -->
+        
+    data.addColumn('number', 'Baseline(000001.SS)');
+    data.addColumn('number', 'Cash Balance');
+
+    data.addRows([
+                    [ new Date(2024, 4, 29), 697680, 700282, 700000, 621455], 
+         [ new Date(2024, 4, 30), 697680, 697423, 695648, 620596], 
+         [ new Date(2024, 4, 31), 696068, 693337, 694553, 618307], 
+         [ new Date(2024, 5, 3), 696068, 690822, 692681, 591394], 
+         [ new Date(2024, 5, 4), 696068, 692244, 695540, 591028], 
+         [ new Date(2024, 5, 5), 689978, 689108, 689735, 584599], 
+         [ new Date(2024, 5, 6), 689978, 690538, 685998, 587530], 
+         [ new Date(2024, 5, 7), 689978, 687101, 686558, 588597], 
+         [ new Date(2024, 5, 10), 689978, 687101, 686558, 588597], 
+         [ new Date(2024, 5, 11), 689978, 687101, 681329, 664624], 
+         [ new Date(2024, 5, 12), 691469, 684659, 683451, 587109], 
+         [ new Date(2024, 5, 13), 688674, 683363, 681527, 583328], 
+         [ new Date(2024, 5, 14), 679521, 679598, 682362, 574638], 
+         [ new Date(2024, 5, 17), 678157, 678826, 678595, 571893], 
+         [ new Date(2024, 5, 18), 678157, 677973, 681826, 570257], 
+         [ new Date(2024, 5, 19), 678157, 674270, 679081, 572287], 
+         [ new Date(2024, 5, 20), 674263, 676453, 676244, 570490], 
+         [ new Date(2024, 5, 21), 671834, 671116, 674601, 567987], 
+         [ new Date(2024, 5, 24), 667833, 669365, 666717, 568792], 
+         [ new Date(2024, 5, 25), 665571, 659563, 663769, 566964], 
+         [ new Date(2024, 5, 26), 656140, 655259, 668837, 555353], 
+         [ new Date(2024, 5, 27), 653603, 654996, 662836, 555771], 
+         [ new Date(2024, 5, 28), 655540, 659469, 667685, 556832], 
+         [ new Date(2024, 6, 1), 657037, 660776, 673834, 558431], 
+         [ new Date(2024, 6, 2), 656015, 657444, 674347, 558826], 
+         [ new Date(2024, 6, 3), 656015, 653305, 671055, 559340], 
+         [ new Date(2024, 6, 4), 656015, 653561, 665473, 559359], 
+         [ new Date(2024, 6, 5), 647180, 647469, 663754, 572015], 
+         [ new Date(2024, 6, 8), 650289, 648144, 657571, 555961], 
+         [ new Date(2024, 6, 9), 655909, 653893, 665878, 555644], 
+         [ new Date(2024, 6, 10), 657445, 652476, 661375, 555256], 
+         [ new Date(2024, 6, 11), 656259, 654914, 668357, 552510], 
+         [ new Date(2024, 6, 12), 652672, 651236, 668560, 549358], 
+         [ new Date(2024, 6, 15), 652672, 648320, 669172, 551091], 
+         [ new Date(2024, 6, 16), 647492, 648622, 669687, 545853], 
+         [ new Date(2024, 6, 17), 647492, 643141, 666661, 545916], 
+         [ new Date(2024, 6, 18), 646786, 639666, 669874, 545709], 
+         [ new Date(2024, 6, 19), 644029, 640445, 671039, 542796], 
+         [ new Date(2024, 6, 22), 645860, 638757, 666969, 545001], 
+         [ new Date(2024, 6, 23), 638445, 630805, 655977, 541985], 
+         [ new Date(2024, 6, 24), 635652, 625984, 652958, 543030], 
+         [ new Date(2024, 6, 25), 632956, 624259, 649536, 539444], 
+         [ new Date(2024, 6, 26), 630603, 620406, 650472, 534641], 
+         [ new Date(2024, 6, 29), 625163, 622741, 650683, 531444], 
+         [ new Date(2024, 6, 30), 628217, 620094, 647861, 532674], 
+         [ new Date(2024, 6, 31), 625832, 630050, 661238, 525726], 
+         [ new Date(2024, 7, 1), 625832, 635671, 659807, 526657], 
+         [ new Date(2024, 7, 2), 625205, 633342, 653721, 529177], 
+         [ new Date(2024, 7, 5), 627006, 623950, 643676, 534074], 
+         [ new Date(2024, 7, 6), 627075, 621687, 645157, 533493], 
+         [ new Date(2024, 7, 7), 624797, 620767, 645731, 531787], 
+         [ new Date(2024, 7, 8), 623180, 618365, 645746, 529877], 
+         [ new Date(2024, 7, 9), 618663, 612543, 644012, 527230], 
+         [ new Date(2024, 7, 12), 612588, 611924, 643116, 522159], 
+         [ new Date(2024, 7, 13), 612353, 609637, 645308, 521531], 
+         [ new Date(2024, 7, 14), 615389, 609594, 641415, 525708], 
+         [ new Date(2024, 7, 15), 613604, 613466, 647425, 522678], 
+         [ new Date(2024, 7, 16), 614070, 611702, 647891, 524627], 
+         [ new Date(2024, 7, 19), 609759, 610990, 651095, 520104], 
+         [ new Date(2024, 7, 20), 605732, 605750, 645017, 515528], 
+         [ new Date(2024, 7, 21), 605811, 606184, 642749, 513610], 
+         [ new Date(2024, 7, 22), 606644, 607691, 640992, 518212], 
+         [ new Date(2024, 7, 23), 606644, 608417, 642252, 518400], 
+         [ new Date(2024, 7, 26), 607322, 610420, 642511, 517034], 
+         [ new Date(2024, 7, 27), 607091, 611733, 640983, 518791], 
+         [ new Date(2024, 7, 28), 612302, 614023, 638440, 521597], 
+         [ new Date(2024, 7, 29), 611438, 611929, 635218, 515828], 
+         [ new Date(2024, 7, 30), 612193, 608718, 639516, 512737], 
+         [ new Date(2024, 8, 2), 612898, 611545, 632500, 518132], 
+         [ new Date(2024, 8, 3), 610763, 615105, 630689, 513850], 
+         [ new Date(2024, 8, 4), 610042, 614730, 626481, 514017], 
+         [ new Date(2024, 8, 5), 611286, 613942, 627388, 513639], 
+         [ new Date(2024, 8, 6), 611496, 613277, 622325, 515025], 
+         [ new Date(2024, 8, 9), 607360, 605134, 615728, 511997], 
+         [ new Date(2024, 8, 10), 602034, 601184, 617461, 506757], 
+         [ new Date(2024, 8, 11), 603526, 604623, 612421, 505927], 
+         [ new Date(2024, 8, 12), 601732, 605194, 611370, 505376], 
+         [ new Date(2024, 8, 13), 602945, 603253, 608438, 509498], 
+         [ new Date(2024, 8, 16), 602945, 603253, 608438, 509498], 
+         [ new Date(2024, 8, 17), 602945, 603253, 608438, 509498], 
+         [ new Date(2024, 8, 18), 602199, 602941, 611406, 507460], 
+         [ new Date(2024, 8, 19), 602164, 603495, 615623, 506042], 
+         [ new Date(2024, 8, 20), 602242, 603402, 615800, 507154], 
+         [ new Date(2024, 8, 23), 602242, 607703, 618525, 507022], 
+         [ new Date(2024, 8, 24), 617859, 620062, 644223, 520136], 
+         [ new Date(2024, 8, 25), 617859, 621727, 651689, 519462], 
+         [ new Date(2024, 8, 26), 635956, 637066, 675234, 531909], 
+         [ new Date(2024, 8, 27), 638007, 641383, 694715, 527436], 
+         [ new Date(2024, 8, 30), 654204, 657580, 750734, 530744], 
+         [ new Date(2024, 9, 1), 654204, 657580, 750734, 530744], 
+         [ new Date(2024, 9, 2), 654204, 657580, 750734, 530744], 
+         [ new Date(2024, 9, 3), 654204, 657580, 750734, 530744], 
+         [ new Date(2024, 9, 4), 654204, 657580, 750734, 530744], 
+         [ new Date(2024, 9, 7), 654204, 657580, 750734, 530744], 
+         [ new Date(2024, 9, 8), 653421, 655710, 785221, 517832], 
+         [ new Date(2024, 9, 9), 648787, 647210, 733265, 520942], 
+         [ new Date(2024, 9, 10), 639614, 640014, 742956, 511951], 
+         [ new Date(2024, 9, 11), 634473, 635565, 724013, 512947], 
+         [ new Date(2024, 9, 14), 634717, 638585, 738994, 511985], 
+         [ new Date(2024, 9, 15), 633963, 637821, 720311, 515215], 
+         [ new Date(2024, 9, 16), 640620, 641688, 720685, 523395], 
+         [ new Date(2024, 9, 17), 640620, 640680, 713131, 616288], 
+         [ new Date(2024, 9, 18), 641188, 660263, 733872, 516856], 
+         [ new Date(2024, 9, 21), 655286, 671284, 735346, 529061], 
+         [ new Date(2024, 9, 22), 655286, 674440, 739342, 528485], 
+         [ new Date(2024, 9, 23), 655286, 676187, 743152, 528061], 
+         [ new Date(2024, 9, 24), 655691, 666856, 738080, 528911], 
+         [ new Date(2024, 9, 25), 654538, 681404, 742454, 525225], 
+         [ new Date(2024, 9, 28), 664218, 688832, 747517, 534784], 
+         [ new Date(2024, 9, 29), 671289, 682178, 739464, 543482], 
+         [ new Date(2024, 9, 30), 685432, 687784, 734926, 557495], 
+         [ new Date(2024, 9, 31), 686584, 699890, 737981, 556865], 
+         [ new Date(2024, 10, 1), 683451, 692754, 736224, 553922], 
+         [ new Date(2024, 10, 4), 692199, 701095, 744819, 558724], 
+         [ new Date(2024, 10, 5), 696406, 710212, 762095, 556875], 
+         [ new Date(2024, 10, 6), 696406, 709296, 761380, 552080], 
+         [ new Date(2024, 10, 7), 702586, 714963, 780921, 558499], 
+         [ new Date(2024, 10, 8), 702586, 721229, 776790, 556272], 
+         [ new Date(2024, 10, 11), 701663, 722851, 780789, 555054], 
+         [ new Date(2024, 10, 12), 708388, 717198, 769966, 563929], 
+         [ new Date(2024, 10, 13), 705581, 708949, 773861, 564463], 
+         [ new Date(2024, 10, 14), 699039, 693804, 760486, 562182], 
+         [ new Date(2024, 10, 15), 688750, 685575, 749436, 555889], 
+         [ new Date(2024, 10, 18), 685871, 679842, 747888, 554682], 
+         [ new Date(2024, 10, 19), 680955, 683112, 752874, 544986], 
+         [ new Date(2024, 10, 20), 688625, 692946, 757820, 551122], 
+         [ new Date(2024, 10, 21), 692144, 696695, 758362, 557390], 
+         [ new Date(2024, 10, 22), 694651, 696630, 735139, 566409], 
+         [ new Date(2024, 10, 25), 699842, 703336, 734368, 572587], 
+         [ new Date(2024, 10, 26), 699881, 695676, 733467, 575705], 
+         [ new Date(2024, 10, 27), 699785, 700727, 744722, 572738], 
+         [ new Date(2024, 10, 28), 699785, 707718, 741554, 575640], 
+         [ new Date(2024, 10, 29), 704809, 715058, 748475, 576266], 
+         [ new Date(2024, 11, 2), 711394, 727405, 756918, 580043], 
+         [ new Date(2024, 11, 3), 711394, 727486, 760255, 580416], 
+         [ new Date(2024, 11, 4), 713244, 720373, 757068, 581379], 
+         [ new Date(2024, 11, 5), 714069, 721967, 758013, 582097], 
+         [ new Date(2024, 11, 6), 718209, 723734, 765940, 586134], 
+         [ new Date(2024, 11, 9), 722098, 730650, 765592, 588240], 
+         [ new Date(2024, 11, 10), 726673, 738592, 770121, 588699], 
+         [ new Date(2024, 11, 11), 725532, 744418, 772333, 589575], 
+         [ new Date(2024, 11, 12), 734903, 750135, 778860, 593324], 
+         [ new Date(2024, 11, 13), 736270, 741255, 763195, 600019], 
+         [ new Date(2024, 11, 16), 737972, 745128, 761947, 603922], 
+         [ new Date(2024, 11, 17), 740422, 738532, 756357, 514675], 
+         [ new Date(2024, 11, 18), 743774, 743142, 761020, 514789], 
+         [ new Date(2024, 11, 19), 745480, 745193, 758279, 512858], 
+         [ new Date(2024, 11, 20), 745678, 743685, 757838, 511708], 
+         [ new Date(2024, 11, 23), 736122, 734152, 754056, 510215], 
+         [ new Date(2024, 11, 24), 736122, 738585, 763567, 505334], 
+         [ new Date(2024, 11, 25), 734358, 740693, 763526, 506428], 
+         [ new Date(2024, 11, 26), 733344, 743774, 764590, 501713], 
+         [ new Date(2024, 11, 27), 739974, 746093, 765054, 507749], 
+         [ new Date(2024, 11, 30), 738265, 746909, 766672, 505306], 
+         [ new Date(2024, 11, 31), 739563, 739798, 754168, 514098], 
+         [ new Date(2025, 0, 1), 739563, 739798, 754168, 514098], 
+         [ new Date(2025, 0, 2), 739563, 740989, 734097, 514098], 
+         [ new Date(2025, 0, 3), 722291, 724081, 722593, 510814], 
+         [ new Date(2025, 0, 6), 726153, 725313, 721578, 514733], 
+         [ new Date(2025, 0, 7), 726153, 730164, 726690, 511014], 
+         [ new Date(2025, 0, 8), 726453, 734348, 726810, 509748], 
+         [ new Date(2025, 0, 9), 730845, 739089, 722584, 513929], 
+         [ new Date(2025, 0, 10), 728061, 735155, 712938, 509547], 
+         [ new Date(2025, 0, 13), 727957, 728505, 711190, 509325], 
+         [ new Date(2025, 0, 14), 731473, 744433, 729233, 502174], 
+         [ new Date(2025, 0, 15), 731473, 742358, 726123, 502974], 
+         [ new Date(2025, 0, 16), 730351, 745286, 728128, 499397], 
+         [ new Date(2025, 0, 17), 734706, 751335, 729431, 502666], 
+         [ new Date(2025, 0, 20), 732762, 755616, 730007, 500801], 
+         [ new Date(2025, 0, 21), 744939, 766179, 729611, 509519], 
+         [ new Date(2025, 0, 22), 752731, 766758, 723086, 518550], 
+         [ new Date(2025, 0, 23), 756412, 763012, 726807, 519917], 
+         [ new Date(2025, 0, 24), 760238, 765470, 731863, 515710], 
+         [ new Date(2025, 0, 27), 764169, 761469, 731406, 518271], 
+         [ new Date(2025, 0, 28), 764169, 761469, 731406, 518271], 
+         [ new Date(2025, 0, 29), 764169, 761469, 731406, 518271], 
+         [ new Date(2025, 0, 30), 764169, 761469, 731406, 518271], 
+         [ new Date(2025, 0, 31), 764169, 761469, 731406, 518271], 
+         [ new Date(2025, 1, 3), 764169, 761469, 731406, 518271], 
+         [ new Date(2025, 1, 4), 764169, 761469, 731406, 518271], 
+         [ new Date(2025, 1, 5), 764427, 763218, 726657, 508551], 
+         [ new Date(2025, 1, 6), 768597, 772544, 735920, 501280], 
+         [ new Date(2025, 1, 7), 771207, 777427, 743348, 496123], 
+         [ new Date(2025, 1, 10), 770182, 778673, 747510, 488917], 
+         [ new Date(2025, 1, 11), 769195, 776814, 746585, 479237], 
+         [ new Date(2025, 1, 12), 789404, 792818, 752960, 487333], 
+         [ new Date(2025, 1, 13), 796913, 793457, 749830, 496555], 
+         [ new Date(2025, 1, 14), 800497, 800477, 753034, 486994], 
+         [ new Date(2025, 1, 17), 800269, 803366, 755084, 481928], 
+         [ new Date(2025, 1, 18), 805487, 805188, 748032, 494763], 
+         [ new Date(2025, 1, 19), 805103, 805697, 754119, 495250], 
+         [ new Date(2025, 1, 20), 806973, 806847, 753948, 496118], 
+         [ new Date(2025, 1, 21), 822442, 831289, 760322, 527474], 
+         [ new Date(2025, 1, 24), 824666, 825230, 758954, 374972], 
+         [ new Date(2025, 1, 25), 829324, 822068, 752881, 484284], 
+         [ new Date(2025, 1, 26), 836210, 828186, 760570, 535536], 
+         [ new Date(2025, 1, 27), 834766, 828142, 762336, 565022], 
+         [ new Date(2025, 1, 28), 815614, 812938, 747224, 651787], 
+         [ new Date(2025, 2, 3), 811394, 808763, 746331, 560146], 
+         [ new Date(2025, 2, 4), 809170, 806754, 747969, 434842], 
+         [ new Date(2025, 2, 5), 809170, 812946, 751965, 342164], 
+         [ new Date(2025, 2, 6), 809170, 820715, 760770, 206128], 
+         [ new Date(2025, 2, 7), 814901, 839051, 758846, 237575], 
+         [ new Date(2025, 2, 10), 820584, 839266, 757408, 241576], 
+         [ new Date(2025, 2, 11), 827719, 840655, 760484, 286604], 
+         [ new Date(2025, 2, 12), 827557, 847834, 758704, 165381], 
+         [ new Date(2025, 2, 13), 830067, 836677, 755736, 354879], 
+         [ new Date(2025, 2, 14), 833310, 832240, 769424, 364510], 
+         [ new Date(2025, 2, 17), 835118, 833651, 770902, 302870], 
+         [ new Date(2025, 2, 18), 831662, 829025, 771719, 246276], 
+         [ new Date(2025, 2, 19), 831662, 830262, 770969, 27729], 
+         [ new Date(2025, 2, 20), 821892, 822412, 767036, 228885], 
+         [ new Date(2025, 2, 21), 816616, 811117, 757109, 471804], 
+         [ new Date(2025, 2, 24), 806983, 802056, 758279, 569821], 
+         [ new Date(2025, 2, 25), 801728, 808068, 758268, 387932], 
+         [ new Date(2025, 2, 26), 796755, 798966, 757980, 400952], 
+         [ new Date(2025, 2, 27), 793234, 790501, 759116, 552825], 
+         [ new Date(2025, 2, 28), 792773, 786415, 754067, 448501], 
+         [ new Date(2025, 2, 31), 783814, 786590, 750566, 190259], 
+         [ new Date(2025, 3, 1), 785310, 797118, 753421, 190259], 
+         [ new Date(2025, 3, 2), 782024, 791210, 753801, 43749], 
+         [ new Date(2025, 3, 3), 778155, 785127, 751974, 250754], 
+         [ new Date(2025, 3, 4), 778155, 785127, 751974, 700000], 
+         [ new Date(2025, 3, 7), 751582, 750969, 696751, 643653], 
+         [ new Date(2025, 3, 8), 751582, 751314, 707769, 641939], 
+         [ new Date(2025, 3, 9), 749510, 752032, 717053, 569420], 
+         [ new Date(2025, 3, 10), 749636, 758824, 725340, 534153], 
+         [ new Date(2025, 3, 11), 749636, 753520, 728623, 129084], 
+         [ new Date(2025, 3, 14), 749636, 765055, 734154, 2377], 
+         [ new Date(2025, 3, 15), 739510, 754962, 735245, 216694], 
+         [ new Date(2025, 3, 16), 747976, 746404, 737122, 352036], 
+         [ new Date(2025, 3, 17), 749926, 740283, 738098, 346655], 
+         [ new Date(2025, 3, 18), 740470, 730784, 737286, 283170], 
+         [ new Date(2025, 3, 21), 740830, 729933, 740593, 177536], 
+         [ new Date(2025, 3, 22), 737532, 733673, 742468, 312958], 
+         [ new Date(2025, 3, 23), 732007, 729635, 741700, 432645], 
+         [ new Date(2025, 3, 24), 733869, 734991, 741912, 496887], 
+         [ new Date(2025, 3, 25), 743684, 739394, 741410, 568849], 
+         [ new Date(2025, 3, 28), 738329, 739407, 739916, 626995], 
+         [ new Date(2025, 3, 29), 736779, 743669, 739520, 506373], 
+         [ new Date(2025, 3, 30), 736659, 738036, 737803, 403543], 
+         [ new Date(2025, 4, 1), 736659, 738036, 737803, 700000], 
+         [ new Date(2025, 4, 2), 736659, 738036, 737803, 700000], 
+         [ new Date(2025, 4, 5), 736659, 738036, 737803, 700000], 
+         [ new Date(2025, 4, 6), 739859, 741310, 746147, 325063], 
+         [ new Date(2025, 4, 7), 739859, 743575, 752123, 324796], 
+         [ new Date(2025, 4, 8), 730841, 747154, 754222, 32518], 
+         [ new Date(2025, 4, 9), 730841, 747247, 751972, 32518], 
+         [ new Date(2025, 4, 12), 730841, 756860, 758103, 32518], 
+         [ new Date(2025, 4, 13), 737054, 756830, 759368, 75156], 
+         [ new Date(2025, 4, 14), 748379, 752312, 765911, 394137], 
+         [ new Date(2025, 4, 15), 748189, 752315, 760707, 273526], 
+         [ new Date(2025, 4, 16), 748189, 752320, 757701, 127794], 
+         [ new Date(2025, 4, 19), 747822, 754676, 757728, 48407], 
+         [ new Date(2025, 4, 20), 744338, 761492, 760630, 17614], 
+         [ new Date(2025, 4, 21), 750886, 761670, 762226, 88685], 
+         [ new Date(2025, 4, 22), 762948, 758690, 760565, 251272], 
+         [ new Date(2025, 4, 23), 759624, 748015, 753405, 154596], 
+         [ new Date(2025, 4, 26), 758416, 745186, 753061, 136144], 
+         [ new Date(2025, 4, 27), 751329, 746687, 751677, 243110], 
+         [ new Date(2025, 4, 28), 747989, 745991, 751506, 178574], 
+         [ new Date(2025, 4, 29), 747989, 749947, 756798, 26238], 
+         [ new Date(2025, 4, 30), 749332, 743957, 753207, 165474], 
+         [ new Date(2025, 5, 2), 749332, 743957, 753207, 700000], 
+         [ new Date(2025, 5, 3), 746054, 750010, 756468, 251725], 
+         [ new Date(2025, 5, 4), 747846, 751974, 759667, 190752], 
+         [ new Date(2025, 5, 5), 751560, 747195, 761445, 247606], 
+         [ new Date(2025, 5, 6), 748982, 748127, 761728, 200802], 
+         [ new Date(2025, 5, 9), 750665, 754130, 764971, 124489], 
+         [ new Date(2025, 5, 10), 747215, 755327, 761607, 142968], 
+         [ new Date(2025, 5, 11), 752787, 758952, 765544, 113957], 
+         [ new Date(2025, 5, 12), 752477, 765515, 765621, 104695], 
+         [ new Date(2025, 5, 13), 752111, 764478, 759847, 144533], 
+         [ new Date(2025, 5, 16), 758219, 769096, 762487, 264438], 
+         [ new Date(2025, 5, 17), 768932, 772136, 762190, 288872], 
+         [ new Date(2025, 5, 18), 760747, 761159, 762505, 468689], 
+         [ new Date(2025, 5, 19), 749925, 747510, 756497, 420126], 
+         [ new Date(2025, 5, 20), 751734, 743543, 756000, 185374], 
+         [ new Date(2025, 5, 23), 747438, 754724, 760878, 108432], 
+         [ new Date(2025, 5, 24), 760263, 764352, 769651, 180996], 
+         [ new Date(2025, 5, 25), 767675, 777531, 777616, 80732], 
+         [ new Date(2025, 5, 26), 769229, 778391, 775924, 54200], 
+         [ new Date(2025, 5, 27), 772053, 778337, 770474, 333806], 
+         [ new Date(2025, 5, 30), 786686, 781918, 775019, 477545], 
+         [ new Date(2025, 6, 1), 784244, 783967, 778017, 329550], 
+         [ new Date(2025, 6, 2), 783787, 788194, 777351, 240655], 
+         [ new Date(2025, 6, 3), 793346, 798407, 778782, 219716], 
+         [ new Date(2025, 6, 4), 796383, 795285, 781295, 324014], 
+         [ new Date(2025, 6, 7), 799749, 796232, 781477, 255118], 
+         [ new Date(2025, 6, 8), 803146, 808125, 786956, 172997], 
+         [ new Date(2025, 6, 9), 803546, 809411, 785959, 247344], 
+         [ new Date(2025, 6, 10), 807169, 807934, 789701, 352785], 
+         [ new Date(2025, 6, 11), 808921, 805308, 789814, 402237], 
+         [ new Date(2025, 6, 14), 807609, 803098, 791944, 165043], 
+         [ new Date(2025, 6, 15), 805676, 798267, 788648, 167936], 
+         [ new Date(2025, 6, 16), 803705, 794280, 788374, 199665], 
+         [ new Date(2025, 6, 17), 808910, 801365, 791308, 140291], 
+         [ new Date(2025, 6, 18), 807758, 813571, 795281, 140291], 
+         [ new Date(2025, 6, 21), 822063, 831581, 800976, 98482], 
+         [ new Date(2025, 6, 22), 828194, 835140, 805942, 230661], 
+         [ new Date(2025, 6, 23), 828194, 834285, 806041, 49171], 
+         [ new Date(2025, 6, 24), 824450, 842555, 811313, 26927], 
+         [ new Date(2025, 6, 25), 829195, 843170, 808597, 107094], 
+         [ new Date(2025, 6, 28), 833071, 843818, 809560, 402359], 
+         [ new Date(2025, 6, 29), 831610, 851994, 812209, 336284], 
+         [ new Date(2025, 6, 30), 840516, 849291, 813561, 305864]
+    ]);
+
+    var options = {
+      title:'Historical Performance (Closed & Total Positions) - SHANGHAI',
+      legend: {position: 'bottom'},
+      hAxis: {
+        title: 'From inception'
+      },
+      vAxis: {
+        title: 'Equity Curve'
+      },
+      backgroundColor: '#f1f8e9',
+      series: {
+            0: { color: '#99B731' },
+            1: { color: '#2471A3' },
+	       <!-- 2: { color: '#fcba03' },	 DG 20240918 Max Move Note 4D Code needs has index-->
+            2: { color: '#999' },
+            3: { color: '#cbc085', areaOpacity: 0.3 }
+            }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+    }
+  </script>
+  <div class="container-fluid logo_container">
+    <div class="container logo-left">
+      <a href="#"><img src="../../Grid_HTML/images/i4cfinancial_logo.svg.layer.png"></a>
+    </div>
+  </div>
+  <div class="container header_container">
+    <h2 class="report_name">Performance Report - SHANGHAI</h2>
+    <h4 class="report_description">EH Quantitative Directional Long </h4>
+    <h4 class="report_description">The strategy actively trades a universe of companies with a history of aggressive price movement, taking positions in stocks based on a proprietary technical ranking derived from a multi-factor analysis of market action across multiple trading horizons. Strict risk management enforces a rapid 'go-to-cash' ruleset in bearish markets.</h4>
+    <h4 class="report_description">Forward test from inception 2024/05/29 to 2025/07/30</h4>
+  </div>
+  <div class="container chart_container">
+    <div id="chart_div" class="chart"></div>
+  </div>
+  <div class="container overview_container">
+    <h2 class="report_sub_head">Overview</h2>
+    <div class="overview_table">
+   <table class="overview_table">
+        <tr>
+          <td>Annualized Returns:</td>
+          <td style="text-align:right">16.29%</td>
+          <td>Average Win Size:</td>
+          <td style="text-align:right">2,202.51</td>
+        </tr>
+        <tr>
+          <td>Maximum Drawdown:</td>
+          <td style="text-align:right">14.15%</td>
+          <td>Average Loss Size:</td>
+          <td style="text-align:right">1,703.71</td>
+        </tr>
+        <tr>
+           <td>Return over Maximum Drawdown:</td>
+          <td style="text-align:right">1.15</td>
+          <td>Win/Loss Size Ratio:</td>
+          <td style="text-align:right">1.29</td>
+        </tr>
+        <tr>
+          <td>Sharpe Ratio (Annualized):</td>
+          <td style="text-align:right">2.15</td>
+          <td>Number of Closed and Open Positions:</td>
+          <td style="text-align:right">818</td>
+        </tr>
+        <tr>
+          <td>Sortino Ratio (Annualized):</td>
+          <td style="text-align:right">3.45</td>
+          <td>Average Trade Value:</td>
+          <td style="text-align:right">35,082 CNY</td>
+        </tr>
+        <tr>
+          <td>Number of Wins:</td>
+          <td style="text-align:right">394</td>
+          <td>Average Closed Trade Duration:</td>
+          <td style="text-align:right">6.6 days</td>
+        </tr>
+        <tr>
+          <td>Number of Losses:</td>
+          <td style="text-align:right">424</td>
+          <td>Last Session Move:</td>
+          <td style="text-align:right">-2,703.00 (-0.31%), Baseline move: (0.16%)</td>
+        </tr>
+        <tr>
+          <td>Win/Loss Count Ratio:</td>
+          <td style="text-align:right">0.93  (48% winners)</td>
+          <td>Includes 14 open positions with cash holdings of 305,864.50 CNY<p>Cash holdings are equivalent to 36% of Total Strategy Value (849,290.50 CNY) at this time.</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="container monthly_container">
+    <h2 class="report_sub_head">Monthly Strategy Returns (%):</h2>
+    <div class="styled_table">
+      <Table><thead><TR><TH>&nbsp;</TH><TH style="text-align:center">Jan</TH><TH style="text-align:center">Feb</TH><TH style="text-align:center">Mar</TH><TH style="text-align:center">Apr</TH><TH style="text-align:center">May</TH><TH style="text-align:center">Jun</TH><TH style="text-align:center">Jul</TH><TH style="text-align:center">Aug</TH><TH style="text-align:center">Sep</TH><TH style="text-align:center">Oct</TH><TH style="text-align:center">Nov</TH><TH style="text-align:center">Dec</TH><TH style="text-align:center">Total</TH></TR></thead><TR><TD><strong><font style="text-align:right">2024</strong></TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center"><font style="color:red">-1</font></TD><TD style="text-align:center"><font style="color:red">-5</font></TD><TD style="text-align:center"><font style="color:red">-4.5</font></TD><TD style="text-align:center"><font style="color:red">-3.4</font></TD><TD style="text-align:center"><font style="color:green">7.8</font></TD><TD style="text-align:center"><font style="color:green">6.4</font></TD><TD style="text-align:center"><font style="color:green">2.3</font></TD><TD style="text-align:center"><font style="color:green">3.5</font></TD><TD style="text-align:center; font-weight:bold"><font style="color:green">6.1</font></TD></TR><TR><TD><strong><font style="text-align:right">2025</strong></TD><TD style="text-align:center"><font style="color:green">3</font></TD><TD style="text-align:center"><font style="color:green">6.6</font></TD><TD style="text-align:center"><font style="color:red">-3.2</font></TD><TD style="text-align:center"><font style="color:red">-6.2</font></TD><TD style="text-align:center"><font style="color:green">0.8</font></TD><TD style="text-align:center"><font style="color:green">5.1</font></TD><TD style="text-align:center"><font style="color:green">8.3</font></TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center; font-weight:bold"><font style="color:green">14.4</font></TD></TR></Table>
+    </div>
+  </div>
+  <div class="container position_container">
+    <h2 class="report_sub_head">Open Positions:</h2>
+    <div class="styled_table">
+      <Table>
+<thead><TR><TH> Symbol </TH><TH> Name </TH><TH> Entry Date</TH><TH align='right'> # Shares</TH><TH style='text-align:right;'> Entry Price</TH><TD align='right'> Present Price </TD><TH style='text-align:right;'> Move</TH><TH style='text-align:right;'> Max Move</TH><TH style='text-align:right;'> Days Held</TH><TH style='text-align:right;'>Price</TH><TH style='text-align:right;'> Trailing Stop</TH><TH style='text-align:right;'> Profit</TH><TH style='text-align:right;'> Annualized</TH></TR></thead>
+<TR><TD>603259</TD><TD>WUXI APPTEC CO LTD</TD><TD>2025-07-16</TD><TD align='right'>400</TD><TD align='right'>79.66</TD><TD align='right'>98.85</TD><TD align='right'>24.08%</TD><TD align='right'>24.08%</TD><TD align='right'>11</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='21.2' x2='1' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='22' x2='2' y2='19.8' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='19.8' x2='3' y2='18.2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='18.2' x2='4' y2='18.1' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='18.1' x2='5' y2='18' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='5' y1='18' x2='6' y2='16.8' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='6' y1='16.8' x2='7' y2='13.8' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='7' y1='13.8' x2='8' y2='12' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='8' y1='12' x2='9' y2='9.2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='9' y1='9.2' x2='10' y2='2.2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='10' y1='2.2' x2='11' y2='2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'><font style='color:green'>98.383 (0.5%)</font></TD><TD align='right'>7,676.00</TD><TD align='right'>525.60%</TD></TR>
+<TR><TD>601208</TD><TD>Sichuan Em Technology Co., Ltd</TD><TD>2025-07-18</TD><TD align='right'>2500</TD><TD align='right'>15.03</TD><TD align='right'>18.22</TD><TD align='right'>21.22%</TD><TD align='right'>21.22%</TD><TD align='right'>9</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='19.6' x2='1' y2='18.4' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='18.4' x2='2' y2='16.8' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='16.8' x2='3' y2='19.2' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='19.2' x2='4' y2='19.2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='19.2' x2='5' y2='19.2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='5' y1='19.2' x2='6' y2='13.2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='6' y1='13.2' x2='7' y2='6' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='7' y1='6' x2='8' y2='5.9' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='8' y1='5.9' x2='9' y2='2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'><font style='color:green'>17.45 (4.2%)</font></TD><TD align='right'>7,975.00</TD><TD align='right'>565.98%</TD></TR>
+<TR><TD>600183</TD><TD>Shengyi Technology Co Ltd</TD><TD>2025-07-18</TD><TD align='right'>1000</TD><TD align='right'>37.60</TD><TD align='right'>41.35</TD><TD align='right'>9.97%</TD><TD align='right'>11.64%</TD><TD align='right'>9</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='18' x2='1' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='22' x2='2' y2='15' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='15' x2='3' y2='14.8' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='14.8' x2='4' y2='16' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='16' x2='5' y2='13.4' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='5' y1='13.4' x2='6' y2='16.3' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='6' y1='16.3' x2='7' y2='4.5' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='7' y1='4.5' x2='8' y2='2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='8' y1='2' x2='9' y2='4.3' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'><font style='color:green'>40.82 (1.3%)</font></TD><TD align='right'>3,750.00</TD><TD align='right'>265.96%</TD></TR>
+<TR><TD>600507</TD><TD>Fangda Special Steel Technology Co Ltd</TD><TD>2025-07-23</TD><TD align='right'>6000</TD><TD align='right'>6.30</TD><TD align='right'>5.87</TD><TD align='right'>-6.82%</TD><TD align='right'>0.00%</TD><TD align='right'>6</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='2' x2='1' y2='13.1' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='13.1' x2='2' y2='13.1' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='13.1' x2='3' y2='16.9' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='16.9' x2='4' y2='20.7' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='20.7' x2='5' y2='13.7' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='5' y1='13.7' x2='6' y2='15.7' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>5.712 (2.7%)</TD><TD align='right'>-2,580.00</TD><TD align='right'>-273.02%</TD></TR>
+<TR><TD>600338</TD><TD>Tibet Summit Resources Co Ltd</TD><TD>2025-07-23</TD><TD align='right'>3000</TD><TD align='right'>12.50</TD><TD align='right'>12.14</TD><TD align='right'>-2.88%</TD><TD align='right'>3.04%</TD><TD align='right'>6</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='8.2' x2='1' y2='18.3' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='18.3' x2='2' y2='2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='2' x2='3' y2='9.2' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='9.2' x2='4' y2='12.5' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='12.5' x2='5' y2='13' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='5' y1='13' x2='6' y2='14.8' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>11.927 (1.7%)</TD><TD align='right'>-1,080.00</TD><TD align='right'>-115.20%</TD></TR>
+<TR><TD>601015</TD><TD>Shaanxi Heimao Coking Co Ltd</TD><TD>2025-07-24</TD><TD align='right'>4700</TD><TD align='right'>4.02</TD><TD align='right'>3.74</TD><TD align='right'>-6.96%</TD><TD align='right'>2.48%</TD><TD align='right'>5</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='6.8' x2='1' y2='4.9' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='4.9' x2='2' y2='10.6' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='10.6' x2='3' y2='20.6' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='20.6' x2='4' y2='19.6' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='19.6' x2='5' y2='20.1' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>3.702 (1%)</TD><TD align='right'>-1,316.00</TD><TD align='right'>-334.33%</TD></TR>
+<TR><TD>600569</TD><TD>Anyang Iron & Steel Inc</TD><TD>2025-07-24</TD><TD align='right'>7900</TD><TD align='right'>2.39</TD><TD align='right'>2.53</TD><TD align='right'>5.85%</TD><TD align='right'>5.85%</TD><TD align='right'>5</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='17.6' x2='1' y2='9.8' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='9.8' x2='2' y2='14.2' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='14.2' x2='3' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='22' x2='4' y2='14.2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='14.2' x2='5' y2='2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'><font style='color:green'>2.46 (2.8%)</font></TD><TD align='right'>1,106.00</TD><TD align='right'>281.17%</TD></TR>
+<TR><TD>600619</TD><TD>Shanghai Highly Group Co Ltd</TD><TD>2025-07-28</TD><TD align='right'>2200</TD><TD align='right'>16.80</TD><TD align='right'>16.02</TD><TD align='right'>-4.64%</TD><TD align='right'>2.26%</TD><TD align='right'>3</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='6.1' x2='1' y2='4' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='4' x2='2' y2='2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='2' x2='3' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>14.805 (7.6%)</TD><TD align='right'>-1,716.00</TD><TD align='right'>-371.43%</TD></TR>
+<TR><TD>600835</TD><TD>Shanghai Mechanical & Electrical Industry Co., Ltd</TD><TD>2025-07-29</TD><TD align='right'>1700</TD><TD align='right'>27.30</TD><TD align='right'>26.00</TD><TD align='right'>-4.76%</TD><TD align='right'>2.19%</TD><TD align='right'>2</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='2' x2='1' y2='6.3' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='6.3' x2='2' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>24.677 (5.1%)</TD><TD align='right'>-2,210.00</TD><TD align='right'>-571.43%</TD></TR>
+<TR><TD>600419</TD><TD>Xinjiang Tianrun Dairy Co., Ltd</TD><TD>2025-07-29</TD><TD align='right'>4000</TD><TD align='right'>11.61</TD><TD align='right'>10.94</TD><TD align='right'>-5.77%</TD><TD align='right'>0.00%</TD><TD align='right'>2</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='2' x2='1' y2='19.1' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='19.1' x2='2' y2='16.7' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>10.016 (8.4%)</TD><TD align='right'>-2,680.00</TD><TD align='right'>-692.51%</TD></TR>
+<TR><TD>600259</TD><TD>Rising Nonferrous Metals Share Co Ltd</TD><TD>2025-07-29</TD><TD align='right'>700</TD><TD align='right'>65.00</TD><TD align='right'>61.92</TD><TD align='right'>-4.73%</TD><TD align='right'>2.15%</TD><TD align='right'>2</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='2' x2='1' y2='13.9' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='13.9' x2='2' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>54.854 (11.4%)</TD><TD align='right'>-2,156.00</TD><TD align='right'>-568.62%</TD></TR>
+<TR><TD>603992</TD><TD>Xiamen Solex High-tech Industries Co., Ltd</TD><TD>2025-07-30</TD><TD align='right'>1600</TD><TD align='right'>28.40</TD><TD align='right'>28.64</TD><TD align='right'>0.84%</TD><TD align='right'>1.30%</TD><TD align='right'>1</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='22' x2='1' y2='2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>25.899 (9.6%)</TD><TD align='right'>384.00</TD><TD align='right'>202.82%</TD></TR>
+<TR><TD>600967</TD><TD>Inner Mongolia First Machinery Group Co Ltd</TD><TD>2025-07-30</TD><TD align='right'>2200</TD><TD align='right'>21.50</TD><TD align='right'>20.67</TD><TD align='right'>-3.86%</TD><TD align='right'>0.41%</TD><TD align='right'>1</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='2' x2='1' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>17.860 (13.6%)</TD><TD align='right'>-1,826.00</TD><TD align='right'>-926.51%</TD></TR>
+<TR><TD>600486</TD><TD>Jiangsu Yangnong Chemical Co., Ltd</TD><TD>2025-07-30</TD><TD align='right'>600</TD><TD align='right'>69.31</TD><TD align='right'>68.60</TD><TD align='right'>-1.02%</TD><TD align='right'>1.16%</TD><TD align='right'>1</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='2' x2='1' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>63.133 (8%)</TD><TD align='right'>-426.00</TD><TD align='right'>-245.85%</TD></TR>
+<TR><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD align='right' colspan='3'> Total Value (CNY) of 14 Open Positions:</TD><TD align='right'>534,651.00</TD><TD align='right'>4,901.00</TD><TD align='right'>0.55%</TD></TR>
+</Table>
+
+    </div>
+  </div>
+  <div class="container monthtodate_container">
+    <h2 class="report_sub_head">Closed Month-To-Date Performance:</h2>
+    <div class="styled_table">
+      <Table width="100%"><thead><TR><TH> Symbol </TH><TH> Name </TH><TH style="text-align:right;"> # Shares</TH><TH style="text-align:right;"> Buy Date</TH><TH style="text-align:right;"> Buy Price</TH><TH style="text-align:right;"> Sell Date</TH><TH style="text-align:right;"> Sell Price</TH><TH style="text-align:right;"> Max Move</TH><TH style="text-align:right;"> Duration</TH><TH style="text-align:right;">Price</TH><TH style="text-align:right;"> Profit</TH><TH style="text-align:right;"> ROI</TH></TR></thead><TR><TD>600710</TD><TD>Sumec Corporation Limited</TD><TD align="right">3700</TD><TD align="right">2025-06-25</TD><TD align="right">10.23</TD><TD align="right">2025-07-01</TD><TD align="right">9.57</TD><TD style="text-align:right;">0.00%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="9.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="9.4" x2="2" y2="17.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="17.9" x2="3" y2="20.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="20.6" x2="4" y2="19" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="19" x2="5" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-2,442.00</font></TD><TD style="text-align:right;"><font style="color:red">-6.5%</font></TD></TR></TR><TR><TD>603167</TD><TD>Bohai Ferry Group Co Ltd</TD><TD align="right">3400</TD><TD align="right">2025-06-23</TD><TD align="right">11.00</TD><TD align="right">2025-07-02</TD><TD align="right">11.35</TD><TD style="text-align:right;">4.09%</TD><TD align="right">8</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="11.5" x2="1" y2="17.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="17.6" x2="2" y2="17.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="17.8" x2="3" y2="15.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="15.1" x2="4" y2="12.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="12.9" x2="5" y2="14" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="14" x2="6" y2="3.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="3.1" x2="7" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="2" x2="8" y2="5.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">1,190.00</font></TD><TD style="text-align:right;"><font style="color:green">3.2%</font></TD></TR></TR><TR><TD>601890</TD><TD>Asian Star Anchor Chain Co Ltd</TD><TD align="right">1900</TD><TD align="right">2025-06-27</TD><TD align="right">9.80</TD><TD align="right">2025-07-02</TD><TD align="right">11.33</TD><TD style="text-align:right;">15.61%</TD><TD align="right">4</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="21.9" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="16.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="16.8" x2="3" y2="15.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="15.4" x2="4" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">2,907.00</font></TD><TD style="text-align:right;"><font style="color:green">15.6%</font></TD></TR></TR><TR><TD>600967</TD><TD>Inner Mongolia First Machinery Group Co Ltd</TD><TD align="right">2300</TD><TD align="right">2025-07-01</TD><TD align="right">19.88</TD><TD align="right">2025-07-02</TD><TD align="right">17.90</TD><TD style="text-align:right;">0.00%</TD><TD align="right">2</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="6.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="6.6" x2="2" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-4,554.00</font></TD><TD style="text-align:right;"><font style="color:red">-10%</font></TD></TR></TR><TR><TD>601003</TD><TD>Liuzhou Iron & Steel Co Ltd</TD><TD align="right">12100</TD><TD align="right">2025-07-02</TD><TD align="right">3.90</TD><TD align="right">2025-07-03</TD><TD align="right">4.69</TD><TD style="text-align:right;">20.25%</TD><TD align="right">2</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="12.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="12.9" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">9,559.00</font></TD><TD style="text-align:right;"><font style="color:green">20.3%</font></TD></TR></TR><TR><TD>603538</TD><TD>Ningbo Menovo Pharmaceutical Co., Ltd</TD><TD align="right">1800</TD><TD align="right">2025-06-24</TD><TD align="right">20.85</TD><TD align="right">2025-07-04</TD><TD align="right">26.35</TD><TD style="text-align:right;">30.64%</TD><TD align="right">9</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="18.1" x2="1" y2="19.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="19.2" x2="2" y2="21.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="21.3" x2="3" y2="19.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="19.2" x2="4" y2="21.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="21.2" x2="5" y2="21" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="21" x2="6" y2="17.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="17.6" x2="7" y2="12.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="12.3" x2="8" y2="6.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="6.4" x2="9" y2="6.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">9,900.00</font></TD><TD style="text-align:right;"><font style="color:green">26.4%</font></TD></TR></TR><TR><TD>603993</TD><TD>China Molybdenum Co Ltd</TD><TD align="right">5700</TD><TD align="right">2025-06-30</TD><TD align="right">8.30</TD><TD align="right">2025-07-04</TD><TD align="right">8.55</TD><TD style="text-align:right;">4.93%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="16.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="16.1" x2="2" y2="11.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="11.3" x2="3" y2="5.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="5.4" x2="4" y2="4.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="4.4" x2="5" y2="10.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">1,425.00</font></TD><TD style="text-align:right;"><font style="color:green">3%</font></TD></TR></TR><TR><TD>603203</TD><TD>Quick Intelligent Equipment Co.,Ltd</TD><TD align="right">1700</TD><TD align="right">2025-07-02</TD><TD align="right">27.36</TD><TD align="right">2025-07-04</TD><TD align="right">24.62</TD><TD style="text-align:right;">0.00%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="15.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="15.3" x2="2" y2="18.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="18.7" x2="3" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-4,658.00</font></TD><TD style="text-align:right;"><font style="color:red">-10%</font></TD></TR></TR><TR><TD>601890</TD><TD>Asian Star Anchor Chain Co Ltd</TD><TD align="right">3300</TD><TD align="right">2025-07-03</TD><TD align="right">11.47</TD><TD align="right">2025-07-04</TD><TD align="right">10.37</TD><TD style="text-align:right;">0.00%</TD><TD align="right">2</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="11" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="11" x2="2" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-3,630.00</font></TD><TD style="text-align:right;"><font style="color:red">-9.6%</font></TD></TR></TR><TR><TD>600876</TD><TD>Luoyang Glass Co Ltd</TD><TD align="right">3400</TD><TD align="right">2025-06-23</TD><TD align="right">10.92</TD><TD align="right">2025-07-07</TD><TD align="right">11.91</TD><TD style="text-align:right;">13.09%</TD><TD align="right">11</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="16.2" x2="1" y2="19" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="19" x2="2" y2="17.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="17.3" x2="3" y2="20.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="20.2" x2="4" y2="21.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="21.3" x2="5" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="22" x2="6" y2="19.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="19.8" x2="7" y2="18.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="18.7" x2="8" y2="8.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="8.1" x2="9" y2="4.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="4.2" x2="10" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="2" x2="11" y2="6.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">3,366.00</font></TD><TD style="text-align:right;"><font style="color:green">9.1%</font></TD></TR></TR><TR><TD>601003</TD><TD>Liuzhou Iron & Steel Co Ltd</TD><TD align="right">7900</TD><TD align="right">2025-07-04</TD><TD align="right">4.80</TD><TD align="right">2025-07-08</TD><TD align="right">5.23</TD><TD style="text-align:right;">10.83%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="15.7" x2="1" y2="6.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="6.2" x2="2" y2="17" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="17" x2="3" y2="4.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">3,397.00</font></TD><TD style="text-align:right;"><font style="color:green">9%</font></TD></TR></TR><TR><TD>600326</TD><TD>Tibet Tianlu Co Ltd</TD><TD align="right">4300</TD><TD align="right">2025-06-26</TD><TD align="right">8.70</TD><TD align="right">2025-07-09</TD><TD align="right">8.57</TD><TD style="text-align:right;">0.45%</TD><TD align="right">10</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="3.2" x2="1" y2="9.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="9.6" x2="2" y2="2.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2.6" x2="3" y2="11.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="11.4" x2="4" y2="16.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="16.1" x2="5" y2="15.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="15.5" x2="6" y2="19.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="19.6" x2="7" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="22" x2="8" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="2" x2="9" y2="4.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="4.9" x2="10" y2="16.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-559.00</font></TD><TD style="text-align:right;"><font style="color:red">-1.5%</font></TD></TR></TR><TR><TD>601168</TD><TD>Western Mining Co.,Ltd</TD><TD align="right">2100</TD><TD align="right">2025-07-03</TD><TD align="right">17.55</TD><TD align="right">2025-07-09</TD><TD align="right">16.76</TD><TD style="text-align:right;">0.11%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2.3" x2="1" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="2" x2="2" y2="9.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="9.5" x2="3" y2="10.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="10.3" x2="4" y2="11.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="11.6" x2="5" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-1,659.00</font></TD><TD style="text-align:right;"><font style="color:red">-4.5%</font></TD></TR></TR><TR><TD>601208</TD><TD>Sichuan Em Technology Co., Ltd</TD><TD align="right">3400</TD><TD align="right">2025-07-07</TD><TD align="right">11.08</TD><TD align="right">2025-07-09</TD><TD align="right">11.85</TD><TD style="text-align:right;">8.03%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="18.3" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">2,618.00</font></TD><TD style="text-align:right;"><font style="color:green">6.9%</font></TD></TR></TR><TR><TD>688002</TD><TD>RAYTRON TECHNOLOGY CO LTD</TD><TD align="right">600</TD><TD align="right">2025-07-01</TD><TD align="right">68.50</TD><TD align="right">2025-07-10</TD><TD align="right">67.95</TD><TD style="text-align:right;">2.83%</TD><TD align="right">8</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="15.6" x2="1" y2="15.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="15.7" x2="2" y2="20.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="20.5" x2="3" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="2" x2="4" y2="13.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="13.7" x2="5" y2="21.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="21.9" x2="6" y2="11.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="11.9" x2="7" y2="18" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="18" x2="8" y2="18.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-330.00</font></TD><TD style="text-align:right;"><font style="color:red">-0.8%</font></TD></TR></TR><TR><TD>603818</TD><TD>QuMei Home Furnishings Group Co Ltd</TD><TD align="right">9200</TD><TD align="right">2025-07-01</TD><TD align="right">5.12</TD><TD align="right">2025-07-10</TD><TD align="right">4.93</TD><TD style="text-align:right;">3.71%</TD><TD align="right">8</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="9.9" x2="1" y2="3.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="3.3" x2="2" y2="5.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="5.3" x2="3" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="2" x2="4" y2="13.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="13.3" x2="5" y2="13.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="13.7" x2="6" y2="19.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="19.9" x2="7" y2="21.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="21.2" x2="8" y2="17.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-1,748.00</font></TD><TD style="text-align:right;"><font style="color:red">-3.7%</font></TD></TR></TR><TR><TD>600711</TD><TD>Chengtun Mining Group Co Ltd</TD><TD align="right">7200</TD><TD align="right">2025-07-02</TD><TD align="right">6.56</TD><TD align="right">2025-07-10</TD><TD align="right">7.06</TD><TD style="text-align:right;">12.95%</TD><TD align="right">7</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="19.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="19.6" x2="2" y2="15.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="15.4" x2="3" y2="16.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="16.8" x2="4" y2="8.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="8.8" x2="5" y2="4.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="4.4" x2="6" y2="5.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="5.5" x2="7" y2="14" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">3,600.00</font></TD><TD style="text-align:right;"><font style="color:green">7.6%</font></TD></TR></TR><TR><TD>603806</TD><TD>HANGZHOU FIRST APPLIED MATERIAL</TD><TD align="right">2700</TD><TD align="right">2025-07-04</TD><TD align="right">13.74</TD><TD align="right">2025-07-10</TD><TD align="right">14.09</TD><TD style="text-align:right;">5.38%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="17.3" x2="1" y2="20.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="20.6" x2="2" y2="17.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="17.9" x2="3" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="2" x2="4" y2="7.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="7.6" x2="5" y2="10" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">945.00</font></TD><TD style="text-align:right;"><font style="color:green">2.5%</font></TD></TR></TR><TR><TD>600698</TD><TD>Hunan Tyen Machinery Co Ltd</TD><TD align="right">3400</TD><TD align="right">2025-07-08</TD><TD align="right">10.99</TD><TD align="right">2025-07-10</TD><TD align="right">11.33</TD><TD style="text-align:right;">6.46%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="2" x2="2" y2="3.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="3.1" x2="3" y2="21.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">1,156.00</font></TD><TD style="text-align:right;"><font style="color:green">3.1%</font></TD></TR></TR><TR><TD>600036</TD><TD>China Merchants Bank Co., Ltd</TD><TD align="right">300</TD><TD align="right">2025-06-27</TD><TD align="right">47.85</TD><TD align="right">2025-07-11</TD><TD align="right">46.28</TD><TD style="text-align:right;">0.81%</TD><TD align="right">11</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="5.7" x2="1" y2="19.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="19.7" x2="2" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="22" x2="3" y2="17.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="17.7" x2="4" y2="13.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="13.8" x2="5" y2="16.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="16.3" x2="6" y2="12.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="12.4" x2="7" y2="11.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="11.3" x2="8" y2="7.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="7.6" x2="9" y2="11.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="11.8" x2="10" y2="2.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="2.4" x2="11" y2="7.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-471.00</font></TD><TD style="text-align:right;"><font style="color:red">-3.3%</font></TD></TR></TR><TR><TD>600446</TD><TD>Shenzhen Kingdom Sci-tech Co Ltd</TD><TD align="right">2400</TD><TD align="right">2025-06-30</TD><TD align="right">19.64</TD><TD align="right">2025-07-11</TD><TD align="right">21.19</TD><TD style="text-align:right;">7.89%</TD><TD align="right">10</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="10.8" x2="1" y2="14.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="14.6" x2="2" y2="19.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="19.7" x2="3" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="22" x2="4" y2="20.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="20.3" x2="5" y2="18" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="18" x2="6" y2="19" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="19" x2="7" y2="16.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="16.3" x2="8" y2="7.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="7.8" x2="9" y2="13" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="13" x2="10" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">3,720.00</font></TD><TD style="text-align:right;"><font style="color:green">7.9%</font></TD></TR></TR><TR><TD>601003</TD><TD>Liuzhou Iron & Steel Co Ltd</TD><TD align="right">7300</TD><TD align="right">2025-07-09</TD><TD align="right">5.17</TD><TD align="right">2025-07-11</TD><TD align="right">5.44</TD><TD style="text-align:right;">8.89%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="14.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="14.2" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="15" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">1,971.00</font></TD><TD style="text-align:right;"><font style="color:green">5.2%</font></TD></TR></TR><TR><TD>603601</TD><TD>Chongqing Zaisheng Technology Co Ltd</TD><TD align="right">6800</TD><TD align="right">2025-07-10</TD><TD align="right">5.52</TD><TD align="right">2025-07-11</TD><TD align="right">5.01</TD><TD style="text-align:right;">0.18%</TD><TD align="right">2</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="6.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="6.6" x2="2" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-3,468.00</font></TD><TD style="text-align:right;"><font style="color:red">-9.2%</font></TD></TR></TR><TR><TD>600846</TD><TD>Shanghai Tongji Science & Technology Industrial Co Ltd</TD><TD align="right">4100</TD><TD align="right">2025-07-01</TD><TD align="right">11.38</TD><TD align="right">2025-07-14</TD><TD align="right">11.06</TD><TD style="text-align:right;">0.00%</TD><TD align="right">10</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="8.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="8.2" x2="2" y2="16.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="16.3" x2="3" y2="11.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="11.5" x2="4" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="22" x2="5" y2="9.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="9.1" x2="6" y2="8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="8" x2="7" y2="10.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="10.8" x2="8" y2="8.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="8.9" x2="9" y2="8.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="8.2" x2="10" y2="11.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-1,312.00</font></TD><TD style="text-align:right;"><font style="color:red">-2.8%</font></TD></TR></TR><TR><TD>600231</TD><TD>Lingyuan Iron & Steel Co Ltd</TD><TD align="right">18900</TD><TD align="right">2025-07-07</TD><TD align="right">2.00</TD><TD align="right">2025-07-15</TD><TD align="right">1.97</TD><TD style="text-align:right;">3.00%</TD><TD align="right">7</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="6.4" x2="1" y2="15.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="15.3" x2="2" y2="8.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="8.7" x2="3" y2="6.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="6.4" x2="4" y2="6.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="6.4" x2="5" y2="4.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="4.2" x2="6" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="2" x2="7" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-567.00</font></TD><TD style="text-align:right;"><font style="color:red">-1.5%</font></TD></TR></TR><TR><TD>601166</TD><TD>Industrial Bank Co., Ltd</TD><TD align="right">1500</TD><TD align="right">2025-07-07</TD><TD align="right">24.83</TD><TD align="right">2025-07-15</TD><TD align="right">24.57</TD><TD style="text-align:right;">1.24%</TD><TD align="right">7</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="10.7" x2="1" y2="2.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="2.6" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="3.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="3.7" x2="4" y2="7.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="7.6" x2="5" y2="21.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="21.4" x2="6" y2="14.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="14.7" x2="7" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-390.00</font></TD><TD style="text-align:right;"><font style="color:red">-1%</font></TD></TR></TR><TR><TD>600908</TD><TD>Wuxi Rural Commercial Bank Co.,Ltd</TD><TD align="right">5800</TD><TD align="right">2025-07-08</TD><TD align="right">6.46</TD><TD align="right">2025-07-15</TD><TD align="right">6.39</TD><TD style="text-align:right;">1.39%</TD><TD align="right">6</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="12" x2="1" y2="17.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="17.5" x2="2" y2="9.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="9.3" x2="3" y2="3.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="3.8" x2="4" y2="17.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="17.5" x2="5" y2="15.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="15.6" x2="6" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-406.00</font></TD><TD style="text-align:right;"><font style="color:red">-1.1%</font></TD></TR></TR><TR><TD>600354</TD><TD>Gansu Dunhuang Seed Co Ltd</TD><TD align="right">5700</TD><TD align="right">2025-07-08</TD><TD align="right">6.57</TD><TD align="right">2025-07-15</TD><TD align="right">6.47</TD><TD style="text-align:right;">1.82%</TD><TD align="right">6</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="8.9" x2="1" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="2" x2="2" y2="7.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="7.1" x2="3" y2="7.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="7.1" x2="4" y2="7.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="7.7" x2="5" y2="10" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="10" x2="6" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-570.00</font></TD><TD style="text-align:right;"><font style="color:red">-1.5%</font></TD></TR></TR><TR><TD>600685</TD><TD>CSSC Offshore & Marine Engineering (Group) Company Limited</TD><TD align="right">1600</TD><TD align="right">2025-07-02</TD><TD align="right">28.85</TD><TD align="right">2025-07-16</TD><TD align="right">27.80</TD><TD style="text-align:right;">0.00%</TD><TD align="right">11</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="16.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="16.6" x2="2" y2="17.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="17.6" x2="3" y2="19.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="19.9" x2="4" y2="16.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="16.4" x2="5" y2="17.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="17.8" x2="6" y2="20.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="20.3" x2="7" y2="18.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="18.2" x2="8" y2="9.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="9.3" x2="9" y2="10.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="10.6" x2="10" y2="10.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="10.5" x2="11" y2="14.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-1,680.00</font></TD><TD style="text-align:right;"><font style="color:red">-3.6%</font></TD></TR></TR><TR><TD>601860</TD><TD>Jiangsu Zijin Rural Commercial Bank Co.,Ltd</TD><TD align="right">11600</TD><TD align="right">2025-07-10</TD><TD align="right">3.25</TD><TD align="right">2025-07-16</TD><TD align="right">3.17</TD><TD style="text-align:right;">2.15%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="10.8" x2="1" y2="4.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="4.5" x2="2" y2="14.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="14.5" x2="3" y2="13.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="13.3" x2="4" y2="18.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="18.3" x2="5" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-928.00</font></TD><TD style="text-align:right;"><font style="color:red">-2.5%</font></TD></TR></TR><TR><TD>600183</TD><TD>Shengyi Technology Co Ltd</TD><TD align="right">1400</TD><TD align="right">2025-07-11</TD><TD align="right">33.80</TD><TD align="right">2025-07-16</TD><TD align="right">35.30</TD><TD style="text-align:right;">5.62%</TD><TD align="right">4</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="13.7" x2="1" y2="21.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="21.5" x2="2" y2="19.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="19.2" x2="3" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="2" x2="4" y2="6.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">2,100.00</font></TD><TD style="text-align:right;"><font style="color:green">4.4%</font></TD></TR></TR><TR><TD>601015</TD><TD>Shaanxi Heimao Coking Co Ltd</TD><TD align="right">13300</TD><TD align="right">2025-07-14</TD><TD align="right">3.55</TD><TD align="right">2025-07-16</TD><TD align="right">3.44</TD><TD style="text-align:right;">3.38%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="10" x2="1" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="2" x2="2" y2="18.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="18.7" x2="3" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-1,463.00</font></TD><TD style="text-align:right;"><font style="color:red">-3.1%</font></TD></TR></TR><TR><TD>600508</TD><TD>Shanghai Datun Energy Resourses Co Ltd</TD><TD align="right">3900</TD><TD align="right">2025-07-11</TD><TD align="right">12.17</TD><TD align="right">2025-07-17</TD><TD align="right">11.76</TD><TD style="text-align:right;">0.00%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="5.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="5.3" x2="2" y2="4.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="4.5" x2="3" y2="21.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="21.2" x2="4" y2="19.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="19.5" x2="5" y2="19.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-1,599.00</font></TD><TD style="text-align:right;"><font style="color:red">-3.4%</font></TD></TR></TR><TR><TD>600620</TD><TD>Shanghai Tianchen Co Ltd</TD><TD align="right">6300</TD><TD align="right">2025-07-15</TD><TD align="right">5.96</TD><TD align="right">2025-07-17</TD><TD align="right">7.04</TD><TD style="text-align:right;">18.12%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="19.7" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="12.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="12.5" x2="3" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">6,804.00</font></TD><TD style="text-align:right;"><font style="color:green">18.1%</font></TD></TR></TR><TR><TD>603328</TD><TD>Guangdong Ellington Electronics Technology Co Ltd</TD><TD align="right">3600</TD><TD align="right">2025-07-10</TD><TD align="right">10.50</TD><TD align="right">2025-07-18</TD><TD align="right">10.18</TD><TD style="text-align:right;">1.04%</TD><TD align="right">7</TD><TD style="text-align:right;"><svg width="25" height="25"><line x1="0" y1="8.3" x2="1" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" /><line x1="1" y1="2" x2="2" y2="15.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" /><line x1="2" y1="15.1" x2="3" y2="15.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" /><line x1="3" y1="15.1" x2="4" y2="15.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" /><line x1="4" y1="15.7" x2="5" y2="20.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" /><line x1="5" y1="20.3" x2="6" y2="10" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" /><line x1="6" y1="10" x2="7" y2="20.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" /> Sorry, your browser does not support inline SVG.</svg></TD><TD style="text-align:right;"><font style="color:red">-1,152.00</font></TD><TD style="text-align:right;"><font style="color:red">-3%</font></TD></TR></TR><TR><TD>603358</TD><TD>Huada Automotive Technology Corp.,Ltd</TD><TD align="right">1000</TD><TD align="right">2025-07-15</TD><TD align="right">37.20</TD><TD align="right">2025-07-21</TD><TD align="right">36.93</TD><TD style="text-align:right;">3.11%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="15.2" x2="1" y2="12.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="12.2" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="5.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="5.1" x2="4" y2="10.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="10.6" x2="5" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-270.00</font></TD><TD style="text-align:right;"><font style="color:red">-0.7%</font></TD></TR></TR><TR><TD>601003</TD><TD>Liuzhou Iron & Steel Co Ltd</TD><TD align="right">6800</TD><TD align="right">2025-07-16</TD><TD align="right">5.52</TD><TD align="right">2025-07-21</TD><TD align="right">6.74</TD><TD style="text-align:right;">22.10%</TD><TD align="right">4</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="16.4" x2="1" y2="21.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="21.9" x2="2" y2="15.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="15.8" x2="3" y2="9.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="9.2" x2="4" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">8,296.00</font></TD><TD style="text-align:right;"><font style="color:green">22.1%</font></TD></TR></TR><TR><TD>600392</TD><TD>Shenghe Resources Holding Co Ltd</TD><TD align="right">2300</TD><TD align="right">2025-07-18</TD><TD align="right">16.00</TD><TD align="right">2025-07-21</TD><TD align="right">18.73</TD><TD style="text-align:right;">17.06%</TD><TD align="right">2</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="14.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="14.5" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">6,279.00</font></TD><TD style="text-align:right;"><font style="color:green">17.1%</font></TD></TR></TR><TR><TD>600353</TD><TD>Chengdu Xuguang Electronics Co Ltd</TD><TD align="right">3200</TD><TD align="right">2025-07-14</TD><TD align="right">14.77</TD><TD align="right">2025-07-22</TD><TD align="right">13.93</TD><TD style="text-align:right;">0.20%</TD><TD align="right">7</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="4.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="4.3" x2="2" y2="8.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="8.2" x2="3" y2="8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="8" x2="4" y2="7.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="7.8" x2="5" y2="19.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="19.5" x2="6" y2="14.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="14.2" x2="7" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-2,688.00</font></TD><TD style="text-align:right;"><font style="color:red">-5.7%</font></TD></TR></TR><TR><TD>600212</TD><TD>Shandong Jiangquan Industry Co Ltd</TD><TD align="right">4200</TD><TD align="right">2025-07-16</TD><TD align="right">9.02</TD><TD align="right">2025-07-22</TD><TD align="right">9.58</TD><TD style="text-align:right;">7.31%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="21.5" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="18.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="18.8" x2="3" y2="14.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="14.5" x2="4" y2="5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="5" x2="5" y2="13.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">2,352.00</font></TD><TD style="text-align:right;"><font style="color:green">6.2%</font></TD></TR></TR><TR><TD>600620</TD><TD>Shanghai Tianchen Co Ltd</TD><TD align="right">5300</TD><TD align="right">2025-07-18</TD><TD align="right">7.10</TD><TD align="right">2025-07-22</TD><TD align="right">6.90</TD><TD style="text-align:right;">9.01%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="16.2" x2="1" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="2" x2="2" y2="5.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="5.1" x2="3" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-1,060.00</font></TD><TD style="text-align:right;"><font style="color:red">-2.8%</font></TD></TR></TR><TR><TD>600326</TD><TD>Tibet Tianlu Co Ltd</TD><TD align="right">3900</TD><TD align="right">2025-07-18</TD><TD align="right">9.66</TD><TD align="right">2025-07-22</TD><TD align="right">11.59</TD><TD style="text-align:right;">9.10%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="21.2" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="12.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="12.4" x2="3" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">7,527.00</font></TD><TD style="text-align:right;"><font style="color:green">20%</font></TD></TR></TR><TR><TD>603969</TD><TD>Silvery Dragon Prestressed Materials Co </TD><TD align="right">3900</TD><TD align="right">2025-07-23</TD><TD align="right">9.57</TD><TD align="right">2025-07-24</TD><TD align="right">8.61</TD><TD style="text-align:right;">0.00%</TD><TD align="right">2</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="18.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-3,744.00</font></TD><TD style="text-align:right;"><font style="color:red">-10%</font></TD></TR></TR><TR><TD>600638</TD><TD>Shanghai New Huang Pu Real Estate Co Ltd</TD><TD align="right">7300</TD><TD align="right">2025-07-14</TD><TD align="right">6.47</TD><TD align="right">2025-07-25</TD><TD align="right">6.12</TD><TD style="text-align:right;">1.23%</TD><TD align="right">10</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="16" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="16" x2="2" y2="12" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="12" x2="3" y2="15.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="15.5" x2="4" y2="18.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="18.5" x2="5" y2="20.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="20.5" x2="6" y2="18" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="18" x2="7" y2="18" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="18" x2="8" y2="20.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="20.5" x2="9" y2="20" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="20" x2="10" y2="19.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-2,555.00</font></TD><TD style="text-align:right;"><font style="color:red">-5.4%</font></TD></TR></TR><TR><TD>600392</TD><TD>Shenghe Resources Holding Co Ltd</TD><TD align="right">2000</TD><TD align="right">2025-07-22</TD><TD align="right">18.70</TD><TD align="right">2025-07-25</TD><TD align="right">22.35</TD><TD style="text-align:right;">19.51%</TD><TD align="right">4</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="18.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="18.9" x2="2" y2="14.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="14.9" x2="3" y2="10.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="10.2" x2="4" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">7,300.00</font></TD><TD style="text-align:right;"><font style="color:green">19.5%</font></TD></TR></TR><TR><TD>600864</TD><TD>Harbin Hatou Investment Co.,Ltd</TD><TD align="right">6900</TD><TD align="right">2025-07-14</TD><TD align="right">6.82</TD><TD align="right">2025-07-28</TD><TD align="right">6.95</TD><TD style="text-align:right;">3.22%</TD><TD align="right">11</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="10.5" x2="1" y2="17.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="17.4" x2="2" y2="20.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="20.8" x2="3" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="22" x2="4" y2="20.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="20.8" x2="5" y2="21.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="21.2" x2="6" y2="17.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="17.4" x2="7" y2="17" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="17" x2="8" y2="7.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="7.4" x2="9" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="2" x2="10" y2="4.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="4.3" x2="11" y2="5.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">897.00</font></TD><TD style="text-align:right;"><font style="color:green">1.9%</font></TD></TR></TR><TR><TD>600408</TD><TD>Shanxi Antai Group Co., Ltd</TD><TD align="right">20800</TD><TD align="right">2025-07-14</TD><TD align="right">2.28</TD><TD align="right">2025-07-28</TD><TD align="right">2.30</TD><TD style="text-align:right;">3.94%</TD><TD align="right">11</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="11.2" x2="1" y2="14.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="14.3" x2="2" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="22" x2="3" y2="22" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="22" x2="4" y2="22" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="22" x2="5" y2="18.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="18.9" x2="6" y2="13.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="13.5" x2="7" y2="6.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="6.6" x2="8" y2="8.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="8.2" x2="9" y2="4.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="4.3" x2="10" y2="7.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="7.4" x2="11" y2="9.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">416.00</font></TD><TD style="text-align:right;"><font style="color:green">0.9%</font></TD></TR></TR><TR><TD>600739</TD><TD>Liaoning Cheng Da Co., Ltd</TD><TD align="right">4000</TD><TD align="right">2025-07-14</TD><TD align="right">11.70</TD><TD align="right">2025-07-28</TD><TD align="right">12.25</TD><TD style="text-align:right;">4.87%</TD><TD align="right">11</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="16.6" x2="1" y2="13.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="13.8" x2="2" y2="20.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="20.2" x2="3" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="22" x2="4" y2="20.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="20.2" x2="5" y2="18.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="18.7" x2="6" y2="14.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="14.6" x2="7" y2="11.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="11.5" x2="8" y2="9.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="9.4" x2="9" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="2" x2="10" y2="5.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="5.3" x2="11" y2="2.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">2,200.00</font></TD><TD style="text-align:right;"><font style="color:green">4.7%</font></TD></TR></TR><TR><TD>900902</TD><TD>Shanghai Shibei Hi-Tech Co Ltd</TD><TD align="right">205300</TD><TD align="right">2025-07-15</TD><TD align="right">0.185</TD><TD align="right">2025-07-28</TD><TD align="right">0.18</TD><TD style="text-align:right;">4.86%</TD><TD align="right">10</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="6" x2="2" y2="10" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="10" x2="3" y2="14" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="14" x2="4" y2="20" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="20" x2="5" y2="16" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="16" x2="6" y2="14" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="14" x2="7" y2="10" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="10" x2="8" y2="8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="8" x2="9" y2="12" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="12" x2="10" y2="12" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-1,026.50</font></TD><TD style="text-align:right;"><font style="color:red">-2.7%</font></TD></TR></TR><TR><TD>600998</TD><TD>Jointown Pharmaceutical Group Co., Ltd</TD><TD align="right">6900</TD><TD align="right">2025-07-15</TD><TD align="right">5.44</TD><TD align="right">2025-07-28</TD><TD align="right">5.40</TD><TD style="text-align:right;">1.10%</TD><TD align="right">10</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="5.6" x2="1" y2="12.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="12.9" x2="2" y2="16.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="16.5" x2="3" y2="12.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="12.9" x2="4" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="22" x2="5" y2="22" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="22" x2="6" y2="11.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="11.1" x2="7" y2="11.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="11.1" x2="8" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="2" x2="9" y2="14.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="14.7" x2="10" y2="18.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-276.00</font></TD><TD style="text-align:right;"><font style="color:red">-0.7%</font></TD></TR></TR><TR><TD>600141</TD><TD>Hubei Xingfa Chemicals Group Co Ltd</TD><TD align="right">1600</TD><TD align="right">2025-07-16</TD><TD align="right">23.10</TD><TD align="right">2025-07-28</TD><TD align="right">25.62</TD><TD style="text-align:right;">10.90%</TD><TD align="right">9</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="20.9" x2="1" y2="21.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="21.1" x2="2" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="22" x2="3" y2="15.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="15.9" x2="4" y2="9.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="9.3" x2="5" y2="6.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="6.6" x2="6" y2="5.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="5.7" x2="7" y2="3.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="3.7" x2="8" y2="5.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="5.1" x2="9" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">4,032.00</font></TD><TD style="text-align:right;"><font style="color:green">10.9%</font></TD></TR></TR><TR><TD>600329</TD><TD>Tianjin Zhong Xin Pharmaceutical Group Corporation Limited</TD><TD align="right">1000</TD><TD align="right">2025-07-17</TD><TD align="right">35.60</TD><TD align="right">2025-07-28</TD><TD align="right">36.00</TD><TD style="text-align:right;">2.38%</TD><TD align="right">8</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="18.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="18.2" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="18.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="18.5" x2="4" y2="8.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="8.4" x2="5" y2="6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="6" x2="6" y2="6.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="6.2" x2="7" y2="10" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="10" x2="8" y2="15.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">400.00</font></TD><TD style="text-align:right;"><font style="color:green">1.1%</font></TD></TR></TR><TR><TD>601311</TD><TD>Camel Group Co., Ltd</TD><TD align="right">4100</TD><TD align="right">2025-07-17</TD><TD align="right">9.17</TD><TD align="right">2025-07-28</TD><TD align="right">9.42</TD><TD style="text-align:right;">3.70%</TD><TD align="right">8</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="19" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="20" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="20" x2="3" y2="12.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="12.5" x2="4" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="2" x2="5" y2="6.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="6.5" x2="6" y2="2.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="2.5" x2="7" y2="7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="7" x2="8" y2="6.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">1,025.00</font></TD><TD style="text-align:right;"><font style="color:green">2.7%</font></TD></TR></TR><TR><TD>601003</TD><TD>Liuzhou Iron & Steel Co Ltd</TD><TD align="right">4800</TD><TD align="right">2025-07-23</TD><TD align="right">7.90</TD><TD align="right">2025-07-28</TD><TD align="right">7.11</TD><TD style="text-align:right;">3.16%</TD><TD align="right">4</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="5.5" x2="1" y2="7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="7" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="13.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="13.3" x2="4" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-3,792.00</font></TD><TD style="text-align:right;"><font style="color:red">-10%</font></TD></TR></TR><TR><TD>603515</TD><TD>Opple Lighting Co.,LTD</TD><TD align="right">2000</TD><TD align="right">2025-07-17</TD><TD align="right">18.10</TD><TD align="right">2025-07-29</TD><TD align="right">18.72</TD><TD style="text-align:right;">3.70%</TD><TD align="right">9</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="20.7" x2="1" y2="21.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="21.2" x2="2" y2="10.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="10.3" x2="3" y2="3.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="3.3" x2="4" y2="10.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="10.3" x2="5" y2="4.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="4.9" x2="6" y2="13.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="13.4" x2="7" y2="11.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="11.4" x2="8" y2="10.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="10.1" x2="9" y2="4.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">1,240.00</font></TD><TD style="text-align:right;"><font style="color:green">3.4%</font></TD></TR></TR><TR><TD>600850</TD><TD>Shanghai East-China Computer Co.,Ltd</TD><TD align="right">1400</TD><TD align="right">2025-07-17</TD><TD align="right">26.27</TD><TD align="right">2025-07-29</TD><TD align="right">25.91</TD><TD style="text-align:right;">1.86%</TD><TD align="right">9</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="11.1" x2="1" y2="3.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="3.1" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="15.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="15.9" x2="4" y2="21.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="21.6" x2="5" y2="18.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="18.5" x2="6" y2="15.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="15.7" x2="7" y2="13.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="13.5" x2="8" y2="16.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="16.1" x2="9" y2="17.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-504.00</font></TD><TD style="text-align:right;"><font style="color:red">-1.4%</font></TD></TR></TR><TR><TD>600188</TD><TD>Yanzhou Coal Mining Company Limited</TD><TD align="right">2700</TD><TD align="right">2025-07-23</TD><TD align="right">13.80</TD><TD align="right">2025-07-29</TD><TD align="right">12.95</TD><TD style="text-align:right;">0.00%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="12.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="12.1" x2="2" y2="8.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="8.1" x2="3" y2="13" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="13" x2="4" y2="21.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="21.6" x2="5" y2="21.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-2,295.00</font></TD><TD style="text-align:right;"><font style="color:red">-6.2%</font></TD></TR></TR><TR><TD>600117</TD><TD>Xining Special Steel Co Ltd</TD><TD align="right">4900</TD><TD align="right">2025-07-25</TD><TD align="right">3.80</TD><TD align="right">2025-07-29</TD><TD align="right">3.82</TD><TD style="text-align:right;">1.84%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="5" x2="1" y2="5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="5" x2="2" y2="19" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="19" x2="3" y2="4.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">98.00</font></TD><TD style="text-align:right;"><font style="color:green">0.5%</font></TD></TR></TR><TR><TD>600392</TD><TD>Shenghe Resources Holding Co Ltd</TD><TD align="right">1600</TD><TD align="right">2025-07-28</TD><TD align="right">22.35</TD><TD align="right">2025-07-30</TD><TD align="right">23.21</TD><TD style="text-align:right;">10.02%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="20" x2="1" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="2" x2="2" y2="6.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="6.3" x2="3" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">1,376.00</font></TD><TD style="text-align:right;"><font style="color:green">3.8%</font></TD></TR></TR><TR><TD>600326</TD><TD>Tibet Tianlu Co Ltd</TD><TD align="right">3000</TD><TD align="right">2025-07-29</TD><TD align="right">15.40</TD><TD align="right">2025-07-30</TD><TD align="right">17.91</TD><TD style="text-align:right;">16.29%</TD><TD align="right">2</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="7.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="7.4" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">7,530.00</font></TD><TD style="text-align:right;"><font style="color:green">16.3%</font></TD></TR></TR></Table><p><p><Table width="40%"><thead><TR><TH colspan="2" style="text-align:left;">Month-To-Date Summary:</TH></TR></thead><TR><TD>MTD Win Trades %:</TD><TD align="right">50.0%</TD></TR><TR><TD>MTD Avg # Entry Trades per Day:</TD><TD align="right">2.3</TD></TR><TR><TD>MTD Win/Loss Size Ratio:</TD><TD align="right">2.04</TD></TR><TR><TD>MTD Avg Trade Duration:</TD><TD align="right">6.0</TD></TR><TR><TD>MTD Strategy Performance:</TD><TD align="right">-100.0%</TD></TR><TR><TD>MTD Baseline Performance:</TD><TD align="right">-100.0%</TD></TR><TR><TD>MTD Strategy/Baseline Performance Ratio:</TD><TD align="right">1.00 : 1</TD></TR><TR><TD>Sold Today:</TD><TD align="right">600392, 600326</TD></TR><TR><TD>Pending Buys:</TD><TD align="right">600326, 603669, 600117, 600873</TD></TR></Table>
+    </div>
+  </div>
+  <div class="container sold_container">
+
+
+
+
+<!-- OLD
+
+
+    <h2 class="report_sub_head inner_head"><!SoldTodayHeader></h2>
+    <div class="sold_table">
+      <p><!SoldTodayList><p>
+    </div>
+    <h2 class="report_sub_head inner_head"><!PendingBuysHeader></h2>
+
+    <div class="buys_table">
+      <p><!PendingBuysList><p>
+    </div>
+
+ OLD -->
+
+
+
+
+    <h2 class="report_sub_head inner_head">Notes:</h2>
+    <ul>
+      <li>The strategy attempts to emulate an active and expert trader who enters the markets promptly when the signals are issued.</li>
+      <li>No leverage, equally weighted allocations.</li>
+      <li>Improved performance may be achieved if a trader applies additional research to select their preferred signals or implements position sizing.</li> 
+      <li>The strategy exits on target achieved or dynamic proprietary trailing stop penetrated.  These trailing stops, combined with minimum rank entry rules lead to the imposition of 'go-to-cash' and 'stay-in-cash' rules if there is a broad market bearish turn. Open Position Trailing stop levels are quoted with a percentage that indicates the offset from the most recent close price. Green indicates the trailing stop is "above water".</li>
+      <li>Dynamic proprietary trailing stops are defined by prior semi-ATR, with tightening as the position ages. A protective hard stop may trigger in deep price descents.</li>
+      <li>Exit Price reflects a price that an active and experienced trader would achieve when following stops that are updated prior to every session.</li>
+      <li>Max Move is defined as the highest high achieved during the holding period.</li>
+      <li>Annualized returns reflect compounded daily excess returns above risk-free rate, assuming 240 trading days per year.</li>
+      
+    </ul>
+    <div class="notes_table">
+      <p>The performance data quoted represents past performance. Past performance does not guarantee future results. The investment return and principal value of an investment will fluctuate so that an investor's position, when redeemed, may be worth more or less than the original cost. Current performance may be lower or higher than the performance data quoted. Investors should consider the investment objectives, risks, and charges and expenses of the above system carefully before investing.<p>
+    </div>
+    <p class="session">Last Session Date: 2025/07/30</p>
+  </div>
+﻿  <div class="footer_container">
+	<div class="container">
+	  <p>Copyright © i4cfinancial 2025. All rights reserved.</p>
+	</div>
+  </div>
+
+</body>
+</html>

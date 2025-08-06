@@ -1,0 +1,120 @@
+﻿{
+ "countrycode":"LONDON",
+ "date":"2023-04-21",
+ "export_time":"09:28:14",
+ "sell_count":5,
+ "buy_count":6,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"BP",
+   "name":"BP p.l.c",
+   "numshares":5,
+   "weightednumshares":5,
+   "NOVInumshares":10,
+   "tsid":"",
+   "recordnumber":34477
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"MNDI",
+   "name":"Mondi plc",
+   "numshares":3,
+   "weightednumshares":3,
+   "NOVInumshares":2,
+   "tsid":"",
+   "recordnumber":34478
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"EDV",
+   "name":"Endeavour Mining plc",
+   "numshares":2,
+   "weightednumshares":2,
+   "NOVInumshares":2,
+   "tsid":"",
+   "recordnumber":34479
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"GKP",
+   "name":"Gulf Keystone Petroleum Limited",
+   "numshares":25,
+   "weightednumshares":25,
+   "NOVInumshares":15,
+   "tsid":"",
+   "recordnumber":34480
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"FRES",
+   "name":"Fresnillo plc",
+   "numshares":5,
+   "weightednumshares":5,
+   "NOVInumshares":5,
+   "tsid":"",
+   "recordnumber":34481
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"GDWN",
+   "name":"Goodwin PLC",
+   "numshares":1,
+   "weightednumshares":1,
+   "NOVInumshares":1,
+   "tsid":"",
+   "recordnumber":31532
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"WWH",
+   "name":"Worldwide Healthcare",
+   "numshares":1,
+   "weightednumshares":1,
+   "NOVInumshares":1,
+   "tsid":"",
+   "recordnumber":31570
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"SAIN",
+   "name":"The Scottish American Investment Company P.L.C",
+   "numshares":5,
+   "weightednumshares":5,
+   "NOVInumshares":5,
+   "tsid":"",
+   "recordnumber":31571
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"BNZL",
+   "name":"Bunzl plc",
+   "numshares":1,
+   "weightednumshares":1,
+   "NOVInumshares":1,
+   "tsid":"",
+   "recordnumber":31572
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"QQ",
+   "name":"QinetiQ Group plc",
+   "numshares":10,
+   "weightednumshares":10,
+   "NOVInumshares":10,
+   "tsid":"",
+   "recordnumber":31766
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"TSCO",
+   "name":"Tesco PLC",
+   "numshares":15,
+   "weightednumshares":15,
+   "NOVInumshares":15,
+   "tsid":"",
+   "recordnumber":31921
+  }
+ ]
+}

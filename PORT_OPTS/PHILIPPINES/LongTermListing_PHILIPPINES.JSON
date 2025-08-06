@@ -1,0 +1,221 @@
+{"ideas":[{"idea":{
+	"Symbol": "PCOR.PSE",
+	"Name": "Petron Corporation",
+	"Sortino": 73.662,
+	"Beta": 32,
+	"BullishVolume": 68.348,
+	"PriceUp": 41.06729,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 80.85913,
+	"AggregateScore": 70.848
+}},{"idea":{
+	"Symbol": "BKR.PSE",
+	"Name": "Bright Kindle Resources & Investments Inc.",
+	"Sortino": 73.9181,
+	"Beta": 88.5,
+	"BullishVolume": 76.121,
+	"PriceUp": 39.94638,
+	"TDI": 95.174175,
+	"TII": 76.51664,
+	"MFI": 35.6371,
+	"AggregateScore": 68.713
+}},{"idea":{
+	"Symbol": "PRMX.PSE",
+	"Name": "Primex Corporation",
+	"Sortino": 76.2053,
+	"Beta": 17,
+	"BullishVolume": 68.654,
+	"PriceUp": 43.29897,
+	"TDI": 100,
+	"TII": 97.03295,
+	"MFI": 69.75417,
+	"AggregateScore": 67.421
+}},{"idea":{
+	"Symbol": "GSMI.PSE",
+	"Name": "Ginebra San Miguel,  Inc.",
+	"Sortino": 91.2339,
+	"Beta": -13.45,
+	"BullishVolume": 64.024,
+	"PriceUp": 41.02564,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 52.25599,
+	"AggregateScore": 62.156
+}},{"idea":{
+	"Symbol": "MRSGI.PSE",
+	"Name": "Metro Retail Stores Group, Inc.",
+	"Sortino": 70.5514,
+	"Beta": 26.3,
+	"BullishVolume": 62.793,
+	"PriceUp": 33.25527,
+	"TDI": 87.62107,
+	"TII": 81.82147,
+	"MFI": 66.52032,
+	"AggregateScore": 59.498
+}},{"idea":{
+	"Symbol": "ANI.PSE",
+	"Name": "AgriNurture, Inc.",
+	"Sortino": 75.0683,
+	"Beta": 30.9,
+	"BullishVolume": 58.879,
+	"PriceUp": 46.27907,
+	"TDI": 84.524965,
+	"TII": 75.60279,
+	"MFI": 49.3389,
+	"AggregateScore": 57.874
+}},{"idea":{
+	"Symbol": "OPM.PSE",
+	"Name": "Oriental Petroleum and Minerals Corporation",
+	"Sortino": 81.4957,
+	"Beta": 100,
+	"BullishVolume": 77.541,
+	"PriceUp": 19.62175,
+	"TDI": 26.210705,
+	"TII": 20.74559,
+	"MFI": 55.38051,
+	"AggregateScore": 57.48
+}},{"idea":{
+	"Symbol": "ATI.PSE",
+	"Name": "Asian Terminals, Inc.",
+	"Sortino": 64.6968,
+	"Beta": 5.65,
+	"BullishVolume": 86.616,
+	"PriceUp": 34.22619,
+	"TDI": 96.726305,
+	"TII": 95.35399,
+	"MFI": 19.94608,
+	"AggregateScore": 57.135
+}},{"idea":{
+	"Symbol": "MER.PSE",
+	"Name": "Manila Electric Company",
+	"Sortino": 75.1922,
+	"Beta": 18,
+	"BullishVolume": 48.516,
+	"PriceUp": 47.09977,
+	"TDI": 74.84205,
+	"TII": 97.09653,
+	"MFI": 61.46297,
+	"AggregateScore": 56.722
+}},{"idea":{
+	"Symbol": "CHIB.PSE",
+	"Name": "China Banking Corporation",
+	"Sortino": 86.0177,
+	"Beta": 14.4,
+	"BullishVolume": 70.124,
+	"PriceUp": 43.15545,
+	"TDI": 56.823395,
+	"TII": 100,
+	"MFI": 65.15683,
+	"AggregateScore": 56.072
+}},{"idea":{
+	"Symbol": "TUGS.PSE",
+	"Name": "Harbor Star Shipping Services, Inc. ",
+	"Sortino": 67.8164,
+	"Beta": 40.35,
+	"BullishVolume": 57.704,
+	"PriceUp": 37.0283,
+	"TDI": 69.47316,
+	"TII": 79.85166,
+	"MFI": 66.80487,
+	"AggregateScore": 55.5
+}},{"idea":{
+	"Symbol": "APX.PSE",
+	"Name": "Apex Mining Co., Inc.",
+	"Sortino": 88.4808,
+	"Beta": -0.85,
+	"BullishVolume": 63.78,
+	"PriceUp": 40.60325,
+	"TDI": 73.496635,
+	"TII": 83.35527,
+	"MFI": 64.86458,
+	"AggregateScore": 55.318
+}},{"idea":{
+	"Symbol": "SEVN.PSE",
+	"Name": "Philippine Seven Corporation",
+	"Sortino": 63.7953,
+	"Beta": 17.35,
+	"BullishVolume": 29.951,
+	"PriceUp": 35.62654,
+	"TDI": 92.24104,
+	"TII": 98.66527,
+	"MFI": 54.63231,
+	"AggregateScore": 54.929
+}},{"idea":{
+	"Symbol": "LOTO.PSE",
+	"Name": "Pacific Online Systems Corporation",
+	"Sortino": 64.9906,
+	"Beta": 20.55,
+	"BullishVolume": 56.739,
+	"PriceUp": 32.25806,
+	"TDI": 79.170335,
+	"TII": 98.90301,
+	"MFI": 52.3317,
+	"AggregateScore": 54.873
+}},{"idea":{
+	"Symbol": "CROWN.PSE",
+	"Name": "Crown Asia Chemicals Corporation ",
+	"Sortino": 63.7901,
+	"Beta": 22.75,
+	"BullishVolume": 46.486,
+	"PriceUp": 34.40594,
+	"TDI": 89.59257,
+	"TII": 82.79621,
+	"MFI": 50.33729,
+	"AggregateScore": 54.25
+}},{"idea":{
+	"Symbol": "BDO.PSE",
+	"Name": "BDO Unibank, Inc.",
+	"Sortino": 76.5571,
+	"Beta": 37.45,
+	"BullishVolume": 54.147,
+	"PriceUp": 47.56381,
+	"TDI": 50,
+	"TII": 99.08473,
+	"MFI": 63.24828,
+	"AggregateScore": 54.007
+}},{"idea":{
+	"Symbol": "PERC.PSE",
+	"Name": "PetroEnergy Resources Corporation",
+	"Sortino": 73.8248,
+	"Beta": 37.4,
+	"BullishVolume": 69.779,
+	"PriceUp": 39.41176,
+	"TDI": 2.269215,
+	"TII": 13.72582,
+	"MFI": 44.85431,
+	"AggregateScore": 53.494
+}},{"idea":{
+	"Symbol": "SSI.PSE",
+	"Name": "SSI Group, Inc.",
+	"Sortino": 89.9061,
+	"Beta": 25.85,
+	"BullishVolume": 57.494,
+	"PriceUp": 42.92343,
+	"TDI": 35.614055,
+	"TII": 54.34594,
+	"MFI": 74.45794,
+	"AggregateScore": 53.393
+}},{"idea":{
+	"Symbol": "URC.PSE",
+	"Name": "Universal Robina Corporation",
+	"Sortino": 71.5175,
+	"Beta": 53.95,
+	"BullishVolume": 52.93,
+	"PriceUp": 46.51163,
+	"TDI": 54.972555,
+	"TII": 77.55587,
+	"MFI": 58.83405,
+	"AggregateScore": 53.035
+}},{"idea":{
+	"Symbol": "EMI.PSE",
+	"Name": "Emperador Inc.",
+	"Sortino": 86.8175,
+	"Beta": 50,
+	"BullishVolume": 49.941,
+	"PriceUp": 48.14815,
+	"TDI": 50,
+	"TII": 72.51395,
+	"MFI": 62.30978,
+	"AggregateScore": 52.819
+}}]}

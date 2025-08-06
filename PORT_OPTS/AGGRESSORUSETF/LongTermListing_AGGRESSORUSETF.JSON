@@ -1,0 +1,221 @@
+{"ideas":[{"idea":{
+	"Symbol": "SSO",
+	"Name": "ProShares Ultra S&amp;P500",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 51.793,
+	"PriceUp": 56.44444,
+	"TDI": 96.885615,
+	"TII": 100,
+	"MFI": 56.53128,
+	"AggregateScore": 79.763
+}},{"idea":{
+	"Symbol": "^GSPC",
+	"Name": "S&amp;P 500",
+	"Sortino": 99.8,
+	"Beta": 51.15,
+	"BullishVolume": 53.084,
+	"PriceUp": 56,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 62.82987,
+	"AggregateScore": 74.695
+}},{"idea":{
+	"Symbol": "GURU",
+	"Name": "al X Guru Index ETF",
+	"Sortino": 95.6633,
+	"Beta": 46.25,
+	"BullishVolume": 58.589,
+	"PriceUp": 53.55556,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 65.76608,
+	"AggregateScore": 74.261
+}},{"idea":{
+	"Symbol": "SPY",
+	"Name": "SPDR S&amp;P 500",
+	"Sortino": 99.8,
+	"Beta": 51.35,
+	"BullishVolume": 51.725,
+	"PriceUp": 57.33333,
+	"TDI": 99.27567,
+	"TII": 100,
+	"MFI": 59.94444,
+	"AggregateScore": 74.101
+}},{"idea":{
+	"Symbol": "MLPX",
+	"Name": "al X MLP &amp; Energy Infrastru",
+	"Sortino": 96.5208,
+	"Beta": 22.3,
+	"BullishVolume": 66.585,
+	"PriceUp": 55.77778,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 68.05928,
+	"AggregateScore": 72.749
+}},{"idea":{
+	"Symbol": "ACSI",
+	"Name": "American Customer Satisfaction",
+	"Sortino": 94.6534,
+	"Beta": 48.45,
+	"BullishVolume": 53.206,
+	"PriceUp": 56.42202,
+	"TDI": 83.3355,
+	"TII": 100,
+	"MFI": 70.28924,
+	"AggregateScore": 69.956
+}},{"idea":{
+	"Symbol": "TNA",
+	"Name": "Direxion Small Cap Bull 3X Shar",
+	"Sortino": 79.6655,
+	"Beta": 100,
+	"BullishVolume": 49.756,
+	"PriceUp": 51.55556,
+	"TDI": 66.363095,
+	"TII": 98.36262,
+	"MFI": 58.00381,
+	"AggregateScore": 67.153
+}},{"idea":{
+	"Symbol": "^GSPTSE",
+	"Name": "S&amp;P/TSX Composite index",
+	"Sortino": 84.5125,
+	"Beta": 28.7,
+	"BullishVolume": 53.255,
+	"PriceUp": 54.88889,
+	"TDI": 95.06206,
+	"TII": 100,
+	"MFI": 54.71696,
+	"AggregateScore": 66.6
+}},{"idea":{
+	"Symbol": "VAMO",
+	"Name": "Cambria ETF Trust Cambria Value",
+	"Sortino": 78.5222,
+	"Beta": 40.2,
+	"BullishVolume": 69.326,
+	"PriceUp": 51.55556,
+	"TDI": 80.01525,
+	"TII": 100,
+	"MFI": 59.66089,
+	"AggregateScore": 65.614
+}},{"idea":{
+	"Symbol": "^RUT",
+	"Name": "Russell 2000",
+	"Sortino": 82.5754,
+	"Beta": 70.75,
+	"BullishVolume": 50.363,
+	"PriceUp": 51.90157,
+	"TDI": 69.92594,
+	"TII": 100,
+	"MFI": 55.22444,
+	"AggregateScore": 64.381
+}},{"idea":{
+	"Symbol": "SLV",
+	"Name": "iShares Silver Trust",
+	"Sortino": 80.2521,
+	"Beta": 20.75,
+	"BullishVolume": 48.517,
+	"PriceUp": 49.55556,
+	"TDI": 98.013775,
+	"TII": 100,
+	"MFI": 51.49707,
+	"AggregateScore": 63.8
+}},{"idea":{
+	"Symbol": "GLTR",
+	"Name": "ETFS Physical Precious Metal Ba",
+	"Sortino": 83.5978,
+	"Beta": 7.7,
+	"BullishVolume": 49.139,
+	"PriceUp": 52,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 52.44897,
+	"AggregateScore": 63.555
+}},{"idea":{
+	"Symbol": "SIVR",
+	"Name": "ETFS Physical Silver Shares Tru",
+	"Sortino": 80.2394,
+	"Beta": 20.9,
+	"BullishVolume": 47.495,
+	"PriceUp": 49.77778,
+	"TDI": 98.011985,
+	"TII": 100,
+	"MFI": 49.88522,
+	"AggregateScore": 63.474
+}},{"idea":{
+	"Symbol": "000001.SS",
+	"Name": "SSE Composite Index",
+	"Sortino": 74.6568,
+	"Beta": -2.75,
+	"BullishVolume": 54.383,
+	"PriceUp": 49.77778,
+	"TDI": 100,
+	"TII": 97.22345,
+	"MFI": 60.14251,
+	"AggregateScore": 61.919
+}},{"idea":{
+	"Symbol": "GLD",
+	"Name": "SPDR Gold Shares",
+	"Sortino": 95.2399,
+	"Beta": -0.75,
+	"BullishVolume": 53.239,
+	"PriceUp": 53.11111,
+	"TDI": 83.269305,
+	"TII": 100,
+	"MFI": 60.00668,
+	"AggregateScore": 61.055
+}},{"idea":{
+	"Symbol": "SGOL",
+	"Name": "ETFS Physical Swiss Gold Shares",
+	"Sortino": 95.7763,
+	"Beta": -0.7,
+	"BullishVolume": 51.718,
+	"PriceUp": 51.11111,
+	"TDI": 82.58945,
+	"TII": 100,
+	"MFI": 60.37654,
+	"AggregateScore": 60.494
+}},{"idea":{
+	"Symbol": "EWH",
+	"Name": "iShares MSCI Hong Kong Index Fu",
+	"Sortino": 52.8556,
+	"Beta": 3.9,
+	"BullishVolume": 53.267,
+	"PriceUp": 47.33333,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 60.60653,
+	"AggregateScore": 59.709
+}},{"idea":{
+	"Symbol": "SYLD",
+	"Name": "Cambria Shareholder Yield ETF",
+	"Sortino": 76.369,
+	"Beta": 48.15,
+	"BullishVolume": 46.608,
+	"PriceUp": 51.11111,
+	"TDI": 71.75102,
+	"TII": 95.19083,
+	"MFI": 53.50925,
+	"AggregateScore": 59.206
+}},{"idea":{
+	"Symbol": "MCHI",
+	"Name": "iShares MSCI China ETF",
+	"Sortino": 61.4944,
+	"Beta": -7.7,
+	"BullishVolume": 57.623,
+	"PriceUp": 46.88889,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 55.41932,
+	"AggregateScore": 59.104
+}},{"idea":{
+	"Symbol": "PPLT",
+	"Name": "ETFS Physical Platinum Shares",
+	"Sortino": 63.4555,
+	"Beta": 33.75,
+	"BullishVolume": 49.016,
+	"PriceUp": 47.77778,
+	"TDI": 85.985655,
+	"TII": 98.35972,
+	"MFI": 49.07265,
+	"AggregateScore": 59.058
+}}]}

@@ -1,0 +1,37 @@
+<TR><TD>Daily</TD>
+
+<TD class='item' title='Score: 54.7'><svg width='32' height='20'>
+<polygon points="20,15 9,14.8 9.1,13.7 9.3,12.6 9.6,11.5 10,10.4 10.5,9.4 11.2,8.4 11.9,7.5 12.7,6.7 13.6,6 14.6,5.4 15.6,4.9 16.7,4.5 17.8,4.2 18.9,4.1 20.1,4 21.2,4.1 20,15" style="fill:hsl(120, 8%, 80%); fill-opacity='0.9'; stroke:black; stroke-width:0.5" />
+Sorry, your browser does not support inline SVG.
+</svg>
+</TD><TD class='item' title='The last 2 sessions exhibit trader bullishness. Bullish volume weighted sessions more than doubled those trading bearish in the last 10 sessions. '><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 42%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 44%, 50%)' />
+<rect x='25' y='0' width='7' height='7' style='fill:hsl(120, 52%, 50%)' />
+<rect x='33' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='41' y='0' width='7' height='7' style='fill:hsl(120, 64%, 50%)' />
+<rect x='49' y='0' width='7' height='7' style='fill:hsl(120, 48%, 50%)' />
+<rect x='57' y='0' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 20%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 30%, 50%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 16%, 80%)' />
+<rect x='25' y='8' width='7' height='7' style='fill:hsl(120, 38%, 50%)' />
+<rect x='33' y='8' width='7' height='7' style='fill:hsl(120, 8%, 80%)' />
+<rect x='41' y='8' width='7' height='7' style='fill:hsl(0, 12%, 80%)' />
+<rect x='49' y='8' width='7' height='7' style='fill:hsl(120, 74%, 50%)' />
+<rect x='57' y='8' width='7' height='7' style='fill:hsl(0, 6%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></TD>
+<TDLast 100 Daily price bars><svg width='100' height='25'>
+<polyline points="1,6.6 2,6.8 3,6.9 4,6.8 5,6.4 6,6.3 7,6 8,6.3 9,6.7 10,7.1 11,6.8 12,6.7 13,6.2 14,6.4 15,6.4 16,6.3 17,5.8 18,5.8 19,5.4 20,5.4 21,5.4 22,5.1 23,4.9 24,4.8 25,4.8 26,4.5 27,4.5 28,4.9 29,4.7 30,4.2 31,4.6 32,4.4 33,4.6 34,4.3 35,3.9 36,4.1 37,3.7 38,3.8 39,3.7 40,3.2 41,3 42,3.1 43,3.1 44,3.1 45,3.6 46,4.5 47,3.9 48,4 49,3.8 50,4.8 51,4.4 52,3.5 53,2.9 54,2.7 55,3 56,2.6 57,2.5 58,2.1 59,2.2 60,2.1 61,2.3 62,2 63,2.2 64,2.8 65,4.8 66,6.5 67,6.7 68,9.1 69,9.5 70,7.2 71,8.7 72,6.5 73,8.3 74,9.2 75,13.1 76,10.8 77,13.2 78,17.8 79,13.8 80,19.4 81,16.9 82,19.2 83,19 84,20.8 85,22 86,18.3 87,17.9 88,15.2 89,16.7 90,15.2 91,16 92,17.9 93,17 94,17.6 95,14.6 96,14.7 97,13.1 98,12.4 99,12.9 100,11.4 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline> Sorry, your browser does not support inline SVG.
+</svg></TD>
+<TD class='item' align='center' title='Prices have been successively closing up, especially in recent sessions. Sortino Ratio indicates increased risk. (-1.43)'><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 44%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 38%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 14%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 4%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></TD>
+
+</TR>

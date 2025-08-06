@@ -1,0 +1,221 @@
+{"ideas":[{"idea":{
+	"Symbol": "SRHHYPOLTD.NS",
+	"Name": "Sree Rayalaseema Hi-Strength Hypo Limited",
+	"Sortino": 83.6744,
+	"Beta": 88.05,
+	"BullishVolume": 77.641,
+	"PriceUp": 46.22222,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 72.83764,
+	"AggregateScore": 81.204
+}},{"idea":{
+	"Symbol": "BIL.NS",
+	"Name": "BHARATIYA INTL LTD",
+	"Sortino": 99.8,
+	"Beta": 79.85,
+	"BullishVolume": 76.278,
+	"PriceUp": 47.11111,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 64.93844,
+	"AggregateScore": 81.14
+}},{"idea":{
+	"Symbol": "WABAG.NS",
+	"Name": "VA TECH WABAG LTD",
+	"Sortino": 99.8,
+	"Beta": 82,
+	"BullishVolume": 70.174,
+	"PriceUp": 52,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 62.31226,
+	"AggregateScore": 80.898
+}},{"idea":{
+	"Symbol": "RGL.NS",
+	"Name": "Renaissance Global Limited",
+	"Sortino": 94.6104,
+	"Beta": 73.5,
+	"BullishVolume": 77.542,
+	"PriceUp": 44,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 75.16167,
+	"AggregateScore": 80.688
+}},{"idea":{
+	"Symbol": "BSE.NS",
+	"Name": "BSE Limited",
+	"Sortino": 99.8,
+	"Beta": 73.65,
+	"BullishVolume": 76.394,
+	"PriceUp": 52.88889,
+	"TDI": 95.752335,
+	"TII": 100,
+	"MFI": 68.75387,
+	"AggregateScore": 80.427
+}},{"idea":{
+	"Symbol": "PILANIINVS.NS",
+	"Name": "Pilani Investment and Industries Corporation Limited",
+	"Sortino": 99.8,
+	"Beta": 92.65,
+	"BullishVolume": 80.752,
+	"PriceUp": 50.77951,
+	"TDI": 80.00271,
+	"TII": 98.07755,
+	"MFI": 69.93284,
+	"AggregateScore": 78.857
+}},{"idea":{
+	"Symbol": "OBEROIRLTY.NS",
+	"Name": "OBEROI REALTY LTD",
+	"Sortino": 99.8,
+	"Beta": 71.5,
+	"BullishVolume": 53.74,
+	"PriceUp": 55.55556,
+	"TDI": 100,
+	"TII": 98.70185,
+	"MFI": 61.38436,
+	"AggregateScore": 77.24
+}},{"idea":{
+	"Symbol": "GANESHHOUC.NS",
+	"Name": "Ganesh Housing Corp Ltd",
+	"Sortino": 99.8,
+	"Beta": 90.65,
+	"BullishVolume": 77.822,
+	"PriceUp": 47.55556,
+	"TDI": 85.696025,
+	"TII": 86.98052,
+	"MFI": 63.55157,
+	"AggregateScore": 76.822
+}},{"idea":{
+	"Symbol": "HEG.NS",
+	"Name": "HEG Limited",
+	"Sortino": 89.4347,
+	"Beta": 76.8,
+	"BullishVolume": 76.987,
+	"PriceUp": 51.55556,
+	"TDI": 86.159165,
+	"TII": 92.27557,
+	"MFI": 77.21271,
+	"AggregateScore": 76.655
+}},{"idea":{
+	"Symbol": "BFINVEST.NS",
+	"Name": "BF INVESTMENT LTD",
+	"Sortino": 93.6423,
+	"Beta": 69.9,
+	"BullishVolume": 80.627,
+	"PriceUp": 46,
+	"TDI": 83.293115,
+	"TII": 99.44966,
+	"MFI": 68.17063,
+	"AggregateScore": 74.911
+}},{"idea":{
+	"Symbol": "RELINFRA.NS",
+	"Name": "Reliance Infrastructure Ltd",
+	"Sortino": 88.1077,
+	"Beta": 97.15,
+	"BullishVolume": 64.852,
+	"PriceUp": 47.11111,
+	"TDI": 81.438455,
+	"TII": 100,
+	"MFI": 64.09731,
+	"AggregateScore": 74.885
+}},{"idea":{
+	"Symbol": "JMFINANCIL.NS",
+	"Name": "JM Financial Ltd",
+	"Sortino": 91.8456,
+	"Beta": 66.05,
+	"BullishVolume": 75.26,
+	"PriceUp": 50.66667,
+	"TDI": 83.780905,
+	"TII": 100,
+	"MFI": 68.61772,
+	"AggregateScore": 74.286
+}},{"idea":{
+	"Symbol": "NEWGEN.NS",
+	"Name": "Newgen Software Technologies Limited",
+	"Sortino": 99.8,
+	"Beta": 72.55,
+	"BullishVolume": 77.815,
+	"PriceUp": 51.33333,
+	"TDI": 79.013365,
+	"TII": 100,
+	"MFI": 59.04784,
+	"AggregateScore": 74.082
+}},{"idea":{
+	"Symbol": "SUMMITSEC.NS",
+	"Name": "Summit Securities Limited",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 77.191,
+	"PriceUp": 52.44444,
+	"TDI": 56.967775,
+	"TII": 100,
+	"MFI": 71.94134,
+	"AggregateScore": 73.616
+}},{"idea":{
+	"Symbol": "DICIND.NS",
+	"Name": "DIC India Limited",
+	"Sortino": 98.4218,
+	"Beta": 100,
+	"BullishVolume": 79.576,
+	"PriceUp": 52,
+	"TDI": 50,
+	"TII": 98.03232,
+	"MFI": 82.62052,
+	"AggregateScore": 72.95
+}},{"idea":{
+	"Symbol": "HARRMALAYA.NS",
+	"Name": "HARRISONS MALAYALA",
+	"Sortino": 97.126,
+	"Beta": 11.35,
+	"BullishVolume": 78.841,
+	"PriceUp": 48,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 74.24708,
+	"AggregateScore": 72.795
+}},{"idea":{
+	"Symbol": "FLUOROCHEM.NS",
+	"Name": "Gujarat Fluorochem Ltd",
+	"Sortino": 85.081,
+	"Beta": 59.95,
+	"BullishVolume": 69.057,
+	"PriceUp": 49.55556,
+	"TDI": 82.28936,
+	"TII": 100,
+	"MFI": 74.22445,
+	"AggregateScore": 71.778
+}},{"idea":{
+	"Symbol": "NDGL.NS",
+	"Name": "Naga Dhunseri Group Limited",
+	"Sortino": 99.8,
+	"Beta": 13,
+	"BullishVolume": 64.061,
+	"PriceUp": 46.88889,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 76.30794,
+	"AggregateScore": 71.437
+}},{"idea":{
+	"Symbol": "GOLDIAM.NS",
+	"Name": "Goldiam International Ltd",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 77.44,
+	"PriceUp": 48,
+	"TDI": 50,
+	"TII": 100,
+	"MFI": 73.02323,
+	"AggregateScore": 71.18
+}},{"idea":{
+	"Symbol": "TI.NS",
+	"Name": "Tilaknagar Industries Ltd",
+	"Sortino": 99.8,
+	"Beta": 96.9,
+	"BullishVolume": 71.029,
+	"PriceUp": 48,
+	"TDI": 54.509635,
+	"TII": 95.60605,
+	"MFI": 75.25988,
+	"AggregateScore": 70.802
+}}]}

@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>I4CFinancial Performance Report</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Old CSS and Bootstrap calls
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/bootstrap.min.css">
+  <script type="text/javascript" src="../../Grid_HTML/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../../Grid_HTML/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/style.css">
+ End of Old CSS -->
+
+<link rel="icon" type="image/x-icon" href="../../assets/images/i4cfinancial_Logo_only.ico">
+
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/i4cfinancial.css">
+<link rel="stylesheet" type="text/css" href="../../GRID_HTML/css/performance_style.css?a=2">
+<link rel="stylesheet" type="text/css" href="../../assets/css/style_site.css">
+
+<!-- Latest compiled and minified CSS DG 20240823 from https://www.w3schools.com/bootstrap/bootstrap_get_started.asp -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- End of Latest compiled and minified CSS -->
+
+
+  <!-- GChart loader -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    google.charts.load('current', {
+    packages: ['corechart', 'line']
+  });
+  google.charts.setOnLoadCallback(drawBackgroundColor);
+
+  function drawBackgroundColor() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'Closed');
+    data.addColumn('number', 'Total');
+    <!-- data.addColumn('number', 'Max Move');   DG 20240918 -->
+        
+    data.addColumn('number', 'Baseline(^GSPC)');
+    data.addColumn('number', 'Cash Balance');
+
+    data.addRows([
+                    [ new Date(2024, 1, 28), 100000, 99945, 100000, 32713], 
+         [ new Date(2024, 1, 29), 100000, 99798, 100523, 32266], 
+         [ new Date(2024, 2, 1), 100000, 99886, 101328, 30778], 
+         [ new Date(2024, 2, 4), 100000, 99946, 101207, 28981], 
+         [ new Date(2024, 2, 5), 100000, 99669, 100175, 28231], 
+         [ new Date(2024, 2, 6), 100000, 99740, 100690, 26812], 
+         [ new Date(2024, 2, 7), 99635, 99375, 101728, 25172], 
+         [ new Date(2024, 2, 8), 99635, 99375, 101064, 24791], 
+         [ new Date(2024, 2, 11), 99635, 99375, 100950, 24731], 
+         [ new Date(2024, 2, 12), 99635, 99375, 102081, 25034], 
+         [ new Date(2024, 2, 13), 99635, 99375, 101885, 23852], 
+         [ new Date(2024, 2, 14), 99635, 99375, 101592, 24020], 
+         [ new Date(2024, 2, 15), 99635, 99375, 100934, 23813], 
+         [ new Date(2024, 2, 18), 99635, 99375, 101571, 25319], 
+         [ new Date(2024, 2, 19), 99635, 99375, 102145, 25685], 
+         [ new Date(2024, 2, 20), 99635, 99375, 103055, 24512], 
+         [ new Date(2024, 2, 21), 99635, 99375, 103388, 24578], 
+         [ new Date(2024, 2, 22), 99635, 99375, 103243, 25001], 
+         [ new Date(2024, 2, 25), 99635, 99375, 102928, 24932], 
+         [ new Date(2024, 2, 26), 99635, 99375, 102640, 25232], 
+         [ new Date(2024, 2, 27), 99635, 99375, 103525, 24167], 
+         [ new Date(2024, 2, 28), 99635, 99375, 103641, 23156], 
+         [ new Date(2024, 3, 1), 99635, 99375, 103432, 22598], 
+         [ new Date(2024, 3, 2), 99635, 99661, 102684, 21950], 
+         [ new Date(2024, 3, 3), 99635, 99769, 102796, 21017], 
+         [ new Date(2024, 3, 4), 99635, 99773, 101528, 21863], 
+         [ new Date(2024, 3, 5), 99635, 99838, 102655, 19880], 
+         [ new Date(2024, 3, 8), 99635, 99813, 102616, 20447], 
+         [ new Date(2024, 3, 9), 99798, 99976, 102764, 20427], 
+         [ new Date(2024, 3, 10), 99798, 99976, 101793, 21507], 
+         [ new Date(2024, 3, 11), 99798, 99976, 102550, 20574], 
+         [ new Date(2024, 3, 12), 99798, 99976, 101058, 21885], 
+         [ new Date(2024, 3, 15), 99798, 99976, 99843, 20703], 
+         [ new Date(2024, 3, 16), 99798, 99858, 99638, 21609], 
+         [ new Date(2024, 3, 17), 99798, 99874, 99062, 21396], 
+         [ new Date(2024, 3, 18), 99798, 99868, 98843, 20838], 
+         [ new Date(2024, 3, 19), 99798, 99816, 97978, 20178], 
+         [ new Date(2024, 3, 22), 99738, 99756, 98833, 21558], 
+         [ new Date(2024, 3, 23), 99738, 99756, 100016, 20979], 
+         [ new Date(2024, 3, 24), 99738, 99756, 100037, 22755], 
+         [ new Date(2024, 3, 25), 99738, 99756, 99579, 22809], 
+         [ new Date(2024, 3, 26), 99738, 99734, 100596, 21858], 
+         [ new Date(2024, 3, 29), 99788, 99784, 100915, 23552], 
+         [ new Date(2024, 3, 30), 99788, 99784, 99328, 25751], 
+         [ new Date(2024, 4, 1), 98888, 98884, 98987, 24119], 
+         [ new Date(2024, 4, 2), 98888, 98884, 99890, 23705], 
+         [ new Date(2024, 4, 3), 98888, 98884, 101145, 23582], 
+         [ new Date(2024, 4, 6), 98888, 98884, 102189, 22562], 
+         [ new Date(2024, 4, 7), 98888, 98884, 102326, 22115], 
+         [ new Date(2024, 4, 8), 98888, 98884, 102326, 21938], 
+         [ new Date(2024, 4, 9), 98888, 98884, 102847, 20120], 
+         [ new Date(2024, 4, 10), 98888, 98884, 103016, 19349], 
+         [ new Date(2024, 4, 13), 98888, 98884, 102991, 20096], 
+         [ new Date(2024, 4, 14), 98888, 98884, 103490, 19445], 
+         [ new Date(2024, 4, 15), 98888, 98884, 104702, 18083], 
+         [ new Date(2024, 4, 16), 98888, 98884, 104484, 18752], 
+         [ new Date(2024, 4, 17), 98888, 98884, 104606, 17579], 
+         [ new Date(2024, 4, 20), 98888, 98884, 104702, 17015], 
+         [ new Date(2024, 4, 21), 98888, 98939, 104964, 18167], 
+         [ new Date(2024, 4, 22), 98870, 98921, 104680, 20021], 
+         [ new Date(2024, 4, 23), 98870, 98921, 103907, 21119], 
+         [ new Date(2024, 4, 24), 98870, 98921, 104635, 20816], 
+         [ new Date(2024, 4, 28), 98870, 98921, 104661, 19742], 
+         [ new Date(2024, 4, 29), 98870, 98921, 103890, 21614], 
+         [ new Date(2024, 4, 30), 98870, 98921, 103269, 20894], 
+         [ new Date(2024, 4, 31), 98870, 98921, 104098, 20657], 
+         [ new Date(2024, 5, 3), 98870, 98921, 104214, 19889], 
+         [ new Date(2024, 5, 4), 98870, 98921, 104371, 21191], 
+         [ new Date(2024, 5, 5), 98870, 98921, 105607, 19874], 
+         [ new Date(2024, 5, 6), 98870, 98688, 105586, 18596], 
+         [ new Date(2024, 5, 7), 98870, 98489, 105468, 22376], 
+         [ new Date(2024, 5, 10), 98585, 98204, 105741, 21860], 
+         [ new Date(2024, 5, 11), 98585, 98204, 106027, 22415], 
+         [ new Date(2024, 5, 12), 98585, 98204, 106929, 21602], 
+         [ new Date(2024, 5, 13), 98585, 98204, 107179, 23780], 
+         [ new Date(2024, 5, 14), 98585, 98204, 107137, 23948], 
+         [ new Date(2024, 5, 17), 98585, 98529, 107958, 24395], 
+         [ new Date(2024, 5, 18), 98585, 98742, 108231, 23372], 
+         [ new Date(2024, 5, 20), 98585, 98668, 107957, 21512], 
+         [ new Date(2024, 5, 21), 98585, 98118, 107789, 23492], 
+         [ new Date(2024, 5, 24), 97875, 97409, 107458, 22110], 
+         [ new Date(2024, 5, 25), 97875, 97409, 107881, 23013], 
+         [ new Date(2024, 5, 26), 97875, 97951, 108050, 24183], 
+         [ new Date(2024, 5, 27), 97875, 98026, 108149, 23898], 
+         [ new Date(2024, 5, 28), 97875, 97908, 107707, 24054], 
+         [ new Date(2024, 6, 1), 97875, 97893, 107995, 24597], 
+         [ new Date(2024, 6, 2), 97875, 98012, 108664, 25533], 
+         [ new Date(2024, 6, 3), 97875, 98038, 109217, 23871], 
+         [ new Date(2024, 6, 5), 97875, 98282, 109812, 22359], 
+         [ new Date(2024, 6, 8), 97875, 98221, 109923, 23373], 
+         [ new Date(2024, 6, 9), 97875, 98219, 110005, 24027], 
+         [ new Date(2024, 6, 10), 97875, 98300, 111128, 22518], 
+         [ new Date(2024, 6, 11), 98185, 98610, 110154, 20422], 
+         [ new Date(2024, 6, 12), 98185, 98610, 110762, 19876], 
+         [ new Date(2024, 6, 15), 98185, 98610, 111075, 20725], 
+         [ new Date(2024, 6, 16), 98185, 98610, 111784, 18973], 
+         [ new Date(2024, 6, 17), 98185, 98610, 110228, 19555], 
+         [ new Date(2024, 6, 18), 98185, 98610, 109366, 20776], 
+         [ new Date(2024, 6, 19), 98185, 98610, 108585, 21649], 
+         [ new Date(2024, 6, 22), 98185, 98610, 109757, 21778], 
+         [ new Date(2024, 6, 23), 98185, 98610, 109586, 21730], 
+         [ new Date(2024, 6, 24), 98185, 98610, 107049, 20488], 
+         [ new Date(2024, 6, 25), 98185, 98610, 106499, 22384], 
+         [ new Date(2024, 6, 26), 98185, 98610, 107680, 21394], 
+         [ new Date(2024, 6, 29), 98185, 98610, 107767, 22972], 
+         [ new Date(2024, 6, 30), 98185, 98267, 107233, 21415], 
+         [ new Date(2024, 6, 31), 98185, 98326, 108926, 20233], 
+         [ new Date(2024, 7, 1), 98185, 97973, 107435, 20974], 
+         [ new Date(2024, 7, 2), 97281, 97069, 105460, 19356], 
+         [ new Date(2024, 7, 5), 97281, 97069, 102299, 19350], 
+         [ new Date(2024, 7, 6), 97281, 97069, 103359, 20205], 
+         [ new Date(2024, 7, 7), 97281, 97069, 102559, 20058], 
+         [ new Date(2024, 7, 8), 97281, 97069, 104922, 19743], 
+         [ new Date(2024, 7, 9), 97281, 97069, 105412, 20016], 
+         [ new Date(2024, 7, 12), 97281, 97069, 105417, 18903], 
+         [ new Date(2024, 7, 13), 97281, 97069, 107193, 19377], 
+         [ new Date(2024, 7, 14), 97281, 97069, 107603, 19269], 
+         [ new Date(2024, 7, 15), 97281, 97069, 109339, 34029], 
+         [ new Date(2024, 7, 16), 97281, 97097, 109556, 32244], 
+         [ new Date(2024, 7, 19), 98130, 98108, 110622, 32187], 
+         [ new Date(2024, 7, 20), 98130, 95171, 110402, 31878], 
+         [ new Date(2024, 7, 21), 98228, 95611, 110870, 31382], 
+         [ new Date(2024, 7, 22), 97618, 94663, 109880, 31519], 
+         [ new Date(2024, 7, 23), 98071, 99220, 111142, 30667], 
+         [ new Date(2024, 7, 26), 98048, 98963, 110791, 30353], 
+         [ new Date(2024, 7, 27), 97787, 101900, 110968, 29348], 
+         [ new Date(2024, 7, 28), 97621, 102004, 110305, 30112], 
+         [ new Date(2024, 7, 29), 97765, 94721, 110300, 47038], 
+         [ new Date(2024, 7, 30), 98038, 95196, 111414, 30760], 
+         [ new Date(2024, 8, 3), 97886, 95056, 109057, 33071], 
+         [ new Date(2024, 8, 4), 97711, 94971, 108882, 34054], 
+         [ new Date(2024, 8, 5), 97332, 97240, 108554, 34155], 
+         [ new Date(2024, 8, 6), 96160, 96461, 106680, 33919], 
+         [ new Date(2024, 8, 9), 96141, 96460, 107915, 33225], 
+         [ new Date(2024, 8, 10), 96528, 91314, 108398, 34218], 
+         [ new Date(2024, 8, 11), 96303, 90932, 109554, 33732], 
+         [ new Date(2024, 8, 12), 96309, 90358, 110375, 31407], 
+         [ new Date(2024, 8, 13), 95701, 90327, 110972, 29422], 
+         [ new Date(2024, 8, 16), 95701, 89993, 111112, 28777], 
+         [ new Date(2024, 8, 17), 95891, 95531, 111141, 29873], 
+         [ new Date(2024, 8, 18), 95960, 95725, 110819, 30689], 
+         [ new Date(2024, 8, 19), 97996, 99700, 112700, 31570], 
+         [ new Date(2024, 8, 20), 98448, 99487, 112482, 31644], 
+         [ new Date(2024, 8, 23), 98808, 100024, 112798, 32388], 
+         [ new Date(2024, 8, 24), 100164, 100021, 113081, 32043], 
+         [ new Date(2024, 8, 25), 100344, 100417, 112870, 32826], 
+         [ new Date(2024, 8, 26), 106349, 106930, 113326, 36611], 
+         [ new Date(2024, 8, 27), 106435, 107560, 113184, 38683], 
+         [ new Date(2024, 8, 30), 105328, 108219, 113664, 38872], 
+         [ new Date(2024, 9, 1), 108906, 108853, 112604, 42309], 
+         [ new Date(2024, 9, 2), 109478, 108059, 112620, 42887], 
+         [ new Date(2024, 9, 3), 109478, 108144, 112430, 43835], 
+         [ new Date(2024, 9, 4), 110983, 111065, 113439, 45400], 
+         [ new Date(2024, 9, 7), 110983, 111117, 112351, 46072], 
+         [ new Date(2024, 9, 8), 109575, 105680, 113440, 45543], 
+         [ new Date(2024, 9, 9), 109682, 99879, 114247, 45458], 
+         [ new Date(2024, 9, 10), 105326, 104795, 114010, 40151], 
+         [ new Date(2024, 9, 11), 105326, 105238, 114700, 38153], 
+         [ new Date(2024, 9, 14), 105326, 97285, 115584, 98111], 
+         [ new Date(2024, 9, 15), 104410, 94841, 114705, 37801], 
+         [ new Date(2024, 9, 16), 104036, 95935, 115242, 36998], 
+         [ new Date(2024, 9, 17), 103967, 96608, 115222, 36122], 
+         [ new Date(2024, 9, 18), 103967, 97029, 115679, 33926], 
+         [ new Date(2024, 9, 21), 103584, 97397, 115469, 34299], 
+         [ new Date(2024, 9, 22), 103584, 96608, 115414, 33336], 
+         [ new Date(2024, 9, 23), 102999, 102712, 114353, 34278], 
+         [ new Date(2024, 9, 24), 102389, 102102, 114598, 37340], 
+         [ new Date(2024, 9, 25), 102389, 102007, 114564, 38189], 
+         [ new Date(2024, 9, 28), 102624, 101153, 114868, 37818], 
+         [ new Date(2024, 9, 29), 102624, 101649, 115053, 37305], 
+         [ new Date(2024, 9, 30), 102624, 101485, 114673, 37905], 
+         [ new Date(2024, 9, 31), 101283, 97422, 112539, 38277], 
+         [ new Date(2024, 10, 1), 100293, 97100, 112999, 21492], 
+         [ new Date(2024, 10, 4), 99819, 96622, 112682, 20901], 
+         [ new Date(2024, 10, 5), 99504, 98309, 114064, 20661], 
+         [ new Date(2024, 10, 6), 99504, 104306, 116949, 26349], 
+         [ new Date(2024, 10, 7), 101180, 106746, 117818, 26051], 
+         [ new Date(2024, 10, 8), 101180, 106410, 118261, 28523], 
+         [ new Date(2024, 10, 11), 101765, 110994, 118375, 32225], 
+         [ new Date(2024, 10, 12), 101765, 109793, 118033, 33899], 
+         [ new Date(2024, 10, 13), 101794, 109836, 118060, 35176], 
+         [ new Date(2024, 10, 14), 100784, 108135, 117346, 33743], 
+         [ new Date(2024, 10, 15), 105794, 106714, 115797, 39020], 
+         [ new Date(2024, 10, 18), 106390, 106085, 116250, 38302], 
+         [ new Date(2024, 10, 19), 105991, 106628, 116711, 37096], 
+         [ new Date(2024, 10, 20), 106003, 106278, 116714, 37111], 
+         [ new Date(2024, 10, 21), 106964, 106960, 117337, 37556], 
+         [ new Date(2024, 10, 22), 106160, 108226, 117744, 36227], 
+         [ new Date(2024, 10, 25), 104376, 108693, 118100, 36207], 
+         [ new Date(2024, 10, 26), 104144, 107011, 118775, 36242], 
+         [ new Date(2024, 10, 27), 104144, 106052, 118324, 24617], 
+         [ new Date(2024, 10, 29), 104144, 107213, 118987, 24341], 
+         [ new Date(2024, 11, 2), 104855, 108027, 119279, 26489], 
+         [ new Date(2024, 11, 3), 105672, 107173, 119333, 26136], 
+         [ new Date(2024, 11, 4), 106353, 110376, 120055, 27015], 
+         [ new Date(2024, 11, 5), 106353, 111493, 119830, 27315], 
+         [ new Date(2024, 11, 6), 106234, 114527, 120129, 28888], 
+         [ new Date(2024, 11, 9), 109780, 114046, 119391, 31300], 
+         [ new Date(2024, 11, 10), 110008, 113775, 119037, 32167], 
+         [ new Date(2024, 11, 11), 112954, 117267, 120009, 34597], 
+         [ new Date(2024, 11, 12), 112238, 115745, 119360, 35795], 
+         [ new Date(2024, 11, 13), 112238, 116369, 119357, 37739], 
+         [ new Date(2024, 11, 16), 114500, 120685, 119810, 41084], 
+         [ new Date(2024, 11, 17), 114500, 120398, 119347, 42059], 
+         [ new Date(2024, 11, 18), 118611, 124510, 115827, 47529], 
+         [ new Date(2024, 11, 19), 118676, 119678, 115727, 47237], 
+         [ new Date(2024, 11, 20), 117902, 117814, 116985, 46646], 
+         [ new Date(2024, 11, 23), 117902, 117049, 117837, 47738], 
+         [ new Date(2024, 11, 24), 117902, 117273, 119139, 48821], 
+         [ new Date(2024, 11, 26), 117902, 117450, 119090, 111473], 
+         [ new Date(2024, 11, 27), 117578, 116300, 117774, 47381], 
+         [ new Date(2024, 11, 30), 116962, 114139, 116513, 46900], 
+         [ new Date(2024, 11, 31), 116946, 115193, 116014, 46182], 
+         [ new Date(2025, 0, 2), 114663, 114986, 115756, 41628], 
+         [ new Date(2025, 0, 3), 114663, 114775, 117214, 43713], 
+         [ new Date(2025, 0, 6), 114423, 114076, 117863, 43278], 
+         [ new Date(2025, 0, 7), 114356, 111736, 116554, 41690], 
+         [ new Date(2025, 0, 8), 112522, 109298, 116736, 39322], 
+         [ new Date(2025, 0, 9), 112522, 109298, 116736, 39322], 
+         [ new Date(2025, 0, 10), 112146, 109104, 114937, 38742], 
+         [ new Date(2025, 0, 13), 108603, 108599, 115118, 36612], 
+         [ new Date(2025, 0, 14), 108603, 108688, 115250, 35484], 
+         [ new Date(2025, 0, 15), 108706, 108426, 117361, 36046], 
+         [ new Date(2025, 0, 16), 108246, 108359, 117113, 34539], 
+         [ new Date(2025, 0, 17), 108246, 108799, 118283, 34920], 
+         [ new Date(2025, 0, 21), 108094, 108710, 119320, 32278], 
+         [ new Date(2025, 0, 22), 108094, 108564, 120052, 31843], 
+         [ new Date(2025, 0, 23), 108094, 109673, 120690, 31408], 
+         [ new Date(2025, 0, 24), 108094, 110731, 120346, 30340], 
+         [ new Date(2025, 0, 27), 105372, 106788, 118591, 27651], 
+         [ new Date(2025, 0, 28), 105372, 108175, 119684, 27699], 
+         [ new Date(2025, 0, 29), 105372, 108105, 119124, 27204], 
+         [ new Date(2025, 0, 30), 107421, 108880, 119753, 27348], 
+         [ new Date(2025, 0, 31), 107053, 108699, 119148, 27640], 
+         [ new Date(2025, 1, 3), 108307, 109590, 118242, 28285], 
+         [ new Date(2025, 1, 4), 108307, 111524, 119096, 27520], 
+         [ new Date(2025, 1, 5), 107337, 110137, 119561, 24324], 
+         [ new Date(2025, 1, 6), 107607, 110276, 119997, 23844], 
+         [ new Date(2025, 1, 7), 106743, 109538, 118861, 23166], 
+         [ new Date(2025, 1, 10), 106743, 110743, 119659, 20739], 
+         [ new Date(2025, 1, 11), 105940, 109374, 119700, 18658], 
+         [ new Date(2025, 1, 12), 107841, 111580, 119374, 20154], 
+         [ new Date(2025, 1, 13), 110159, 113478, 120619, 22175], 
+         [ new Date(2025, 1, 14), 112658, 112812, 120610, 26327], 
+         [ new Date(2025, 1, 18), 112658, 113048, 120905, 24734], 
+         [ new Date(2025, 1, 19), 112658, 113520, 121192, 25697], 
+         [ new Date(2025, 1, 20), 114122, 113443, 120667, 25940], 
+         [ new Date(2025, 1, 21), 110448, 112401, 118608, 22539], 
+         [ new Date(2025, 1, 24), 111707, 111617, 118018, 22979], 
+         [ new Date(2025, 1, 25), 112205, 112158, 117466, 22052], 
+         [ new Date(2025, 1, 26), 114305, 114184, 117482, 22781], 
+         [ new Date(2025, 1, 27), 114020, 113899, 115618, 24230], 
+         [ new Date(2025, 1, 28), 114020, 112020, 117451, 25328], 
+         [ new Date(2025, 2, 3), 111920, 112000, 115385, 20201], 
+         [ new Date(2025, 2, 4), 112574, 112459, 113973, 18635], 
+         [ new Date(2025, 2, 5), 112574, 113204, 115245, 16625], 
+         [ new Date(2025, 2, 6), 112574, 112438, 113191, 15620], 
+         [ new Date(2025, 2, 7), 111054, 111670, 113816, 13173], 
+         [ new Date(2025, 2, 10), 115644, 115615, 110746, 16178], 
+         [ new Date(2025, 2, 11), 116041, 115984, 109908, 50173], 
+         [ new Date(2025, 2, 12), 116041, 115742, 110445, 50359], 
+         [ new Date(2025, 2, 13), 114967, 117547, 108911, 63976], 
+         [ new Date(2025, 2, 14), 114595, 117541, 111227, 80389], 
+         [ new Date(2025, 2, 17), 114595, 120686, 111941, 34960], 
+         [ new Date(2025, 2, 18), 117406, 122696, 110748, 43033], 
+         [ new Date(2025, 2, 19), 117406, 122534, 111944, 18646], 
+         [ new Date(2025, 2, 20), 118962, 119931, 111699, 54318], 
+         [ new Date(2025, 2, 21), 120780, 117884, 111791, 76686], 
+         [ new Date(2025, 2, 24), 117694, 115900, 113764, 84316], 
+         [ new Date(2025, 2, 25), 116330, 116118, 113943, 80147], 
+         [ new Date(2025, 2, 26), 115482, 115681, 112672, 90995], 
+         [ new Date(2025, 2, 27), 115335, 115903, 112299, 103047], 
+         [ new Date(2025, 2, 28), 115335, 115979, 110083, 90557], 
+         [ new Date(2025, 2, 31), 116067, 116643, 110693, 102931], 
+         [ new Date(2025, 3, 1), 116621, 116611, 111111, 106236], 
+         [ new Date(2025, 3, 2), 116621, 115945, 111859, 95967], 
+         [ new Date(2025, 3, 3), 116621, 118792, 106445, 70112], 
+         [ new Date(2025, 3, 4), 116621, 118374, 100085, 44308], 
+         [ new Date(2025, 3, 7), 117719, 118219, 99852, 90727], 
+         [ new Date(2025, 3, 8), 117727, 117739, 98284, 104801], 
+         [ new Date(2025, 3, 9), 117379, 114884, 107636, 100759], 
+         [ new Date(2025, 3, 10), 117379, 116401, 103911, 84961], 
+         [ new Date(2025, 3, 11), 118451, 118247, 105791, 107105], 
+         [ new Date(2025, 3, 14), 118451, 118776, 106632, 74998], 
+         [ new Date(2025, 3, 15), 118451, 119364, 106447, 59091], 
+         [ new Date(2025, 3, 16), 119910, 120969, 104062, 67247], 
+         [ new Date(2025, 3, 17), 119738, 119946, 104200, 89991], 
+         [ new Date(2025, 3, 21), 119738, 120598, 101744, 89255], 
+         [ new Date(2025, 3, 22), 119836, 119981, 104300, 101965], 
+         [ new Date(2025, 3, 23), 119605, 119750, 106038, 101965], 
+         [ new Date(2025, 3, 24), 119605, 119661, 108186, 105576], 
+         [ new Date(2025, 3, 25), 119605, 119187, 108984, 99472], 
+         [ new Date(2025, 3, 28), 119605, 119643, 109053, 99016], 
+         [ new Date(2025, 3, 29), 119751, 119003, 109686, 106638], 
+         [ new Date(2025, 3, 30), 119751, 119165, 109849, 98916], 
+         [ new Date(2025, 4, 1), 118265, 117708, 110541, 111329], 
+         [ new Date(2025, 4, 2), 117887, 117330, 112168, 111329], 
+         [ new Date(2025, 4, 5), 117887, 118013, 111453, 107897], 
+         [ new Date(2025, 4, 6), 117887, 118475, 110595, 64250], 
+         [ new Date(2025, 4, 7), 117887, 119608, 111076, 39436], 
+         [ new Date(2025, 4, 8), 117887, 121314, 111720, 10405], 
+         [ new Date(2025, 4, 9), 118875, 121120, 111641, 20668], 
+         [ new Date(2025, 4, 12), 123116, 126996, 115275, 44752], 
+         [ new Date(2025, 4, 13), 127844, 131798, 116111, 38451], 
+         [ new Date(2025, 4, 14), 126987, 131765, 116230, 40882], 
+         [ new Date(2025, 4, 15), 129154, 131019, 116710, 56070], 
+         [ new Date(2025, 4, 16), 129154, 131643, 117528, 40009], 
+         [ new Date(2025, 4, 19), 131603, 131489, 117631, 58492], 
+         [ new Date(2025, 4, 20), 131603, 131276, 117174, 32581], 
+         [ new Date(2025, 4, 21), 130120, 129864, 115284, 43703], 
+         [ new Date(2025, 4, 22), 130120, 129810, 115232, 7880], 
+         [ new Date(2025, 4, 23), 129206, 130569, 114459, 24430], 
+         [ new Date(2025, 4, 27), 129520, 129866, 116801, 23796], 
+         [ new Date(2025, 4, 28), 129520, 129189, 116150, 23796], 
+         [ new Date(2025, 4, 29), 130891, 129499, 116616, 7063], 
+         [ new Date(2025, 4, 30), 130891, 128390, 116607, 73452], 
+         [ new Date(2025, 5, 2), 130891, 128602, 117085, 48762], 
+         [ new Date(2025, 5, 3), 130427, 129150, 117764, 38448], 
+         [ new Date(2025, 5, 4), 127157, 130283, 117773, 47870], 
+         [ new Date(2025, 5, 5), 126764, 131199, 117152, 41883], 
+         [ new Date(2025, 5, 6), 128712, 130609, 118356, 50115], 
+         [ new Date(2025, 5, 9), 128712, 131136, 118465, 20965], 
+         [ new Date(2025, 5, 10), 129813, 130803, 119114, 30377], 
+         [ new Date(2025, 5, 11), 129813, 130675, 118787, 8541], 
+         [ new Date(2025, 5, 12), 129813, 132014, 119242, 8541], 
+         [ new Date(2025, 5, 13), 129019, 128457, 117895, 66494], 
+         [ new Date(2025, 5, 16), 129019, 129800, 119002, 65204], 
+         [ new Date(2025, 5, 17), 129688, 128767, 118008, 26365], 
+         [ new Date(2025, 5, 18), 129333, 129414, 117971, 5400], 
+         [ new Date(2025, 5, 20), 128275, 130677, 117714, 30796], 
+         [ new Date(2025, 5, 23), 129783, 131297, 118845, 51611], 
+         [ new Date(2025, 5, 24), 129296, 133095, 120167, 60305], 
+         [ new Date(2025, 5, 25), 131837, 133311, 120167, 52421], 
+         [ new Date(2025, 5, 26), 131599, 134095, 121130, 32632], 
+         [ new Date(2025, 5, 27), 131599, 133753, 121763, 13297], 
+         [ new Date(2025, 5, 30), 132655, 134282, 122391, 12786], 
+         [ new Date(2025, 6, 1), 131297, 131699, 122255, 23232], 
+         [ new Date(2025, 6, 2), 131337, 133802, 122835, 13941], 
+         [ new Date(2025, 6, 3), 131337, 135408, 123859, 13941], 
+         [ new Date(2025, 6, 7), 132867, 132893, 122885, 35086], 
+         [ new Date(2025, 6, 8), 132867, 133518, 122797, 34057], 
+         [ new Date(2025, 6, 9), 132867, 135652, 123542, 766], 
+         [ new Date(2025, 6, 10), 132867, 137847, 123881, 766], 
+         [ new Date(2025, 6, 11), 133761, 136105, 123472, 34137], 
+         [ new Date(2025, 6, 14), 136015, 136544, 123646, 67754], 
+         [ new Date(2025, 6, 15), 135192, 134947, 123157, 30194], 
+         [ new Date(2025, 6, 16), 135481, 135975, 123550, 36127], 
+         [ new Date(2025, 6, 17), 135814, 136948, 124214, 24573], 
+         [ new Date(2025, 6, 18), 135814, 136814, 124203, 24573], 
+         [ new Date(2025, 6, 21), 135814, 136483, 124377, 24573], 
+         [ new Date(2025, 6, 22), 134139, 134879, 124456, 37769], 
+         [ new Date(2025, 6, 23), 134139, 135600, 125428, 36555], 
+         [ new Date(2025, 6, 24), 134139, 135560, 125516, 36555], 
+         [ new Date(2025, 6, 25), 134139, 134731, 126015, 36555], 
+         [ new Date(2025, 6, 28), 134936, 135006, 126037, 23420], 
+         [ new Date(2025, 6, 29), 134936, 134533, 125664, 24666]
+    ]);
+
+    var options = {
+      title:'Historical Performance (Closed & Total Positions) - Leveraged ETFs',
+      legend: {position: 'bottom'},
+      hAxis: {
+        title: 'From inception'
+      },
+      vAxis: {
+        title: 'Equity Curve'
+      },
+      backgroundColor: '#f1f8e9',
+      series: {
+            0: { color: '#99B731' },
+            1: { color: '#2471A3' },
+	       <!-- 2: { color: '#fcba03' },	 DG 20240918 Max Move Note 4D Code needs has index-->
+            2: { color: '#999' },
+            3: { color: '#cbc085', areaOpacity: 0.3 }
+            }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+    }
+  </script>
+  <div class="container-fluid logo_container">
+    <div class="container logo-left">
+      <a href="#"><img src="../../Grid_HTML/images/i4cfinancial_logo.svg.layer.png"></a>
+    </div>
+  </div>
+  <div class="container header_container">
+    <h2 class="report_name">Performance Report - Leveraged ETFs</h2>
+    <h4 class="report_description">EH Quantitative Leveraged </h4>
+    <h4 class="report_description">The strategy actively trades a universe of leveraged US ETFs, taking positions based on a proprietary technical ranking derived from a multi-factor analysis of market action across multiple trading horizons.  Both long and short leveraged instruments are available.</h4>
+    <h4 class="report_description">Forward test from inception 2024/02/28 to 2025/07/29</h4>
+  </div>
+  <div class="container chart_container">
+    <div id="chart_div" class="chart"></div>
+  </div>
+  <div class="container overview_container">
+    <h2 class="report_sub_head">Overview</h2>
+    <div class="overview_table">
+   <table class="overview_table">
+        <tr>
+          <td>Annualized Returns:</td>
+          <td style="text-align:right">22.61%</td>
+          <td>Average Win Size:</td>
+          <td style="text-align:right">601.24</td>
+        </tr>
+        <tr>
+          <td>Maximum Drawdown:</td>
+          <td style="text-align:right">14.65%</td>
+          <td>Average Loss Size:</td>
+          <td style="text-align:right">438.84</td>
+        </tr>
+        <tr>
+           <td>Return over Maximum Drawdown:</td>
+          <td style="text-align:right">1.54</td>
+          <td>Win/Loss Size Ratio:</td>
+          <td style="text-align:right">1.37</td>
+        </tr>
+        <tr>
+          <td>Sharpe Ratio (Annualized):</td>
+          <td style="text-align:right">1.21</td>
+          <td>Number of Closed and Open Positions:</td>
+          <td style="text-align:right">445</td>
+        </tr>
+        <tr>
+          <td>Sortino Ratio (Annualized):</td>
+          <td style="text-align:right">1.97</td>
+          <td>Average Trade Value:</td>
+          <td style="text-align:right">8,930 USD</td>
+        </tr>
+        <tr>
+          <td>Number of Wins:</td>
+          <td style="text-align:right">220</td>
+          <td>Average Closed Trade Duration:</td>
+          <td style="text-align:right">5.9 days</td>
+        </tr>
+        <tr>
+          <td>Number of Losses:</td>
+          <td style="text-align:right">225</td>
+          <td>Last Session Move:</td>
+          <td style="text-align:right">-473.00 (-0.35%), Baseline move: (-0.29%)</td>
+        </tr>
+        <tr>
+          <td>Win/Loss Count Ratio:</td>
+          <td style="text-align:right">0.98  (49% winners)</td>
+          <td>Includes 11 open positions with cash holdings of 24,666.70 USD<p>Cash holdings are equivalent to 18.3% of Total Strategy Value (134,532.70 USD) at this time.</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="container monthly_container">
+    <h2 class="report_sub_head">Monthly Strategy Returns (%):</h2>
+    <div class="styled_table">
+      <Table><thead><TR><TH>&nbsp;</TH><TH style="text-align:center">Jan</TH><TH style="text-align:center">Feb</TH><TH style="text-align:center">Mar</TH><TH style="text-align:center">Apr</TH><TH style="text-align:center">May</TH><TH style="text-align:center">Jun</TH><TH style="text-align:center">Jul</TH><TH style="text-align:center">Aug</TH><TH style="text-align:center">Sep</TH><TH style="text-align:center">Oct</TH><TH style="text-align:center">Nov</TH><TH style="text-align:center">Dec</TH><TH style="text-align:center">Total</TH></TR></thead><TR><TD><strong><font style="text-align:right">2024</strong></TD><TD style="text-align:center">0</TD><TD style="text-align:center"><font style="color:red">-0.2</font></TD><TD style="text-align:center"><font style="color:red">-0.4</font></TD><TD style="text-align:center"><font style="color:green">0.4</font></TD><TD style="text-align:center"><font style="color:red">-0.9</font></TD><TD style="text-align:center"><font style="color:red">-1</font></TD><TD style="text-align:center"><font style="color:green">0.4</font></TD><TD style="text-align:center"><font style="color:red">-2.7</font></TD><TD style="text-align:center"><font style="color:green">13.5</font></TD><TD style="text-align:center"><font style="color:red">-9.4</font></TD><TD style="text-align:center"><font style="color:green">10</font></TD><TD style="text-align:center"><font style="color:green">7.6</font></TD><TD style="text-align:center; font-weight:bold"><font style="color:green">17.3</font></TD></TR><TR><TD><strong><font style="text-align:right">2025</strong></TD><TD style="text-align:center"><font style="color:red">-5.7</font></TD><TD style="text-align:center"><font style="color:green">3.1</font></TD><TD style="text-align:center"><font style="color:green">4.2</font></TD><TD style="text-align:center"><font style="color:green">2.2</font></TD><TD style="text-align:center"><font style="color:green">7.7</font></TD><TD style="text-align:center"><font style="color:green">4.6</font></TD><TD style="text-align:center"><font style="color:green">0.3</font></TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center">0</TD><TD style="text-align:center; font-weight:bold"><font style="color:green">16.4</font></TD></TR></Table>
+    </div>
+  </div>
+  <div class="container position_container">
+    <h2 class="report_sub_head">Open Positions:</h2>
+    <div class="styled_table">
+      <Table>
+<thead><TR><TH> Symbol </TH><TH> Name </TH><TH> Entry Date</TH><TH align='right'> # Shares</TH><TH style='text-align:right;'> Entry Price</TH><TD align='right'> Present Price </TD><TH style='text-align:right;'> Move</TH><TH style='text-align:right;'> Max Move</TH><TH style='text-align:right;'> Days Held</TH><TH style='text-align:right;'>Price</TH><TH style='text-align:right;'> Trailing Stop</TH><TH style='text-align:right;'> Profit</TH><TH style='text-align:right;'> Annualized</TH></TR></thead>
+<TR><TD>MAGX</TD><TD>Roundhill Daily 2X Long Magnificent Seven ETF</TD><TD>2025-07-15</TD><TD align='right'>300</TD><TD align='right'>44.47</TD><TD align='right'>46.05</TD><TD align='right'>3.55%</TD><TD align='right'>4.76%</TD><TD align='right'>11</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='17.8' x2='1' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='22' x2='2' y2='19.6' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='19.6' x2='3' y2='18.7' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='18.7' x2='4' y2='14.7' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='14.7' x2='5' y2='11.3' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='5' y1='11.3' x2='6' y2='12' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='6' y1='12' x2='7' y2='9.4' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='7' y1='9.4' x2='8' y2='8.7' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='8' y1='8.7' x2='9' y2='8.3' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='9' y1='8.3' x2='10' y2='2.7' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='10' y1='2.7' x2='11' y2='6' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'><font style='color:green'>45.711 (0.7%)</font></TD><TD align='right'>474.00</TD><TD align='right'>77.52%</TD></TR>
+<TR><TD>QTOC</TD><TD>Innovator Growth Accelerated Plus ETF - October</TD><TD>2025-07-17</TD><TD align='right'>300</TD><TD align='right'>32.29</TD><TD align='right'>32.53</TD><TD align='right'>0.74%</TD><TD align='right'>0.96%</TD><TD align='right'>9</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='22' x2='1' y2='22' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='22' x2='2' y2='19.4' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='19.4' x2='3' y2='16.8' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='16.8' x2='4' y2='17.5' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='17.5' x2='5' y2='14.9' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='5' y1='14.9' x2='6' y2='10.4' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='6' y1='10.4' x2='7' y2='8.5' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='7' y1='8.5' x2='8' y2='2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='8' y1='2' x2='9' y2='6.5' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'><font style='color:green'>32.464 (0.2%)</font></TD><TD align='right'>72.00</TD><TD align='right'>19.82%</TD></TR>
+<TR><TD>BULZ</TD><TD>MicroSectors Solactive FANG Innovation 3X Leveraged ETN</TD><TD>2025-07-17</TD><TD align='right'>50</TD><TD align='right'>187.68</TD><TD align='right'>187.71</TD><TD align='right'>0.01%</TD><TD align='right'>2.77%</TD><TD align='right'>9</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='13' x2='1' y2='7.9' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='7.9' x2='2' y2='14.8' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='14.8' x2='3' y2='9.3' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='9.3' x2='4' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='22' x2='5' y2='14.7' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='5' y1='14.7' x2='6' y2='14.4' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='6' y1='14.4' x2='7' y2='16.3' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='7' y1='16.3' x2='8' y2='8.1' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='8' y1='8.1' x2='9' y2='12.9' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>185.710 (1.1%)</TD><TD align='right'>1.50</TD><TD align='right'>0.43%</TD></TR>
+<TR><TD>EET</TD><TD>ProShares Ultra MSCI Emerging Markets</TD><TD>2025-07-17</TD><TD align='right'>100</TD><TD align='right'>65.47</TD><TD align='right'>66.30</TD><TD align='right'>1.26%</TD><TD align='right'>4.41%</TD><TD align='right'>9</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='22' x2='1' y2='15.2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='15.2' x2='2' y2='18.2' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='18.2' x2='3' y2='11.3' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='11.3' x2='4' y2='11.9' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='11.9' x2='5' y2='2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='5' y1='2' x2='6' y2='7.5' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='6' y1='7.5' x2='7' y2='10.6' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='7' y1='10.6' x2='8' y2='16' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='8' y1='16' x2='9' y2='16.3' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'><font style='color:green'>65.874 (0.6%)</font></TD><TD align='right'>83.00</TD><TD align='right'>33.81%</TD></TR>
+<TR><TD>NVDU</TD><TD>Direxion Daily NVDA Bull 2X Shares</TD><TD>2025-07-18</TD><TD align='right'>100</TD><TD align='right'>118.90</TD><TD align='right'>120.83</TD><TD align='right'>1.62%</TD><TD align='right'>4.35%</TD><TD align='right'>8</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='9.2' x2='1' y2='11.9' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='11.9' x2='2' y2='13.8' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='13.8' x2='3' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='22' x2='4' y2='15.3' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='15.3' x2='5' y2='9.8' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='5' y1='9.8' x2='6' y2='10.5' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='6' y1='10.5' x2='7' y2='4.2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='7' y1='4.2' x2='8' y2='6.5' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>117.415 (2.8%)</TD><TD align='right'>193.00</TD><TD align='right'>48.70%</TD></TR>
+<TR><TD>USD</TD><TD>ProShares Ultra Semiconductors</TD><TD>2025-07-18</TD><TD align='right'>100</TD><TD align='right'>84.72</TD><TD align='right'>86.16</TD><TD align='right'>1.69%</TD><TD align='right'>3.28%</TD><TD align='right'>8</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='8.7' x2='1' y2='12.3' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='12.3' x2='2' y2='11.9' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='11.9' x2='3' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='22' x2='4' y2='17' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='4' y1='17' x2='5' y2='12' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='5' y1='12' x2='6' y2='12' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='6' y1='12' x2='7' y2='5.4' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='7' y1='5.4' x2='8' y2='5.2' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>83.355 (3.3%)</TD><TD align='right'>144.00</TD><TD align='right'>50.99%</TD></TR>
+<TR><TD>YINN</TD><TD>Direxion Daily FTSE China Bull 3X Shares</TD><TD>2025-07-24</TD><TD align='right'>200</TD><TD align='right'>48.48</TD><TD align='right'>45.31</TD><TD align='right'>-6.53%</TD><TD align='right'>0.00%</TD><TD align='right'>4</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='2' x2='1' y2='5.4' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='5.4' x2='2' y2='11.6' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='11.6' x2='3' y2='15.8' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='15.8' x2='4' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>44.530 (1.7%)</TD><TD align='right'>-634.00</TD><TD align='right'>-392.33%</TD></TR>
+<TR><TD>EDC</TD><TD>Direxion Daily MSCI Emerging Markets Bull 3x Shares</TD><TD>2025-07-24</TD><TD align='right'>200</TD><TD align='right'>42.69</TD><TD align='right'>41.15</TD><TD align='right'>-3.60%</TD><TD align='right'>0.84%</TD><TD align='right'>4</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='2' x2='1' y2='6.5' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='6.5' x2='2' y2='10.4' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='10.4' x2='3' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='22' x2='4' y2='20.6' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>40.170 (2.4%)</TD><TD align='right'>-308.00</TD><TD align='right'>-216.44%</TD></TR>
+<TR><TD>XDEC</TD><TD>FT Vest U.S. Equity Enhance & Moderate Buffer ETF - December</TD><TD>2025-07-24</TD><TD align='right'>300</TD><TD align='right'>39.25</TD><TD align='right'>39.31</TD><TD align='right'>0.15%</TD><TD align='right'>0.25%</TD><TD align='right'>4</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='22' x2='1' y2='14' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='14' x2='2' y2='6' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='6' x2='3' y2='6' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='6' x2='4' y2='10' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>39.177 (0.3%)</TD><TD align='right'>18.00</TD><TD align='right'>9.17%</TD></TR>
+<TR><TD>RETL</TD><TD>Direxion Daily Retail Bull 3X Shares</TD><TD>2025-07-24</TD><TD align='right'>1200</TD><TD align='right'>9.25</TD><TD align='right'>8.43</TD><TD align='right'>-8.86%</TD><TD align='right'>1.29%</TD><TD align='right'>4</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='2' x2='1' y2='11' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='11' x2='2' y2='10.3' stroke='green' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='10.3' x2='3' y2='11.3' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='11.3' x2='4' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>8.056 (4.4%)</TD><TD align='right'>-984.00</TD><TD align='right'>-531.89%</TD></TR>
+<TR><TD>XPP</TD><TD>ProShares Ultra FTSE China 50</TD><TD>2025-07-24</TD><TD align='right'>400</TD><TD align='right'>28.10</TD><TD align='right'>26.95</TD><TD align='right'>-4.09%</TD><TD align='right'>0.24%</TD><TD align='right'>4</TD><TD style='text-align:right;'>
+<svg width='25' height='25'>
+<line x1='0' y1='2' x2='1' y2='4.3' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='1' y1='4.3' x2='2' y2='12.8' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='2' y1='12.8' x2='3' y2='17.1' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+<line x1='3' y1='17.1' x2='4' y2='22' stroke='red' stroke-width=0.6 transform='scale(2 0.8)' />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD align='right'>26.552 (1.5%)</TD><TD align='right'>-460.00</TD><TD align='right'>-245.55%</TD></TR>
+<TR><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD align='right' colspan='3'> Total Value (USD) of 11 Open Positions:</TD><TD align='right'>110,269.50</TD><TD align='right'>-1,400.50</TD><TD align='right'>-0.94%</TD></TR>
+</Table>
+
+    </div>
+  </div>
+  <div class="container monthtodate_container">
+    <h2 class="report_sub_head">Closed Month-To-Date Performance:</h2>
+    <div class="styled_table">
+      <Table width="100%"><thead><TR><TH> Symbol </TH><TH> Name </TH><TH style="text-align:right;"> # Shares</TH><TH style="text-align:right;"> Buy Date</TH><TH style="text-align:right;"> Buy Price</TH><TH style="text-align:right;"> Sell Date</TH><TH style="text-align:right;"> Sell Price</TH><TH style="text-align:right;"> Max Move</TH><TH style="text-align:right;"> Duration</TH><TH style="text-align:right;">Price</TH><TH style="text-align:right;"> Profit</TH><TH style="text-align:right;"> ROI</TH></TR></thead><TR><TD>CONL</TD><TD>GraniteShares 2x Long COIN Daily ETF</TD><TD align="right">200</TD><TD align="right">2025-06-27</TD><TD align="right">51.45</TD><TD align="right">2025-07-01</TD><TD align="right">43.33</TD><TD style="text-align:right;">3.01%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="11.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="11.7" x2="2" y2="13.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="13.4" x2="3" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-1,624.00</font></TD><TD style="text-align:right;"><font style="color:red">-15.8%</font></TD></TR></TR><TR><TD>DFEN</TD><TD>Direxion Daily Aerospace & Defense Bull 3X Shares</TD><TD align="right">200</TD><TD align="right">2025-06-27</TD><TD align="right">49.22</TD><TD align="right">2025-07-01</TD><TD align="right">50.55</TD><TD style="text-align:right;">5.40%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="19.9" x2="1" y2="7.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="7.2" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">266.00</font></TD><TD style="text-align:right;"><font style="color:green">2.7%</font></TD></TR></TR><TR><TD>KORU</TD><TD>Direxion MSCI Daily South Korea Bull 3X Shares</TD><TD align="right">100</TD><TD align="right">2025-06-24</TD><TD align="right">81.55</TD><TD align="right">2025-07-02</TD><TD align="right">81.47</TD><TD style="text-align:right;">286.35%</TD><TD align="right">7</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="9.8" x2="1" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="2" x2="2" y2="4.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="4.6" x2="3" y2="9.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="9.4" x2="4" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="22" x2="5" y2="11.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="11.9" x2="6" y2="13.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="13.6" x2="7" y2="10.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-8.00</font></TD><TD style="text-align:right;"><font style="color:red">-0.1%</font></TD></TR></TR><TR><TD>MSFU</TD><TD>Direxion Daily MSFT Bull 2X Shares</TD><TD align="right">200</TD><TD align="right">2025-06-24</TD><TD align="right">48.19</TD><TD align="right">2025-07-02</TD><TD align="right">48.43</TD><TD style="text-align:right;">3.21%</TD><TD align="right">7</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="21.4" x2="1" y2="18.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="18.8" x2="2" y2="13.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="13.8" x2="3" y2="2.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="2.1" x2="4" y2="6.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="6.1" x2="5" y2="2.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="2.8" x2="6" y2="15.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="15.6" x2="7" y2="18.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">48.00</font></TD><TD style="text-align:right;"><font style="color:green">0.5%</font></TD></TR></TR><TR><TD>EET</TD><TD>ProShares Ultra MSCI Emerging Markets</TD><TD align="right">200</TD><TD align="right">2025-06-17</TD><TD align="right">61.21</TD><TD align="right">2025-07-07</TD><TD align="right">64.24</TD><TD style="text-align:right;">6.73%</TD><TD align="right">13</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="16.6" x2="1" y2="19.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="19.3" x2="2" y2="19.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="19.6" x2="3" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="22" x2="4" y2="19.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="19.1" x2="5" y2="8.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="8.8" x2="6" y2="8.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="8.3" x2="7" y2="5.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="5.7" x2="8" y2="7.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="7.5" x2="9" y2="6.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="6.1" x2="10" y2="5.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="5.3" x2="11" y2="3.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="11" y1="3.8" x2="12" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="12" y1="2" x2="13" y2="8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">606.00</font></TD><TD style="text-align:right;"><font style="color:green">5%</font></TD></TR></TR><TR><TD>SOXL</TD><TD>Direxion Daily Semiconductor Bull 3X Shares</TD><TD align="right">600</TD><TD align="right">2025-06-25</TD><TD align="right">24.40</TD><TD align="right">2025-07-07</TD><TD align="right">25.59</TD><TD style="text-align:right;">8.31%</TD><TD align="right">8</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="21.8" x2="1" y2="20" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="20" x2="2" y2="14" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="14" x2="3" y2="14.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="14.9" x2="4" y2="14.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="14.9" x2="5" y2="18.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="18.8" x2="6" y2="5.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="5.7" x2="7" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="2" x2="8" y2="16.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">714.00</font></TD><TD style="text-align:right;"><font style="color:green">4.9%</font></TD></TR></TR><TR><TD>MIDU</TD><TD>Direxion Daily Mid Cap Bull 3X Shares</TD><TD align="right">200</TD><TD align="right">2025-07-02</TD><TD align="right">46.75</TD><TD align="right">2025-07-07</TD><TD align="right">47.80</TD><TD style="text-align:right;">4.47%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="9.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="9.3" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="16" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">210.00</font></TD><TD style="text-align:right;"><font style="color:green">2.2%</font></TD></TR></TR><TR><TD>UPRO</TD><TD>Multiple [stock_list]s found: Name via Record_ID 0</TD><TD align="right">100</TD><TD align="right">2025-06-30</TD><TD align="right">91.22</TD><TD align="right">2025-07-11</TD><TD align="right">93.55</TD><TD style="text-align:right;">3.77%</TD><TD align="right">9</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="19.5" x2="1" y2="18.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="18.3" x2="2" y2="19.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="19.3" x2="3" y2="13.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="13.1" x2="4" y2="2.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="2.3" x2="5" y2="13.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="13.1" x2="6" y2="14.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="14.2" x2="7" y2="6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="6" x2="8" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="2" x2="9" y2="7.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">233.00</font></TD><TD style="text-align:right;"><font style="color:green">2.6%</font></TD></TR></TR><TR><TD>NAIL</TD><TD>Direxion Daily Homebuilders & Supplies Bull 3X Shares</TD><TD align="right">100</TD><TD align="right">2025-07-02</TD><TD align="right">60.71</TD><TD align="right">2025-07-11</TD><TD align="right">62.62</TD><TD style="text-align:right;">7.34%</TD><TD align="right">7</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="11.7" x2="1" y2="10.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="10.1" x2="2" y2="16.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="16.8" x2="3" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="22" x2="4" y2="19.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="19.7" x2="5" y2="6.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="6.6" x2="6" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="2" x2="7" y2="8.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">191.00</font></TD><TD style="text-align:right;"><font style="color:green">3.1%</font></TD></TR></TR><TR><TD>HIBL</TD><TD>Direxion Daily S&P 500 High Beta Bull 3X Shares</TD><TD align="right">200</TD><TD align="right">2025-07-09</TD><TD align="right">46.82</TD><TD align="right">2025-07-11</TD><TD align="right">47.75</TD><TD style="text-align:right;">4.10%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="20" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="20" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="12.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">186.00</font></TD><TD style="text-align:right;"><font style="color:green">2%</font></TD></TR></TR><TR><TD>TPOR</TD><TD>Direxion Daily Transportation Bull 3X Shares</TD><TD align="right">400</TD><TD align="right">2025-07-09</TD><TD align="right">28.60</TD><TD align="right">2025-07-11</TD><TD align="right">29.31</TD><TD style="text-align:right;">4.96%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="16.1" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="12.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">284.00</font></TD><TD style="text-align:right;"><font style="color:green">2.5%</font></TD></TR></TR><TR><TD>NVDU</TD><TD>Direxion Daily NVDA Bull 2X Shares</TD><TD align="right">100</TD><TD align="right">2025-06-26</TD><TD align="right">96.82</TD><TD align="right">2025-07-14</TD><TD align="right">107.20</TD><TD style="text-align:right;">11.64%</TD><TD align="right">12</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="16.7" x2="1" y2="18.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="18.3" x2="2" y2="14.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="14.2" x2="3" y2="13.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="13.9" x2="4" y2="21.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="21.4" x2="5" y2="15.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="15.2" x2="6" y2="12" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="12" x2="7" y2="13.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="13.7" x2="8" y2="10.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="10.9" x2="9" y2="6.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="6.3" x2="10" y2="4.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="4.2" x2="11" y2="2.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="11" y1="2.9" x2="12" y2="4.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">1,038.00</font></TD><TD style="text-align:right;"><font style="color:green">10.7%</font></TD></TR></TR><TR><TD>NVDL</TD><TD>GraniteShares 2x Long NVDA Daily ETF</TD><TD align="right">100</TD><TD align="right">2025-06-26</TD><TD align="right">68.87</TD><TD align="right">2025-07-14</TD><TD align="right">76.18</TD><TD style="text-align:right;">11.51%</TD><TD align="right">12</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="16.7" x2="1" y2="18.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="18.3" x2="2" y2="14" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="14" x2="3" y2="13.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="13.8" x2="4" y2="21.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="21.3" x2="5" y2="15.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="15.2" x2="6" y2="12" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="12" x2="7" y2="13.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="13.7" x2="8" y2="10.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="10.9" x2="9" y2="6.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="6.3" x2="10" y2="4.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="4.1" x2="11" y2="2.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="11" y1="2.9" x2="12" y2="4.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">731.00</font></TD><TD style="text-align:right;"><font style="color:green">10.6%</font></TD></TR></TR><TR><TD>USD</TD><TD>ProShares Ultra Semiconductors</TD><TD align="right">100</TD><TD align="right">2025-06-30</TD><TD align="right">74.47</TD><TD align="right">2025-07-14</TD><TD align="right">78.09</TD><TD style="text-align:right;">5.88%</TD><TD align="right">10</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="11.9" x2="1" y2="13" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="13" x2="2" y2="21.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="21.1" x2="3" y2="14.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="14.2" x2="4" y2="10.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="10.5" x2="5" y2="13.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="13.4" x2="6" y2="10.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="10.1" x2="7" y2="5.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="5.3" x2="8" y2="3.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="3.2" x2="9" y2="2.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="2.5" x2="10" y2="4.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">362.00</font></TD><TD style="text-align:right;"><font style="color:green">4.9%</font></TD></TR></TR><TR><TD>QLD</TD><TD>ProShares Ultra QQQ</TD><TD align="right">50</TD><TD align="right">2025-07-01</TD><TD align="right">116.85</TD><TD align="right">2025-07-14</TD><TD align="right">119.31</TD><TD style="text-align:right;">2.42%</TD><TD align="right">9</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="15" x2="1" y2="20.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="20.4" x2="2" y2="12.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="12.9" x2="3" y2="2.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="2.9" x2="4" y2="11.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="11.1" x2="5" y2="10.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="10.6" x2="6" y2="3.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="3.1" x2="7" y2="4.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="4.8" x2="8" y2="7.4" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="7.4" x2="9" y2="3.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">123.00</font></TD><TD style="text-align:right;"><font style="color:green">2.1%</font></TD></TR></TR><TR><TD>URTY</TD><TD>ProShares UltraPro Russell 2000</TD><TD align="right">200</TD><TD align="right">2025-07-03</TD><TD align="right">42.80</TD><TD align="right">2025-07-15</TD><TD align="right">42.27</TD><TD style="text-align:right;">3.41%</TD><TD align="right">8</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="10.4" x2="1" y2="7.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="7.1" x2="2" y2="18" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="18" x2="3" y2="13.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="13.3" x2="4" y2="5.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="5.8" x2="5" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="2" x2="6" y2="12.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="12.7" x2="7" y2="7.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="7.7" x2="8" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-106.00</font></TD><TD style="text-align:right;"><font style="color:red">-1.2%</font></TD></TR></TR><TR><TD>TNA</TD><TD>Direxion Daily Small Cap Bull 3X Shares</TD><TD align="right">300</TD><TD align="right">2025-07-03</TD><TD align="right">36.45</TD><TD align="right">2025-07-15</TD><TD align="right">35.99</TD><TD style="text-align:right;">3.34%</TD><TD align="right">8</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="10.3" x2="1" y2="7.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="7.2" x2="2" y2="18.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="18.1" x2="3" y2="13.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="13.3" x2="4" y2="5.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="5.7" x2="5" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="2" x2="6" y2="12.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="12.6" x2="7" y2="7.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="7.6" x2="8" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-138.00</font></TD><TD style="text-align:right;"><font style="color:red">-1.3%</font></TD></TR></TR><TR><TD>DPST</TD><TD>Direxion Daily Regional Banks Bull 3X Shares</TD><TD align="right">100</TD><TD align="right">2025-07-09</TD><TD align="right">105.59</TD><TD align="right">2025-07-15</TD><TD align="right">99.80</TD><TD style="text-align:right;">0.00%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="2" x2="1" y2="6.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="6.2" x2="2" y2="2.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2.5" x2="3" y2="8.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="8.5" x2="4" y2="2.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="2.4" x2="5" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-579.00</font></TD><TD style="text-align:right;"><font style="color:red">-5.5%</font></TD></TR></TR><TR><TD>QTOC</TD><TD>Innovator Growth Accelerated Plus ETF - October</TD><TD align="right">400</TD><TD align="right">2025-06-25</TD><TD align="right">31.59</TD><TD align="right">2025-07-16</TD><TD align="right">32.19</TD><TD style="text-align:right;">2.02%</TD><TD align="right">15</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="20.8" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="17" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="17" x2="3" y2="15.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="15.2" x2="4" y2="12" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="12" x2="5" y2="15.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="15.2" x2="6" y2="12.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="12.9" x2="7" y2="8.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="8.8" x2="8" y2="11.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="11.7" x2="9" y2="9.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="9.6" x2="10" y2="6.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="6.4" x2="11" y2="6.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="11" y1="6.1" x2="12" y2="6.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="12" y1="6.1" x2="13" y2="5.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="13" y1="5.2" x2="14" y2="4.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="14" y1="4.1" x2="15" y2="3.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">240.00</font></TD><TD style="text-align:right;"><font style="color:green">1.9%</font></TD></TR></TR><TR><TD>XSEP</TD><TD>FT Vest U.S. Equity Enhance & Moderate Buffer ETF - September</TD><TD align="right">200</TD><TD align="right">2025-06-26</TD><TD align="right">40.46</TD><TD align="right">2025-07-16</TD><TD align="right">40.76</TD><TD style="text-align:right;">0.81%</TD><TD align="right">14</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="20.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="20.2" x2="2" y2="17.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="17.2" x2="3" y2="12.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="12.9" x2="4" y2="16.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="16.5" x2="5" y2="10.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="10.5" x2="6" y2="6.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="6.2" x2="7" y2="12.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="12.3" x2="8" y2="8.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="8.1" x2="9" y2="5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="5" x2="10" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="2" x2="11" y2="2.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="11" y1="2.6" x2="12" y2="3.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="12" y1="3.2" x2="13" y2="3.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="13" y1="3.8" x2="14" y2="3.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">60.00</font></TD><TD style="text-align:right;"><font style="color:green">0.7%</font></TD></TR></TR><TR><TD>XDEC</TD><TD>FT Vest U.S. Equity Enhance & Moderate Buffer ETF - December</TD><TD align="right">100</TD><TD align="right">2025-07-01</TD><TD align="right">38.81</TD><TD align="right">2025-07-16</TD><TD align="right">39.00</TD><TD style="text-align:right;">0.59%</TD><TD align="right">11</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="21.2" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="17.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="17.8" x2="3" y2="6.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="6.2" x2="4" y2="16.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="16.2" x2="5" y2="13.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="13.7" x2="6" y2="6.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="6.2" x2="7" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="2" x2="8" y2="6.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="6.2" x2="9" y2="2.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="2.8" x2="10" y2="6.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="10" y1="6.2" x2="11" y2="5.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">19.00</font></TD><TD style="text-align:right;"><font style="color:green">0.5%</font></TD></TR></TR><TR><TD>XBJA</TD><TD>Innovator U.S. Equity Accelerated 9 Buffer ETF - January</TD><TD align="right">300</TD><TD align="right">2025-07-02</TD><TD align="right">30.13</TD><TD align="right">2025-07-16</TD><TD align="right">30.33</TD><TD style="text-align:right;">0.73%</TD><TD align="right">10</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="22" x2="1" y2="14.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="14.7" x2="2" y2="9.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="9.3" x2="3" y2="15.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="15.6" x2="4" y2="12.9" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="12.9" x2="5" y2="4.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="4.7" x2="6" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="2" x2="7" y2="4.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="4.7" x2="8" y2="3.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="3.8" x2="9" y2="7.5" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="7.5" x2="10" y2="4.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">60.00</font></TD><TD style="text-align:right;"><font style="color:green">0.7%</font></TD></TR></TR><TR><TD>UWM</TD><TD>ProShares Ultra Russell 2000</TD><TD align="right">100</TD><TD align="right">2025-07-10</TD><TD align="right">40.30</TD><TD align="right">2025-07-16</TD><TD align="right">39.40</TD><TD style="text-align:right;">1.16%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="6.3" x2="1" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="2" x2="2" y2="12" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="12" x2="3" y2="7.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="7.6" x2="4" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="22" x2="5" y2="14.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-90.00</font></TD><TD style="text-align:right;"><font style="color:red">-2.2%</font></TD></TR></TR><TR><TD>MSTX</TD><TD>Defiance Daily Target 2x Long MSTR ETF</TD><TD align="right">300</TD><TD align="right">2025-07-15</TD><TD align="right">47.34</TD><TD align="right">2025-07-17</TD><TD align="right">48.45</TD><TD style="text-align:right;">4.41%</TD><TD align="right">3</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="16.8" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="2" x2="3" y2="9.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">333.00</font></TD><TD style="text-align:right;"><font style="color:green">2.3%</font></TD></TR></TR><TR><TD>DUSL</TD><TD>Direxion Daily Industrials Bull 3X Shares</TD><TD align="right">200</TD><TD align="right">2025-07-15</TD><TD align="right">73.26</TD><TD align="right">2025-07-22</TD><TD align="right">72.42</TD><TD style="text-align:right;">1.51%</TD><TD align="right">6</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="8.6" x2="1" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="22" x2="2" y2="18.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="18.1" x2="3" y2="6.4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="6.4" x2="4" y2="9.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="9.8" x2="5" y2="17" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="17" x2="6" y2="13.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-168.00</font></TD><TD style="text-align:right;"><font style="color:red">-1.1%</font></TD></TR></TR><TR><TD>DFEN</TD><TD>Direxion Daily Aerospace & Defense Bull 3X Shares</TD><TD align="right">200</TD><TD align="right">2025-07-15</TD><TD align="right">56.21</TD><TD align="right">2025-07-22</TD><TD align="right">54.58</TD><TD style="text-align:right;">3.77%</TD><TD align="right">6</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="13.1" x2="1" y2="16.8" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="16.8" x2="2" y2="11" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="11" x2="3" y2="5.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="5.3" x2="4" y2="4.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="4.3" x2="5" y2="11.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="11.1" x2="6" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-326.00</font></TD><TD style="text-align:right;"><font style="color:red">-2.9%</font></TD></TR></TR><TR><TD>SMCX</TD><TD>Defiance Daily Target 2X Long SMCI ETF</TD><TD align="right">200</TD><TD align="right">2025-07-16</TD><TD align="right">56.38</TD><TD align="right">2025-07-22</TD><TD align="right">51.46</TD><TD style="text-align:right;">1.95%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="4.7" x2="1" y2="4" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="4" x2="2" y2="6.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="6.7" x2="3" y2="12" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="12" x2="4" y2="13.6" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="13.6" x2="5" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-984.00</font></TD><TD style="text-align:right;"><font style="color:red">-8.7%</font></TD></TR></TR><TR><TD>NVDL</TD><TD>GraniteShares 2x Long NVDA Daily ETF</TD><TD align="right">100</TD><TD align="right">2025-07-16</TD><TD align="right">81.92</TD><TD align="right">2025-07-22</TD><TD align="right">79.95</TD><TD style="text-align:right;">3.01%</TD><TD align="right">5</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="9.6" x2="1" y2="8.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="8.7" x2="2" y2="3.6" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="3.6" x2="3" y2="6.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="6.1" x2="4" y2="8.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="8.9" x2="5" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-197.00</font></TD><TD style="text-align:right;"><font style="color:red">-2.4%</font></TD></TR></TR><TR><TD>BDCX</TD><TD>ETRACS Quarterly Pay 1.5x Leveraged MarketVector BDC Liquid Index ETN</TD><TD align="right">500</TD><TD align="right">2025-07-15</TD><TD align="right">29.59</TD><TD align="right">2025-07-28</TD><TD align="right">29.30</TD><TD style="text-align:right;">1.99%</TD><TD align="right">10</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="13" x2="1" y2="17.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="17.3" x2="2" y2="9.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="9.5" x2="3" y2="2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="2" x2="4" y2="6.9" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="6.9" x2="5" y2="17.7" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="17.7" x2="6" y2="12.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="12.1" x2="7" y2="7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="7" x2="8" y2="10" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="10" x2="9" y2="9.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="9" y1="9.1" x2="10" y2="22" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-145.00</font></TD><TD style="text-align:right;"><font style="color:red">-1%</font></TD></TR></TR><TR><TD>GGLL</TD><TD>Direxion Daily GOOGL Bull 2X Shares</TD><TD align="right">300</TD><TD align="right">2025-07-16</TD><TD align="right">37.27</TD><TD align="right">2025-07-28</TD><TD align="right">41.25</TD><TD style="text-align:right;">15.02%</TD><TD align="right">9</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="21" x2="1" y2="21.2" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="21.2" x2="2" y2="20.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="20.3" x2="3" y2="18.5" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="18.5" x2="4" y2="11.3" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="11.3" x2="5" y2="9.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="9.7" x2="6" y2="11.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="11.1" x2="7" y2="8.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="7" y1="8.7" x2="8" y2="7.2" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="8" y1="7.2" x2="9" y2="8.3" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:green">1,194.00</font></TD><TD style="text-align:right;"><font style="color:green">10.7%</font></TD></TR></TR><TR><TD>EVAV</TD><TD>Direxion Daily Electric and Autonomous Vehicles Bull 2X Shares</TD><TD align="right">400</TD><TD align="right">2025-07-18</TD><TD align="right">27.50</TD><TD align="right">2025-07-28</TD><TD align="right">26.87</TD><TD style="text-align:right;">5.41%</TD><TD align="right">7</TD><TD style="text-align:right;">
+<svg width="25" height="25">
+<line x1="0" y1="11.6" x2="1" y2="10.7" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="1" y1="10.7" x2="2" y2="20.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="2" y1="20.1" x2="3" y2="6.1" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="3" y1="6.1" x2="4" y2="4.8" stroke="green" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="4" y1="4.8" x2="5" y2="13" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="5" y1="13" x2="6" y2="13.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+<line x1="6" y1="13.1" x2="7" y2="18.1" stroke="red" stroke-width=0.6 transform="scale(2 0.8)" />
+ Sorry, your browser does not support inline SVG.</svg>
+</TD><TD style="text-align:right;"><font style="color:red">-252.00</font></TD><TD style="text-align:right;"><font style="color:red">-2.3%</font></TD></TR></TR></Table><p><p><Table width="40%"><thead><TR><TH colspan="2" style="text-align:left;">Month-To-Date Summary:</TH></TR></thead><TR><TD>MTD Win Trades %:</TD><TD align="right">61.2%</TD></TR><TR><TD>MTD Avg # Entry Trades per Day:</TD><TD align="right">0.9</TD></TR><TR><TD>MTD Win/Loss Size Ratio:</TD><TD align="right">0.94</TD></TR><TR><TD>MTD Avg Trade Duration:</TD><TD align="right">7.6</TD></TR><TR><TD>MTD Strategy Performance:</TD><TD align="right">-100.0%</TD></TR><TR><TD>MTD Baseline Performance:</TD><TD align="right">-100.0%</TD></TR><TR><TD>MTD Strategy/Baseline Performance Ratio:</TD><TD align="right">1.00 : 1</TD></TR><TR><TD>Sold Today:</TD><TD align="right"></TD></TR><TR><TD>Pending Buys:</TD><TD align="right">AVGX, GGLL, ROM</TD></TR></Table>
+    </div>
+  </div>
+  <div class="container sold_container">
+
+
+
+
+<!-- OLD
+
+
+    <h2 class="report_sub_head inner_head"><!SoldTodayHeader></h2>
+    <div class="sold_table">
+      <p><!SoldTodayList><p>
+    </div>
+    <h2 class="report_sub_head inner_head"><!PendingBuysHeader></h2>
+
+    <div class="buys_table">
+      <p><!PendingBuysList><p>
+    </div>
+
+ OLD -->
+
+
+
+
+    <h2 class="report_sub_head inner_head">Notes:</h2>
+    <ul>
+      <li>The strategy attempts to emulate an active and expert trader who enters the markets promptly when the signals are issued.</li>
+      <li>No leverage, equally weighted allocations.</li>
+      <li>Improved performance may be achieved if a trader applies additional research to select their preferred signals or implements position sizing.</li> 
+      <li>The strategy exits on target achieved or dynamic proprietary trailing stop penetrated.  These trailing stops, combined with minimum rank entry rules lead to the imposition of 'go-to-cash' and 'stay-in-cash' rules if there is a broad market bearish turn. Open Position Trailing stop levels are quoted with a percentage that indicates the offset from the most recent close price. Green indicates the trailing stop is "above water".</li>
+      <li>Dynamic proprietary trailing stops are defined by prior semi-ATR, with tightening as the position ages. A protective hard stop may trigger in deep price descents.</li>
+      <li>Exit Price reflects a price that an active and experienced trader would achieve when following stops that are updated prior to every session.</li>
+      <li>Max Move is defined as the highest high achieved during the holding period.</li>
+      <li>Annualized returns reflect compounded daily excess returns above risk-free rate, assuming 240 trading days per year.</li>
+      
+    </ul>
+    <div class="notes_table">
+      <p>The performance data quoted represents past performance. Past performance does not guarantee future results. The investment return and principal value of an investment will fluctuate so that an investor's position, when redeemed, may be worth more or less than the original cost. Current performance may be lower or higher than the performance data quoted. Investors should consider the investment objectives, risks, and charges and expenses of the above system carefully before investing.<p>
+    </div>
+    <p class="session">Last Session Date: 2025/07/29</p>
+  </div>
+﻿  <div class="footer_container">
+	<div class="container">
+	  <p>Copyright © i4cfinancial 2025. All rights reserved.</p>
+	</div>
+  </div>
+
+</body>
+</html>

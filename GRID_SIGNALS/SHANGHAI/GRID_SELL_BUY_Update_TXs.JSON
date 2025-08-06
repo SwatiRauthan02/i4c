@@ -1,0 +1,70 @@
+﻿{
+ "countrycode":"SHANGHAI",
+ "date":"2025-07-30",
+ "export_time":"03:18:27",
+ "sell_count":2,
+ "buy_count":4,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"600392",
+   "name":"Shenghe Resources Holding Co Ltd",
+   "numshares":1600,
+   "weightednumshares":1600,
+   "NOVInumshares":1600,
+   "tsid":"",
+   "recordnumber":6950
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"600326",
+   "name":"Tibet Tianlu Co Ltd",
+   "numshares":3000,
+   "weightednumshares":3000,
+   "NOVInumshares":3000,
+   "tsid":"",
+   "recordnumber":8061
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"600326",
+   "name":"Tibet Tianlu Co Ltd",
+   "numshares":2100,
+   "weightednumshares":2100,
+   "NOVInumshares":2100,
+   "tsid":"",
+   "recordnumber":8110
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"603669",
+   "name":"Lionco Pharmaceutical Group Co., Ltd",
+   "numshares":5400,
+   "weightednumshares":5400,
+   "NOVInumshares":5400,
+   "tsid":"",
+   "recordnumber":8111
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"600117",
+   "name":"Xining Special Steel Co Ltd",
+   "numshares":9000,
+   "weightednumshares":9000,
+   "NOVInumshares":9000,
+   "tsid":"",
+   "recordnumber":8112
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"600873",
+   "name":"MeiHua Holdings Group Co Ltd",
+   "numshares":3200,
+   "weightednumshares":3200,
+   "NOVInumshares":3200,
+   "tsid":"",
+   "recordnumber":8113
+  }
+ ]
+}

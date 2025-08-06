@@ -1,0 +1,1 @@
+[Stock_List]SymbolExchange	sortino_ratio_raw	sortino_ratio_normalised	ta_score	risk_score	combo_score	CQR	Beta600525.SS	-1.759	44.591	26.57	37.79	30.01	0	1.25603997.SS	-2.299	38.337	31.92	29.37	32.06	0	1.33600887.SS	-2.082	40.853	28.75	48.22	33.71	5	0.44

@@ -1,0 +1,26 @@
+﻿{
+ "countrycode":"SET",
+ "date":"2025-07-30",
+ "export_time":"05:30:18",
+ "buy_count":3,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"IRPC",
+   "name":"IRPC PCL",
+   "recordnumber":2377268
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"BPP",
+   "name":"Banpu Power PCL",
+   "recordnumber":2377549
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"SCGP",
+   "name":"SCG PACKAGING PCL",
+   "recordnumber":2377717
+  }
+ ]
+}

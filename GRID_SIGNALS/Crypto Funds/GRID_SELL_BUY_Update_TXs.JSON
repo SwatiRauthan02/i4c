@@ -1,0 +1,50 @@
+﻿{
+ "countrycode":"Crypto Funds",
+ "date":"2025-07-29",
+ "export_time":"14:16:29",
+ "sell_count":4,
+ "buy_count":0,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"XYZ",
+   "name":"Block, Inc.",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":6965
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IREN",
+   "name":"IREN LIMITED",
+   "numshares":800,
+   "weightednumshares":800,
+   "NOVInumshares":700,
+   "tsid":"",
+   "recordnumber":6967
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"IBIT",
+   "name":"iShares Bitcoin Trust ETF",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":7419
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"BITQ",
+   "name":"Bitwise Crypto Industry Innovat",
+   "numshares":600,
+   "weightednumshares":600,
+   "NOVInumshares":600,
+   "tsid":"",
+   "recordnumber":7423
+  }
+ ]
+}

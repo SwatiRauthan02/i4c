@@ -1,0 +1,221 @@
+{"ideas":[{"idea":{
+	"Symbol": "601727.SS",
+	"Name": "Shanghai Electric Group Company Limited",
+	"Sortino": 99.8,
+	"Beta": 42.25,
+	"BullishVolume": 71.612,
+	"PriceUp": 44.54343,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 79.29257,
+	"AggregateScore": 76.785
+}},{"idea":{
+	"Symbol": "688002.SS",
+	"Name": "RAYTRON TECHNOLOGY CO LTD",
+	"Sortino": 81.4612,
+	"Beta": 85.5,
+	"BullishVolume": 60.323,
+	"PriceUp": 48.55234,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 61.35079,
+	"AggregateScore": 76.741
+}},{"idea":{
+	"Symbol": "600705.SS",
+	"Name": "AVIC Capital Co.,Ltd",
+	"Sortino": 82.666,
+	"Beta": 80.9,
+	"BullishVolume": 59.993,
+	"PriceUp": 40.97996,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 72.095,
+	"AggregateScore": 76.662
+}},{"idea":{
+	"Symbol": "600864.SS",
+	"Name": "Harbin Hatou Investment Co.,Ltd",
+	"Sortino": 84.5487,
+	"Beta": 75.6,
+	"BullishVolume": 65.098,
+	"PriceUp": 46.32517,
+	"TDI": 100,
+	"TII": 99.89022,
+	"MFI": 64.91626,
+	"AggregateScore": 76.625
+}},{"idea":{
+	"Symbol": "600621.SS",
+	"Name": "Shanghai Chinafortune Co., Ltd",
+	"Sortino": 84.881,
+	"Beta": 77.15,
+	"BullishVolume": 64.846,
+	"PriceUp": 47.43875,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 59.98222,
+	"AggregateScore": 76.328
+}},{"idea":{
+	"Symbol": "603662.SS",
+	"Name": "Keli Sensing Technology (Ningbo) Co.,Ltd",
+	"Sortino": 99.8,
+	"Beta": 50.8,
+	"BullishVolume": 66.772,
+	"PriceUp": 48.77506,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 66.39026,
+	"AggregateScore": 76.077
+}},{"idea":{
+	"Symbol": "688111.SS",
+	"Name": "BEIJING KINGSOFT OFFICE SOFTWAR",
+	"Sortino": 74.4012,
+	"Beta": 100,
+	"BullishVolume": 54.599,
+	"PriceUp": 46.10245,
+	"TDI": 100,
+	"TII": 99.13411,
+	"MFI": 52.50102,
+	"AggregateScore": 75.248
+}},{"idea":{
+	"Symbol": "603920.SS",
+	"Name": "Olympic Circuit Technology Co., Ltd",
+	"Sortino": 93.9871,
+	"Beta": 47.4,
+	"BullishVolume": 65.634,
+	"PriceUp": 50.22422,
+	"TDI": 100,
+	"TII": 99.39047,
+	"MFI": 65.13959,
+	"AggregateScore": 74.539
+}},{"idea":{
+	"Symbol": "600835.SS",
+	"Name": "Shanghai Mechanical & Electrical Industry Co., Ltd",
+	"Sortino": 91.2984,
+	"Beta": 60.75,
+	"BullishVolume": 64.014,
+	"PriceUp": 47.88419,
+	"TDI": 100,
+	"TII": 99.62187,
+	"MFI": 56.86787,
+	"AggregateScore": 74.348
+}},{"idea":{
+	"Symbol": "688036.SS",
+	"Name": "SHENZHEN TRANSSION HOLDINGS CO",
+	"Sortino": 76.5246,
+	"Beta": 86.35,
+	"BullishVolume": 53.553,
+	"PriceUp": 44.76615,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 57.39733,
+	"AggregateScore": 74.084
+}},{"idea":{
+	"Symbol": "601601.SS",
+	"Name": "China Pacific Insurance (Group) Co., Ltd",
+	"Sortino": 88.1462,
+	"Beta": 68.45,
+	"BullishVolume": 57.756,
+	"PriceUp": 45.87973,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 58.11531,
+	"AggregateScore": 74.05
+}},{"idea":{
+	"Symbol": "601377.SS",
+	"Name": "China Industrial Securities Co.,Ltd",
+	"Sortino": 78.6154,
+	"Beta": 72.75,
+	"BullishVolume": 55.638,
+	"PriceUp": 43.87528,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 65.05212,
+	"AggregateScore": 73.704
+}},{"idea":{
+	"Symbol": "600458.SS",
+	"Name": "Zhuzhou Times New Material Technology Co., Ltd",
+	"Sortino": 86.2323,
+	"Beta": 54.7,
+	"BullishVolume": 62.635,
+	"PriceUp": 46.7706,
+	"TDI": 100,
+	"TII": 97.90109,
+	"MFI": 66.46072,
+	"AggregateScore": 73.529
+}},{"idea":{
+	"Symbol": "600999.SS",
+	"Name": "China Merchants Securities Co., Ltd",
+	"Sortino": 98.4074,
+	"Beta": 47.45,
+	"BullishVolume": 59.632,
+	"PriceUp": 46.10245,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 62.62472,
+	"AggregateScore": 73.46
+}},{"idea":{
+	"Symbol": "600760.SS",
+	"Name": "AVIC SHENYANG AIRCRAFT CO LTD",
+	"Sortino": 88.0427,
+	"Beta": 59.5,
+	"BullishVolume": 65.145,
+	"PriceUp": 47.66147,
+	"TDI": 100,
+	"TII": 96.12928,
+	"MFI": 57.2385,
+	"AggregateScore": 73.388
+}},{"idea":{
+	"Symbol": "603607.SS",
+	"Name": "Zhejiang Jinghua Laser Technology Co.,Ltd",
+	"Sortino": 78.4929,
+	"Beta": 60.9,
+	"BullishVolume": 65.236,
+	"PriceUp": 48.77506,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 59.51058,
+	"AggregateScore": 73.274
+}},{"idea":{
+	"Symbol": "603319.SS",
+	"Name": "Hunan Oil Pump Co., Ltd",
+	"Sortino": 85.1826,
+	"Beta": 48.9,
+	"BullishVolume": 62.341,
+	"PriceUp": 47.21604,
+	"TDI": 100,
+	"TII": 99.7384,
+	"MFI": 67.50836,
+	"AggregateScore": 72.984
+}},{"idea":{
+	"Symbol": "600531.SS",
+	"Name": "Henan Yuguang Gold&Lead Co., Ltd",
+	"Sortino": 79.4477,
+	"Beta": 64.1,
+	"BullishVolume": 57.199,
+	"PriceUp": 49.22049,
+	"TDI": 100,
+	"TII": 99.78407,
+	"MFI": 60.85963,
+	"AggregateScore": 72.944
+}},{"idea":{
+	"Symbol": "600850.SS",
+	"Name": "Shanghai East-China Computer Co.,Ltd",
+	"Sortino": 76.7155,
+	"Beta": 61.75,
+	"BullishVolume": 55.659,
+	"PriceUp": 49.22049,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 67.09189,
+	"AggregateScore": 72.92
+}},{"idea":{
+	"Symbol": "600415.SS",
+	"Name": "Zhejiang China Commodities City Group Co., Ltd",
+	"Sortino": 99.8,
+	"Beta": 32.1,
+	"BullishVolume": 63.298,
+	"PriceUp": 48.1069,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 66.87666,
+	"AggregateScore": 72.883
+}}]}

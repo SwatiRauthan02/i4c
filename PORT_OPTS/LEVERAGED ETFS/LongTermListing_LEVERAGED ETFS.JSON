@@ -1,0 +1,221 @@
+{"ideas":[{"idea":{
+	"Symbol": "ESUS",
+	"Name": "ETRACS 2x Leveraged MSCI US ESG Focus TR ETN",
+	"Sortino": 99.6602,
+	"Beta": 100,
+	"BullishVolume": 97.451,
+	"PriceUp": 54,
+	"TDI": 92.091125,
+	"TII": 100,
+	"MFI": 82.38902,
+	"AggregateScore": 88.24
+}},{"idea":{
+	"Symbol": "SPUU",
+	"Name": "Direxion Daily S&P 500 Bull 2x Shares",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 62.051,
+	"PriceUp": 55.33333,
+	"TDI": 97.91523,
+	"TII": 100,
+	"MFI": 63.93938,
+	"AggregateScore": 82.422
+}},{"idea":{
+	"Symbol": "SKYU",
+	"Name": "ProShares Ultra Nasdaq Cloud Computing ETF",
+	"Sortino": 96.4195,
+	"Beta": 100,
+	"BullishVolume": 52.99,
+	"PriceUp": 56.12472,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 65.96932,
+	"AggregateScore": 81.643
+}},{"idea":{
+	"Symbol": "LTL",
+	"Name": "ProShares Ultra Communication Services",
+	"Sortino": 99.8,
+	"Beta": 83.1,
+	"BullishVolume": 52.032,
+	"PriceUp": 56.36364,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 70.03835,
+	"AggregateScore": 80.191
+}},{"idea":{
+	"Symbol": "MTUL",
+	"Name": "ETRACS 2x Leveraged MSCI US Momentum Factor TR ETN",
+	"Sortino": 93.0828,
+	"Beta": 98.75,
+	"BullishVolume": 63.032,
+	"PriceUp": 52.94118,
+	"TDI": 88.266025,
+	"TII": 100,
+	"MFI": 74.9613,
+	"AggregateScore": 79.9
+}},{"idea":{
+	"Symbol": "WEBL",
+	"Name": "Direxion Daily Dow Jones Internet Bull 3X Shares",
+	"Sortino": 92.8787,
+	"Beta": 100,
+	"BullishVolume": 55.141,
+	"PriceUp": 55.55556,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 55.04071,
+	"AggregateScore": 79.802
+}},{"idea":{
+	"Symbol": "NVDU",
+	"Name": "Direxion Daily NVDA Bull 2X Shares",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 47.008,
+	"PriceUp": 57.87671,
+	"TDI": 100,
+	"TII": 98.02928,
+	"MFI": 55.73137,
+	"AggregateScore": 79.778
+}},{"idea":{
+	"Symbol": "SSO",
+	"Name": "ProShares Ultra S&P 500",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 51.793,
+	"PriceUp": 56.44444,
+	"TDI": 96.885615,
+	"TII": 100,
+	"MFI": 56.53128,
+	"AggregateScore": 79.763
+}},{"idea":{
+	"Symbol": "CLDL",
+	"Name": "Direxion Daily Cloud Computing Bull 2X Shares",
+	"Sortino": 87.1971,
+	"Beta": 100,
+	"BullishVolume": 48.631,
+	"PriceUp": 55.55556,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 65.56199,
+	"AggregateScore": 79.564
+}},{"idea":{
+	"Symbol": "SPXL",
+	"Name": "Direxion Daily S&P 500 Bull 3X Shares",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 51.638,
+	"PriceUp": 56.22222,
+	"TDI": 94.557715,
+	"TII": 100,
+	"MFI": 58.93639,
+	"AggregateScore": 79.387
+}},{"idea":{
+	"Symbol": "NVDL",
+	"Name": "GraniteShares 2x Long NVDA Daily ETF",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 47.405,
+	"PriceUp": 55.55556,
+	"TDI": 100,
+	"TII": 97.9159,
+	"MFI": 54.35586,
+	"AggregateScore": 79.29
+}},{"idea":{
+	"Symbol": "OOTO",
+	"Name": "Direxion Daily Travel & Vacation Bull 2X Shares",
+	"Sortino": 79.4478,
+	"Beta": 100,
+	"BullishVolume": 55.506,
+	"PriceUp": 52.66667,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 66.7917,
+	"AggregateScore": 79.202
+}},{"idea":{
+	"Symbol": "UPRO",
+	"Name": "ProShares UltraPro S&P500",
+	"Sortino": 99.581,
+	"Beta": 100,
+	"BullishVolume": 50.627,
+	"PriceUp": 55.55556,
+	"TDI": 93.995945,
+	"TII": 100,
+	"MFI": 58.29394,
+	"AggregateScore": 78.864
+}},{"idea":{
+	"Symbol": "DUSL",
+	"Name": "Direxion Daily Industrials Bull 3X Shares",
+	"Sortino": 94.2974,
+	"Beta": 100,
+	"BullishVolume": 54.543,
+	"PriceUp": 54,
+	"TDI": 93.11356,
+	"TII": 100,
+	"MFI": 62.4714,
+	"AggregateScore": 78.791
+}},{"idea":{
+	"Symbol": "TPOR",
+	"Name": "Direxion Daily Transportation Bull 3X Shares",
+	"Sortino": 81.7401,
+	"Beta": 100,
+	"BullishVolume": 60.003,
+	"PriceUp": 51.77778,
+	"TDI": 97.871545,
+	"TII": 100,
+	"MFI": 57.11296,
+	"AggregateScore": 78.054
+}},{"idea":{
+	"Symbol": "FBL",
+	"Name": "GraniteShares 2x Long META Daily ETF",
+	"Sortino": 97.7491,
+	"Beta": 100,
+	"BullishVolume": 48.072,
+	"PriceUp": 53.45212,
+	"TDI": 90.44799,
+	"TII": 100,
+	"MFI": 58.62817,
+	"AggregateScore": 76.971
+}},{"idea":{
+	"Symbol": "USD",
+	"Name": "ProShares Ultra Semiconductors",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 44.986,
+	"PriceUp": 54.88889,
+	"TDI": 93.53338,
+	"TII": 98.49123,
+	"MFI": 52.25888,
+	"AggregateScore": 76.785
+}},{"idea":{
+	"Symbol": "FLYU",
+	"Name": "MicroSectors Travel 3x Leveraged ETN",
+	"Sortino": 81.4481,
+	"Beta": 100,
+	"BullishVolume": 53.569,
+	"PriceUp": 50.66964,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 49.01064,
+	"AggregateScore": 76.385
+}},{"idea":{
+	"Symbol": "QLD",
+	"Name": "ProShares Ultra QQQ",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 52.063,
+	"PriceUp": 57.55556,
+	"TDI": 83.24158,
+	"TII": 100,
+	"MFI": 54.4071,
+	"AggregateScore": 75.758
+}},{"idea":{
+	"Symbol": "FNGO",
+	"Name": "MicroSectors FANG+ Index 2X Leveraged ETN",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 50.436,
+	"PriceUp": 55.55556,
+	"TDI": 83.280425,
+	"TII": 99.96027,
+	"MFI": 55.32807,
+	"AggregateScore": 75.377
+}}]}

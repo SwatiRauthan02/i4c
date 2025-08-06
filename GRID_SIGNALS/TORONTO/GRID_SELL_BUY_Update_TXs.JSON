@@ -1,0 +1,70 @@
+﻿{
+ "countrycode":"TORONTO",
+ "date":"2023-04-17",
+ "export_time":"14:01:51",
+ "sell_count":0,
+ "buy_count":6,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"LUN",
+   "name":"Lundin Mining Corporation",
+   "numshares":500,
+   "weightednumshares":500,
+   "NOVInumshares":500,
+   "tsid":"",
+   "recordnumber":2981
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"WELL",
+   "name":"WELL Health Technologies Corp.",
+   "numshares":1100,
+   "weightednumshares":1100,
+   "NOVInumshares":1100,
+   "tsid":"",
+   "recordnumber":2982
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"HCG",
+   "name":"Home Capital Group Inc",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":2983
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"CS",
+   "name":"Capstone Copper Corp.",
+   "numshares":800,
+   "weightednumshares":800,
+   "NOVInumshares":800,
+   "tsid":"",
+   "recordnumber":2984
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"KEY",
+   "name":"Keyera Corp.",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":2985
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"SHOP",
+   "name":"Shopify Inc.",
+   "numshares":100,
+   "weightednumshares":100,
+   "NOVInumshares":100,
+   "tsid":"",
+   "recordnumber":2986
+  }
+ ]
+}

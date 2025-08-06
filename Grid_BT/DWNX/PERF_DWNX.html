@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>I4CFinancial Performance Report</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/bootstrap.min.css">
+  <script type="text/javascript" src="../../Grid_HTML/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../../Grid_HTML/js/bootstrap.min.js"></script>
+
+  <!-- custom style sheet -->
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/style.css">
+
+  <!-- map loader -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    google.charts.load('current', {
+    packages: ['corechart', 'line']
+  });
+  google.charts.setOnLoadCallback(drawBackgroundColor);
+
+  function drawBackgroundColor() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'Closed');
+    data.addColumn('number', 'Total');
+    
+    
+
+    data.addRows([
+       
+    ]);
+
+    var options = {
+      title:'Historical Performance (Closed & Total Positions) - DWNX',
+      legend: {position: 'bottom'},
+      hAxis: {
+        title: 'From inception'
+      },
+      vAxis: {
+        title: 'Equity Curve'
+      },
+      backgroundColor: '#f1f8e9',
+      series: {
+            0: { color: '#99B731' },
+            1: { color: '#2471A3' },
+            
+            
+            }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+    }
+  </script>
+  <div class="container-fluid logo_container">
+    <div class="container text-right logo">
+      <a href="#"><img src="../../Grid_HTML/images/i4cfinancial_Logo.png"></a>
+    </div>
+  </div>
+  <div class="container header_container">
+    <h2 class="report_name">Performance Report - DWNX</h2>
+    <h4 class="report_description">System Type: EH Quantitative Directional Long </h4>
+    <h4 class="report_description">The strategy actively trades a universe of profitable, well-managed companies, taking positions in stocks based on a proprietary technical ranking derived from a multi-factor analysis of market action across multiple trading horizons. Strict risk management enforces a rapid 'go-to-cash' ruleset in bearish markets.</h4>
+    <h4 class="report_description">Forward test from inception  to 2020/02/17</h4>
+  </div>
+  <div class="container chart_container">
+    <div id="chart_div" class="chart"></div>
+  </div>
+  <div class="container overview_container">
+    <h2 class="report_sub_head">Overview</h2>
+    <div class="overview_tab">
+   <table class="overview_table">
+        <tr>
+          <td>Annualized Returns:</td>
+          <td>0.00%</td>
+          <td>Average Win Size:</td>
+          <td>0.00</td>
+        <tr>
+        </tr>
+          <td>Maximum Drawdown:</td>
+          <td>0%</td>
+          <td>Average Loss Size:</td>
+          <td>0.00</td>
+       <tr>
+        </tr>
+           <td>Return over Maximum Drawdown:</td>
+          <td>0.00</td>
+          <td>Win/Loss Size Ratio:</td>
+          <td></td>
+        <tr>
+        </tr>
+          <td>Sharpe Ratio (Annualized):</td>
+          <td>0.00</td>
+          <td>Number of Closed and Open Positions:</td>
+          <td>0</td>
+        <tr>
+        </tr>
+          <td>Sortino Ratio (Annualized):</td>
+          <td>0.00</td>
+          <td>Average Trade Size:</td>
+          <td>0.00</td>
+        <tr>
+        </tr>
+          <td>Number of Wins:</td>
+          <td>0</td>
+          <td>Average Closed Trade Duration:</td>
+          <td>0.0 days</td>
+        <tr>
+        </tr>
+          <td>Number of Losses:</td>
+          <td>0</td>
+          <td>Last Session Move:</td>
+          <td>0.00 (0.00%)</td>
+        <tr>
+        </tr>
+          <td>Win/Loss Count Ratio:</td>
+          <td>0.00  (0% winners)</td>
+          <td>Includes 0 open positions with cash holdings of 100,000.00</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="container monthly_container">
+    <h2 class="report_sub_head">Monthly Absolute Returns:</h2>
+    <div class="monthly_table">
+      
+    </div>
+  </div>
+  <div class="container position_container">
+    <h2 class="report_sub_head">Open Positions:</h2>
+    <div class="position_table">
+      <Table>
+<strong><TR><TD> Symbol </TD><TD> Name </TD><TD> Entry Date </TD><TD align='right'> Number of Shares</TD><TD align='right'> Entry Price </TD><TD align='right'> Present Price </TD><TD align='right'> Trailing Stop </TD><TD align='right'> Profit </TD><TD align='right'> Annualized </TD></TR></strong>
+<TR><TD> </TD><TD> </TD><TD> </TD><TD align='right' colspan='2'> Total Value of Open Positions:</TD><TD align='right'>0.00</TD><TD> </TD><TD align='right'>0.00</TD><TD align='right'>0.00%</TD></TR>
+</Table>
+
+    </div>
+  </div>
+  <div class="container sold_container">
+    <h2 class="report_sub_head inner_head">Sold Today:</h2>
+    <div class="sold_table">
+      <p><p>
+    </div>
+    <h2 class="report_sub_head inner_head">Pending Buys:</h2>
+
+    <div class="buys_table">
+      <p><p>
+    </div>
+
+    <h2 class="report_sub_head inner_head">Notes:</h2>
+    <ul>
+      <li>Annualized returns reflect compounded daily excess returns above risk-free rate, assuming 240 trading days per year.</li>
+      <li>No leverage, equally weighted allocations.</li>
+      <li>Exits on target achieved or dynamic proprietary trailing stop posted.  These trailing stops, combined with minimum rank entry rules lead to the imposition of 'go-to-cash' and 'stay-in-cash' rules if there is a broad market bearish turn.</li>
+      
+    </ul>
+    <div class="notes_table">
+      <p>The performance data quoted represents past performance. Past performance does not guarantee future results. The investment return and principal value of an investment will fluctuate so that an investor's position, when redeemed, may be worth more or less than the original cost. Current performance may be lower or higher than the performance data quoted. Investors should consider the investment objectives, risks, and charges and expenses of the above system carefully before investing.<p>
+    </div>
+    <p class="session">Last Session Date: 2020/02/17</p>
+  </div>
+</body>
+</html>

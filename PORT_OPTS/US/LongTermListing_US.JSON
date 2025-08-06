@@ -1,0 +1,221 @@
+{"ideas":[{"idea":{
+	"Symbol": "LBPH",
+	"Name": "Longboard Pharmaceuticals Inc",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 87.653,
+	"PriceUp": 50.22222,
+	"TDI": 100,
+	"TII": 98.36878,
+	"MFI": 81.13646,
+	"AggregateScore": 88.169
+}},{"idea":{
+	"Symbol": "MNPR",
+	"Name": "Monopar Therapeutics Inc",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 83.728,
+	"PriceUp": 43.77778,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 82.60708,
+	"AggregateScore": 87.13
+}},{"idea":{
+	"Symbol": "CAPR",
+	"Name": "Capricor Therapeutics Inc",
+	"Sortino": 98.4745,
+	"Beta": 93.6,
+	"BullishVolume": 81.762,
+	"PriceUp": 47.11111,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 76.11302,
+	"AggregateScore": 85.294
+}},{"idea":{
+	"Symbol": "WVE",
+	"Name": "Wave Life Sciences Ltd",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 73.415,
+	"PriceUp": 48.66667,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 74.79203,
+	"AggregateScore": 85.239
+}},{"idea":{
+	"Symbol": "HTCR",
+	"Name": "HeartCore Enterprises Inc",
+	"Sortino": 83.4791,
+	"Beta": 100,
+	"BullishVolume": 83.152,
+	"PriceUp": 46.22222,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 81.89233,
+	"AggregateScore": 84.964
+}},{"idea":{
+	"Symbol": "APP",
+	"Name": "Applovin Corp",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 60.407,
+	"PriceUp": 55.33333,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 78.49232,
+	"AggregateScore": 84.862
+}},{"idea":{
+	"Symbol": "NXL",
+	"Name": "Nexalin Technology Inc.",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 93.621,
+	"PriceUp": 42.76169,
+	"TDI": 91.65865,
+	"TII": 88.08938,
+	"MFI": 86.07015,
+	"AggregateScore": 84.809
+}},{"idea":{
+	"Symbol": "USLM",
+	"Name": "United States Lime & Minerals Inc",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 63.722,
+	"PriceUp": 55.33333,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 72.50095,
+	"AggregateScore": 84.479
+}},{"idea":{
+	"Symbol": "IONQ",
+	"Name": "IONQ Inc",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 65.382,
+	"PriceUp": 49.11111,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 74.13309,
+	"AggregateScore": 84.061
+}},{"idea":{
+	"Symbol": "AGX",
+	"Name": "Argan Inc",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 59.669,
+	"PriceUp": 55.55556,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 71.32514,
+	"AggregateScore": 83.764
+}},{"idea":{
+	"Symbol": "VERX",
+	"Name": "Vertex",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 62.698,
+	"PriceUp": 52.44444,
+	"TDI": 100,
+	"TII": 99.88054,
+	"MFI": 69.02567,
+	"AggregateScore": 83.407
+}},{"idea":{
+	"Symbol": "PRQR",
+	"Name": "ProQR Therapeutics BV",
+	"Sortino": 83.1821,
+	"Beta": 100,
+	"BullishVolume": 89.585,
+	"PriceUp": 42.44444,
+	"TDI": 93.13551,
+	"TII": 97.47494,
+	"MFI": 84.6314,
+	"AggregateScore": 83.37
+}},{"idea":{
+	"Symbol": "RDW",
+	"Name": "Redwire Corp",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 83.37,
+	"PriceUp": 49.55556,
+	"TDI": 97.823025,
+	"TII": 99.56985,
+	"MFI": 55.13937,
+	"AggregateScore": 83.297
+}},{"idea":{
+	"Symbol": "DUO",
+	"Name": "Fangdd Network Group Ltd",
+	"Sortino": 80.7624,
+	"Beta": 100,
+	"BullishVolume": 80.247,
+	"PriceUp": 37.33333,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 84.66003,
+	"AggregateScore": 83.286
+}},{"idea":{
+	"Symbol": "EWTX",
+	"Name": "Edgewise Therapeutics Inc",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 63.702,
+	"PriceUp": 50.44444,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 68.45329,
+	"AggregateScore": 83.2
+}},{"idea":{
+	"Symbol": "QH",
+	"Name": "QuhuoLtd",
+	"Sortino": 97.3054,
+	"Beta": 100,
+	"BullishVolume": 95.035,
+	"PriceUp": 42.22222,
+	"TDI": 85.772015,
+	"TII": 100,
+	"MFI": 74.29101,
+	"AggregateScore": 82.914
+}},{"idea":{
+	"Symbol": "LTBR",
+	"Name": "Lightbridge Corp",
+	"Sortino": 92.1489,
+	"Beta": 100,
+	"BullishVolume": 72.814,
+	"PriceUp": 45.33333,
+	"TDI": 100,
+	"TII": 99.68171,
+	"MFI": 69.00562,
+	"AggregateScore": 82.712
+}},{"idea":{
+	"Symbol": "UXIN",
+	"Name": "Uxin Ltd",
+	"Sortino": 55.6084,
+	"Beta": 100,
+	"BullishVolume": 97.407,
+	"PriceUp": 39.55556,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 86.04013,
+	"AggregateScore": 82.659
+}},{"idea":{
+	"Symbol": "PRIM",
+	"Name": "Primoris Services Corporation",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 55.598,
+	"PriceUp": 53.11111,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 68.25125,
+	"AggregateScore": 82.394
+}},{"idea":{
+	"Symbol": "PLTR",
+	"Name": "Palantir TechnologiesInc",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 63.234,
+	"PriceUp": 50.88889,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 62.77589,
+	"AggregateScore": 82.386
+}}]}

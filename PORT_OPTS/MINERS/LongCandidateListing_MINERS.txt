@@ -1,0 +1,1 @@
+[Stock_List]SymbolExchange	sortino_ratio_raw	sortino_ratio_normalised	ta_score	risk_score	combo_score	CQR	BetaGRZ.V	8.483	99.8	71.68	69.54	60.62	5	1.25

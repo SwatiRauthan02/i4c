@@ -1,0 +1,51 @@
+
+ body {margin:0px; padding:0px; background-color:#ffffff}
+  .policy{font-family:Tahoma; font-size:11px;  color:#7B7B79; text-decoration:none }
+  .main{font-family:Tahoma; font-size:11px;  color:#717171; line-height:13px }
+  .gray{font-family:Tahoma; font-size:11px;  color:#868686; }
+  .green{font-family:Tahoma; font-size:11px;  color:#98B530; }
+
+
+
+
+
+
+  .input{
+  		width:121px; height:19px;
+		border-width:1px;
+		border-style:solid;
+		background-color:#FFFFFF;
+		border-color:#9B9B8F;font-family:Tahoma; font-size:11px;  color:#523008; 
+		}
+		  .input2{
+  		width:136px; height:19px;
+		border-width:1px;
+		border-style:solid;
+		background-color:#FFFFFF;
+		border-color:#9B9B8F;font-family:Tahoma; font-size:11px;  color:#ADABAB; 
+		}
+
+		 
+		
+	  .textarea{
+		width:259px; height:127px;
+		border-width:1px;
+		border-style:solid;
+		background-color:#E8D9AF;
+		border-color:#BB9A76;font-family:Tahoma; font-size:10px;  color:#523008; 
+		overflow:auto;
+		}
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+

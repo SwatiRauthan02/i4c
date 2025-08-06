@@ -1,0 +1,18 @@
+
+h1 { 
+font-size: large; 
+font: verdana;
+color: red; 
+padding: 12px; 
+text-decoration: underline; 
+}
+
+
+#box-one {
+background-color: gray;
+}
+
+#box-two {
+background-color: yellow;
+padding: 10px;
+}

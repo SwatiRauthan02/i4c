@@ -1,0 +1,26 @@
+﻿{
+ "date":"2020-11-22",
+ "Day_Investment":0,
+ "buys":[
+  {
+   "symbol":"AAOI",
+   "numbershares":0,
+   "GRID_Combo_Score":61.869,
+   "GRID_TA_Score":47.779,
+   "GRID_ShortTerm_Score":0,
+   "GRID_UltraShortTerm_Score":0,
+   "Total_Investment":0,
+   "C2SignalID":""
+  },
+  {
+   "symbol":"A",
+   "numbershares":0,
+   "GRID_Combo_Score":62.533,
+   "GRID_TA_Score":44.664,
+   "GRID_ShortTerm_Score":0,
+   "GRID_UltraShortTerm_Score":0,
+   "Total_Investment":0,
+   "C2SignalID":""
+  }
+ ]
+}

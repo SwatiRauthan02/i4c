@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ticker>
+<header><api version='1'></api></header>
+<CountryCode>ISHARES</CountryCode>
+<list count='10' type='element'>
+<element>
+<symbol>EIDO</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 8%, 80%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 74%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(120, 62%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 94%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(120, 34%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(120, 14%, 80%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 76%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 8%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(0, 22%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 48%, 50%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 6%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 66%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 42%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>Price action strength has been developing over the past 10 to 15 sessions.  Average session trading value has been increasing.  Prices have been successively closing up, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,20.4 2,18.4 3,15.1 4,16 5,16.8 6,17.2 7,19 8,19.7 9,19 10,20 11,21.4 12,22 13,19 14,19.4 15,20 16,18.2 17,18 18,18.6 19,19.7 20,20 21,18.2 22,17.9 23,20.8 24,19.4 25,17 26,17.5 27,16.2 28,15.7 29,16.2 30,14.6 31,19.5 32,19.1 33,17.9 34,16 35,18 36,18.7 37,20.8 38,19.1 39,18.2 40,18.3 41,18.3 42,18.6 43,18.6 44,18.4 45,14.5 46,14.1 47,12.5 48,13.3 49,13.8 50,13.9 51,9.7 52,9.7 53,13 54,12 55,12.1 56,11.1 57,12 58,7.8 59,9.4 60,9 61,11.5 62,12.4 63,11.4 64,13.8 65,12.4 66,6.4 67,8.5 68,9.2 69,6.8 70,6.5 71,2 72,7.4 73,8.5 74,8.5 75,7.6 76,8.2 77,4.8 78,5.8 79,4.8 80,5.2 81,5.7 82,6.1 83,5.7 84,3.9 85,5.4 86,8.4 87,7.3 88,5.8 89,8.5 90,7.7 91,5.1 92,8.8 93,6.2 94,8.1 95,5.1 96,3.9 97,7 98,3.6 99,3.3 100,2.4 101,2 102,2.5 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='45' cy='14.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='46' cy='14.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='51' cy='9.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='58' cy='7.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='71' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 68%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 14%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 42%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 44%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>KSA</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 56%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 36%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(120, 56%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(0, 8%, 80%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(120, 44%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 66%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 30%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 8%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 16%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 8%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 22%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(120, 36%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 26%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 44%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 32%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bearishness.  Price action strength has been developing over the past 10 to 15 sessions.  Longer term technical characteristics indicate bullishness.  The last 10 sessions are showing increasing amounts of bullish volume.  Average session trading value has been increasing.  Prices have been successively closing up, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,21.4 2,20.2 3,20.1 4,21 5,22 6,21.9 7,21.8 8,21.6 9,20.5 10,19.4 11,19.7 12,20.1 13,19.5 14,19.3 15,19.1 16,19.1 17,18.9 18,19.3 19,19.1 20,19.5 21,18.7 22,18.7 23,18.2 24,18 25,17.8 26,16.6 27,15 28,14 29,13.7 30,13.7 31,13.2 32,12.5 33,12.2 34,13 35,14.6 36,13.1 37,13.2 38,13 39,12.9 40,11.5 41,12.1 42,12.8 43,13 44,12.9 45,12.2 46,12.7 47,12.6 48,12.5 49,12.6 50,13 51,11.6 52,10.6 53,11.1 54,11.3 55,11.1 56,11.1 57,11.9 58,11.4 59,9.7 60,9.4 61,9.3 62,9.2 63,9.4 64,8.9 65,8 66,8.9 67,9.2 68,9.6 69,10.6 70,10.5 71,8.4 72,8.7 73,8.6 74,8.3 75,8 76,8.1 77,7.5 78,7.7 79,7.7 80,6.4 81,7.8 82,8.2 83,7.5 84,7 85,7.4 86,6.6 87,6 88,5.7 89,3.8 90,3.5 91,3.6 92,3.6 93,2 94,3.4 95,2.8 96,4.3 97,4.7 98,4.3 99,5.3 100,3.2 101,2.1 102,2.6 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='28' cy='14' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='29' cy='13.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='52' cy='10.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='60' cy='9.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='69' cy='10.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='71' cy='8.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='89' cy='3.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 8%, 80%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 52%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 14%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 96%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>TFLO</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(120, 50%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(120, 2%, 80%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 76%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 40%, 50%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 38%, 50%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 34%, 50%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 4%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 52%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>Price action strength has been developing over the past 10 to 15 sessions.  Longer term directional characteristics indicate bullishness.  The last 10 sessions are showing increasing amounts of bullish volume.  Average session trading value has been increasing.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,21 2,21 3,22 4,22 5,22 6,22 7,22 8,22 9,22 10,22 11,21 12,22 13,21 14,21 15,21 16,21 17,21 18,21 19,21 20,21 21,22 22,22 23,19.9 24,22 25,21 26,19.9 27,19.9 28,19.9 29,19.9 30,19.9 31,19.9 32,18.9 33,21 34,19.9 35,19.9 36,18.9 37,18.9 38,17.9 39,17.9 40,17.9 41,17.9 42,16.8 43,17.9 44,16.8 45,16.8 46,16.8 47,17.9 48,17.9 49,15.8 50,16.8 51,16.8 52,14.8 53,14.8 54,14.8 55,14.8 56,14.8 57,14.8 58,16.8 59,14.8 60,16.1 61,16.1 62,16.1 63,14.1 64,16.1 65,15.1 66,14.1 67,15.1 68,15.1 69,15.1 70,15.1 71,15.1 72,15.1 73,15.1 74,15.1 75,15.1 76,14.1 77,14.1 78,14.1 79,15.1 80,15.1 81,15.1 82,13 83,13.3 84,13.3 85,12.3 86,10.2 87,10.2 88,10.2 89,8.2 90,8.2 91,8.2 92,7.2 93,7.2 94,7.2 95,6.1 96,7.2 97,5.1 98,4.1 99,4.1 100,4.1 101,4.1 102,2 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 82%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 24%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 48%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>TUR</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 94%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(120, 96%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 72%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 68%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(120, 52%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 62%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 4%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 2%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 50%, 50%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 74%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 22%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(120, 50%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 20%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>Price action weakness has been developing over the past 10 to 15 sessions.  Longer term directional characteristics indicate bullishness.  There is decreasing volume and price, with volatility diminishing.  The last 10 sessions are showing increasing amounts of bullish volume.  Average session trading value has been increasing.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,17.6 2,17.3 3,14.1 4,13.9 5,14.5 6,13.9 7,11.8 8,12 9,12.6 10,13.7 11,22 12,11.1 13,15.2 14,16.4 15,10.6 16,8.1 17,11.2 18,13.1 19,16.3 20,17.6 21,13.3 22,14.4 23,14.9 24,15 25,13.6 26,13.4 27,13 28,10.9 29,11.7 30,11.2 31,15.2 32,11.5 33,11.8 34,13.3 35,15.3 36,15.1 37,15.9 38,14.2 39,14.2 40,12 41,12.1 42,13.7 43,15.3 44,16.1 45,14.1 46,13.5 47,12.1 48,12.3 49,12.8 50,13.7 51,12.2 52,12.2 53,13.1 54,12.9 55,14.1 56,15 57,19.3 58,16.2 59,17.2 60,15.9 61,16.3 62,16.4 63,17.1 64,18 65,17.8 66,16.7 67,18.4 68,18.2 69,16.8 70,15.9 71,15.9 72,14.2 73,14.8 74,13.9 75,12.6 76,13.1 77,13.1 78,13.4 79,13.3 80,11 81,10.5 82,11.2 83,10.4 84,8.3 85,8.8 86,9 87,8.5 88,7.2 89,5.1 90,4.4 91,3.8 92,3.9 93,3.2 94,2.6 95,2 96,2.5 97,5 98,3.8 99,6.7 100,5 101,5.8 102,6.4 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='12' cy='11.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='18' cy='13.1' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='21' cy='13.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='28' cy='10.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='36' cy='15.1' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='70' cy='15.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='71' cy='15.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='80' cy='11' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='84' cy='8.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='89' cy='5.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='95' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 34%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 50%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 80%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>IYK</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 84%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 60%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(0, 38%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 66%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(0, 12%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 16%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 14%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(0, 14%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 14%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(0, 14%, 80%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 90%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(0, 34%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bearishness.  Longer term directional characteristics indicate bullishness.  The last 10 sessions are showing increasing amounts of bearish volume.  Average session trading value has been increasing.  Prices have been successively closing up, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,22 2,19.8 3,19.7 4,19.7 5,19.4 6,17.8 7,16.3 8,16.3 9,15.1 10,13.6 11,15.3 12,15.5 13,15.5 14,14.8 15,14.4 16,13.2 17,12.5 18,11.9 19,12.1 20,11.4 21,11.3 22,10.2 23,10 24,10.4 25,9.4 26,9.8 27,9.9 28,9.9 29,9.3 30,8.4 31,10.3 32,9.7 33,10.1 34,10.2 35,10.7 36,11.8 37,12.9 38,11.8 39,10.3 40,10.3 41,10.6 42,9.2 43,9.1 44,10.7 45,10.2 46,9.5 47,9.9 48,11.1 49,11.1 50,11.4 51,11.4 52,10.8 53,10.2 54,10.1 55,11 56,11.8 57,14.5 58,10.1 59,11.8 60,12.8 61,11.4 62,10.5 63,10.2 64,12.9 65,16.7 66,15.7 67,17.1 68,18.5 69,17.6 70,14.9 71,14.8 72,13.9 73,13.9 74,13.2 75,12.5 76,13.4 77,12.3 78,10.9 79,10.9 80,10.1 81,10.3 82,10.7 83,9 84,9.7 85,9.6 86,7.9 87,6.7 88,5.5 89,5.7 90,5.5 91,5 92,5.1 93,6 94,4.3 95,2.1 96,2 97,4.3 98,3.7 99,5.4 100,4.9 101,3.2 102,6.7 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='7' cy='16.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='68' cy='18.5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='88' cy='5.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='95' cy='2.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 80%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 36%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 20%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 40%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>GSG</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 96%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(120, 18%, 80%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(0, 62%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(0, 10%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 50%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 10%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 4%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 20%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(120, 18%, 80%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 2%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 90%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 22%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bearishness.  Price action strength has been developing over the past 10 to 15 sessions.  Prices have been successively closing up, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,22 2,21.2 3,20.8 4,20.5 5,21.1 6,20.7 7,20.9 8,21.1 9,20.9 10,20.7 11,21.1 12,21.5 13,20.6 14,20.1 15,19.8 16,19.3 17,19.4 18,19.2 19,19.4 20,19.7 21,19.5 22,19.1 23,19.1 24,18.7 25,18.6 26,18.8 27,17.9 28,17.5 29,17.9 30,17.2 31,16.8 32,16.6 33,16.7 34,16.7 35,16.9 36,16.5 37,16.2 38,16 39,15.8 40,15.6 41,15.3 42,15.2 43,15 44,14.5 45,14.6 46,15 47,14.6 48,14.8 49,14 50,13.7 51,14.4 52,14.6 53,14.3 54,14.2 55,13.5 56,13.3 57,12.7 58,13.4 59,12.2 60,9.6 61,7.4 62,7.3 63,5.2 64,3.9 65,2 66,7.6 67,8.6 68,7.8 69,9.6 70,10.9 71,11.2 72,8.8 73,8.4 74,6.1 75,6.4 76,4.8 77,5.4 78,5 79,7.8 80,7.7 81,6.9 82,8.5 83,8.6 84,7.5 85,8.2 86,8.9 87,9.1 88,8.5 89,9.3 90,7.5 91,6.2 92,5.6 93,4.8 94,6.5 95,6.3 96,6.2 97,7.1 98,7.6 99,6.9 100,6.6 101,6 102,6.4 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='14' cy='20.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='28' cy='17.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='31' cy='16.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='32' cy='16.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='50' cy='13.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='55' cy='13.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='57' cy='12.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='60' cy='9.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='61' cy='7.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='64' cy='3.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='67' cy='8.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='68' cy='7.8' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='77' cy='5.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='91' cy='6.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 52%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 22%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 54%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>FLOT</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 2%, 80%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(120, 22%, 80%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(0, 80%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 20%, 80%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(120, 74%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 82%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 98%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 6%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(0, 4%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 12%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(120, 42%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(120, 26%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(120, 40%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 52%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bullishness.  The last 10 sessions are showing increasing amounts of bullish volume.  Average session trading value has been increasing.  Prices have been successively closing up, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,7.6 2,7.1 3,8.1 4,7.6 5,8.7 6,8.7 7,9.7 8,9.2 9,8.7 10,8.8 11,8.3 12,8.8 13,8.3 14,8.3 15,7.8 16,7.2 17,6.1 18,5.6 19,5.1 20,3.5 21,4.5 22,6.1 23,3.5 24,6.1 25,5.6 26,5.6 27,5.6 28,4.5 29,5.6 30,5.1 31,4.5 32,4.5 33,6.1 34,4.5 35,5.1 36,5.1 37,5.1 38,4.5 39,5.1 40,5.1 41,3.6 42,3.6 43,3.1 44,3.1 45,2.5 46,3.6 47,3.1 48,4.2 49,2 50,3.1 51,4.2 52,4.2 53,4.2 54,2.5 55,3.6 56,4.7 57,6.3 58,7.4 59,5.8 60,4.3 61,4.8 62,5.3 63,8 64,9.1 65,16.6 66,13.9 67,13.4 68,21.5 69,22 70,22 71,19.8 72,14.5 73,13.9 74,17.2 75,14.5 76,15 77,14.5 78,14.5 79,14.5 80,13.4 81,12.3 82,12.9 83,9.5 84,10.6 85,11.7 86,11.1 87,10.6 88,11.1 89,12.2 90,12.8 91,10.6 92,11.1 93,10.6 94,10.6 95,9.5 96,10.1 97,12.8 98,9.5 99,16.5 100,15.4 101,13.8 102,12.2 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 50%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 56%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 26%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 14%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>COMT</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 98%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(120, 6%, 80%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(0, 86%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 4%, 80%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(0, 10%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 38%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(0, 8%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 22%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(120, 18%, 80%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 16%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 78%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 20%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bearishness.  Price action strength has been developing over the past 10 to 15 sessions.  Prices have been successively closing up, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,22 2,21.1 3,20.7 4,20.2 5,20.8 6,20.5 7,20.6 8,20.9 9,20.9 10,20.6 11,21 12,21.4 13,20.6 14,20.1 15,19.9 16,19.4 17,19.4 18,19.2 19,19.3 20,19.6 21,19.4 22,18.9 23,19 24,18.6 25,18.6 26,18.8 27,18 28,17.7 29,18 30,17.4 31,17 32,16.8 33,16.8 34,16.8 35,17 36,16.7 37,16.5 38,16.5 39,16.5 40,16.4 41,16.2 42,16.1 43,15.9 44,15.4 45,15.2 46,15.5 47,15.1 48,15.3 49,14.5 50,14.1 51,15 52,15.1 53,14.8 54,14.6 55,14 56,13.7 57,13.2 58,14 59,12.8 60,10.2 61,7.9 62,8.1 63,5.8 64,3.9 65,2 66,7.9 67,9.3 68,7.7 69,9.3 70,10.9 71,11.1 72,8.8 73,8.4 74,6.2 75,6.6 76,4.8 77,5.5 78,5.1 79,7.9 80,7.7 81,6.8 82,8.2 83,8.2 84,7.1 85,7.9 86,8.5 87,8.5 88,8 89,8.7 90,7.1 91,5.7 92,5.2 93,4.6 94,6.2 95,6 96,5.9 97,6.8 98,7.5 99,6.6 100,6.4 101,5.9 102,6.4 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='57' cy='13.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='63' cy='5.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='64' cy='3.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='65' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='67' cy='9.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='69' cy='9.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='70' cy='10.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='71' cy='11.1' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='75' cy='6.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='79' cy='7.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='97' cy='6.8' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 4%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 22%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 54%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>IGE</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(0, 0%, 80%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 36%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(120, 22%, 80%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 70%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(0, 54%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 54%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 32%, 50%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(0, 32%, 50%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 16%, 80%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(120, 34%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 6%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 86%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(0, 26%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bearishness.  Price action strength has been developing over the past 10 to 15 sessions.  Average session trading value has been increasing.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,21.3 2,20.5 3,19.4 4,19.4 5,20.1 6,19.8 7,20.8 8,21 9,21.2 10,20.6 11,21.4 12,22 13,20.8 14,20.5 15,20.3 16,19.3 17,19.3 18,19.5 19,19.7 20,19.5 21,18.7 22,17.5 23,17.8 24,17.1 25,16.5 26,16.6 27,15.2 28,14.7 29,15 30,14.3 31,14.4 32,14.2 33,15 34,16.3 35,16.2 36,14.9 37,15.1 38,14.8 39,14.9 40,14.4 41,12.9 42,12.7 43,13.4 44,12.9 45,12.4 46,13 47,12.4 48,12.8 49,11.4 50,12.3 51,12.6 52,12 53,12 54,12.4 55,13.2 56,12.8 57,13.1 58,11.5 59,10.6 60,10.1 61,8.9 62,8.8 63,7.2 64,6.9 65,6.5 66,7.6 67,6.1 68,6.7 69,8.3 70,9.5 71,9.4 72,7.5 73,7.6 74,5.7 75,6 76,5.2 77,4.9 78,3.5 79,4.9 80,4.9 81,4.3 82,5.1 83,4.3 84,4.3 85,5.3 86,5.3 87,4.7 88,3.3 89,4.8 90,4 91,3 92,2.9 93,2.1 94,2.5 95,2 96,4.3 97,6.2 98,7.9 99,8.3 100,7.5 101,5.8 102,7.2 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='7' cy='20.8' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='22' cy='17.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='23' cy='17.8' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='41' cy='12.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='49' cy='11.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='64' cy='6.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='69' cy='8.3' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='77' cy='4.9' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='91' cy='3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 2%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 4%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 56%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+<element>
+<symbol>FILL</symbol>
+<grid><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 38%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(0, 82%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(0, 24%, 80%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(0, 100%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(120, 36%, 50%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(0, 66%, 50%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(0, 28%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(120, 54%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(0, 14%, 80%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(0, 4%, 80%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 42%, 50%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(120, 44%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 12%, 80%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(0, 86%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(0, 26%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></grid>
+<comment>The last 2 sessions exhibit short-term trader bearishness.  Price action strength has been developing over the past 10 to 15 sessions.  Average session trading value has been increasing.  Prices have been successively closing down, especially in recent sessions.  </comment>
+<sparkline><svg width='100' height='25'>
+<polyline points="1,21.1 2,20.3 3,19.2 4,19 5,19.6 6,19.2 7,20.7 8,21 9,20.9 10,20.5 11,21.6 12,22 13,20.7 14,20.2 15,20.1 16,19.2 17,19.3 18,19.8 19,20.1 20,19.9 21,18.6 22,17.2 23,17.4 24,16.5 25,15.7 26,15.9 27,14.1 28,13.4 29,13.8 30,12.6 31,12.8 32,12.5 33,13.5 34,14.7 35,15.1 36,13.3 37,13.2 38,12.7 39,13.1 40,12.4 41,10.6 42,10.5 43,10.9 44,9.9 45,9.4 46,10.5 47,9.9 48,10.2 49,9.1 50,9.8 51,10.4 52,10 53,10.3 54,10.7 55,11.7 56,11.2 57,11.8 58,10.5 59,10.2 60,9.9 61,8.1 62,9.1 63,8.4 64,7.8 65,7 66,8.2 67,6.9 68,7.9 69,9.5 70,11.2 71,10.9 72,8.9 73,9.1 74,6.6 75,7 76,5.5 77,5.5 78,4.2 79,5.6 80,5.9 81,4.8 82,5.6 83,4.7 84,4.8 85,5.9 86,5.4 87,5.1 88,3.7 89,5.3 90,4.3 91,2.7 92,2.9 93,2.2 94,2.5 95,2 96,3.8 97,5.8 98,7.7 99,7.9 100,6.9 101,4.8 102,6.4 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='7' cy='20.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='21' cy='18.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='25' cy='15.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='27' cy='14.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='34' cy='14.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='41' cy='10.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='61' cy='8.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='65' cy='7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='71' cy='10.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='74' cy='6.6' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='88' cy='3.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='91' cy='2.7' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='93' cy='2.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='97' cy='5.8' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.
+</svg></sparkline>
+<tgrid><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 94%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 10%, 80%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 12%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 54%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></tgrid>
+</element>
+</list>
+</ticker>

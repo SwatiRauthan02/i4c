@@ -1,0 +1,20 @@
+﻿{
+ "countrycode":"AI",
+ "date":"2025-07-29",
+ "export_time":"14:12:07",
+ "sell_count":0,
+ "buy_count":1,
+ "weight":1,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"LIDR",
+   "name":"AEye, Inc.",
+   "numshares":2200,
+   "weightednumshares":2200,
+   "NOVInumshares":2200,
+   "tsid":"",
+   "recordnumber":6978
+  }
+ ]
+}

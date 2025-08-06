@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>I4CFinancial Performance Report</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Old CSS 
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/bootstrap.min.css">
+  <script type="text/javascript" src="../../Grid_HTML/js/jquery.min.js"></script>
+  <script type="text/javascript" src="../../Grid_HTML/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/style.css">
+ End of Old CSS -->
+
+
+<link rel="stylesheet" type="text/css" href="../../Grid_HTML/css/i4cfinancial.css">
+
+
+<!-- Latest compiled and minified CSS DG 20240823 from https://www.w3schools.com/bootstrap/bootstrap_get_started.asp -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- End of Latest compiled and minified CSS -->
+
+
+  <!-- GChart loader -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    google.charts.load('current', {
+    packages: ['corechart', 'line']
+  });
+  google.charts.setOnLoadCallback(drawBackgroundColor);
+
+  function drawBackgroundColor() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'Closed');
+    data.addColumn('number', 'Total');
+    data.addColumn('number', 'Baseline(^GSPC)');
+    
+
+    data.addRows([
+                    [ new Date(2024, 5, 11), 100000, 100201, 100000], 
+         [ new Date(2024, 5, 12), 100000, 103150, 100850], 
+         [ new Date(2024, 5, 13), 100000, 104258, 101087], 
+         [ new Date(2024, 5, 14), 100000, 104635, 101047], 
+         [ new Date(2024, 5, 17), 100006, 106371, 101821], 
+         [ new Date(2024, 5, 18), 99859, 106983, 102078], 
+         [ new Date(2024, 5, 19), 99859, 106983, 102078], 
+         [ new Date(2024, 5, 20), 99859, 105844, 101820], 
+         [ new Date(2024, 5, 21), 99784, 103044, 101661], 
+         [ new Date(2024, 5, 24), 100670, 100707, 101350], 
+         [ new Date(2024, 5, 25), 100743, 100746, 101748], 
+         [ new Date(2024, 5, 26), 100670, 100839, 101908], 
+         [ new Date(2024, 5, 27), 100670, 101124, 102001], 
+         [ new Date(2024, 5, 28), 100670, 101092, 101584], 
+         [ new Date(2024, 6, 1), 100670, 101299, 101856], 
+         [ new Date(2024, 6, 2), 103150, 103382, 102487], 
+         [ new Date(2024, 6, 3), 103647, 104046, 103008], 
+         [ new Date(2024, 6, 5), 103773, 104745, 103569], 
+         [ new Date(2024, 6, 8), 103819, 104852, 103675], 
+         [ new Date(2024, 6, 9), 104560, 105785, 103752], 
+         [ new Date(2024, 6, 10), 105788, 106803, 104811], 
+         [ new Date(2024, 6, 11), 105072, 105422, 103892], 
+         [ new Date(2024, 6, 12), 105568, 106375, 104465], 
+         [ new Date(2024, 6, 15), 105830, 106580, 104761], 
+         [ new Date(2024, 6, 16), 106839, 107320, 105430], 
+         [ new Date(2024, 6, 17), 106834, 107478, 103962], 
+         [ new Date(2024, 6, 18), 106391, 106516, 103149], 
+         [ new Date(2024, 6, 19), 106452, 106066, 102413], 
+         [ new Date(2024, 6, 22), 106497, 105811, 103518], 
+         [ new Date(2024, 6, 23), 105809, 105559, 103356], 
+         [ new Date(2024, 6, 24), 105014, 105177, 100964], 
+         [ new Date(2024, 6, 25), 105173, 105525, 100445], 
+         [ new Date(2024, 6, 26), 105495, 106126, 101559], 
+         [ new Date(2024, 6, 29), 105330, 105301, 101641], 
+         [ new Date(2024, 6, 30), 106661, 106841, 101137], 
+         [ new Date(2024, 6, 31), 106347, 106780, 102734], 
+         [ new Date(2024, 7, 1), 105718, 105659, 101328], 
+         [ new Date(2024, 7, 2), 105867, 105990, 99465], 
+         [ new Date(2024, 7, 5), 105867, 107953, 96484], 
+         [ new Date(2024, 7, 6), 105091, 105843, 97483], 
+         [ new Date(2024, 7, 7), 106460, 106932, 96729], 
+         [ new Date(2024, 7, 8), 106413, 106573, 98958], 
+         [ new Date(2024, 7, 9), 106413, 106819, 99420], 
+         [ new Date(2024, 7, 12), 106413, 106885, 99425], 
+         [ new Date(2024, 7, 13), 107002, 108173, 101100], 
+         [ new Date(2024, 7, 14), 107525, 108499, 101486], 
+         [ new Date(2024, 7, 15), 107518, 108740, 103124], 
+         [ new Date(2024, 7, 16), 108684, 109136, 103329], 
+         [ new Date(2024, 7, 19), 109860, 110560, 104333], 
+         [ new Date(2024, 7, 20), 109951, 110406, 104126], 
+         [ new Date(2024, 7, 21), 110189, 111004, 104568], 
+         [ new Date(2024, 7, 22), 109588, 109894, 103634], 
+         [ new Date(2024, 7, 23), 110041, 110257, 104824], 
+         [ new Date(2024, 7, 26), 110018, 110091, 104493], 
+         [ new Date(2024, 7, 27), 109757, 110049, 104660], 
+         [ new Date(2024, 7, 28), 109590, 110043, 104034], 
+         [ new Date(2024, 7, 29), 109734, 110161, 104030], 
+         [ new Date(2024, 7, 30), 110007, 110468, 105080], 
+         [ new Date(2024, 8, 3), 109855, 109948, 102858]
+    ]);
+
+    var options = {
+      title:'Historical Performance (Closed & Total Positions) - Leveraged ETFs',
+      legend: {position: 'bottom'},
+      hAxis: {
+        title: 'From inception'
+      },
+      vAxis: {
+        title: 'Equity Curve'
+      },
+      backgroundColor: '#f1f8e9',
+      series: {
+            0: { color: '#99B731' },
+            1: { color: '#2471A3' },
+            2: { color: '#999' },
+            
+            }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+    chart.draw(data, options);
+    }
+  </script>
+  <div class="container-fluid logo_container">
+    <div class="container text-right logo">
+      <a href="#"><img src="../../Grid_HTML/images/i4cfinancial_Logo.svg"></a>
+    </div>
+  </div>
+  <div class="container header_container">
+    <h2 class="report_name">Performance Report - Leveraged ETFs</h2>
+    <h4 class="report_description">EH Quantitative Directional Long </h4>
+    <h4 class="report_description">The strategy actively trades a universe of profitable, well-managed companies, taking positions in stocks based on a proprietary technical ranking derived from a multi-factor analysis of market action across multiple trading horizons. Strict risk management enforces a rapid 'go-to-cash' ruleset in bearish markets.</h4>
+    <h4 class="report_description">Forward test from inception 2024/06/11 to 2024/09/03</h4>
+  </div>
+  <div class="container chart_container">
+    <div id="chart_div" class="chart"></div>
+  </div>
+  <div class="container overview_container">
+    <h2 class="report_sub_head">Overview</h2>
+    <div class="overview_tab">
+   <table class="overview_table">
+        <tr>
+          <td>Annualized Returns:</td>
+          <td>38.92%</td>
+          <td>Average Win Size:</td>
+          <td>177.71</td>
+        </tr>
+        <tr>
+          <td>Maximum Drawdown:</td>
+          <td>5.87%</td>
+          <td>Average Loss Size:</td>
+          <td>128.33</td>
+        </tr>
+        <tr>
+           <td>Return over Maximum Drawdown:</td>
+          <td>6.63</td>
+          <td>Win/Loss Size Ratio:</td>
+          <td>1.38</td>
+        </tr>
+        <tr>
+          <td>Sharpe Ratio (Annualized):</td>
+          <td>1.23</td>
+          <td>Number of Closed and Open Positions:</td>
+          <td>214</td>
+        </tr>
+        <tr>
+          <td>Sortino Ratio (Annualized):</td>
+          <td>1.56</td>
+          <td>Average Trade Size:</td>
+          <td>4,764.18</td>
+        </tr>
+        <tr>
+          <td>Number of Wins:</td>
+          <td>121</td>
+          <td>Average Closed Trade Duration:</td>
+          <td>4.4 days</td>
+        </tr>
+        <tr>
+          <td>Number of Losses:</td>
+          <td>93</td>
+          <td>Last Session Move:</td>
+          <td>-520.62 (-0.47%), Baseline move: (-2.11%)</td>
+        </tr>
+        <tr>
+          <td>Win/Loss Count Ratio:</td>
+          <td>1.30  (57% winners)</td>
+          <td>Includes 10 open positions with cash holdings of 69,502.30</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="container monthly_container">
+    <h2 class="report_sub_head">Monthly Strategy Returns (%):</h2>
+    <div class="monthly_table">
+      <Table width="70%"><TR><TH style=width:"11%"><FONT STYLE="text-align:center">&nbsp;</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jan</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Feb</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Mar</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Apr</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">May </FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jun</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Jul</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Aug</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Sep</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Oct</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Nov</FONT></TH>
+<TH style="border: 1px solid black" width:"6%"><FONT STYLE="text-align:center">Dec</FONT></TH>
+<TH style="border: 1px solid black" width:"11%"><FONT STYLE="text-align:center">Total</FONT></TH>
+</TR>
+<TR><TD><strong><font style="text-align:right">2024</strong></TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center"><font style="color:green">1.2</font></TD>
+<TD style="text-align:center"><font style="color:green">5.5</font></TD>
+<TD style="text-align:center"><font style="color:green">3.5</font></TD>
+<TD style="text-align:center"><font style="color:red">-0.5</font></TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center">0</TD>
+<TD style="text-align:center"><font style="color:green">9.7</font></TD>
+</TR>
+</Table>
+    </div>
+  </div>
+  <div class="container position_container">
+    <h2 class="report_sub_head">Open Positions:</h2>
+    <div class="position_table">
+      <Table>
+<strong><TR><TD> Symbol </TD><TD> Name </TD><TD> Entry Date </TD><TD align='right'> # Shares</TD><TD align='right'> Entry Price </TD><TD align='right'> Max Move </TD><TD align='right'> Present Price </TD><TD align='right'> Trailing Stop </TD><TD align='right'> Profit </TD><TD align='right'> Annualized </TD></TR></strong>
+<TR><TD>UCYB</TD><TD>ProShares Ultra Nasdaq Cybersecurity ETF</TD><TD>2024-08-27</TD><TD align='right'>100</TD><TD align='right'>43.22</TD><TD align='right'>1.06%</TD><TD align='right'>42.15</TD><TD align='right'>41.728</TD><TD align='right'>-107.00</TD><TD align='right'>-118.83%</TD></TR>
+<TR><TD>UPW</TD><TD>ProShares Ultra Utilities</TD><TD>2024-08-27</TD><TD align='right'>50</TD><TD align='right'>72.21</TD><TD align='right'>2.82%</TD><TD align='right'>73.28</TD><TD align='right'>72.547</TD><TD align='right'>53.50</TD><TD align='right'>71.13%</TD></TR>
+<TR><TD>XBOC</TD><TD>Innovator U.S. Equity Accelerated 9 Buffer ETF - October</TD><TD>2024-08-27</TD><TD align='right'>100</TD><TD align='right'>29.55</TD><TD align='right'>0.16%</TD><TD align='right'>29.56</TD><TD align='right'>29.264</TD><TD align='right'>1.00</TD><TD align='right'>1.62%</TD></TR>
+<TR><TD>DDM</TD><TD>ProShares Ultra Dow 30</TD><TD>2024-08-28</TD><TD align='right'>50</TD><TD align='right'>91.30</TD><TD align='right'>1.80%</TD><TD align='right'>90.09</TD><TD align='right'>88.344</TD><TD align='right'>-60.50</TD><TD align='right'>-63.61%</TD></TR>
+<TR><TD>UYM</TD><TD>ProShares Ultra Materials</TD><TD>2024-08-28</TD><TD align='right'>100</TD><TD align='right'>28.18</TD><TD align='right'>3.01%</TD><TD align='right'>27.61</TD><TD align='right'>27.075</TD><TD align='right'>-57.00</TD><TD align='right'>-97.09%</TD></TR>
+<TR><TD>RXL</TD><TD>ProShares Ultra Health Care</TD><TD>2024-08-29</TD><TD align='right'>50</TD><TD align='right'>117.47</TD><TD align='right'>0.00%</TD><TD align='right'>115.93</TD><TD align='right'>112.741</TD><TD align='right'>-77.00</TD><TD align='right'>-78.66%</TD></TR>
+<TR><TD>CURE</TD><TD>Direxion Daily Healthcare Bull 3X Shares</TD><TD>2024-08-30</TD><TD align='right'>25</TD><TD align='right'>139.76</TD><TD align='right'>2.68%</TD><TD align='right'>141.14</TD><TD align='right'>136.288</TD><TD align='right'>34.50</TD><TD align='right'>78.99%</TD></TR>
+<TR><TD>ESUS</TD><TD>ETRACS 2x Leveraged MSCI US ESG Focus TR ETN</TD><TD>2024-08-30</TD><TD align='right'>100</TD><TD align='right'>30.24</TD><TD align='right'>12.03%</TD><TD align='right'>30.24</TD><TD align='right'>29.200</TD><TD align='right'>0.00</TD><TD align='right'>0.00%</TD></TR>
+<TR><TD>FAS</TD><TD>Direxion Daily Financial Bull 3X Shares</TD><TD>2024-09-03</TD><TD align='right'>50</TD><TD align='right'>132.31</TD><TD align='right'>2.25%</TD><TD align='right'>131.19</TD><TD align='right'>125.942</TD><TD align='right'>-56.00</TD><TD align='right'>0.00%</TD></TR>
+<TR><TD>UTSL</TD><TD>Direxion Daily Utilities Bull 3X Shares</TD><TD>2024-09-03</TD><TD align='right'>100</TD><TD align='right'>33.63</TD><TD align='right'>1.57%</TD><TD align='right'>33.44</TD><TD align='right'>32.102</TD><TD align='right'>-19.00</TD><TD align='right'>0.00%</TD></TR>
+<TR><TD> </TD><TD> </TD><TD> </TD><TD> </TD><TD align='right' colspan='2'> Total Value of Open Positions:</TD><TD align='right'>40,353.00</TD><TD> </TD><TD align='right'>-287.50</TD><TD align='right'>-1.17%</TD></TR>
+</Table>
+
+    </div>
+  </div>
+  <div class="container monthly_container">
+    <h2 class="report_sub_head">Month-To-Date Performance</h2>
+    <div class="monthly_table">
+      <Table width="90%">
+<strong><TR><TD> Symbol </TD><TD> Name </TD><TD align="right"> # Shares</TD><TD align="right"> Buy Date </TD><TD align="right"> Buy Price </TD><TD align="right"> Sell Date </TD><TD align="right"> Sell Price </TD><TD align="right"> Duration </TD><TD align="right"> Profit </TD><TD align="right"> ROI </TD></TR></strong>
+<TR><TD>AAPU</TD><TD>Direxion Daily AAPL Bull 2X Shares</TD><TD align="right">100</TD><TD align="right">2024-08-28</TD><TD align="right">37.23</TD><TD align="right">2024-09-03</TD><TD align="right">36.42</TD><TD align="right">4</TD><TD align="right"><font style="color:red">-81.00</font></TD><TD align="right"><font style="color:red">-2.2%</font></TD></TR></TR>
+<TR><TD>DFEN</TD><TD>Direxion Daily Aerospace & Defense Bull 3X Shares</TD><TD align="right">100</TD><TD align="right">2024-08-29</TD><TD align="right">33.50</TD><TD align="right">2024-09-03</TD><TD align="right">32.79</TD><TD align="right">3</TD><TD align="right"><font style="color:red">-71.00</font></TD><TD align="right"><font style="color:red">-2.1%</font></TD></TR></TR>
+</Table>
+<p>
+<Table width="90%">
+<TR><TD>MTD Win Trades %:</TD><TD align="right">0.0%</TD><TD>MTD Avg # Trades per Day:</TD><TD align="right">0.0</TD></TR>
+<TR><TD>MTD Win/Loss Size Ratio:</TD><TD align="right">0.00</TD><TD>MTD Avg Trade Duration:</TD><TD align="right">3.5</TD></TR>
+</Table>
+    </div>
+  </div>
+  <div class="container sold_container">
+    <h2 class="report_sub_head inner_head">Sold Today:</h2>
+    <div class="sold_table">
+      <p>AAPU, DFEN<p>
+    </div>
+    <h2 class="report_sub_head inner_head">Pending Buys:</h2>
+
+    <div class="buys_table">
+      <p>UGE, GGLS, NVDS, NVDD<p>
+    </div>
+
+    <h2 class="report_sub_head inner_head">Notes:</h2>
+    <ul>
+      <li>Annualized returns reflect compounded daily excess returns above risk-free rate, assuming 240 trading days per year.</li>
+      <li>No leverage, equally weighted allocations.</li>
+      <li>Exits on target achieved or dynamic proprietary trailing stop posted.  These trailing stops, combined with minimum rank entry rules lead to the imposition of 'go-to-cash' and 'stay-in-cash' rules if there is a broad market bearish turn.</li>
+      
+    </ul>
+    <div class="notes_table">
+      <p>The performance data quoted represents past performance. Past performance does not guarantee future results. The investment return and principal value of an investment will fluctuate so that an investor's position, when redeemed, may be worth more or less than the original cost. Current performance may be lower or higher than the performance data quoted. Investors should consider the investment objectives, risks, and charges and expenses of the above system carefully before investing.<p>
+    </div>
+    <p class="session">Last Session Date: 2024/09/03</p>
+  </div>
+</body>
+</html>

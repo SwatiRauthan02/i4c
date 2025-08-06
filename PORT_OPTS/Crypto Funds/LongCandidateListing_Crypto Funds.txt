@@ -1,0 +1,1 @@
+[Stock_List]SymbolExchange	sortino_ratio_raw	sortino_ratio_normalised	ta_score	risk_score	combo_score	CQR	BetaXYZ	2.863	98.209	53.95	73.89	64.77	5	1.0ETHW	3.706	99.8	66.9	68.83	63.97	5	1.0ETH	3.767	99.8	68.09	63.64	62.69	5	1.0ETHE	3.802	99.8	67.65	60.98	61.65	5	1.0ARKZ	3.686	99.8	67.52	56.74	60.4	5	1.0

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>I4CFinancial Performance Report</title>
+	<link rel="canonical" href="http://i4cfinancial.com/Grid_BT/MALAYSIA/PERF_MALAYSIA.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="http://www.i4cfinancial.com/Grid_HTML/css/bootstrap.min.css">
+  <script type="text/javascript" src="http://www.i4cfinancial.com/Grid_HTML/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.i4cfinancial.com/Grid_HTML/js/bootstrap.min.js"></script>
+  <!-- custom style sheet -->
+  <link rel="stylesheet" type="text/css" href="http://www.i4cfinancial.com/Grid_HTML/css/style.css">
+  <!-- map loader -->
+  <script type="text/javascript" src="../../charts/loader.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    google.charts.load('current', {
+    packages: ['corechart', 'line']
+  });
+  google.charts.setOnLoadCallback(drawBackgroundColor);
+  function drawBackgroundColor() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'Closed');
+    data.addColumn('number', 'Total');
+    data.addRows([
+                    [ new Date(2017, 2, 28), 300000, 300422], 
+         [ new Date(2017, 2, 29), 299635, 300057], 
+         [ new Date(2017, 2, 30), 299635, 300057], 
+         [ new Date(2017, 2, 31), 299635, 299651], 
+         [ new Date(2017, 3, 3), 299635, 300712], 
+         [ new Date(2017, 3, 4), 299635, 303035], 
+         [ new Date(2017, 3, 5), 299635, 305321], 
+         [ new Date(2017, 3, 6), 299635, 304314], 
+         [ new Date(2017, 3, 7), 298425, 303314], 
+         [ new Date(2017, 3, 10), 298425, 304016], 
+         [ new Date(2017, 3, 11), 297788, 303305], 
+         [ new Date(2017, 3, 12), 297438, 303190], 
+         [ new Date(2017, 3, 13), 295789, 300142], 
+         [ new Date(2017, 3, 14), 294091, 295241], 
+         [ new Date(2017, 3, 17), 294091, 295241], 
+         [ new Date(2017, 3, 18), 294091, 295241], 
+         [ new Date(2017, 3, 19), 294091, 295241], 
+         [ new Date(2017, 3, 20), 293406, 297026], 
+         [ new Date(2017, 3, 21), 293183, 299175], 
+         [ new Date(2017, 3, 24), 293183, 299175], 
+         [ new Date(2017, 3, 25), 293224, 300688], 
+         [ new Date(2017, 3, 26), 293224, 304069], 
+         [ new Date(2017, 3, 27), 293253, 305596], 
+         [ new Date(2017, 3, 28), 293525, 309334], 
+         [ new Date(2017, 4, 2), 293525, 313551], 
+         [ new Date(2017, 4, 3), 293525, 314250], 
+         [ new Date(2017, 4, 4), 295196, 310659], 
+         [ new Date(2017, 4, 5), 295327, 313910], 
+         [ new Date(2017, 4, 8), 295327, 313910], 
+         [ new Date(2017, 4, 9), 295327, 313910], 
+         [ new Date(2017, 4, 10), 295327, 313910], 
+         [ new Date(2017, 4, 11), 295327, 313910], 
+         [ new Date(2017, 4, 12), 295327, 313910], 
+         [ new Date(2017, 4, 15), 295327, 313910], 
+         [ new Date(2017, 4, 16), 295327, 313910], 
+         [ new Date(2017, 4, 17), 295327, 313910], 
+         [ new Date(2017, 4, 18), 295327, 313910], 
+         [ new Date(2017, 4, 19), 295327, 313910], 
+         [ new Date(2017, 4, 22), 295327, 313910], 
+         [ new Date(2017, 4, 23), 295327, 313910], 
+         [ new Date(2017, 4, 24), 295327, 313910], 
+         [ new Date(2017, 4, 25), 295327, 313910], 
+         [ new Date(2017, 4, 26), 295327, 313910], 
+         [ new Date(2017, 4, 29), 293286, 314035], 
+         [ new Date(2017, 4, 30), 293286, 314035], 
+         [ new Date(2017, 4, 31), 294012, 314798], 
+         [ new Date(2017, 5, 1), 296292, 315708], 
+         [ new Date(2017, 5, 2), 298389, 318591], 
+         [ new Date(2017, 5, 5), 298280, 320174], 
+         [ new Date(2017, 5, 6), 298689, 320885], 
+         [ new Date(2017, 5, 7), 298464, 320169], 
+         [ new Date(2017, 5, 8), 298464, 324053], 
+         [ new Date(2017, 5, 9), 298887, 327913], 
+         [ new Date(2017, 5, 12), 298887, 327913], 
+         [ new Date(2017, 5, 13), 301169, 327717], 
+         [ new Date(2017, 5, 14), 303509, 330013], 
+         [ new Date(2017, 5, 15), 303509, 330013], 
+         [ new Date(2017, 5, 16), 305529, 328802], 
+         [ new Date(2017, 5, 19), 306864, 327235], 
+         [ new Date(2017, 5, 20), 307078, 326494], 
+         [ new Date(2017, 5, 21), 309568, 325097], 
+         [ new Date(2017, 5, 22), 309379, 325652], 
+         [ new Date(2017, 5, 23), 309379, 328786], 
+         [ new Date(2017, 5, 26), 309379, 328786], 
+         [ new Date(2017, 5, 27), 309379, 328786], 
+         [ new Date(2017, 5, 28), 310916, 329618], 
+         [ new Date(2017, 5, 29), 310916, 332421], 
+         [ new Date(2017, 5, 30), 310520, 330565], 
+         [ new Date(2017, 6, 3), 306720, 327576], 
+         [ new Date(2017, 6, 4), 306260, 326995], 
+         [ new Date(2017, 6, 5), 305590, 328138], 
+         [ new Date(2017, 6, 6), 305462, 328977], 
+         [ new Date(2017, 6, 7), 306733, 325545], 
+         [ new Date(2017, 6, 10), 307428, 324240], 
+         [ new Date(2017, 6, 11), 307393, 319459], 
+         [ new Date(2017, 6, 12), 309774, 321692], 
+         [ new Date(2017, 6, 13), 309398, 322442], 
+         [ new Date(2017, 6, 14), 309233, 323068], 
+         [ new Date(2017, 6, 17), 305383, 318575], 
+         [ new Date(2017, 6, 18), 305693, 319020], 
+         [ new Date(2017, 6, 19), 309099, 320600], 
+         [ new Date(2017, 6, 20), 309737, 321394], 
+         [ new Date(2017, 6, 21), 309657, 322324], 
+         [ new Date(2017, 6, 24), 310813, 323266], 
+         [ new Date(2017, 6, 25), 310197, 319859], 
+         [ new Date(2017, 6, 26), 309794, 317691], 
+         [ new Date(2017, 6, 27), 309704, 320618], 
+         [ new Date(2017, 6, 28), 313782, 319075], 
+         [ new Date(2017, 6, 31), 313072, 317880], 
+         [ new Date(2017, 7, 1), 312788, 319986], 
+         [ new Date(2017, 7, 2), 312026, 319436], 
+         [ new Date(2017, 7, 3), 312067, 321882], 
+         [ new Date(2017, 7, 4), 313872, 321112], 
+         [ new Date(2017, 7, 7), 312033, 322971], 
+         [ new Date(2017, 7, 8), 312021, 321145], 
+         [ new Date(2017, 7, 9), 311485, 319872], 
+         [ new Date(2017, 7, 10), 307991, 317910], 
+         [ new Date(2017, 7, 11), 306903, 310979], 
+         [ new Date(2017, 7, 14), 308836, 313838], 
+         [ new Date(2017, 7, 15), 308836, 313838], 
+         [ new Date(2017, 7, 16), 308836, 317955], 
+         [ new Date(2017, 7, 17), 308382, 318542], 
+         [ new Date(2017, 7, 18), 308545, 320690], 
+         [ new Date(2017, 7, 21), 309323, 321277], 
+         [ new Date(2017, 7, 22), 309323, 321374], 
+         [ new Date(2017, 7, 23), 308744, 320813], 
+         [ new Date(2017, 7, 24), 308841, 322026], 
+         [ new Date(2017, 7, 25), 308606, 320187], 
+         [ new Date(2017, 7, 28), 307777, 320123], 
+         [ new Date(2017, 7, 29), 307092, 315985], 
+         [ new Date(2017, 7, 30), 306985, 317481], 
+         [ new Date(2017, 7, 31), 306985, 317481], 
+         [ new Date(2017, 8, 1), 306985, 317481], 
+         [ new Date(2017, 8, 4), 306985, 317481], 
+         [ new Date(2017, 8, 5), 311852, 319374], 
+         [ new Date(2017, 8, 6), 311127, 318785], 
+         [ new Date(2017, 8, 7), 311127, 324279], 
+         [ new Date(2017, 8, 8), 310577, 324367], 
+         [ new Date(2017, 8, 11), 310537, 326505], 
+         [ new Date(2017, 8, 12), 310455, 325653], 
+         [ new Date(2017, 8, 13), 310365, 326155], 
+         [ new Date(2017, 8, 14), 312885, 325930], 
+         [ new Date(2017, 8, 15), 316036, 324001], 
+         [ new Date(2017, 8, 18), 315201, 324831], 
+         [ new Date(2017, 8, 19), 314133, 324498], 
+         [ new Date(2017, 8, 20), 313602, 326244], 
+         [ new Date(2017, 8, 21), 313477, 330330], 
+         [ new Date(2017, 8, 22), 313477, 330330], 
+         [ new Date(2017, 8, 25), 317517, 330730], 
+         [ new Date(2017, 8, 26), 318915, 328452], 
+         [ new Date(2017, 8, 27), 318915, 328812], 
+         [ new Date(2017, 8, 28), 318443, 328179], 
+         [ new Date(2017, 8, 29), 318115, 326686], 
+         [ new Date(2017, 9, 2), 318532, 326122], 
+         [ new Date(2017, 9, 3), 319695, 326829], 
+         [ new Date(2017, 9, 4), 319316, 327457], 
+         [ new Date(2017, 9, 5), 319466, 329401], 
+         [ new Date(2017, 9, 6), 319149, 331056], 
+         [ new Date(2017, 9, 9), 318908, 327390], 
+         [ new Date(2017, 9, 10), 319103, 333456], 
+         [ new Date(2017, 9, 11), 319110, 335818], 
+         [ new Date(2017, 9, 12), 318765, 336693], 
+         [ new Date(2017, 9, 13), 320326, 337822], 
+         [ new Date(2017, 9, 16), 320065, 339941], 
+         [ new Date(2017, 9, 17), 322915, 340079], 
+         [ new Date(2017, 9, 18), 322915, 340079], 
+         [ new Date(2017, 9, 19), 322555, 338084], 
+         [ new Date(2017, 9, 20), 322555, 337362], 
+         [ new Date(2017, 9, 23), 323719, 339774], 
+         [ new Date(2017, 9, 24), 322785, 336799], 
+         [ new Date(2017, 9, 25), 323260, 337652], 
+         [ new Date(2017, 9, 26), 323520, 338762], 
+         [ new Date(2017, 9, 27), 323584, 339635], 
+         [ new Date(2017, 9, 30), 326877, 339407], 
+         [ new Date(2017, 9, 31), 326564, 339194], 
+         [ new Date(2017, 10, 1), 326167, 336430], 
+         [ new Date(2017, 10, 2), 323640, 336191], 
+         [ new Date(2017, 10, 3), 324754, 337855], 
+         [ new Date(2017, 10, 6), 329447, 340475], 
+         [ new Date(2017, 10, 7), 328907, 338792], 
+         [ new Date(2017, 10, 8), 328641, 338806], 
+         [ new Date(2017, 10, 9), 328606, 340245], 
+         [ new Date(2017, 10, 10), 327811, 340512], 
+         [ new Date(2017, 10, 13), 328287, 343098], 
+         [ new Date(2017, 10, 14), 327192, 340917], 
+         [ new Date(2017, 10, 15), 325640, 336262], 
+         [ new Date(2017, 10, 16), 323719, 332237], 
+         [ new Date(2017, 10, 17), 322929, 334406], 
+         [ new Date(2017, 10, 20), 325502, 333467], 
+         [ new Date(2017, 10, 21), 324648, 332319], 
+         [ new Date(2017, 10, 22), 324668, 332677], 
+         [ new Date(2017, 10, 23), 324646, 332253], 
+         [ new Date(2017, 10, 24), 323696, 331824], 
+         [ new Date(2017, 10, 27), 323534, 332149], 
+         [ new Date(2017, 10, 28), 323147, 331886], 
+         [ new Date(2017, 10, 29), 323147, 332681], 
+         [ new Date(2017, 10, 30), 323147, 333025], 
+         [ new Date(2017, 11, 1), 323147, 333025], 
+         [ new Date(2017, 11, 4), 324413, 331607], 
+         [ new Date(2017, 11, 5), 323748, 329009], 
+         [ new Date(2017, 11, 6), 323304, 328710], 
+         [ new Date(2017, 11, 7), 322728, 327560], 
+         [ new Date(2017, 11, 8), 324273, 327854], 
+         [ new Date(2017, 11, 11), 323960, 327936], 
+         [ new Date(2017, 11, 12), 323628, 331023], 
+         [ new Date(2017, 11, 13), 323628, 333039], 
+         [ new Date(2017, 11, 14), 323358, 334625], 
+         [ new Date(2017, 11, 15), 326873, 337559], 
+         [ new Date(2017, 11, 18), 326596, 337597], 
+         [ new Date(2017, 11, 19), 327348, 334495], 
+         [ new Date(2017, 11, 20), 327348, 334416], 
+         [ new Date(2017, 11, 21), 327018, 334499], 
+         [ new Date(2017, 11, 22), 326573, 334349], 
+         [ new Date(2017, 11, 25), 326573, 334349], 
+         [ new Date(2017, 11, 26), 324672, 330859], 
+         [ new Date(2017, 11, 27), 324672, 333443], 
+         [ new Date(2017, 11, 28), 324672, 336133], 
+         [ new Date(2017, 11, 29), 323914, 335992], 
+         [ new Date(2018, 0, 1), 323914, 335992], 
+         [ new Date(2018, 0, 2), 324241, 336068], 
+         [ new Date(2018, 0, 3), 324241, 341876], 
+         [ new Date(2018, 0, 4), 323506, 344622], 
+         [ new Date(2018, 0, 5), 323506, 350052], 
+         [ new Date(2018, 0, 8), 323571, 359204], 
+         [ new Date(2018, 0, 9), 323963, 356666], 
+         [ new Date(2018, 0, 10), 323963, 354752], 
+         [ new Date(2018, 0, 11), 323543, 349549], 
+         [ new Date(2018, 0, 12), 323719, 353122], 
+         [ new Date(2018, 0, 15), 323026, 353000], 
+         [ new Date(2018, 0, 16), 322844, 345941], 
+         [ new Date(2018, 0, 17), 320580, 341785], 
+         [ new Date(2018, 0, 18), 319058, 337715], 
+         [ new Date(2018, 0, 19), 319058, 337618], 
+         [ new Date(2018, 0, 22), 319546, 342073], 
+         [ new Date(2018, 0, 23), 319438, 345831], 
+         [ new Date(2018, 0, 24), 318651, 344284], 
+         [ new Date(2018, 0, 25), 318190, 343346], 
+         [ new Date(2018, 0, 26), 319567, 342952], 
+         [ new Date(2018, 0, 29), 325035, 344209]
+    ]);
+    var options = {
+      title:'Historical Performance (Closed & Total Positions) - MALAYSIA',
+      legend: {position: 'bottom'},
+      hAxis: {
+        title: 'From inception'
+      },
+      vAxis: {
+        title: 'Equity Curve'
+      },
+      backgroundColor: '#f1f8e9',
+      series: {
+            0: { color: '#999' },
+            1: { color: '#99B731' },
+          }
+    };
+    var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+    }
+  </script>
+  <div class="container-fluid logo_container">
+    <div class="container text-right logo">
+      <a href="#"></a>
+    </div>
+  </div>
+  <div class="container header_container">
+    <h2 class="report_name">Performance Report - MALAYSIA</h2>
+    <h4 class="report_description">System Type: EH Quantitative Directional Long </h4>
+    <h4 class="report_description">Forward test from inception 2017/03/28 to 2018/01/30</h4>
+  </div>
+  <div class="container chart_container">
+    <div id="chart_div" class="chart"></div>
+  </div>
+  <div class="container overview_container">
+    <h2 class="report_sub_head">Overview</h2>
+    <div class="overview_tab">
+   <table class="overview_table">
+        <tr>
+          <td>Annualized Returns:</td>
+          <td>13.49%</td>
+          <td>Average Win Size:</td>
+          <td>535.21</td>
+        <tr>
+        </tr>
+          <td>Maximum Drawdown:</td>
+          <td>6.45%</td>
+          <td>Average Loss Size:</td>
+          <td>274.85</td>
+       <tr>
+        </tr>
+           <td>Return over Maximum Drawdown:</td>
+          <td>2.09</td>
+          <td>Win/Loss Size Ratio:</td>
+          <td>1.95</td>
+        <tr>
+        </tr>
+          <td>Sharpes Ratio (Annualised):</td>
+          <td>1.37</td>
+          <td>Number of Closed and Open Positions:</td>
+          <td>682</td>
+        <tr>
+        </tr>
+          <td>Sortino Ratio (Annualised):</td>
+          <td>1.93</td>
+          <td>Average Trade Size:</td>
+          <td>7,161.10</td>
+        <tr>
+        </tr>
+          <td>Number of Wins:</td>
+          <td>277</td>
+          <td>Average Closed Trade Duration:</td>
+          <td>19.3 days</td>
+        <tr>
+        </tr>
+          <td>Number of Losses:</td>
+          <td>405</td>
+          <td>Last Session Move:</td>
+          <td>1,256.89 (0.36%)</td>
+        <tr>
+        </tr>
+          <td>Win/Loss Count Ratio:</td>
+          <td>0.68  (41% winners)</td>
+          <td>Includes 41 open positions with 1 instances of blank pricing</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="container monthly_container">
+    <h2 class="report_sub_head">Monthly Absolute Returns:</h2>
+    <div class="monthly_table">
+      <table width="70%"><tr><th style="width:&quot;11%&quot;"><font style="text-align:center">&nbsp;</font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">Jan</font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">Feb</font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">Mar</font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">Apr</font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">May </font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">Jun</font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">Jul</font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">Aug</font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">Sep</font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">Oct</font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">Nov</font></th>
+<th style="border: 1px solid black" width:"6%"><font style="text-align:center">Dec</font></th>
+<th style="border: 1px solid black" width:"11%"><font style="text-align:center">Total</font></th>
+</tr>
+<tr><td><strong><font style="text-align:right">2017</strong></td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center"><font style="color:red">-0.1</font></td>
+<td style="text-align:center"><font style="color:green">3.2</font></td>
+<td style="text-align:center"><font style="color:green">1.8</font></td>
+<td style="text-align:center"><font style="color:green">4.9</font></td>
+<td style="text-align:center"><font style="color:red">-3.9</font></td>
+<td style="text-align:center"><font style="color:red">-0.1</font></td>
+<td style="text-align:center"><font style="color:green">2.9</font></td>
+<td style="text-align:center"><font style="color:green">3.8</font></td>
+<td style="text-align:center"><font style="color:red">-1.8</font></td>
+<td style="text-align:center"><font style="color:green">0.9</font></td>
+<td style="text-align:center"><font style="color:green">11.6</font></td>
+</tr>
+<tr><td><strong><font style="text-align:right">2018</strong></td>
+<td style="text-align:center"><font style="color:green">2.6</font></td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center"><font style="color:green">2.6</font></td>
+</tr>
+</table>
+    </div>
+  </div>
+  <div class="container position_container">
+    <h2 class="report_sub_head">Open Positions:</h2>
+    <div class="position_table">
+      <table>
+<strong><tr><td> Symbol </td><td> Name </td><td> Entry Date </td><td align="right"> Number of Shares</td><td align="right"> Entry Price </td><td align="right"> Present Price </td><td align="right"> Trailing Stop </td><td align="right"> Profit </td><td align="right"> Annualized </td></tr></strong>
+<tr><td>1066</td><td>RHB Bank Bhd</td><td>12/18/2017</td><td align="right">1500</td><td align="right">5.11</td><td align="right">5.44</td><td align="right">5.41</td><td align="right">495.00</td><td align="right">50.00%</td></tr>
+<tr><td>5099</td><td>AirAsia Bhd</td><td>12/18/2017</td><td align="right">2300</td><td align="right">3.34</td><td align="right">4.14</td><td align="right">4.10</td><td align="right">1,840.00</td><td align="right">185.44%</td></tr>
+<tr><td>5236</td><td>Matrix Concepts Holdings Bhd</td><td>12/18/2017</td><td align="right">3500</td><td align="right">2.23</td><td align="right">2.18</td><td align="right">2.17</td><td align="right">-175.00</td><td align="right">-17.36%</td></tr>
+<tr><td>5190</td><td>Benalec Holdings Bhd</td><td>12/19/2017</td><td align="right">19900</td><td align="right">0.40</td><td align="right">0.39</td><td align="right">0.39</td><td align="right">-99.50</td><td align="right">-10.00%</td></tr>
+<tr><td>5109</td><td>YTL Hospitality REIT</td><td>12/19/2017</td><td align="right">6600</td><td align="right">1.21</td><td align="right">1.19</td><td align="right">1.18</td><td align="right">-132.00</td><td align="right">-13.22%</td></tr>
+<tr><td>7099</td><td>ATTA Global Group Bhd</td><td>12/20/2017</td><td align="right">9200</td><td align="right">0.86</td><td align="right">0.97</td><td align="right">0.95</td><td align="right">1,012.00</td><td align="right">102.33%</td></tr>
+<tr><td>5209</td><td>Gas Malaysia Bhd</td><td>12/22/2017</td><td align="right">2800</td><td align="right">2.84</td><td align="right">2.76</td><td align="right">2.74</td><td align="right">-224.00</td><td align="right">-24.14%</td></tr>
+<tr><td>2879</td><td>Chemical Co of Malaysia Bhd</td><td>12/22/2017</td><td align="right">4200</td><td align="right">1.88</td><td align="right">2.25</td><td align="right">2.21</td><td align="right">1,554.00</td><td align="right">168.69%</td></tr>
+<tr><td>5584</td><td>Yee Lee Corp Bhd</td><td>12/22/2017</td><td align="right">3600</td><td align="right">2.20</td><td align="right">2.28</td><td align="right">2.25</td><td align="right">288.00</td><td align="right">31.17%</td></tr>
+<tr><td>5232</td><td>Leon Fuat Bhd</td><td>12/27/2017</td><td align="right">9200</td><td align="right">0.86</td><td align="right">0.88</td><td align="right">0.85</td><td align="right">184.00</td><td align="right">22.20%</td></tr>
+<tr><td>5147</td><td>Samchem Holdings Bhd</td><td>12/27/2017</td><td align="right">7700</td><td align="right">1.03</td><td align="right">1.15</td><td align="right">1.10</td><td align="right">924.00</td><td align="right">111.84%</td></tr>
+<tr><td>3816</td><td>MISC Bhd</td><td>12/27/2017</td><td align="right">1000</td><td align="right">7.28</td><td align="right">7.55</td><td align="right">7.32</td><td align="right">270.00</td><td align="right">35.60%</td></tr>
+<tr><td>4456</td><td>Dagang NeXchange Bhd</td><td>12/27/2017</td><td align="right">16300</td><td align="right">0.49</td><td align="right">0.48</td><td align="right">0.44</td><td align="right">-163.00</td><td align="right">-19.59%</td></tr>
+<tr><td>1007</td><td>Amcorp Properties Bhd</td><td>12/28/2017</td><td align="right">10600</td><td align="right">0.75</td><td align="right">0.73</td><td align="right">0.71</td><td align="right">-212.00</td><td align="right">-26.67%</td></tr>
+<tr><td>9261</td><td>Gadang Holdings Bhd</td><td>12/29/2017</td><td align="right">7100</td><td align="right">1.12</td><td align="right">1.16</td><td align="right">1.09</td><td align="right">284.00</td><td align="right">37.27%</td></tr>
+<tr><td>9571</td><td>Mitrajaya Holdings Bhd</td><td>1/1/2018</td><td align="right">9900</td><td align="right">0.80</td><td align="right">0.98</td><td align="right">0.93</td><td align="right">1,782.00</td><td align="right">257.14%</td></tr>
+<tr><td>5272</td><td>Ranhill Holdings Bhd</td><td>1/1/2018</td><td align="right">10800</td><td align="right">0.73</td><td align="right">0.72</td><td align="right">0.70</td><td align="right">-108.00</td><td align="right">-15.55%</td></tr>
+<tr><td>0065</td><td>Excel Force MSC Bhd</td><td>1/1/2018</td><td align="right">5100</td><td align="right">1.55</td><td align="right">1.52</td><td align="right">1.44</td><td align="right">-153.00</td><td align="right">-22.12%</td></tr>
+<tr><td>7229</td><td>Favelle Favco Bhd</td><td>1/1/2018</td><td align="right">2900</td><td align="right">2.69</td><td align="right">2.72</td><td align="right">2.67</td><td align="right">87.00</td><td align="right">12.75%</td></tr>
+<tr><td>6874</td><td>Kub Malaysia Bhd</td><td>1/3/2018</td><td align="right">18100</td><td align="right">0.44</td><td align="right">0.46</td><td align="right">0.42</td><td align="right">452.50</td><td align="right">68.18%</td></tr>
+<tr><td>5797</td><td>Choo Bee Metal Industries Bhd</td><td>1/3/2018</td><td align="right">3100</td><td align="right">2.51</td><td align="right">2.49</td><td align="right">2.40</td><td align="right">-62.00</td><td align="right">-9.56%</td></tr>
+<tr><td>5158</td><td>TA Global Bhd</td><td>1/3/2018</td><td align="right">21900</td><td align="right">0.36</td><td align="right">0.36</td><td align="right">0.34</td><td align="right">-109.50</td><td align="right">-16.44%</td></tr>
+<tr><td>5139</td><td>AEON Credit Service (M) Bhd</td><td>1/3/2018</td><td align="right">500</td><td align="right">13.68</td><td align="right">13.46</td><td align="right">12.96</td><td align="right">-110.00</td><td align="right">-19.30%</td></tr>
+<tr><td>5142</td><td>Wah Seong Corp Bhd</td><td>1/4/2018</td><td align="right">6100</td><td align="right">1.31</td><td align="right">1.46</td><td align="right">1.34</td><td align="right">915.00</td><td align="right">144.64%</td></tr>
+<tr><td>1724</td><td>Paramount Corp Bhd</td><td>1/4/2018</td><td align="right">4400</td><td align="right">1.81</td><td align="right">1.90</td><td align="right">1.81</td><td align="right">396.00</td><td align="right">62.81%</td></tr>
+<tr><td>8877</td><td>Ekovest Bhd</td><td>1/4/2018</td><td align="right">7700</td><td align="right">1.03</td><td align="right">0.99</td><td align="right">0.89</td><td align="right">-269.50</td><td align="right">-42.92%</td></tr>
+<tr><td>4898</td><td>TA Enterprise Bhd</td><td>1/5/2018</td><td align="right">12300</td><td align="right">0.65</td><td align="right">0.63</td><td align="right">0.59</td><td align="right">-184.50</td><td align="right">-30.77%</td></tr>
+<tr><td>4588</td><td>UMW Holdings Bhd</td><td>1/5/2018</td><td align="right">1400</td><td align="right">5.59</td><td align="right">6.82</td><td align="right">6.48</td><td align="right">1,722.00</td><td align="right">293.38%</td></tr>
+<tr><td>5132</td><td>Deleum Bhd</td><td>1/5/2018</td><td align="right">7800</td><td align="right">1.02</td><td align="right">1.05</td><td align="right">0.93</td><td align="right">234.00</td><td align="right">39.22%</td></tr>
+<tr><td>0040</td><td>OpenSys M Bhd</td><td>1/5/2018</td><td align="right">25700</td><td align="right">0.31</td><td align="right">0.29</td><td align="right">0.27</td><td align="right">-385.50</td><td align="right">-64.52%</td></tr>
+<tr><td>5185</td><td>Missing SED record</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1996</td><td>Kretam Holdings Bhd</td><td>1/8/2018</td><td align="right">14100</td><td align="right">0.56</td><td align="right">0.69</td><td align="right">0.58</td><td align="right">1,762.50</td><td align="right">331.86%</td></tr>
+<tr><td>7162</td><td>Astino Bhd</td><td>1/8/2018</td><td align="right">7400</td><td align="right">1.07</td><td align="right">1.13</td><td align="right">0.99</td><td align="right">444.00</td><td align="right">84.11%</td></tr>
+<tr><td>7161</td><td>Kerjaya Prospek Group Bhd</td><td>1/9/2018</td><td align="right">1900</td><td align="right">4.15</td><td align="right">4.07</td><td align="right">3.82</td><td align="right">-152.00</td><td align="right">-30.84%</td></tr>
+<tr><td>3662</td><td>Malayan Flour Mills Bhd</td><td>1/12/2018</td><td align="right">3700</td><td align="right">2.15</td><td align="right">2.19</td><td align="right">2.01</td><td align="right">148.00</td><td align="right">34.35%</td></tr>
+<tr><td>5054</td><td>TRC Synergy Bhd</td><td>1/23/2018</td><td align="right">10200</td><td align="right">0.78</td><td align="right">0.77</td><td align="right">0.62</td><td align="right">-51.00</td><td align="right">-30.77%</td></tr>
+<tr><td>3204</td><td>George Kent Malaysia Bhd</td><td>1/24/2018</td><td align="right">2000</td><td align="right">3.89</td><td align="right">3.82</td><td align="right">3.23</td><td align="right">-140.00</td><td align="right">-86.38%</td></tr>
+<tr><td>8079</td><td>Lee Swee Kiat Group Bhd</td><td>1/25/2018</td><td align="right">18500</td><td align="right">0.43</td><td align="right">0.44</td><td align="right">0.37</td><td align="right">277.50</td><td align="right">209.30%</td></tr>
+<tr><td>1155</td><td>Malayan Banking Bhd</td><td>1/26/2018</td><td align="right">700</td><td align="right">10.00</td><td align="right">10.10</td><td align="right">9.84</td><td align="right">70.00</td><td align="right">80.00%</td></tr>
+<tr><td>2984</td><td>FACB Industries Inc Bhd</td><td>1/29/2018</td><td align="right">5200</td><td align="right">1.53</td><td align="right">1.63</td><td align="right">1.48</td><td align="right">520.00</td><td align="right">1,568.63%</td></tr>
+<tr><td>5254</td><td>Boustead Plantations Bhd</td><td>1/30/2018</td><td align="right">4700</td><td align="right">1.70</td><td align="right">1.69</td><td align="right">1.62</td><td align="right">-47.00</td><td align="right">0.00%</td></tr>
+<tr><td> </td><td> </td><td> </td><td align="right" colspan="2"> Total Value of Open Positions:</td><td align="right">326,854.00</td><td> </td><td align="right">12,884.00</td><td align="right">4.71%</td></tr>
+</table>
+    </div>
+  </div>
+  <div class="container sold_container">
+    <h2 class="report_sub_head inner_head">Sold Today:</h2>
+    <div class="sold_table">
+      <p>1015, 7073, 6742, 5031, 2429, 1503, 9679<p>
+    </div>
+    <h2 class="report_sub_head inner_head">Pending Buys:</h2>
+    <div class="buys_table">
+      <p>1023<p>
+    </div>
+    <h2 class="report_sub_head inner_head">Notes:</h2>
+    <ul>
+      <li>Annualized returns reflect compounded daily excess returns above risk-free rate, assuming 240 trading days per year.</li>
+      <li>No leverage, equally weighted allocations.</li>
+      <li>Exits on target achieved or dynamic proprietary trailing stop posted.  These trailing stops, combined with minimum rank entry rules lead to the imposition of 'go-to-cash' and 'stay-in-cash' rules if there is a broad market bearish turn.</li>
+    </ul>
+    <div class="notes_table">
+      <p>The performance data quoted represents past performance. Past performance does not guarantee future results. The investment return and principal value of an investment will fluctuate so that an investor's position, when redeemed, may be worth more or less than the original cost. Current performance may be lower or higher than the performance data quoted. Investors should consider the investment objectives, risks, and charges and expenses of the above system carefully before investing.<p>
+    </div>
+    <p class="session">Last Session Date: 2018/01/30</p>
+  </div>
+</body>
+</html>

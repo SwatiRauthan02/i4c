@@ -1,0 +1,80 @@
+﻿{
+ "countrycode":"INDONESIA",
+ "date":"2025-07-30",
+ "export_time":"05:41:57",
+ "buy_count":12,
+ "transactions":[
+  {
+   "tradetype":"BTO",
+   "symbol":"BOLA",
+   "name":"Bali Bintang Sejahtera Tbk.",
+   "recordnumber":2377827
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"BWPT",
+   "name":"Eagle High Plantations Tbk.",
+   "recordnumber":2377832
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"INKP",
+   "name":"PT Indah Kiat Pulp & Paper Corp Tbk",
+   "recordnumber":2377935
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"IMJS",
+   "name":"PT Indomobil Multi Jasa Tbk",
+   "recordnumber":2377940
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"SIMP",
+   "name":"PT Salim Ivomas Pratama Tbk",
+   "recordnumber":2377969
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"PYFA",
+   "name":"Pyridam Farma Tbk",
+   "recordnumber":2377986
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"PTSN",
+   "name":"Sat Nusapersada Tbk",
+   "recordnumber":2377992
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"OKAS",
+   "name":"Ancora Indonesia Resources Tbk",
+   "recordnumber":2378085
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"PGUN",
+   "name":"Pradiksi Gunatama Tbk.",
+   "recordnumber":2378090
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"TEBE",
+   "name":"Dana Brata Luhur Tbk.",
+   "recordnumber":2378177
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"AALI",
+   "name":"Astra Agro Lestari Tbk.",
+   "recordnumber":2378261
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"IMPC",
+   "name":"Impack Pratama Industri Tbk.",
+   "recordnumber":2378268
+  }
+ ]
+}

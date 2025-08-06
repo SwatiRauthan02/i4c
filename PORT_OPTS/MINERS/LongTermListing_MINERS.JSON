@@ -1,0 +1,221 @@
+{"ideas":[{"idea":{
+	"Symbol": "GGM.V",
+	"Name": "GRANADA GOLD MINE INC",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 69.48,
+	"PriceUp": 10.42254,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 85.99752,
+	"AggregateScore": 80.814
+}},{"idea":{
+	"Symbol": "MGI.V",
+	"Name": "MAGNUM GOLDCORP INC",
+	"Sortino": 88.1515,
+	"Beta": 100,
+	"BullishVolume": 72.863,
+	"PriceUp": 19.6319,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 84.61052,
+	"AggregateScore": 80.751
+}},{"idea":{
+	"Symbol": "K.TO",
+	"Name": "KINROSS GOLD CORP.",
+	"Sortino": 99.8,
+	"Beta": 98,
+	"BullishVolume": 59.484,
+	"PriceUp": 53.11111,
+	"TDI": 96.473095,
+	"TII": 100,
+	"MFI": 56.1088,
+	"AggregateScore": 79.921
+}},{"idea":{
+	"Symbol": "CCO.TO",
+	"Name": "Cameco Corporation",
+	"Sortino": 93.5793,
+	"Beta": 100,
+	"BullishVolume": 52.602,
+	"PriceUp": 51.11111,
+	"TDI": 97.25548,
+	"TII": 100,
+	"MFI": 57.96866,
+	"AggregateScore": 78.539
+}},{"idea":{
+	"Symbol": "SLI.V",
+	"Name": "STANDARD LITHIUM LTD",
+	"Sortino": 65.9114,
+	"Beta": 100,
+	"BullishVolume": 55.154,
+	"PriceUp": 46.22222,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 67.83016,
+	"AggregateScore": 76.445
+}},{"idea":{
+	"Symbol": "ADE.V",
+	"Name": "ADEX MINING INC.",
+	"Sortino": 65,
+	"Beta": 100,
+	"BullishVolume": 100,
+	"PriceUp": 0.35336,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 68.98515,
+	"AggregateScore": 76.334
+}},{"idea":{
+	"Symbol": "ARTG.V",
+	"Name": "ARTEMIS GOLD INC",
+	"Sortino": 99.8,
+	"Beta": 100,
+	"BullishVolume": 63.916,
+	"PriceUp": 46.66667,
+	"TDI": 77.459505,
+	"TII": 100,
+	"MFI": 59.84059,
+	"AggregateScore": 75.02
+}},{"idea":{
+	"Symbol": "KNT.TO",
+	"Name": "K92 MINING INC",
+	"Sortino": 75.7139,
+	"Beta": 83.9,
+	"BullishVolume": 56.798,
+	"PriceUp": 47.55556,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 54.03918,
+	"AggregateScore": 74.001
+}},{"idea":{
+	"Symbol": "CVV.V",
+	"Name": "CANALASKA URANIUM LTD",
+	"Sortino": 84.1315,
+	"Beta": 81.35,
+	"BullishVolume": 62.791,
+	"PriceUp": 36.44444,
+	"TDI": 94.27981,
+	"TII": 100,
+	"MFI": 61.69292,
+	"AggregateScore": 73.567
+}},{"idea":{
+	"Symbol": "BRC.V",
+	"Name": "BLACKROCK SILVER CORP",
+	"Sortino": 73.6774,
+	"Beta": 100,
+	"BullishVolume": 46.336,
+	"PriceUp": 33.11111,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 61.80646,
+	"AggregateScore": 73.562
+}},{"idea":{
+	"Symbol": "SCZ.V",
+	"Name": "SANTACRUZ SILVER MINING LTD",
+	"Sortino": 77.3778,
+	"Beta": 100,
+	"BullishVolume": 65.837,
+	"PriceUp": 33.56974,
+	"TDI": 91.1849,
+	"TII": 99.68774,
+	"MFI": 55.84609,
+	"AggregateScore": 73.527
+}},{"idea":{
+	"Symbol": "VZLA.V",
+	"Name": "VIZSLA SILVER CORP",
+	"Sortino": 83.4285,
+	"Beta": 100,
+	"BullishVolume": 63.969,
+	"PriceUp": 44.88889,
+	"TDI": 85.593575,
+	"TII": 92.31688,
+	"MFI": 57.22022,
+	"AggregateScore": 73.287
+}},{"idea":{
+	"Symbol": "LUM.V",
+	"Name": "LUMINA GOLD CORP",
+	"Sortino": 78.0292,
+	"Beta": 100,
+	"BullishVolume": 59.149,
+	"PriceUp": 34.16856,
+	"TDI": 93.436275,
+	"TII": 97.46315,
+	"MFI": 56.34501,
+	"AggregateScore": 73.147
+}},{"idea":{
+	"Symbol": "BCM.V",
+	"Name": "BEAR CREEK MINING CORP.",
+	"Sortino": 68.0563,
+	"Beta": 100,
+	"BullishVolume": 33.846,
+	"PriceUp": 40.66667,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 62.53524,
+	"AggregateScore": 72.158
+}},{"idea":{
+	"Symbol": "TKO.TO",
+	"Name": "TASEKO MINES LTD.",
+	"Sortino": 80.2344,
+	"Beta": 100,
+	"BullishVolume": 54.634,
+	"PriceUp": 46.66667,
+	"TDI": 85.24192,
+	"TII": 99.0649,
+	"MFI": 53.55167,
+	"AggregateScore": 72.091
+}},{"idea":{
+	"Symbol": "MTA.V",
+	"Name": "METALLA ROYALTY AND STREAMING L",
+	"Sortino": 59.1602,
+	"Beta": 100,
+	"BullishVolume": 47.443,
+	"PriceUp": 43.55556,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 54.41139,
+	"AggregateScore": 72.081
+}},{"idea":{
+	"Symbol": "MAI.V",
+	"Name": "MINERA ALAMOS INC",
+	"Sortino": 67.8198,
+	"Beta": 100,
+	"BullishVolume": 58.547,
+	"PriceUp": 25.55556,
+	"TDI": 100,
+	"TII": 100,
+	"MFI": 50.05829,
+	"AggregateScore": 71.712
+}},{"idea":{
+	"Symbol": "SLVR.V",
+	"Name": "SILVER TIGER METALS INC",
+	"Sortino": 62.1412,
+	"Beta": 100,
+	"BullishVolume": 44.544,
+	"PriceUp": 34,
+	"TDI": 100,
+	"TII": 99.7802,
+	"MFI": 60.9192,
+	"AggregateScore": 71.626
+}},{"idea":{
+	"Symbol": "TMQ.TO",
+	"Name": "TRILOGY METALS INC",
+	"Sortino": 88.1444,
+	"Beta": 100,
+	"BullishVolume": 65.867,
+	"PriceUp": 38.07229,
+	"TDI": 81.003955,
+	"TII": 78.45344,
+	"MFI": 64.96471,
+	"AggregateScore": 71.073
+}},{"idea":{
+	"Symbol": "TECK-B.TO",
+	"Name": "TECK RESOURCES LIMITED CL B",
+	"Sortino": 76.666,
+	"Beta": 100,
+	"BullishVolume": 46.981,
+	"PriceUp": 50.22222,
+	"TDI": 86.61813,
+	"TII": 95.93632,
+	"MFI": 52.7334,
+	"AggregateScore": 70.825
+}}]}

@@ -1,0 +1,50 @@
+﻿{
+ "countrycode":"CRYPTOCURRENCIES",
+ "date":"2022-01-02",
+ "export_time":"18:59:27",
+ "sell_count":2,
+ "buy_count":2,
+ "weight":0.00096,
+ "transactions":[
+  {
+   "tradetype":"STC",
+   "symbol":"SUSHIBULL-",
+   "name":"3X Long Sushi Token",
+   "numshares":632911392.40506,
+   "weightednumshares":607594.93670886,
+   "NOVInumshares":435301100,
+   "tsid":"",
+   "recordnumber":34464
+  },
+  {
+   "tradetype":"STC",
+   "symbol":"SXP-USD",
+   "name":"Swipe",
+   "numshares":4882.3790501553,
+   "weightednumshares":4.6870838881491,
+   "NOVInumshares":5600,
+   "tsid":"",
+   "recordnumber":34466
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"ONE-USD",
+   "name":"Harmony",
+   "numshares":37671.232876712,
+   "weightednumshares":36.164383561644,
+   "NOVInumshares":37600,
+   "tsid":"",
+   "recordnumber":34467
+  },
+  {
+   "tradetype":"BTO",
+   "symbol":"BAT-USD",
+   "name":"Basic Attention Token",
+   "numshares":8461.5384615385,
+   "weightednumshares":8.1230769230769,
+   "NOVInumshares":8400,
+   "tsid":"",
+   "recordnumber":34468
+  }
+ ]
+}

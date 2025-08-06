@@ -1,0 +1,114 @@
+@font-face {src: url(font/Roboto-Bold.ttf);font-family: RobotoBold;}
+@font-face {src: url(font/Roboto-Medium.ttf);font-family: RobotoMedium;}
+@font-face {src: url(font/Roboto-Regular.ttf);font-family: RobotoRegular;}
+@font-face {src: url(font/Poppins-Medium.ttf);font-family: PoppinsMedium;}
+@font-face {src: url(font/Poppins-Regular.ttf);font-family: PoppinsRegular;}
+.logo_container{padding: 25px 0;box-shadow: 0 3px 4px #ececec;background-color: #fcfbfb;padding-bottom: 0}
+.header_container{padding: 0 15px !important;}
+.report_name{font-family: PoppinsMedium; color: #9cb533;font-size: 24px !important;text-transform: uppercase;padding-top: 25px;}
+.report_description{font-family: RobotoMedium; color: #c1c2c1;font-size: 14px !important;padding-top: 2px;font-style: italic;}
+.performance_container{padding: 0 15px !important;}
+.performance_table table{width: 100% !important;}
+.performance_table table tr:first-child td{font-family: PoppinsMedium; color: #333 !important;font-size: 14px !important;text-align: center !important; border: 0px !important;border-bottom: 2px solid #9cb533 !important;padding: 10px !important;}
+.performance_table table td, .performance_table table td a{font-family: PoppinsMedium; color: #9cb533 !important;font-size: 12px !important;padding: 10px !important;text-align: center !important;text-decoration: none;}
+.performance_table table tr td:nth-child(1){text-align: left !important;font-family: RobotoRegular; color: #666 !important;font-size: 14px !important;}
+.performance_table table tr:nth-child(even) td{background-color: #f7f7f7 !important;}
+.performance_table table tr:nth-child(odd) td{background-color: #fffdfd !important;}
+.performance_table table tr:nth-child(1) td{background-color: #fff !important;}
+iframe{border: none;}
+.nav-tabs>li{padding: 0 5px;}
+.nav-tabs>li:first-child{padding-left: 0}
+.nav-tabs>li:last-child{padding-right: 0}
+.nav-tabs>li>a{margin-right: 0;padding: 5px 12.7333px;text-align: center;}
+.nav-tabs,.nav-tabs>li>a:hover,.nav-tabs>li>a{border: none !important;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{border: none !important;border-bottom: 5px solid #9cb533 !important;color: #000;background-color: #eee;}
+.nav-tabs>li>a{color: #000;font-family: PoppinsMedium;font-size: 14px;}
+.green{color: #14EB14;font-weight: bolder;}
+.red{color: #FA0505;font-weight: bolder;}
+.cryptocurrencies_container{padding-top: 80px;}
+.country_text{padding-top: 5px;}
+.nav>li>a>img{display: block;margin-bottom: 5px !important;}
+.slider_scroll{padding: 0}
+
+@media (min-width:993px) and (max-width:1200px){
+	.nav-tabs>li>a{padding:5px;}
+}
+@media (min-width:768px) and (max-width:992px){
+	.logo{text-align: center !important;}
+	.logo_container{padding-right: 0px !important;}
+	.performance_table{overflow-x: auto !important;min-width: 100% !important;overflow-y: hidden;}
+	.header_container,.performance_container{padding: 0 20px !important;}
+	.performance_table table tr:first-child td{font-size: 14px !important;padding: 5px !important;}
+	.performance_table table td{font-size: 14px !important;padding: 5px !important;text-align: center !important;}
+	.report_name{font-size: 18px !important;padding-top: 10px !important;}
+	.nav-tabs>li {padding: 0 1px;}
+	.nav-tabs>li>a{padding:5px 0;}
+}
+@media (min-width:651px) and (max-width:767px){
+	.logo{text-align: center !important;}
+	.logo_container{padding-right: 0px !important;}
+	.slider_scroll,.performance_table{overflow-x: auto !important;min-width: 100% !important;overflow-y: hidden;}
+	.header_container,.performance_container{padding: 0 20px !important;}
+	.performance_table table tr:first-child td{font-size: 13px !important;padding: 5px !important;}
+	.performance_table table td{font-size: 13px !important;padding: 5px !important;text-align: center !important;}
+	.report_name{font-size: 18px !important;padding-top: 10px !important;}
+	.nav-tabs>li {padding: 0 1px;}
+	.nav-tabs>li>a{padding:5px 0;}
+	.slider_scroll ul{width: 119%;}
+}
+@media (min-width:501px) and (max-width:650px){
+	.logo{text-align: center !important;}
+	.logo_container{padding-right: 0px !important;}
+	.slider_scroll,.performance_table{overflow-x: auto !important;min-width: 100% !important;overflow-y: hidden;}
+	.header_container,.performance_container{padding: 0 20px !important;}
+	.performance_table table tr:first-child td{font-size: 12px !important;padding: 5px !important;}
+	.performance_table table td{font-size: 12px !important;padding: 5px !important;text-align: center !important;}
+	.report_name{font-size: 18px !important;padding-top: 10px !important;}
+	.nav-tabs>li {padding: 0 1px;}
+	.nav-tabs>li>a{padding:5px 0;}
+	.slider_scroll ul{width: 158%;}
+}
+@media (min-width:320px) and (max-width:500px){
+	.logo{text-align: center !important;}
+	.logo_container{padding-right: 0px !important;}
+	.slider_scroll,.performance_table{overflow-x: auto !important;min-width: 100% !important;overflow-y: hidden;}
+	.performance_table table {min-width: 150% !important;}
+	.header_container,.performance_container{padding: 0 20px !important;}
+	.performance_table table tr:first-child td{font-size: 11px !important;padding: 5px !important;}
+	.performance_table table td{font-size: 11px !important;padding: 5px !important;text-align: center !important;}
+	.report_name{font-size: 18px !important;padding-top: 10px !important;}
+	.performance_table table tr td:nth-child(1){font-size: 12px !important}
+	.nav-tabs>li {padding: 0 1px;}
+	.nav-tabs>li>a{padding:5px 0;}
+}
+@media (min-width:631px) and (max-width:992px){
+  .nav-tabs>li>a{color: #000;font-family: PoppinsMedium;font-size: 13px;}
+}
+@media (min-width:451px) and (max-width:630px){
+  .nav-tabs>li>a{color: #000;font-family: PoppinsMedium;font-size: 11.5px;}
+}
+@media (min-width:320px) and (max-width:450px){
+  .nav-tabs>li>a{color: #000;font-family: PoppinsMedium;font-size: 10px;}
+  .slider_scroll ul{width: 261%;}
+}
+@media (min-width:320px) and (max-width:430px){
+  .slider_scroll ul{width: 261%;}
+}
+@media (min-width:431px) and (max-width:500px){
+  .slider_scroll ul{width: 186%;}
+}
+
+iframe{height: 100px;}
+@media (min-width:551px) and (max-width:675px){
+  iframe{height: 160px !important;}
+}
+@media (min-width:441px) and (max-width:550px){
+  iframe{height: 175px !important;}
+}
+@media (min-width:381px) and (max-width:440px){
+  iframe{height: 190px !important;}
+}
+@media (min-width:320px) and (max-width:380px){
+  iframe{height: 220px !important;}
+}
+.item span {vertical-align: text-bottom; }

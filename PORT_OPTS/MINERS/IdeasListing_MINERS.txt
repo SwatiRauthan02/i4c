@@ -1,0 +1,46 @@
+<div class='container position_container'>
+<h2 class='report_sub_head'>Other trade opportunities:</h2>
+<div class='styled_table'>
+<table>
+<TR><TH>Symbol</TH><TH>Name</TH><TH align='center'>Score</TH><TH align='left'>Power Grid</TH><TH  align='center'>Price</TH><TH align='center'>T-Grid</TH></TR>
+<TR><TD>GRZ</TD>
+<TD>GOLD RESERVE INC</TD>
+<TD class='item' title='Score: 60.6'><svg width='32' height='20'>
+<polygon points="20,15 9,14.8 9.1,13.7 9.3,12.6 9.6,11.5 10,10.4 10.5,9.4 11.2,8.4 11.9,7.5 12.7,6.7 13.6,6 14.6,5.4 15.6,4.9 16.7,4.5 17.8,4.2 18.9,4.1 20.1,4 21.2,4.1 22.3,4.3 23.5,4.6 20,15" style="fill:hsl(120, 20%, 80%); fill-opacity='0.9'; stroke:black; stroke-width:0.5"/>
+Sorry, your browser does not support inline SVG.
+</svg>
+</TD>
+<TD><svg width='66' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='17' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='26' y='0' width='7' height='7' style='fill:hsl(120, 44%, 50%)' />
+<rect x='34' y='0' width='7' height='7' style='fill:hsl(120, 100%, 50%)' />
+<rect x='42' y='0' width='7' height='7' style='fill:hsl(0, 4%, 80%)' />
+<rect x='51' y='0' width='7' height='7' style='fill:hsl(120, 20%, 80%)' />
+<rect x='59' y='0' width='7' height='7' style='fill:hsl(120, 62%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 28%, 80%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 50%, 50%)' />
+<rect x='17' y='8' width='7' height='7' style='fill:hsl(120, 68%, 50%)' />
+<rect x='26' y='8' width='7' height='7' style='fill:hsl(120, 36%, 50%)' />
+<rect x='34' y='8' width='7' height='7' style='fill:hsl(120, 50%, 50%)' />
+<rect x='42' y='8' width='7' height='7' style='fill:hsl(0, 46%, 50%)' />
+<rect x='51' y='8' width='7' height='7' style='fill:hsl(120, 46%, 50%)' />
+<rect x='59' y='8' width='7' height='7' style='fill:hsl(120, 26%, 80%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></TD>
+<TD>
+<svg width='100' height='25'>
+<polyline points="1,19 2,18.9 3,17.2 4,16.6 5,16.2 6,15.4 7,16.1 8,14 9,13.4 10,11.5 11,10.7 12,15.8 13,16.6 14,18.8 15,18.2 16,18.5 17,18.2 18,18.5 19,18.8 20,18.2 21,19 22,20.4 23,18.9 24,19.6 25,17.7 26,16.2 27,18.1 28,18.8 29,18.7 30,18.6 31,20.7 32,21 33,20.7 34,20.3 35,20 36,20 37,20.4 38,19.9 39,20.3 40,20.9 41,20.4 42,21 43,20.3 44,21 45,20.6 46,20.6 47,20.5 48,20.1 49,20.7 50,20.7 51,20.9 52,20.7 53,21 54,22 55,21.9 56,21.9 57,21.9 58,20.9 59,19.1 60,19.1 61,18.8 62,18.8 63,18.1 64,17.4 65,17.5 66,17.7 67,17.7 68,17.2 69,17.2 70,17.6 71,16.2 72,17.4 73,16.1 74,16.1 75,16.2 76,15.6 77,16.1 78,16.6 79,17.7 80,17.4 81,17.7 82,11.5 83,8.3 84,8.5 85,6.7 86,6.7 87,7 88,5.9 89,6 90,6.6 91,7.3 92,6 93,5.5 94,2 95,2.6 96,3.3 97,3.3 98,3.3 99,3.3 100,3.3 101,2.5 " style='fill:none;stroke:black;stroke-width:0.6' transform='scale(0.8)' ></polyline><circle cx='8' cy='14' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='14' cy='18.8' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='15' cy='18.2' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='16' cy='18.5' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='21' cy='19' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='24' cy='19.6' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='29' cy='18.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='42' cy='21' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='44' cy='21' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='55' cy='21.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='56' cy='21.9' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='59' cy='19.1' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='64' cy='17.4' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='71' cy='16.2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='80' cy='17.4' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='81' cy='17.7' r='3' fill='red' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='82' cy='11.5' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='83' cy='8.3' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /><circle cx='94' cy='2' r='3' fill='green' fill-opacity='0.2' transform='scale(0.8)' /> Sorry, your browser does not support inline SVG.</svg>
+</TD>
+<TD align='center'><svg width='17' height='17'>
+<rect x='1' y='0' width='7' height='7' style='fill:hsl(0, 14%, 80%)' />
+<rect x='9' y='0' width='7' height='7' style='fill:hsl(120, 86%, 50%)' />
+<rect x='1' y='8' width='7' height='7' style='fill:hsl(0, 44%, 50%)' />
+<rect x='9' y='8' width='7' height='7' style='fill:hsl(120, 98%, 50%)' />
+ Sorry, your browser does not support inline SVG.
+</svg></TD>
+</TR>
+
+</table></div>
+</div>

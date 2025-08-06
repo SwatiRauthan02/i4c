@@ -1,0 +1,1 @@
+[Stock_List]SymbolExchange	sortino_ratio_raw	sortino_ratio_normalised	ta_score	risk_score	combo_score	CQR	BetaUBR	-2.037	41.371	29.74	31.91	31.09	5	1.0NRGU	-2.275	38.612	32.23	21.11	31.22	5	1.0ERX	-1.941	42.48	30.12	20.86	32.32	5	1.0
