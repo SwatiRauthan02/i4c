@@ -88,6 +88,7 @@ if (session_status() == PHP_SESSION_NONE) {
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="users_index.php">Users</a></li>
                             <li><a href="users_add.php">Add User</a></li>
+                            <!-- <li><a href="adminWebpage.php">Admin Page</a></li> -->
                             <li class="last_navitem"><a href="logout.php" class="login_navitem">Log Out</a> </li>
                         </ul>
                     </div>

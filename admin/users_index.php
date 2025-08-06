@@ -1,7 +1,15 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
+
+<?php
 include 'header.php';
 include 'db.php';
 include 'auth.php';
+ 
+
 
 $search = isset($_GET['search']) ? trim($_GET['search']) : '';
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
@@ -16,6 +24,7 @@ if (!empty($search)) {
 
 // Count total rows for pagination
 $totalQuery = "SELECT COUNT(*) AS total FROM users WHERE is_deleted = 0 and role!='admin' $searchSql";
+// $totalQuery = "SELECT COUNT(*) AS total FROM membership_users WHERE role!='admin' $searchSql";
 $totalResult = $conn->query($totalQuery);
 $totalRows = $totalResult->fetch_assoc()['total'];
 $totalPages = ceil($totalRows / $pageSize);
@@ -29,6 +38,11 @@ $query = "SELECT users.*, countries.name AS country_name
           ORDER BY users.created_date DESC
           LIMIT $offset, $pageSize";
 $result = $conn->query($query);
+
+
+if ($result === false) {
+    echo "<div class='alert alert-danger'>Query error: " . $conn->error . "</div>";
+}
 ?>
 <div class="main-content">
     <div class="container mt-5 pt-4">

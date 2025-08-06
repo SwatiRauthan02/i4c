@@ -1,23 +1,48 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
+<?php
 session_start();
 include 'db.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $pass = md5($_POST['password']);
-
-    $stmt = $conn->prepare("SELECT id FROM users WHERE email=? AND password=? AND is_deleted=0 AND status='active' AND role='admin'");
+    // AND is_deleted=0 
+    $stmt = $conn->prepare("SELECT id FROM membership_users WHERE email=? AND passMD5=? AND status='active' AND role='admin'");
     $stmt->bind_param("ss", $email, $pass);
     $stmt->execute();
     $result = $stmt->get_result();
 
+    
+
+    // if ($user = $result->fetch_assoc()) {
+    //     $_SESSION['admin_id'] = $user['id'];
+    //     // echo "hello";
+    //     header("Location: update_user.php");
+    //     exit;
+    // } else {
+    //     $error = "Invalid credentials";
+    // }
+
+
     if ($user = $result->fetch_assoc()) {
-        $_SESSION['admin_id'] = $user['id'];
-        header("Location: users_index.php");
+    $_SESSION['admin_id'] = $user['id'];
+
+    // Redirect to original destination if set
+    if (isset($_SESSION['redirect_after_login'])) {
+        $redirect = $_SESSION['redirect_after_login'];
+        unset($_SESSION['redirect_after_login']); // Clean up
+        header("Location: $redirect");
         exit;
-    } else {
-        $error = "Invalid credentials";
     }
+
+    // Default redirect
+    header("Location: user_index.php");
+    exit;
+}
 }
 ?>
 <!DOCTYPE html>
@@ -71,7 +96,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <?php endif; ?>
 
         <!-- Login Form -->
-        <form method="POST">
+        <form method="POST" action="index.php">
             <div class="mb-3 text-start">
                 <label class="form-label">Email</label>
                 <input type="email" name="email" class="form-control" placeholder="Enter your email" required>

@@ -1,3 +1,6 @@
+<?php require_once '/var/www/html/final/middleware/authMiddleware.php'; ?>
+
+<?php include 'header.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,16 @@
   <link rel="stylesheet" type="text/css" href="../GRID_HTML/css/bootstrap.min.css?a=1">
   <link rel="stylesheet" type="text/css" href="assets/css/style_site.css">
   <link rel="stylesheet" type="text/css" href="../GRID_HTML/css/performance_style.css?a=5">
-  <!--<link rel="stylesheet" type="text/css" href="assets/css/style_site.css">-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style_site.css">
+
+<!--    
+  <link rel="icon" type="image/x-icon" href="assets/images/i4cfinancial_Logo_only.ico">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style_site.css">
+  <link rel="stylesheet" href="ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+
   <script type="text/javascript" src="../GRID_HTML/js/jquery.min.js"></script>
   <script type="text/javascript" src="../GRID_HTML/js/bootstrap.min.js"></script>
   <script type="text/javascript">
@@ -34,7 +46,9 @@ table{font-family: 'PoppinsRegular';}
 </head>
 <body>
   <input type="hidden" name="current_ticker" class="current_ticker" id="current_ticker" value="#AUS">
-  <div class="site_header_container fixed">
+  
+
+    <!-- <div class="site_header_container fixed">
     <div class="container">
       <nav class="navbar">
         <div class="navbar-header">
@@ -51,26 +65,25 @@ table{font-family: 'PoppinsRegular';}
                      <ul class="nav navbar-nav navbar-right">
                               <li><a href="index.php">Home</a></li>
                 <li><a href="index.php?goto=about_us" class="about_us" data-nav-option="about_us">About</a></li>
-                <!-- <li><a href="performance_monitor.php">GRID Monitor</a></li> -->
+                 
                 <li>
                   <div class="">
                     <button type="button" class="btn btn-filters" data-toggle="dropdown" aria-expanded="false">Solutions</button>
                     <ul class="dropdown-menu">
                                               <li><a href="performance_monitor.php">GRID Monitor</a></li>
-                       <!-- <li><a href="grid_score.php">GRID Edge</a></li>
+                       <li><a href="grid_score.php">GRID Edge</a></li>
                                               <li><a href="portfolio_en.php">Portfolio Optimization - English</a></li>
-                        <li><a href="portfolio_th.php">Portfolio Optimization - Thai</a></li> -->
+                        <li><a href="portfolio_th.php">Portfolio Optimization - Thai</a></li>
                                           </ul>
                   </div>
                 </li>
                 <li><a href="index.php?goto=contact_us" class="contact_us" data-nav-option="contact_us">Contact Us</a></li>
-                                  <!--<li class="last_navitem"><a href="login.php" class="login_navitem">Log In</a> / <a href="sign_up.php" class="signup_navitem"> Sign Up</a></li>-->
+                                  
                                           </ul>
                   </div>
       </nav>
     </div>
-  </div>
-
+  </div> -->
   <div class="container-fluid logo_container">
     <!--<div class="container text-right logo">
       <a href="#"><img src="../GRID_HTML/images/i4cfinancial_Logo.svg"></a>
@@ -248,14 +261,15 @@ table{font-family: 'PoppinsRegular';}
           <td><a href="../grid/MALAYSIA/GD_MALAYSIA.html"><img src="../GRID_HTML/images/recent.png" />&nbsp;&nbsp;&nbsp;View</a></td>
           <td><a href="../Grid_BT/MALAYSIA/PERF_MALAYSIA.html"><img src="../GRID_HTML/images/since.png" />&nbsp;&nbsp;&nbsp;View</a></td>
           <td><a href="../Grid_BT_LT/MALAYSIA/PERF_Backtest_MALAYSIA.html"><img src="../GRID_HTML/images/long.png" />&nbsp;&nbsp;&nbsp;View</a></td>
-        </tr> -->        
+        </tr> -->   
       </table>
     </div>
   </div>
-﻿  <div class="footer_container">
+<!-- ﻿  <div class="footer_container">
 	<div class="container">
 	  <p>Copyright © i4cfinancial 2025. All rights reserved.</p>
 	</div>
-  </div>
+  </div> -->
+  <?php include 'footer.php'?>
 </body>
 </html>
